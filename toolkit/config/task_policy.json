@@ -1,0 +1,94 @@
+{
+  "version": "toolkit-internal-subset-0.1",
+  "authority": "SYNTHETIC_RESEARCH_ASSUMPTIONS_NOT_CONFIRMED_HOTEL_SOP",
+  "seed": 49,
+  "base_layout_template": "SeatingTableUse",
+  "furniture_layout_shared_between_modes": true,
+  "modes": {
+    "CHECKOUT_CLEANING": {
+      "base_prop_recipe": "SeatingTableUse",
+      "exclude": [
+        "book"
+      ],
+      "allowed_categories": [
+        "HOTEL_AMENITY",
+        "USED_HOTEL_LINEN",
+        "DECLARED_TRASH",
+        "LEFT_BEHIND_PERSONAL_ITEM"
+      ],
+      "personal_items_default": 0,
+      "left_behind_policy": "DO_NOT_TOUCH_NEEDS_HUMAN_CONFIRMATION_NEVER_AUTOMATIC_TRASH",
+      "trash_state_evidence_required": "EXPLICIT_SYNTHETIC_AUTHOR_DECLARATION",
+      "soft_pairs": [
+        [
+          "SideDrape",
+          "NeatCanonical"
+        ],
+        [
+          "NeatCanonical",
+          "SideDrape"
+        ]
+      ],
+      "pillow_compression_probability": 0.8,
+      "towel_states": [
+        "HalfOpenTowel",
+        "HalfOpenTowel"
+      ],
+      "new_visual_states": [
+        "CrumpledPaper",
+        "EmptyWrapper"
+      ]
+    },
+    "STAYOVER_CLEANING": {
+      "base_prop_recipe": "UnpackingLeaving",
+      "exclude": [],
+      "allowed_categories": [
+        "HOTEL_AMENITY",
+        "USED_HOTEL_LINEN",
+        "PERSONAL_BELONGING"
+      ],
+      "personal_items_default": "BOOK_AND_SUITCASE",
+      "personal_items_action": "DO_NOT_TOUCH",
+      "soft_pairs": [
+        [
+          "NeatCanonical",
+          "NeatCanonical"
+        ],
+        [
+          "NeatCanonical",
+          "NeatCanonical"
+        ]
+      ],
+      "pillow_compression_probability": 0.35,
+      "towel_states": [
+        "FoldedTowel",
+        "HalfOpenTowel"
+      ],
+      "new_visual_states": []
+    }
+  },
+  "physical_qualification_does_not_grant_action_permission": true,
+  "ambiguous_waste_action": "NEEDS_HUMAN_CONFIRMATION",
+  "predicates": [
+    "PLACE_ON",
+    "FACING",
+    "GROUP",
+    "FOLDED_ON",
+    "NEAR_BED",
+    "PROTECTED_PERSONAL_ITEM"
+  ],
+  "unsupported_predicates": [
+    "DRAPED_OVER",
+    "NEAR_TRASH_BIN"
+  ],
+  "unsupported_reason": "No chair-back drape or audited bin available; do not invent support or contact.",
+  "physics": "NOT_RUN",
+  "source_version": "housekeeping-research-0.1",
+  "subset_limitations": {
+    "TurnedCorner": "BLOCKED_NEEDS_REVISION",
+    "Gathered": "BLOCKED_UNACCEPTED",
+    "HybridSideDrape_r2": "BLOCKED_DO_NOT_ADOPT",
+    "new_cues": "NOT_INCLUDED_MINIMAL_CORE",
+    "physics": "NOT_RUN"
+  }
+}

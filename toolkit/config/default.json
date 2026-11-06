@@ -1,0 +1,10 @@
+{
+  "toolkit_version": "0.1.0-rc.1-internal",
+  "assets_dir": "../asset-package/assets",
+  "isaac_root": null,
+  "physics": "none",
+  "rights": [
+    "INTERNAL_EVALUATION_ONLY",
+    "REDISTRIBUTION_NOT_CLEARED"
+  ]
+}

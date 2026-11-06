@@ -1,0 +1,14 @@
+{
+  "scope":"STATIC_PREVIEW / VISUAL_ONLY / PHYSICS_NOT_RUN / HUMAN_ACCEPTANCE_PENDING",
+  "seeds":{"42":"BedsideUse","43":"SeatingTableUse","44":"UnpackingLeaving"},
+  "furniture_jitter_m":0.025,
+  "chair_facing_tolerance_degrees":12,
+  "chair_support_distance_m":[0.65,1.25],
+  "max_furniture_displacement_m":0.4,
+  "bench_policy":"CANONICAL_POSE_FIXED_MOBILITY_UNVERIFIED",
+  "reserved_strip":{"min":[2.17,3.75,0.0],"max":[2.90,6.20,1.0]},
+  "entry_keepout":{"min":[2.40,0.05,0.0],"max":[3.02,3.68,1.0]},
+  "route_claim":"PROTOTYPE_LOCAL_AVOIDANCE_ONLY_NOT_PASSAGE_OR_NAVIGATION_CERTIFICATION",
+  "bed_states":["NeatCanonical","TurnedCorner","SideDrape"],
+  "renderer":{"samples":24,"threads":8,"exposure":0,"gamma":1,"view_transform":"AgX"}
+}

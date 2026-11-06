@@ -1,0 +1,23 @@
+{
+  "scope": "RESEARCH_POLICY_SEPARATE_FROM_CANONICAL_REGISTRY",
+  "defaults": {"robot_action_allowed": false, "robot_action_policy": "NEEDS_HUMAN_CONFIRMATION", "mobility_is_not_action_permission": true},
+  "items": {
+    "BED_LEFT": {"classification": "FIXED", "physically_movable": "NOT_ESTABLISHED", "generator_randomization_allowed": false},
+    "BED_RIGHT": {"classification": "FIXED", "physically_movable": "NOT_ESTABLISHED", "generator_randomization_allowed": false},
+    "BEDSIDE_CABINET": {"classification": "FIXED", "physically_movable": "NOT_ESTABLISHED", "generator_randomization_allowed": false, "upper_compartment": "MECHANISM_UNKNOWN_NO_JOINT_ADDED"},
+    "ROUND_BLACK_TABLE": {"classification": "MOVABLE_CONSTRAINED", "physically_movable": "VISUAL_INFERENCE_NOT_MEASURED", "generator_randomization_allowed": true},
+    "SMALL_COFFEE_TABLE": {"classification": "MOVABLE_CONSTRAINED", "physically_movable": "VISUAL_INFERENCE_NOT_MEASURED", "generator_randomization_allowed": true},
+    "WINDOW_CHAIR_LEFT": {"classification": "MOVABLE_CONSTRAINED", "physically_movable": "VISUAL_INFERENCE_NOT_MEASURED", "generator_randomization_allowed": true},
+    "WINDOW_CHAIR_RIGHT": {"classification": "MOVABLE_CONSTRAINED", "physically_movable": "VISUAL_INFERENCE_NOT_MEASURED", "generator_randomization_allowed": true},
+    "WOODEN_BENCH": {"classification": "MOBILITY_UNVERIFIED", "physically_movable": "UNVERIFIED", "generator_randomization_allowed": false},
+    "WARDROBE": {"classification": "FIXED", "physically_movable": "NOT_ESTABLISHED", "generator_randomization_allowed": false},
+    "VANITY": {"classification": "FIXED", "physically_movable": "NOT_ESTABLISHED", "generator_randomization_allowed": false},
+    "WALL_CABINETS": {"classification": "FIXED", "physically_movable": "NOT_ESTABLISHED", "generator_randomization_allowed": false},
+    "WINDOW_TALL_CABINET": {"classification": "MOBILITY_UNVERIFIED", "physically_movable": "UNVERIFIED", "generator_randomization_allowed": false, "joint": "NONE"},
+    "EXISTING_DOORS_DRAWERS": {"classification": "ARTICULATED", "physically_movable": "EIGHT_AUTHORED_JOINTS_MODEL_ONLY", "generator_randomization_allowed": false, "initial_joint_state": "UNCHANGED_CANONICAL"}
+  },
+  "modes": {
+    "CHECKOUT_CLEANING": {"randomization": "CONSTRAINED_TABLES_CHAIRS_SHARED_LAYOUT", "robot_action_allowed": false},
+    "STAYOVER_CLEANING": {"randomization": "SAME_CONSTRAINED_LAYOUT_FOR_CONTROLLED_COMPARISON", "robot_action_allowed": false}
+  }
+}

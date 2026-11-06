@@ -1,0 +1,9 @@
+{
+  "library": "ADOPTED_REFINED_BEDDING_AND_SCENE_DIVERSITY_TOWELS",
+  "duvet": {"new_geometry": false, "flip_across_bed_center_y": "DETERMINISTIC_BINARY_FOR_TURNED_CORNER", "translation_jitter_m": 0},
+  "pillow": {"states": ["NeatPillow", "CompressedPillow"], "center_x_range_m": [0.38, 0.43], "center_y_offsets_m": [-0.375, 0.375], "yaw_range_deg": [-5, 5], "support_gap_m": 0.001, "attempts_max": 32, "support": "VISIBLE_MATTRESS", "pair_overlap_allowed": false},
+  "towel": {"states": ["FoldedTowel", "HalfOpenTowel"], "support_gap_m": 0.0015, "bed_contact": "VERTEX_PROJECTION_TO_VISIBLE_DUVET_TRIANGLES", "mesh_borders_hidden_on_conformed_state": true},
+  "qualification": "VISUAL_ONLY",
+  "cloth": "NOT_RUN",
+  "hybrid_side_drape": "DO_NOT_ADOPT_NOT_USED"
+}

@@ -1,0 +1,85 @@
+{
+  "version": "0.1.0-rc.1-internal",
+  "cases": {
+    "help": [
+      "--help"
+    ],
+    "preflight": [
+      "--isaac-root",
+      "{SDK}",
+      "--asset-package",
+      "{ASSET}",
+      "--seed",
+      "49",
+      "--preflight"
+    ],
+    "checkout49": [
+      "--isaac-root",
+      "{SDK}",
+      "--asset-package",
+      "{ASSET}",
+      "--seed",
+      "49",
+      "--task-mode",
+      "checkout",
+      "--output-dir",
+      "{OUT49}"
+    ],
+    "checkout50": [
+      "--isaac-root",
+      "{SDK}",
+      "--asset-package",
+      "{ASSET}",
+      "--seed",
+      "50",
+      "--task-mode",
+      "checkout",
+      "--output",
+      "{OUT50}"
+    ],
+    "stayover49": [
+      "--isaac-root",
+      "{SDK}",
+      "--asset-package",
+      "{ASSET}",
+      "--seed",
+      "49",
+      "--task-mode",
+      "stayover",
+      "--output-dir",
+      "{STAYOVER}"
+    ],
+    "repeat49": [
+      "--isaac-root",
+      "{SDK}",
+      "--asset-package",
+      "{ASSET}",
+      "--seed",
+      "49",
+      "--task-mode",
+      "checkout",
+      "--output",
+      "{REPEAT49}"
+    ],
+    "saved_replay": [
+      "--isaac-root",
+      "{SDK}",
+      "--asset-package",
+      "{ASSET}",
+      "--replay",
+      "{MANIFEST49}",
+      "--output-dir",
+      "{REPLAY49}"
+    ]
+  },
+  "comparison_thresholds": {
+    "pose_matrix_max_abs": 1e-08,
+    "same_seed": "Semantic plan and composed geometry; nonsemantic Run/path/time excluded",
+    "saved_manifest": "No resampling; same plan/geometry with identical code/config/asset identities",
+    "blender_diagnostic_known_limit": {
+      "observed_max_m": 0.0014656718527579216,
+      "threshold_m": 0.0002,
+      "status": "NOT_MET_NOT_RETESTED"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "rigid": {
+    "SUITCASE": {
+      "path": "experiments/phase_v2_room_clutter/outputs/run_20261104T123147955366Z/assets/suitcase.usda",
+      "sha256": "dbfa77ac1ef328d9573618cb972618f45266edd64fb8d679a89c27976f83c9d8"
+    },
+    "REMOTE": {
+      "path": "experiments/phase_v2_room_clutter/outputs/run_20261104T123147955366Z/assets/remote.usda",
+      "sha256": "cd2c58daa86ba77438726fa5db759c84a71c2c7720d508735c70c97076c5d492"
+    },
+    "BOTTLE": {
+      "path": "experiments/phase_v2_room_clutter/outputs/run_20261104T123147955366Z/assets/bottle.usda",
+      "sha256": "60234e6846f271b3cfa7e628b0521d8e1b3e9241b4b87033e5c42c07522994ab"
+    },
+    "BOOK": {
+      "path": "experiments/phase2_external_asset_pool/assets/EXT-BOOK-001/asset.usda",
+      "sha256": "bca480ca0f8e3f0702cf5b10576121ee7de561d5237a766446736ff50b9b991d"
+    },
+    "TISSUE": {
+      "path": "experiments/phase2_external_asset_pool/assets/EXT-TISSUE-001/asset.usda",
+      "sha256": "9876ce91bc18ec4c84a9bf2da50ee9b9012584fd08241865a5f653c0dfeba927"
+    },
+    "CAN": {
+      "path": "experiments/phase2_external_asset_pool/assets/EXT-CAN-001/asset.usda",
+      "sha256": "1a6fe742709b94c06f46ab0ca821b7760ded438aedc2bd61950c99ee58115705"
+    }
+  },
+  "bedding": {
+    "SideDrape": {
+      "path": "experiments/phase_v2_room_clutter/bedding_refinement/outputs/run_20261104T142257110196Z/assets/SideDrape.usda",
+      "sha256": "9d0c3799451ab5429db16001df4f3f6502aec2a769a95a164aab071cd640864c"
+    },
+    "NeatPillow": {
+      "path": "experiments/phase_v2_room_clutter/bedding_refinement/outputs/run_20261104T142257110196Z/assets/NeatPillow.usda",
+      "sha256": "f43dc67c945429fb9f60c0a5ee0ce696541d02d7bffb45a8d803eaa16aa27a56"
+    },
+    "CompressedPillow": {
+      "path": "experiments/phase_v2_room_clutter/bedding_refinement/outputs/run_20261104T142257110196Z/assets/CompressedPillow.usda",
+      "sha256": "6d5ae2c6feeb38156dc09234e17bf0b6ed42362ac0ac9a067bb29f9a5a0c3124"
+    }
+  },
+  "rights": [
+    "INTERNAL_EVALUATION_ONLY",
+    "REDISTRIBUTION_NOT_CLEARED"
+  ]
+}

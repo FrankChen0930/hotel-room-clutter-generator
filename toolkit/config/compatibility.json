@@ -1,0 +1,16 @@
+{
+  "code_version": "0.1.0-rc.1-internal",
+  "asset_package_versions": [
+    "0.1.0-rc.1-internal"
+  ],
+  "dataset_id": "yazhi-twin-internal-static-v2.3",
+  "platform": "Windows",
+  "tested_isaac": "6.0.0-rc.59",
+  "python_abi": "3.12",
+  "openusd": "0.25.11",
+  "mode": "STATIC_GENERATION_ONLY",
+  "rights": [
+    "INTERNAL_EVALUATION_ONLY",
+    "REDISTRIBUTION_NOT_CLEARED"
+  ]
+}
