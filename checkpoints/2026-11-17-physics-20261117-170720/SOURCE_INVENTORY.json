@@ -1,0 +1,1439 @@
+{
+  "files": [
+    {
+      "path": "common_core/.gitignore",
+      "source": "common_core/.gitignore",
+      "sha256": "01d8d0360f02a0c00e236a4eb2a1d8bdf83377acf442eaafad7a136bf14d6bb0",
+      "bytes": 21
+    },
+    {
+      "path": "common_core/README.md",
+      "source": "common_core/README.md",
+      "sha256": "f8cc35959ff5e542c46846fc642c05f2833711dc9fc9a1a644954b076a5c4b57",
+      "bytes": 785
+    },
+    {
+      "path": "common_core/common_core/__init__.py",
+      "source": "common_core/common_core/__init__.py",
+      "sha256": "e81d1d9f939b4cbf25089d587765251a5a09f328c7a507ce9558f04f2db75d16",
+      "bytes": 62
+    },
+    {
+      "path": "common_core/common_core/adapters.py",
+      "source": "common_core/common_core/adapters.py",
+      "sha256": "7d0a1c4176b2f6cd9efc1b03467cf32b9e3bcd8d98ec06f676db1f651202a0be",
+      "bytes": 6320
+    },
+    {
+      "path": "common_core/common_core/assessment.py",
+      "source": "common_core/common_core/assessment.py",
+      "sha256": "5c30a9b24c7ef2c7c87117bd4fe0f08936799cc015866cefe2664bae1dd198e5",
+      "bytes": 3048
+    },
+    {
+      "path": "common_core/common_core/batch.py",
+      "source": "common_core/common_core/batch.py",
+      "sha256": "2435295a04c16f0ba9d3db3856ab32f52b33b4d4d0090621652b2f8326fba073",
+      "bytes": 1928
+    },
+    {
+      "path": "common_core/common_core/cli.py",
+      "source": "common_core/common_core/cli.py",
+      "sha256": "998dc32a8af0860548e85df7360edf51948954faf7648644624ee55b7eafed36",
+      "bytes": 6521
+    },
+    {
+      "path": "common_core/common_core/contract_validation.py",
+      "source": "common_core/common_core/contract_validation.py",
+      "sha256": "1a4d7a457d42129b247e01b8c90bb4541515185feedfbf4a6f73afd61d4ae834",
+      "bytes": 11240
+    },
+    {
+      "path": "common_core/common_core/contracts.py",
+      "source": "common_core/common_core/contracts.py",
+      "sha256": "a2ec015dec38142c04075c68013f24057883cbdb2db89dcd5d52c062a13cc9f1",
+      "bytes": 1499
+    },
+    {
+      "path": "common_core/common_core/delivery.py",
+      "source": "common_core/common_core/delivery.py",
+      "sha256": "d4bfeece8c42ea2ade563676da3a3abb59b9963cbdb84172615b45f669d2f142",
+      "bytes": 4253
+    },
+    {
+      "path": "common_core/common_core/geometry.py",
+      "source": "common_core/common_core/geometry.py",
+      "sha256": "db4fab942369cc0a7a4ed60a5fd775f1a7321bb827c54e78453c0cba6a42f366",
+      "bytes": 1378
+    },
+    {
+      "path": "common_core/common_core/identity.py",
+      "source": "common_core/common_core/identity.py",
+      "sha256": "84626a33c76a7803b482266da549b7cdea94739f7703a766deb91df979b0710c",
+      "bytes": 3047
+    },
+    {
+      "path": "common_core/common_core/legacy.py",
+      "source": "common_core/common_core/legacy.py",
+      "sha256": "751a89fd0f556312ff8f089b9d3b822240454411f24442d855c73eb025a4a08b",
+      "bytes": 4488
+    },
+    {
+      "path": "common_core/common_core/manifest.py",
+      "source": "common_core/common_core/manifest.py",
+      "sha256": "e521b3d151ce2e4988b25bafaa44c09e70bf6eea75f629298dd43cbe1bf54df6",
+      "bytes": 3052
+    },
+    {
+      "path": "common_core/common_core/metrics.py",
+      "source": "common_core/common_core/metrics.py",
+      "sha256": "f5d96828807080942fd6e24bd619e85764eda7bf05841036fd4cd5d828383d6d",
+      "bytes": 4312
+    },
+    {
+      "path": "common_core/common_core/native_validation.py",
+      "source": "common_core/common_core/native_validation.py",
+      "sha256": "96136a42e5fd98d808dcd5a3a5c6ae4dcab80d64c6c80a20fc80d79a017d02bd",
+      "bytes": 11513
+    },
+    {
+      "path": "common_core/common_core/package.py",
+      "source": "common_core/common_core/package.py",
+      "sha256": "e904bdb3ab8f7ba75c1311c6089dbd833b498acdd4d5045daac1a2d18e641658",
+      "bytes": 2240
+    },
+    {
+      "path": "common_core/common_core/paths.py",
+      "source": "common_core/common_core/paths.py",
+      "sha256": "f1f7607c8b3d14d086ab6815b9d79e890e132a9e1c6de2cebe07b5c335e74511",
+      "bytes": 1368
+    },
+    {
+      "path": "common_core/common_core/placer.py",
+      "source": "common_core/common_core/placer.py",
+      "sha256": "131ce66499729ac77aaeb909c2ffb83d8fe239a1a156c1106415d8477c7ac2f4",
+      "bytes": 4900
+    },
+    {
+      "path": "common_core/common_core/planner.py",
+      "source": "common_core/common_core/planner.py",
+      "sha256": "cd684704a63bc0e514604629331225e38916b2c2f9fdf28f2ee352cf4548e2e4",
+      "bytes": 4165
+    },
+    {
+      "path": "common_core/common_core/progress.py",
+      "source": "common_core/common_core/progress.py",
+      "sha256": "f2a2c75f168117bdc0196529e5626585589a404c4f23249841739422ab7820ce",
+      "bytes": 4022
+    },
+    {
+      "path": "common_core/common_core/qualification.py",
+      "source": "common_core/common_core/qualification.py",
+      "sha256": "69cff0acfae0029f75f9806e5e25fad7a5e88a445b379b4a97551f25e4562e60",
+      "bytes": 6687
+    },
+    {
+      "path": "common_core/common_core/render.py",
+      "source": "common_core/common_core/render.py",
+      "sha256": "b7373311f86a107e0228d8d7c539fb7d5a0e93dbfa213a50bdbb9a9b3c1501e7",
+      "bytes": 5583
+    },
+    {
+      "path": "common_core/common_core/repair.py",
+      "source": "common_core/common_core/repair.py",
+      "sha256": "6dee37ea8e4847544de309c4d4a344bfe2163fddcfad5d10a22ba6ecf671e70a",
+      "bytes": 3264
+    },
+    {
+      "path": "common_core/common_core/replay.py",
+      "source": "common_core/common_core/replay.py",
+      "sha256": "e762446b201841a3af482e3c4b9f7ef80c57697be56369fda98f2e58a92c25e6",
+      "bytes": 4405
+    },
+    {
+      "path": "common_core/common_core/room.py",
+      "source": "common_core/common_core/room.py",
+      "sha256": "3eb11a4e254ee3380aaeb2daa0d902050698abd3217d6bc32575b62e954ba534",
+      "bytes": 7548
+    },
+    {
+      "path": "common_core/common_core/runtime.py",
+      "source": "common_core/common_core/runtime.py",
+      "sha256": "8eb4b5c66533dce96656e4986f8d4727d6cceb6987f376ac3bbd2df1a4c0c662",
+      "bytes": 1905
+    },
+    {
+      "path": "common_core/common_core/sdk.py",
+      "source": "common_core/common_core/sdk.py",
+      "sha256": "29b19d94d8b749ad9fe1a3fcbd316b9269905731d1ca9f6897085ba1d8957c70",
+      "bytes": 853
+    },
+    {
+      "path": "common_core/common_core/support_validation.py",
+      "source": "common_core/common_core/support_validation.py",
+      "sha256": "e8c0be90ed41c680d0516891354202ac896e13b6e6809fbe4cf9b7317d15d623",
+      "bytes": 5773
+    },
+    {
+      "path": "common_core/common_core/validation.py",
+      "source": "common_core/common_core/validation.py",
+      "sha256": "d2b2a8d4b285a10e6c3e5d5c822a4aa30fb9087ea73c6834ac83d8ee82a4695c",
+      "bytes": 7274
+    },
+    {
+      "path": "common_core/common_core/visual.py",
+      "source": "common_core/common_core/visual.py",
+      "sha256": "0ec514c41835cd9ca230f249a03871428c7a50983e6e49edfe39c034d15dcafb",
+      "bytes": 2899
+    },
+    {
+      "path": "common_core/common_core/writer.py",
+      "source": "common_core/common_core/writer.py",
+      "sha256": "c494c7e055ada51415959a7d9089c8a8c6b42029dea28fc4d7a7775d15a67496",
+      "bytes": 3838
+    },
+    {
+      "path": "common_core/config/batch_v1.json",
+      "source": "common_core/config/batch_v1.json",
+      "sha256": "19bde8a7622fce19aac1d2be0f085fd8e122ec1bba0b63e1501ff09d754b6daa",
+      "bytes": 5941
+    },
+    {
+      "path": "common_core/config/calibration_frozen_v1.json",
+      "source": "common_core/config/calibration_frozen_v1.json",
+      "sha256": "062b61a78ce3d5ee00d0430fc337847cde2fea0bee92eff340a263fc9621dca5",
+      "bytes": 78527
+    },
+    {
+      "path": "common_core/config/calibration_v1.json",
+      "source": "common_core/config/calibration_v1.json",
+      "sha256": "ab41e5a85e70643a2f3857b2db23bd937aefde5fe4c4ebffea4535639b4021bc",
+      "bytes": 56205
+    },
+    {
+      "path": "common_core/config/cameras/hotel705.json",
+      "source": "common_core/config/cameras/hotel705.json",
+      "sha256": "b435868b1c1d7f31e8232b62f286dde5fb12eb2300a5c8e0ce682c46eb58ae9c",
+      "bytes": 669
+    },
+    {
+      "path": "common_core/config/cameras/yazhi.json",
+      "source": "common_core/config/cameras/yazhi.json",
+      "sha256": "012cd66651b1e718da877bf448b383ff7e52632bed096939436f66077186a558",
+      "bytes": 655
+    },
+    {
+      "path": "common_core/config/catalog.json",
+      "source": "common_core/config/catalog.json",
+      "sha256": "02678d8d0b82a92955b7de7794902c74a2e8a90ea3ba425950eb24af3818f625",
+      "bytes": 60049
+    },
+    {
+      "path": "common_core/config/deployment.example.json",
+      "source": "common_core/config/deployment.example.json",
+      "sha256": "0632056ffe3719414bbdef1232e53a8e913bdf8ca451f1dbdd25318974b445a7",
+      "bytes": 457
+    },
+    {
+      "path": "common_core/config/policy.json",
+      "source": "common_core/config/policy.json",
+      "sha256": "ed1e5831e4acc8defdef1d9f2b2af4eefdf3233f7d2e6508221616e2e8302f92",
+      "bytes": 12266
+    },
+    {
+      "path": "common_core/config/rooms/hotel705.json",
+      "source": "common_core/config/rooms/hotel705.json",
+      "sha256": "8a428a1da2de5279c70270364936c907d57d43e440cacfc1561ac9f4c50f7bc5",
+      "bytes": 103884
+    },
+    {
+      "path": "common_core/config/rooms/yazhi.json",
+      "source": "common_core/config/rooms/yazhi.json",
+      "sha256": "ee52e349272cc4af5c5691f0f9d4a9468b0912f3a8b6290827a453fd7c3c64b9",
+      "bytes": 12324
+    },
+    {
+      "path": "common_core/config/source_lock.json",
+      "source": "common_core/config/source_lock.json",
+      "sha256": "ba872fa69f92dfce3b9a308f60ea2d3ad0329ac6436240df6afccdfe7fcccad6",
+      "bytes": 28409
+    },
+    {
+      "path": "common_core/docs/CLI.md",
+      "source": "common_core/docs/CLI.md",
+      "sha256": "d575bc4bed1fdf4bea05b10921171aa9b3ef518e29f082b2706416aa8dcd3ef3",
+      "bytes": 1814
+    },
+    {
+      "path": "common_core/docs/PROGRESS.md",
+      "source": "common_core/docs/PROGRESS.md",
+      "sha256": "878465b93036d2835682b0657a81ccefd33f65af230f556eae6144f221184cbf",
+      "bytes": 1385
+    },
+    {
+      "path": "common_core/docs/QUICK_START.md",
+      "source": "common_core/docs/QUICK_START.md",
+      "sha256": "c9008b22f8da4e0c593bcbb1789178ab000651d936f34687416a8fb845db784b",
+      "bytes": 3136
+    },
+    {
+      "path": "common_core/docs/S0.md",
+      "source": "common_core/docs/S0.md",
+      "sha256": "16d29a1be2f44e432ebcd1976fc0219eec11bbdd675c5bd7256886dca262e23d",
+      "bytes": 2240
+    },
+    {
+      "path": "common_core/run_core.py",
+      "source": "common_core/run_core.py",
+      "sha256": "ce52cf03488edb37f30a235e8f65a8077cf9b01fea54bd95b96fc7500a530817",
+      "bytes": 168
+    },
+    {
+      "path": "common_core/schemas/Catalog.schema.json",
+      "source": "common_core/schemas/Catalog.schema.json",
+      "sha256": "d729860eca1ec596312a811b4158856b68a997a2227a00a7f647fe0905de3c9c",
+      "bytes": 598
+    },
+    {
+      "path": "common_core/schemas/Manifest.schema.json",
+      "source": "common_core/schemas/Manifest.schema.json",
+      "sha256": "946d5a4c1b55a0f6ecb29bc4c87ef00a1ec22b2301a7b5baa647b470c3ad6d5c",
+      "bytes": 1406
+    },
+    {
+      "path": "common_core/schemas/Policy.schema.json",
+      "source": "common_core/schemas/Policy.schema.json",
+      "sha256": "fd06db75eddcc7fec520e8f91647d548c5d35223ce90c2f06aedaa5062ad9549",
+      "bytes": 803
+    },
+    {
+      "path": "common_core/schemas/RoomProfile.schema.json",
+      "source": "common_core/schemas/RoomProfile.schema.json",
+      "sha256": "c55ef2189db9f52656a65dade82875ca430606e6b6948ac9e58db476a58544a4",
+      "bytes": 1220
+    },
+    {
+      "path": "common_core/tests/fixtures.py",
+      "source": "common_core/tests/fixtures.py",
+      "sha256": "1d40adff9554965cd191b4e27db60747b02b301f36a9635aa4e2c5ca4a1952f1",
+      "bytes": 4047
+    },
+    {
+      "path": "common_core/tests/test_cli.py",
+      "source": "common_core/tests/test_cli.py",
+      "sha256": "0aae53fcbd837112f728e108f7808298629463e154b918fd97b6528a8ebf5e2c",
+      "bytes": 1994
+    },
+    {
+      "path": "common_core/tests/test_contracts.py",
+      "source": "common_core/tests/test_contracts.py",
+      "sha256": "2ba82ec29101b3c943eaf1d9a94941bbc780b86d09e83d8260dd2bd003e4c1bd",
+      "bytes": 2325
+    },
+    {
+      "path": "common_core/tests/test_contracts_v1.py",
+      "source": "common_core/tests/test_contracts_v1.py",
+      "sha256": "49a35f9a3c3710dd480ba397c8a693803dbee1e50c2c33359a162eeaee1ef768",
+      "bytes": 4641
+    },
+    {
+      "path": "common_core/tests/test_identity.py",
+      "source": "common_core/tests/test_identity.py",
+      "sha256": "a1b0f9eb7cd5c8920a8a1e4e3ed9780fdbe23af90ef6b28056dcb6efcebd7c32",
+      "bytes": 4314
+    },
+    {
+      "path": "common_core/tests/test_levels.py",
+      "source": "common_core/tests/test_levels.py",
+      "sha256": "6a9e0f98bdc70aa59374634be2c3c21e8bbd3edaee70e48e661101b7cb2cfffc",
+      "bytes": 3778
+    },
+    {
+      "path": "common_core/tests/test_native_cases.py",
+      "source": "common_core/tests/test_native_cases.py",
+      "sha256": "75b463c74363af1c355a4f38645db3cdabc1c6fa1c8e2080095ab44c95f2133e",
+      "bytes": 1091
+    },
+    {
+      "path": "common_core/tests/test_placement.py",
+      "source": "common_core/tests/test_placement.py",
+      "sha256": "a58ec55d28ad66d7ef79c5d03cba23de2fa6ab2802ff94b1a9851d2b31c37cee",
+      "bytes": 2444
+    },
+    {
+      "path": "common_core/tests/test_planner.py",
+      "source": "common_core/tests/test_planner.py",
+      "sha256": "93975cfa69c6108294187209a400e7e397d6f3a9cfe714db104bc4e388b02f6e",
+      "bytes": 3155
+    },
+    {
+      "path": "common_core/tests/test_profiles.py",
+      "source": "common_core/tests/test_profiles.py",
+      "sha256": "d119176805ae4fc84477aeebb14e4295cc4a9aeef058dd9aa4e63ead13ad8d1a",
+      "bytes": 4572
+    },
+    {
+      "path": "common_core/tests/test_progress.py",
+      "source": "common_core/tests/test_progress.py",
+      "sha256": "cf38e9d697cb397622a5cdbf3f4d0cdff40df5397844d607882a3923a197181b",
+      "bytes": 3007
+    },
+    {
+      "path": "common_core/tests/test_proxy.py",
+      "source": "common_core/tests/test_proxy.py",
+      "sha256": "4eefb15619f6b25513e599264faeeef560c6216a50b2660709e9a0be64c2a7be",
+      "bytes": 369
+    },
+    {
+      "path": "common_core/tests/test_qualification.py",
+      "source": "common_core/tests/test_qualification.py",
+      "sha256": "d2deb83001eec56d31f22fe27f6bc9ca0ad632e77718cfec855c8a4eedc57c2b",
+      "bytes": 1418
+    },
+    {
+      "path": "common_core/tests/test_repair.py",
+      "source": "common_core/tests/test_repair.py",
+      "sha256": "adc56b8ec0fc7a996848318933b57aeb7142c015c23cd0809833d07bbafdc2e9",
+      "bytes": 2501
+    },
+    {
+      "path": "common_core/tests/test_replay.py",
+      "source": "common_core/tests/test_replay.py",
+      "sha256": "0d86d76770d7637228aa9ea71d0b66e94ac4ce46b8bce1b5e79b3bb49ecb2b3c",
+      "bytes": 3373
+    },
+    {
+      "path": "common_core/tests/test_room.py",
+      "source": "common_core/tests/test_room.py",
+      "sha256": "511f137f8c9dd3d27b21cf5c4320763a145e2ba7c93e7c9c63a1800d40408d45",
+      "bytes": 3528
+    },
+    {
+      "path": "common_core/tests/test_s0.py",
+      "source": "common_core/tests/test_s0.py",
+      "sha256": "932e862690bb0645e5380a69d927119ae3e38e6242a6ea3c36a83c80e0e5faf8",
+      "bytes": 1510
+    },
+    {
+      "path": "common_core/tests/test_s0_selection.py",
+      "source": "common_core/tests/test_s0_selection.py",
+      "sha256": "6fc7f51000f30887602dac6833fcfba23ff6faf947e2e71af33c3de46c42b716",
+      "bytes": 1456
+    },
+    {
+      "path": "common_core/tests/test_static_projection.py",
+      "source": "common_core/tests/test_static_projection.py",
+      "sha256": "6b955472e3f4566f1eaee947ecd89e863f99b33b571c8af33a0f6e4d2483b3d8",
+      "bytes": 988
+    },
+    {
+      "path": "common_core/tests/test_supports.py",
+      "source": "common_core/tests/test_supports.py",
+      "sha256": "69051c3ad7afe6c65b2a1c68ca042de059bc4175b63435c3e735984390574028",
+      "bytes": 3280
+    },
+    {
+      "path": "common_core/tests/test_visual.py",
+      "source": "common_core/tests/test_visual.py",
+      "sha256": "84f2b4e3f645a4fd8e7872204a8f2f7c5322a742a7783ba0b1210dae326c3dad",
+      "bytes": 2577
+    },
+    {
+      "path": "common_core/tests/test_writer.py",
+      "source": "common_core/tests/test_writer.py",
+      "sha256": "fa4519aed5d828f3cf2cfb69c6c5f82260529651bb43e3845f0f5f40efbce11c",
+      "bytes": 4481
+    },
+    {
+      "path": "common_core/tests/test_yazhi.py",
+      "source": "common_core/tests/test_yazhi.py",
+      "sha256": "098ab8dc909aa500a7057674fe7b4bfe3f1163d76620d3d861885d72a2b5b620",
+      "bytes": 2529
+    },
+    {
+      "path": "common_core/tools/assemble_visual.py",
+      "source": "common_core/tools/assemble_visual.py",
+      "sha256": "7117cac1c814075aa477e1fc1f19467a6981aba5a6789f7c895cb13a80faff32",
+      "bytes": 2540
+    },
+    {
+      "path": "common_core/tools/bootstrap_hotel.py",
+      "source": "common_core/tools/bootstrap_hotel.py",
+      "sha256": "c68c5b51292704c7fff475925f33b105171cb54cfe37d9b8cdef0b6d37213b89",
+      "bytes": 9679
+    },
+    {
+      "path": "common_core/tools/bootstrap_yazhi.py",
+      "source": "common_core/tools/bootstrap_yazhi.py",
+      "sha256": "322ecb0f165036619c803c4075cd32047496cb6b04b69bc8613f1efbe5fccdc6",
+      "bytes": 4135
+    },
+    {
+      "path": "common_core/tools/build_package.py",
+      "source": "common_core/tools/build_package.py",
+      "sha256": "7d19f3216ec25b5a89665e0f194b36b6a2be9633dfcebd0d057faf8421f1cae7",
+      "bytes": 339
+    },
+    {
+      "path": "common_core/tools/calibrate.py",
+      "source": "common_core/tools/calibrate.py",
+      "sha256": "a71263ce67c20f0dbbad954cec7fc8f3bd7ecd76438dd00826162754d639d711",
+      "bytes": 4299
+    },
+    {
+      "path": "common_core/tools/check_cli.py",
+      "source": "common_core/tools/check_cli.py",
+      "sha256": "0f0e4e43a06a42f533c57d15d0d5b90d758acbfc17206dffca8b922ab32142c1",
+      "bytes": 2624
+    },
+    {
+      "path": "common_core/tools/check_final_qualification.py",
+      "source": "common_core/tools/check_final_qualification.py",
+      "sha256": "eecdb0c6700964d8c5841c1efeb6b2b2bc133652a550a3ec1f1097b3d77bd37f",
+      "bytes": 6032
+    },
+    {
+      "path": "common_core/tools/check_legacy_six.py",
+      "source": "common_core/tools/check_legacy_six.py",
+      "sha256": "a50ce898a3846b5ed562adf8bca27837796099ce3fa5206aa6a19b9fd08c6276",
+      "bytes": 1036
+    },
+    {
+      "path": "common_core/tools/check_qualification.py",
+      "source": "common_core/tools/check_qualification.py",
+      "sha256": "6829868f7325cdbb743834a7abdbbaa671e3d835e1d61fa10ad8717705cbc7f2",
+      "bytes": 2634
+    },
+    {
+      "path": "common_core/tools/check_repro.py",
+      "source": "common_core/tools/check_repro.py",
+      "sha256": "d00a90f5611eecfb4e89f9bb83fa5fb6ea84f7916d32874902de5e5bf21479c2",
+      "bytes": 4570
+    },
+    {
+      "path": "common_core/tools/freeze_policy.py",
+      "source": "common_core/tools/freeze_policy.py",
+      "sha256": "3aa004b241ea6cae611ed2827a8f75e1a7ff6e39afff471dd9164418e06386fb",
+      "bytes": 3901
+    },
+    {
+      "path": "common_core/tools/generate_s0_eight.py",
+      "source": "common_core/tools/generate_s0_eight.py",
+      "sha256": "5d6122609d4bacd6df610b7702bbe5be1cb261af55ef4238d5ff8784a76cb54e",
+      "bytes": 5235
+    },
+    {
+      "path": "common_core/tools/index_final.py",
+      "source": "common_core/tools/index_final.py",
+      "sha256": "cb019ceeb6bcc0b4a571f35cdfec81f1ae2f001af4744c6576546d78f6099331",
+      "bytes": 1231
+    },
+    {
+      "path": "common_core/tools/launch_native.py",
+      "source": "common_core/tools/launch_native.py",
+      "sha256": "a70600593d209cef0e3f068ef110ec628296f1f81dcaca506e8e9a02b71c9fea",
+      "bytes": 6834
+    },
+    {
+      "path": "common_core/tools/launch_render.py",
+      "source": "common_core/tools/launch_render.py",
+      "sha256": "f3bccd3210c5626a2e6f233725bcf990c6ddc9a381ce1739cd031d6a3585bd4a",
+      "bytes": 3407
+    },
+    {
+      "path": "common_core/tools/launch_support.py",
+      "source": "common_core/tools/launch_support.py",
+      "sha256": "16a26d863a843b5e641ca622a7d2571802227c711c99e04154eef104b5b80143",
+      "bytes": 4810
+    },
+    {
+      "path": "common_core/tools/pin_sources.py",
+      "source": "common_core/tools/pin_sources.py",
+      "sha256": "a8aca344be37a860b1d508697b371c7b2d4c45a4a8ae786a5079dc72d54322d4",
+      "bytes": 3604
+    },
+    {
+      "path": "common_core/tools/prepare_final.py",
+      "source": "common_core/tools/prepare_final.py",
+      "sha256": "aadf015588a835f6e6dfc446fa6054a8b2231fed913a30fb7f5b6f345b76f586",
+      "bytes": 1102
+    },
+    {
+      "path": "common_core/tools/probe_yazhi_supports.py",
+      "source": "common_core/tools/probe_yazhi_supports.py",
+      "sha256": "5c706f36fc87fa95770bb20e4123bc337afa980fdf259da35f3fbceb0cca5887",
+      "bytes": 1892
+    },
+    {
+      "path": "common_core/tools/progress.py",
+      "source": "common_core/tools/progress.py",
+      "sha256": "53c4a412af34f7bbd49312153e01bd555874006948345df08d4cdc902f811859",
+      "bytes": 1127
+    },
+    {
+      "path": "common_core/tools/qualify_case.py",
+      "source": "common_core/tools/qualify_case.py",
+      "sha256": "c16afbd38f570c516b7cd04d3cfc969841e28435ff3917d53c9e3ee75ecd033a",
+      "bytes": 1345
+    },
+    {
+      "path": "common_core/tools/record_acceptance.py",
+      "source": "common_core/tools/record_acceptance.py",
+      "sha256": "ca11a32c03e2fd6d26ff0401866570aafc3e00604c54c8eccc8928b4d14c9c2a",
+      "bytes": 4373
+    },
+    {
+      "path": "common_core/tools/record_detail_review.py",
+      "source": "common_core/tools/record_detail_review.py",
+      "sha256": "3e8e08ca979e7f61806d7c178e39331db4a3e0d27ec0c3a7c4d9f527fbbd4093",
+      "bytes": 1742
+    },
+    {
+      "path": "common_core/tools/record_visual_review.py",
+      "source": "common_core/tools/record_visual_review.py",
+      "sha256": "27c10a57af84707ff4da4dcbd6927786728925b36058dc89de91ad56ae0a84ea",
+      "bytes": 2111
+    },
+    {
+      "path": "common_core/tools/researcher_handoff.py",
+      "source": "common_core/tools/researcher_handoff.py",
+      "sha256": "0cc10f72a155f63352ae5bd32c59a6d1316702dd026b4d98d81940d7ba84ee3a",
+      "bytes": 3581
+    },
+    {
+      "path": "common_core/tools/select_s0.py",
+      "source": "common_core/tools/select_s0.py",
+      "sha256": "ed12cea6f53e47561f90422ef13baf3ee52bd3e02fd5f769aa5e767a04d7ce9f",
+      "bytes": 5565
+    },
+    {
+      "path": "common_core/tools/smoke_hotel_six.py",
+      "source": "common_core/tools/smoke_hotel_six.py",
+      "sha256": "c3c3f7cb17fbb133e4dbf13286041f11975373a9a3e95e84abc9ecc53b323f61",
+      "bytes": 1426
+    },
+    {
+      "path": "common_core/tools/test_native_repair.py",
+      "source": "common_core/tools/test_native_repair.py",
+      "sha256": "e6a2b29acf33cc940e072bdd1fef75203788037bb8ddac0f409ff68018153777",
+      "bytes": 7104
+    },
+    {
+      "path": "common_core/tools/verify_author_package.py",
+      "source": "common_core/tools/verify_author_package.py",
+      "sha256": "5d92289bcf09e35c542434b1a21401c66b5048528977bf5bd59b3afe1666bb15",
+      "bytes": 2845
+    },
+    {
+      "path": "common_core/tools/verify_source_lock.py",
+      "source": "common_core/tools/verify_source_lock.py",
+      "sha256": "ba0d8ff66f95792314b23dfd992892856505c931a37d9830002525d2c24be030",
+      "bytes": 1539
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/acquisition_control.py",
+      "source": "_asset_library_blendkit/scripts/acquisition_control.py",
+      "sha256": "67eed7c0ceb327fce6c054ec98cc32549dffe1691f0fd9e9cb9e88971c96667b",
+      "bytes": 1260
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/asset_dependencies.py",
+      "source": "_asset_library_blendkit/scripts/asset_dependencies.py",
+      "sha256": "f62c2861e0dc13e45bae7553bae8175f063cdeb550c9cb3b310fe95530694ee0",
+      "bytes": 764
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/audit_acquired_semantics.py",
+      "source": "_asset_library_blendkit/scripts/audit_acquired_semantics.py",
+      "sha256": "f6480db062d6397f3aaa3559581c5a8acd9957fecdbb5f8a8ef8872a8496bf57",
+      "bytes": 1152
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/audit_addon.py",
+      "source": "_asset_library_blendkit/scripts/audit_addon.py",
+      "sha256": "53cfca8cff8cf698a11be6beac9498259f75fb44bf2e38055673fa5d80c141dd",
+      "bytes": 2127
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/bake_channel.py",
+      "source": "_asset_library_blendkit/scripts/bake_channel.py",
+      "sha256": "9827e409b572afb6d0b79de3ae25ef81da62814cc2d43336e31c1a717aaec0ed",
+      "bytes": 2903
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/batch_selection.py",
+      "source": "_asset_library_blendkit/scripts/batch_selection.py",
+      "sha256": "2c02a7ae234cee3aa3f218383b6c4007bd7e1dcb9ade4598fcba0d5942fa0403",
+      "bytes": 3344
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/build_batch_cases.py",
+      "source": "_asset_library_blendkit/scripts/build_batch_cases.py",
+      "sha256": "f03e91203163c1839318cab3788d8971af273b85504591bcf989e629598a9676",
+      "bytes": 2534
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/build_local_pool_scene.py",
+      "source": "_asset_library_blendkit/scripts/build_local_pool_scene.py",
+      "sha256": "646d466c23dddb45fa16d08adf7e178416c1f893861f88415526d054ceb31219",
+      "bytes": 9670
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/check_physics_comparison_ui.py",
+      "source": "_asset_library_blendkit/scripts/check_physics_comparison_ui.py",
+      "sha256": "cf12230ae3a49b55d7f914019c7812ca682747efe82e6f4a7b8e697c6c33be3e",
+      "bytes": 2856
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/check_settled_trajectory.py",
+      "source": "_asset_library_blendkit/scripts/check_settled_trajectory.py",
+      "sha256": "50bc7a61527641a481d5fa5b4ac2fbccdd769beae7446e0c5d4d7995595f3262",
+      "bytes": 2402
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/check_surface_comparison_ui.py",
+      "source": "_asset_library_blendkit/scripts/check_surface_comparison_ui.py",
+      "sha256": "bcf5dd1c91bc509dc6fbefeb7d04f69078d40b67a12e39f1ab1c4c6b0751da37",
+      "bytes": 3485
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/check_surface_reproducibility.py",
+      "source": "_asset_library_blendkit/scripts/check_surface_reproducibility.py",
+      "sha256": "356baa9f0fb311eb905afd16c280710ede661e4b14774a7e46cfdb6ba0ad81d7",
+      "bytes": 2922
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/check_surface_ui_logic.py",
+      "source": "_asset_library_blendkit/scripts/check_surface_ui_logic.py",
+      "sha256": "bbd5aedb608e42d7ddfe96e26ca2bfbd653de25f0d768823f34bea90d42cfd56",
+      "bytes": 3410
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/complete_physics_handoff.py",
+      "source": "_asset_library_blendkit/scripts/complete_physics_handoff.py",
+      "sha256": "997172d41f8c4cc66150e1bdcac8e15dbff294a3defc15b9fbcd420a002c2fc3",
+      "bytes": 2317
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/configure_official_profile.py",
+      "source": "_asset_library_blendkit/scripts/configure_official_profile.py",
+      "sha256": "fe74101317c8696c92ad57539e687550aa6ab5dc188733c326008928a9fd5eeb",
+      "bytes": 1094
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/convert_blender.py",
+      "source": "_asset_library_blendkit/scripts/convert_blender.py",
+      "sha256": "98e9bbeb3e14018deb8c0651078348599c916e07faae1f1db58c50fcfe0df90e",
+      "bytes": 6616
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/density_policy.py",
+      "source": "_asset_library_blendkit/scripts/density_policy.py",
+      "sha256": "43df6734ab2eda675584d0f906288e76ed53adf7bfc5649c493834c59c1a08f0",
+      "bytes": 290
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/dispatch_core_batch.py",
+      "source": "_asset_library_blendkit/scripts/dispatch_core_batch.py",
+      "sha256": "17b24c0fcc5799bcfa18b1a539f8a185f63129b306d12b1b95dd2be4f808f6d2",
+      "bytes": 1991
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/dynamic_preflight.py",
+      "source": "_asset_library_blendkit/scripts/dynamic_preflight.py",
+      "sha256": "8645348f5c9ccc3e6a71613e2b6360108db95ee88a14c11721ceaed37f5c2423",
+      "bytes": 3317
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/expand_official_pool.py",
+      "source": "_asset_library_blendkit/scripts/expand_official_pool.py",
+      "sha256": "b2130c4404f614b07df6c489baf8933449c7c0d93eb8d5630a0dc709123f0494",
+      "bytes": 4338
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/expanded_surfaces.py",
+      "source": "_asset_library_blendkit/scripts/expanded_surfaces.py",
+      "sha256": "57acb3460ea025bbc002bfe27a11e5b82710ba1cbfb2fc6e5efc39f804159317",
+      "bytes": 5248
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/finalize_batch_local.py",
+      "source": "_asset_library_blendkit/scripts/finalize_batch_local.py",
+      "sha256": "4c764dac8bdad95bdf893cf066daa41db0cd2ab79f29e26cebfdec627a95edb1",
+      "bytes": 5713
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/finalize_local_backpack.py",
+      "source": "_asset_library_blendkit/scripts/finalize_local_backpack.py",
+      "sha256": "cc5908fc38cd67043460a4e88a46c02155a8bcb016b10d5cde2dbc811e60946a",
+      "bytes": 5867
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/finalize_physics_scenes.py",
+      "source": "_asset_library_blendkit/scripts/finalize_physics_scenes.py",
+      "sha256": "8aeb21a301e3e0fe1c2d94586b14417350a3732f2475568e48ceb0b6db6e49d0",
+      "bytes": 7447
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/finalize_surface_scenes.py",
+      "source": "_asset_library_blendkit/scripts/finalize_surface_scenes.py",
+      "sha256": "3dc25c85119e92e70470067085ee86f31aaedc59b6073da70f9706837db477d9",
+      "bytes": 5376
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/fix_texture_extensions.py",
+      "source": "_asset_library_blendkit/scripts/fix_texture_extensions.py",
+      "sha256": "19c14929c25e6e3e13395676efa6d6f7cf1cd6904522d281acd9af2c45e58b49",
+      "bytes": 2525
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/generate_dense_scenes.py",
+      "source": "_asset_library_blendkit/scripts/generate_dense_scenes.py",
+      "sha256": "5a27e568bdced82318446860dec201a84fed1f5959b0b7729456a0beca44e44c",
+      "bytes": 5954
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/generate_surface_scenes.py",
+      "source": "_asset_library_blendkit/scripts/generate_surface_scenes.py",
+      "sha256": "2b9804034eca5d025713cd4820d941642ac4e219a5de33e4f058839e1499c51c",
+      "bytes": 13430
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/hotel_metadata.py",
+      "source": "_asset_library_blendkit/scripts/hotel_metadata.py",
+      "sha256": "f133687ef4ad6720cf53100670225e9b51c544c7e9df71ba7544b8f494c20846",
+      "bytes": 3555
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/import_official_batch.py",
+      "source": "_asset_library_blendkit/scripts/import_official_batch.py",
+      "sha256": "2d82fd4e26b017d347f28d4ca40efab4ca92190a030f3da509e42fff67e1bbaf",
+      "bytes": 4472
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/initialize_records.py",
+      "source": "_asset_library_blendkit/scripts/initialize_records.py",
+      "sha256": "98fa3d644f4e218453b9f1d0f954782ee8fbc941f4d3f633dfdb48665dbc0382",
+      "bytes": 7174
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/inspect_dynamic_failures.py",
+      "source": "_asset_library_blendkit/scripts/inspect_dynamic_failures.py",
+      "sha256": "3e7fda08aa94cb4695bf278229c3fff8118a27eb30bab87cafb3f93a6f2e69d9",
+      "bytes": 868
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/inspect_room_surfaces.py",
+      "source": "_asset_library_blendkit/scripts/inspect_room_surfaces.py",
+      "sha256": "6351d7c8cf07b0ff2964db2b841bc29280de87b526a4ea253fa1799a5f517b11",
+      "bytes": 1565
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/inspect_usd.py",
+      "source": "_asset_library_blendkit/scripts/inspect_usd.py",
+      "sha256": "06eaaa7c9e1a0b917a6261281bebd2c6edc6fe1d0df2735f141c93a2def5a77f",
+      "bytes": 4117
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/install_addon.ps1",
+      "source": "_asset_library_blendkit/scripts/install_addon.ps1",
+      "sha256": "b9ea136cd1e14be21250c4b0084c78412af9533ecbd6a65b5940bb3667ec57fd",
+      "bytes": 790
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/install_addon_blender.py",
+      "source": "_asset_library_blendkit/scripts/install_addon_blender.py",
+      "sha256": "03a517db6b99990a827a40232d72bc7bf16587e3542650f78fa37a7487661af7",
+      "bytes": 894
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/intake_attempts.py",
+      "source": "_asset_library_blendkit/scripts/intake_attempts.py",
+      "sha256": "c95d73b11524f915106f1518c916d77c390086aa529aab0bdf06fded775c633f",
+      "bytes": 840
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/intake_blender.py",
+      "source": "_asset_library_blendkit/scripts/intake_blender.py",
+      "sha256": "ca25fc1045b8aed199e20142f5a78fbe8747bcd739b31ac748448200e03851e1",
+      "bytes": 3981
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/integrate_real_backpack.py",
+      "source": "_asset_library_blendkit/scripts/integrate_real_backpack.py",
+      "sha256": "6530da0e8541fc82b9d345378fc4c0a81cfb6d3cff1c9e6dfb73f80ead55e388",
+      "bytes": 12690
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/launch_room_dynamics.py",
+      "source": "_asset_library_blendkit/scripts/launch_room_dynamics.py",
+      "sha256": "adfcdd03813ccb1b92dfcd27c7d4378c6ffc361f1d8ed151815c304dffa55d4c",
+      "bytes": 2965
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/launch_surface_evidence.py",
+      "source": "_asset_library_blendkit/scripts/launch_surface_evidence.py",
+      "sha256": "c007e14fe9c0d40e2911e8d5e0e5f8d182744a84ff6b9eb7f5382962bdc1a9c1",
+      "bytes": 2842
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/library.py",
+      "source": "_asset_library_blendkit/scripts/library.py",
+      "sha256": "4ecf407bb07c8e9613b8f7c3437347e5e0bc9df0df43f1f6baa297cb6fc83c4b",
+      "bytes": 8059
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/native_surface_queries.py",
+      "source": "_asset_library_blendkit/scripts/native_surface_queries.py",
+      "sha256": "4ac9a43bfd5a1ecd753ddaf3d1d6cc254a929597c5c86ffa0ec0a0762f8c35ae",
+      "bytes": 5123
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/official_acquisition_session.py",
+      "source": "_asset_library_blendkit/scripts/official_acquisition_session.py",
+      "sha256": "1d41572bb3e93cf65422a447af448d9d5924d476b836b72b6109ee1af3c191ca",
+      "bytes": 11096
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/official_batch_session.py",
+      "source": "_asset_library_blendkit/scripts/official_batch_session.py",
+      "sha256": "2c8b829d9a484dbcf10589b90c688418422660ad3c6522878cc478da959fb14e",
+      "bytes": 12931
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/official_gui_probe.py",
+      "source": "_asset_library_blendkit/scripts/official_gui_probe.py",
+      "sha256": "f3b6822d9a2b24e2bc569a869994779eaf31c0468a8c13c5c10ba373976b1b23",
+      "bytes": 4260
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/patch_second_backpack_usd.py",
+      "source": "_asset_library_blendkit/scripts/patch_second_backpack_usd.py",
+      "sha256": "7c59a7ab21522d0542cf2d5f7586820166e8c8b3d83457dca02860897461b43f",
+      "bytes": 2741
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/prepare_batch_source.py",
+      "source": "_asset_library_blendkit/scripts/prepare_batch_source.py",
+      "sha256": "30044b3fb6a190f96da90d021efc0523ce8c8917d47fcc451ee516b145293b27",
+      "bytes": 10973
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/prepare_cached_backpack.py",
+      "source": "_asset_library_blendkit/scripts/prepare_cached_backpack.py",
+      "sha256": "496b5342b32752211d9eae43c725ec891a3f0a36086fd1bbfdb8de53eae6033a",
+      "bytes": 4652
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/prepare_github_snapshot.py",
+      "source": "_asset_library_blendkit/scripts/prepare_github_snapshot.py",
+      "sha256": "657732bc3f51debcd1f2fe924d1b0ebf5be734dc69ca117e1e973cd3fc9a3b68",
+      "bytes": 9801
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/prepare_legacy_pool.py",
+      "source": "_asset_library_blendkit/scripts/prepare_legacy_pool.py",
+      "sha256": "5fdd4bfae6fa6f4fc2b132fdd7700d4c097d2179e2a926aae07be20335312799",
+      "bytes": 3479
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/prepare_second_backpack.py",
+      "source": "_asset_library_blendkit/scripts/prepare_second_backpack.py",
+      "sha256": "c21f112c708f23e8032ee05d19d68429108c7a8392e002e82b33e418674670fb",
+      "bytes": 4077
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/prepare_snapshot_publisher.py",
+      "source": "_asset_library_blendkit/scripts/prepare_snapshot_publisher.py",
+      "sha256": "8f405264ab7460835cbe061dcf5ec412bd26fdb809b73f977447b9411ef19438",
+      "bytes": 5436
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/probe_batch_sources.py",
+      "source": "_asset_library_blendkit/scripts/probe_batch_sources.py",
+      "sha256": "f24b432272e58736173555aa41c59def6317fc61f4418eaf86d89a2c6c66a3eb",
+      "bytes": 999
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/probe_blender.py",
+      "source": "_asset_library_blendkit/scripts/probe_blender.py",
+      "sha256": "fb1e95ebda5e2375c6e1aad35f08d1e306670a684776f18cf22afe4a4a767608",
+      "bytes": 1256
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/probe_cached_blend.py",
+      "source": "_asset_library_blendkit/scripts/probe_cached_blend.py",
+      "sha256": "1b2b11fb09eb2caf89f8007f48baedeab8fb8ab1f83a6b887a794809a75118e1",
+      "bytes": 3057
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/process_batch_sources.py",
+      "source": "_asset_library_blendkit/scripts/process_batch_sources.py",
+      "sha256": "bbb753abfe45a4d03550f21f7c0eeffaba0908f4bc60516c808844ca10e5cc15",
+      "bytes": 5079
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/qualify_pool_scene.py",
+      "source": "_asset_library_blendkit/scripts/qualify_pool_scene.py",
+      "sha256": "7579ed9efe9c7988655d52685efb6e9ad6281272f85895c77f46190a6dccad6d",
+      "bytes": 5269
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/queue_batch002_priority.py",
+      "source": "_asset_library_blendkit/scripts/queue_batch002_priority.py",
+      "sha256": "fbf99a1af1e9cebeabd0646a3c38b9cd9f3c1fd903202138e406d7a348e0dc94",
+      "bytes": 2794
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/queue_batch003_priority.py",
+      "source": "_asset_library_blendkit/scripts/queue_batch003_priority.py",
+      "sha256": "62d9c7ca554f8a1a1ce435509788df422376dc8dcc7af9663433c270dfbce6f1",
+      "bytes": 2954
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/queue_batch004_priority.py",
+      "source": "_asset_library_blendkit/scripts/queue_batch004_priority.py",
+      "sha256": "79f5633b28e84d05665065b33afbaa7c8ea76ad0e9ba1641388f6e5a3514adb0",
+      "bytes": 2020
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/queue_single_mesh_sources.py",
+      "source": "_asset_library_blendkit/scripts/queue_single_mesh_sources.py",
+      "sha256": "25e6f60faf6c7fc1aaeb675c172c67f85228300bec15059217450289252254ca",
+      "bytes": 2431
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/record_batch_scene_reviews.py",
+      "source": "_asset_library_blendkit/scripts/record_batch_scene_reviews.py",
+      "sha256": "84b28ce3d9e57f2406a6b118d4a4955657c3e929c3d7d955e9de4359718cd51f",
+      "bytes": 4324
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/recover_pinned_export_textures.py",
+      "source": "_asset_library_blendkit/scripts/recover_pinned_export_textures.py",
+      "sha256": "605d5294da824d1c3be91ad6ddc75fb76926a35293b48109748632371b0e7d02",
+      "bytes": 3930
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/refresh_expansion_progress.py",
+      "source": "_asset_library_blendkit/scripts/refresh_expansion_progress.py",
+      "sha256": "8ccaa10be6e77205370028adb4c6af7393ad4d6e1314e2aac5083aa3a9adbfeb",
+      "bytes": 2606
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/register_batch_candidates.py",
+      "source": "_asset_library_blendkit/scripts/register_batch_candidates.py",
+      "sha256": "0f8061ce0fb668e2c74a096affcb7f4e58e324fa102cf8bcf009b0b56162459c",
+      "bytes": 3094
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/register_official_snapshot.py",
+      "source": "_asset_library_blendkit/scripts/register_official_snapshot.py",
+      "sha256": "8350f36f1ed0569eacf4dbb6b286b933d1bfde9b0dc4e8ff41981451f1a6f0df",
+      "bytes": 4452
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/register_recovered_backpack.py",
+      "source": "_asset_library_blendkit/scripts/register_recovered_backpack.py",
+      "sha256": "70a2748b51ad19f01ab2aeec4acc4fd1c6d5958f919aa76cf45ba9c2a6e4a403",
+      "bytes": 3613
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/render_asset_batch.py",
+      "source": "_asset_library_blendkit/scripts/render_asset_batch.py",
+      "sha256": "deebbc5909d7da0fa97d8a4197fe9aaf0ae11fb3b8c29c3436f7f76454d95003",
+      "bytes": 5520
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/render_isaac.py",
+      "source": "_asset_library_blendkit/scripts/render_isaac.py",
+      "sha256": "9e14db35962f111fa1857c084d252e68c3f6a108879d4f12820637c61fadfcc9",
+      "bytes": 5058
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/render_source_reference.py",
+      "source": "_asset_library_blendkit/scripts/render_source_reference.py",
+      "sha256": "477246eb3269f2968ef2a35db2d4f0e146203619c8632ca28d698db7f7ab8fdf",
+      "bytes": 2882
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/report.py",
+      "source": "_asset_library_blendkit/scripts/report.py",
+      "sha256": "a6c691539cdd1c53406a63e1f0560ab71a955c4cabaa93e7c4121946a9c2affc",
+      "bytes": 9242
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/report_expansion.py",
+      "source": "_asset_library_blendkit/scripts/report_expansion.py",
+      "sha256": "c50f58e2da5443c7048a96377327644cbf83bd54382184a4852c8d12ee09e9dc",
+      "bytes": 5629
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/report_physics_scenes.py",
+      "source": "_asset_library_blendkit/scripts/report_physics_scenes.py",
+      "sha256": "926e026619234671edafc6e88cfaca175c4a827b9ff44228d275b53f6e790d8a",
+      "bytes": 5636
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/report_surface_scenes.py",
+      "source": "_asset_library_blendkit/scripts/report_surface_scenes.py",
+      "sha256": "621ed2fef713e1ab069e30d0b000f9a074a1af1282794b4ce93fde13359358f3",
+      "bytes": 8795
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/retry_batch001b_cases.py",
+      "source": "_asset_library_blendkit/scripts/retry_batch001b_cases.py",
+      "sha256": "4bf576ac6ebe4faa3d02377a6abcaa1ca8ddc77635e89089a63ec3b739c0bece",
+      "bytes": 1726
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/review_batch001.py",
+      "source": "_asset_library_blendkit/scripts/review_batch001.py",
+      "sha256": "ec82e05f80556fc5418eb5e3f3d14f5e53325b2e1ebde1e5ec99924f2c38e199",
+      "bytes": 3293
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/review_native_batch.py",
+      "source": "_asset_library_blendkit/scripts/review_native_batch.py",
+      "sha256": "8380cdd66eb4c76cf6ade1c98df897153f25231bf77d90c3abf1f06674dbd6e2",
+      "bytes": 2032
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/room_dynamic_worker.py",
+      "source": "_asset_library_blendkit/scripts/room_dynamic_worker.py",
+      "sha256": "b5cc7d48ced9c1a7599b2df55bf047c5e212f463df21fe44a46cc766a971b09c",
+      "bytes": 13988
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/run_asset_preview_batch.py",
+      "source": "_asset_library_blendkit/scripts/run_asset_preview_batch.py",
+      "sha256": "126905efe85a7d86ab5e71112e57323905a0807e81a1a50e7d65f6466618857a",
+      "bytes": 1643
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/run_candidate_render.py",
+      "source": "_asset_library_blendkit/scripts/run_candidate_render.py",
+      "sha256": "7213fc3e271ff9119e05dd156c807eb58dfe0d8ef5d9b897602da7a0c7433459",
+      "bytes": 614
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/run_candidate_support.py",
+      "source": "_asset_library_blendkit/scripts/run_candidate_support.py",
+      "sha256": "33a7ae6583d0318be4a16910f01d75f300128d61ebbd6506d4cc95f328ddba5d",
+      "bytes": 717
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/run_continuous_acquisition.ps1",
+      "source": "_asset_library_blendkit/scripts/run_continuous_acquisition.ps1",
+      "sha256": "6e33fd773da0fb3a0dab66045065bc9e0d4b238453440aa67ad33eb397955f7b",
+      "bytes": 182
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/run_density_physics_pipeline.py",
+      "source": "_asset_library_blendkit/scripts/run_density_physics_pipeline.py",
+      "sha256": "b262ac79e46e125e0e47ffa1bbbfe1caaa55bdb926c33ba6aad58d82a3e60de2",
+      "bytes": 1568
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/run_native.py",
+      "source": "_asset_library_blendkit/scripts/run_native.py",
+      "sha256": "4e1d9dcf6617c1e5bdc94cfffbab30ebf09f163d03a641fac2fae27bcce3d4e3",
+      "bytes": 1875
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/run_official_acquisition.ps1",
+      "source": "_asset_library_blendkit/scripts/run_official_acquisition.ps1",
+      "sha256": "ca23c3ae4269467f6b2ee3fa78a4e0b5bd44adb76842222e044df452bd45a9c2",
+      "bytes": 1879
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/run_official_batch.ps1",
+      "source": "_asset_library_blendkit/scripts/run_official_batch.ps1",
+      "sha256": "c8e468f991a75957fe8a97b6b078db93e3a2ae17c86a5ed158aa42f44f2dfb6e",
+      "bytes": 1162
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/run_official_gui_probe.ps1",
+      "source": "_asset_library_blendkit/scripts/run_official_gui_probe.ps1",
+      "sha256": "a386aa502447f50c6e6d24c4d0d5e2ab841b0942df39b6f0fa5977ce1b5aa803",
+      "bytes": 1066
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/run_physics_guided_scenes.py",
+      "source": "_asset_library_blendkit/scripts/run_physics_guided_scenes.py",
+      "sha256": "cc695be21deb5b2d0b4a75d7b56c09cee6d3950fe6e719cbe79873739bea05f6",
+      "bytes": 6880
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/run_surface_pipeline.py",
+      "source": "_asset_library_blendkit/scripts/run_surface_pipeline.py",
+      "sha256": "124776d5a780a67d8fa29dea6c10757515e03eddc9b32406feb2d74fd582e2ff",
+      "bytes": 2877
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/session_cleanup.py",
+      "source": "_asset_library_blendkit/scripts/session_cleanup.py",
+      "sha256": "5c5362377d8c1f142677652862c6f0d8d6b98d522206b8a0bf1e32199456e0c3",
+      "bytes": 1987
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/source_surface.py",
+      "source": "_asset_library_blendkit/scripts/source_surface.py",
+      "sha256": "d91201677b9c24d68d3850a9e5acc548ff23c938bd4ce0be8039c617b8343b51",
+      "bytes": 1420
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/surface_geometry.py",
+      "source": "_asset_library_blendkit/scripts/surface_geometry.py",
+      "sha256": "95a813bc63535680e78fc480aeb726e3d8054b449751497ae88c05cbfe879d34",
+      "bytes": 4193
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/usd_sdk.py",
+      "source": "_asset_library_blendkit/scripts/usd_sdk.py",
+      "sha256": "af7e1b2abbddd998dc6525fae58fa115fd3fad883ffe017f835fe9a16e1ca060",
+      "bytes": 613
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/verify_current_library.py",
+      "source": "_asset_library_blendkit/scripts/verify_current_library.py",
+      "sha256": "9b8105a9b00f05beb61ec47db0a9e44ec92edf5edd3903750aa5f2866aa50fc5",
+      "bytes": 3048
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/verify_delivery.py",
+      "source": "_asset_library_blendkit/scripts/verify_delivery.py",
+      "sha256": "ca773b9bc103be77c995435db1ac1529210bc4ce0098f9232ffd68540dc4490b",
+      "bytes": 3171
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/verify_expansion.py",
+      "source": "_asset_library_blendkit/scripts/verify_expansion.py",
+      "sha256": "1c448efddaa09d3b4ac6233906410ae04ca3fd9fd6b236d1aa974e289e7133dc",
+      "bytes": 3254
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/verify_physics_scenes.py",
+      "source": "_asset_library_blendkit/scripts/verify_physics_scenes.py",
+      "sha256": "18e3f50ed54688272bd700d4eb1e7dc1c1590bc8d53d8e911a284759492575e2",
+      "bytes": 5452
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/verify_protected.py",
+      "source": "_asset_library_blendkit/scripts/verify_protected.py",
+      "sha256": "642163367a833a6fa4da380404a0bc21649cebc73f62eb5d8005bbe64f8e3208",
+      "bytes": 535
+    },
+    {
+      "path": "_asset_library_blendkit/scripts/verify_surface_scenes.py",
+      "source": "_asset_library_blendkit/scripts/verify_surface_scenes.py",
+      "sha256": "4177e4de18ea60d247a8272ab5f97169f1151712f0e6ec82d9bac83243d57e83",
+      "bytes": 5642
+    },
+    {
+      "path": "_asset_library_blendkit/tests/check_constant_surface.py",
+      "source": "_asset_library_blendkit/tests/check_constant_surface.py",
+      "sha256": "0ede162bdd8f781a94d0ff730d795346b29fd9cc520d474294040d38761afe34",
+      "bytes": 1583
+    },
+    {
+      "path": "_asset_library_blendkit/tests/check_conversion_failures.py",
+      "source": "_asset_library_blendkit/tests/check_conversion_failures.py",
+      "sha256": "7d9ad6efee473797a08c6eabaff7f999b909d7c1eec7c6fca33223e4a6f15b1a",
+      "bytes": 1743
+    },
+    {
+      "path": "_asset_library_blendkit/tests/check_session_cleanup.py",
+      "source": "_asset_library_blendkit/tests/check_session_cleanup.py",
+      "sha256": "9d14024a28e465536032484e815c1c2bcdcdce9ffcee428a0c9c3c3950e896a3",
+      "bytes": 2015
+    },
+    {
+      "path": "_asset_library_blendkit/tests/create_conversion_fixture.py",
+      "source": "_asset_library_blendkit/tests/create_conversion_fixture.py",
+      "sha256": "5d3a46156589e83b1e61532466d7edcedcbd9202e98eff3585e35f70f6d8b2da",
+      "bytes": 1829
+    },
+    {
+      "path": "_asset_library_blendkit/tests/test_acquisition_control.py",
+      "source": "_asset_library_blendkit/tests/test_acquisition_control.py",
+      "sha256": "15cbac1ef766c8886f283fd41422720b9e66523264df5ac4ab9d74685189d831",
+      "bytes": 1613
+    },
+    {
+      "path": "_asset_library_blendkit/tests/test_asset_dependencies.py",
+      "source": "_asset_library_blendkit/tests/test_asset_dependencies.py",
+      "sha256": "68000f46b27599bec677c2994e1ea3766f27e8589e3ea19ee3ab42bec2b2f2a6",
+      "bytes": 1234
+    },
+    {
+      "path": "_asset_library_blendkit/tests/test_batch_selection.py",
+      "source": "_asset_library_blendkit/tests/test_batch_selection.py",
+      "sha256": "fc72dd3e83068b4b034632121ac0989a91bf35bd1f29e2d7581c6c5c1096b1a7",
+      "bytes": 1370
+    },
+    {
+      "path": "_asset_library_blendkit/tests/test_density_policy.py",
+      "source": "_asset_library_blendkit/tests/test_density_policy.py",
+      "sha256": "f5a9198a54b88a8d74f58d2e57fc991de36a79a787e8dc8ee30530a7eb1e6cc9",
+      "bytes": 505
+    },
+    {
+      "path": "_asset_library_blendkit/tests/test_dynamic_preflight.py",
+      "source": "_asset_library_blendkit/tests/test_dynamic_preflight.py",
+      "sha256": "2e162413d5b06d502ae15ec694518cf9bc02e7c769a187358a1772452d3ec456",
+      "bytes": 2194
+    },
+    {
+      "path": "_asset_library_blendkit/tests/test_hotel_metadata.py",
+      "source": "_asset_library_blendkit/tests/test_hotel_metadata.py",
+      "sha256": "6ef5f032a9d368ffa77ca85f913a31f62c83be9b3d5b977ca1d8af9cc9e2ba66",
+      "bytes": 1092
+    },
+    {
+      "path": "_asset_library_blendkit/tests/test_hotel_search_ambiguity.py",
+      "source": "_asset_library_blendkit/tests/test_hotel_search_ambiguity.py",
+      "sha256": "9122e88e189da28e4b187294e1e847deed5366474714b2aad26482fbeb9b19b1",
+      "bytes": 1277
+    },
+    {
+      "path": "_asset_library_blendkit/tests/test_intake_attempts.py",
+      "source": "_asset_library_blendkit/tests/test_intake_attempts.py",
+      "sha256": "4c62a2c83c7487377f0c38e60be486a8ed421674ec2a51700cfe04b17687c042",
+      "bytes": 1350
+    },
+    {
+      "path": "_asset_library_blendkit/tests/test_library.py",
+      "source": "_asset_library_blendkit/tests/test_library.py",
+      "sha256": "1a141d58f1a4dc73acc559de7f26bdcc7bf30dd94ff4bcd4e218077a8ce32e59",
+      "bytes": 6019
+    },
+    {
+      "path": "_asset_library_blendkit/tests/test_seeded_subset.py",
+      "source": "_asset_library_blendkit/tests/test_seeded_subset.py",
+      "sha256": "2ca590ecbcb85d35dd2772d0da2a3615e4e98487026edc0d8bdce03e24731410",
+      "bytes": 1226
+    },
+    {
+      "path": "_asset_library_blendkit/tests/test_surface_eligibility.py",
+      "source": "_asset_library_blendkit/tests/test_surface_eligibility.py",
+      "sha256": "b1abb1df151a934cf4b95ec3d1aff1c630bf78835c43366980c81af6d7d81421",
+      "bytes": 1184
+    },
+    {
+      "path": "_asset_library_blendkit/tests/test_surface_geometry.py",
+      "source": "_asset_library_blendkit/tests/test_surface_geometry.py",
+      "sha256": "6c9c2a3051892f30b8f6e5a62d723543f8468e905f7e716b06a96f453a80a56f",
+      "bytes": 1680
+    },
+    {
+      "path": "_asset_library_blendkit/schemas/asset.schema.json",
+      "source": "_asset_library_blendkit/schemas/asset.schema.json",
+      "sha256": "59eb5e0517d986ec2f8d2623005d5bede3f01b2d1247cc0e32d4cbec1cb897aa",
+      "bytes": 8475
+    },
+    {
+      "path": "_asset_library_blendkit/config/scenarios.json",
+      "source": "_asset_library_blendkit/config/scenarios.json",
+      "sha256": "2d3c3e86576c7080449f4071a6480b7574f8504b85303bfb56bac499252b5592",
+      "bytes": 3130
+    },
+    {
+      "path": "_asset_library_blendkit/config/rights_scopes.json",
+      "source": "_asset_library_blendkit/config/rights_scopes.json",
+      "sha256": "79aa162d79358e2c002b4c932a4d43098aeadb23c4939974aab692ed7efa005c",
+      "bytes": 784
+    },
+    {
+      "path": "_asset_library_blendkit/config/requested_count_ranges.json",
+      "source": "_asset_library_blendkit/config/requested_count_ranges.json",
+      "sha256": "13476cb6f159bf13d6eae9f0af0231bb5015bd12cbc632dc2c6470b9fde8b4ee",
+      "bytes": 156
+    },
+    {
+      "path": "_asset_library_blendkit/config/conversion_job.example.json",
+      "source": "_asset_library_blendkit/config/conversion_job.example.json",
+      "sha256": "d6c07af375abc164820596adc2ddf5813bf6644930ba9db05606c9408a26d7e8",
+      "bytes": 501
+    },
+    {
+      "path": "docs/common_core/Common_Core_V1_Architecture_Contracts.md",
+      "source": "_common_core_planning/Common_Core_V1_Architecture_Contracts.md",
+      "sha256": "007e33ab4979f9757b2cffe8a1c706d9af21b361fff42c3ee8481b6a58e566ac",
+      "bytes": 17504
+    },
+    {
+      "path": "docs/common_core/Common_Core_V1_Claude_Independent_Review_2026-11-11.md",
+      "source": "_common_core_planning/Common_Core_V1_Claude_Independent_Review_2026-11-11.md",
+      "sha256": "94475f343ed80e502e83047f6ae192ce8b424ed30ae7a910c1025a338709cae8",
+      "bytes": 31870
+    },
+    {
+      "path": "docs/common_core/Common_Core_V1_Codex_Audit_2026-11-11.md",
+      "source": "_common_core_planning/Common_Core_V1_Codex_Audit_2026-11-11.md",
+      "sha256": "4218edffe27a5fd298e014bab00a959dd8c95a12559899f3b333f67440ac290a",
+      "bytes": 31254
+    },
+    {
+      "path": "docs/common_core/Common_Core_V1_Development_Roadmap.md",
+      "source": "_common_core_planning/Common_Core_V1_Development_Roadmap.md",
+      "sha256": "e05e427200ec810415e10e769a86e645aea6cd388c64f46f954a4cd780db6a26",
+      "bytes": 42049
+    },
+    {
+      "path": "docs/common_core/Common_Core_V1_Functional_Spec.md",
+      "source": "_common_core_planning/Common_Core_V1_Functional_Spec.md",
+      "sha256": "56f45cb3568ffcba1e695e4b59ed21f70c4aed96230a4eb1222b731079ac77a5",
+      "bytes": 10076
+    },
+    {
+      "path": "docs/common_core/Common_Core_V1_Integrated_Decision_Brief_2026-11-11.md",
+      "source": "_common_core_planning/Common_Core_V1_Integrated_Decision_Brief_2026-11-11.md",
+      "sha256": "d8de7d28e503b08fb6fb2b10ec6abc58fec8042230a49584314fa22f40fa2380",
+      "bytes": 8791
+    },
+    {
+      "path": "docs/common_core/Common_Core_V1_LOCAL_RC_HANDOFF.md",
+      "source": "_common_core_planning/Common_Core_V1_LOCAL_RC_HANDOFF.md",
+      "sha256": "cc009065309a1311fc8ffd7a59202d8b09a81e70596aae4323a85a28471726ed",
+      "bytes": 4770
+    },
+    {
+      "path": "docs/common_core/Common_Core_V1_Progress_2026-11-14.md",
+      "source": "_common_core_planning/Common_Core_V1_Progress_2026-11-14.md",
+      "sha256": "96adb1fd8376795ef3449f7a413df60af3a4490fcd21fc3e30bc9028b2b26195",
+      "bytes": 4867
+    },
+    {
+      "path": "docs/common_core/D-01_Approval_2026-11-14.md",
+      "source": "_common_core_planning/D-01_Approval_2026-11-14.md",
+      "sha256": "c67d6f0e7a9eddc50f873d75997dcf31f96f4fa60e76443dd5bdcbb98c20ef3b",
+      "bytes": 1429
+    },
+    {
+      "path": "docs/common_core/README.md",
+      "source": "_common_core_planning/README.md",
+      "sha256": "4ee271cdc711c1353fa7bbbdfd8315efd3afe86af72e0a02ca2d39f65c8c9e89",
+      "bytes": 3278
+    },
+    {
+      "path": "docs/asset_library_plan/task_plan.md",
+      "source": "_asset_library_blendkit/.planning/2026-11-15-blendkit-library/task_plan.md",
+      "sha256": "af024ec52c4f9b07d4b994d08332ae010c9de9987ccaa6f3d4216555009061a2",
+      "bytes": 12543
+    },
+    {
+      "path": "docs/asset_library_plan/progress.md",
+      "source": "_asset_library_blendkit/.planning/2026-11-15-blendkit-library/progress.md",
+      "sha256": "28af981b6a80ee07cdcb45e8a4f8cc68aff34d9c8c25bfcf699b82ced3451ae1",
+      "bytes": 33656
+    },
+    {
+      "path": "docs/asset_library_plan/findings.md",
+      "source": "_asset_library_blendkit/.planning/2026-11-15-blendkit-library/findings.md",
+      "sha256": "2eb8f99eb15b8782cae4d341b65b8619b43f59ed3df0cc2c48acd8314c14919a",
+      "bytes": 17416
+    }
+  ],
+  "common_core_commit": "e6e5c2240b8057a92a47200b4e2e19c60b3ed7c4"
+}

@@ -1,0 +1,11 @@
+{
+  "outcome": "PASS",
+  "payload_files": 248,
+  "files_including_audit": 249,
+  "bytes_excluding_audit": 1755559,
+  "secret_pattern_hits": [],
+  "forbidden_binary_files": [],
+  "source_hashes_verified": 239,
+  "line_endings": "Preserved by scoped .gitattributes * -text",
+  "policy": "Explicit code/metadata whitelist; no model, texture, PDF, SDK, profile or credential bytes."
+}

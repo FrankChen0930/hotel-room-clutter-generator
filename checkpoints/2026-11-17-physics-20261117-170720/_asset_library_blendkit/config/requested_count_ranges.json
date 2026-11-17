@@ -1,0 +1,15 @@
+{
+  "low": [
+    10,
+    20
+  ],
+  "medium": [
+    30,
+    50
+  ],
+  "high": [
+    70,
+    80
+  ],
+  "units": "generated object instances"
+}

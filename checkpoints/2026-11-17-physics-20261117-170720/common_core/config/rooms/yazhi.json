@@ -1,0 +1,594 @@
+{
+  "schema_version": "1.0",
+  "profile_id": "yazhi",
+  "profile_version": "1.1-fixed-review-cameras",
+  "source": {
+    "mount": "room_yazhi",
+    "path": "room/usd/YAZHI_TWIN.usd",
+    "sha256": "dac7989247f1012314dc9f4e5ff23c328fedcda3eea56a91a6cd44caa6ff1b64",
+    "bytes": 51014,
+    "root_prim": "/YAZHI_TWIN",
+    "closure_ref": "source_lock.json#rooms/room_yazhi/closure",
+    "closure_sha256": "87ee972d9f1c49304c1021ac72099e0a5b7de6651841cf3e72d7b0f1bf494b69"
+  },
+  "coordinates": {
+    "meters_per_unit": 1.0,
+    "up_axis": "Z",
+    "to_common": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "supports": [
+    {
+      "support_id": "round_table",
+      "prim": "/YAZHI_TWIN/Furniture/ROUND_BLACK_TABLE/CollisionProxies/RoundTop",
+      "collider": "/YAZHI_TWIN/Furniture/ROUND_BLACK_TABLE/CollisionProxies/RoundTop",
+      "kind": "primitive_top",
+      "local_frame": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "allowed_region": [
+        [
+          3.199999988079071,
+          7.1
+        ],
+        [
+          3.197833115138962,
+          7.144107711979847
+        ],
+        [
+          3.191353364489582,
+          7.187790642581599
+        ],
+        [
+          3.180623139671876,
+          7.2306281013040445
+        ],
+        [
+          3.165745778616577,
+          7.2722075400023485
+        ],
+        [
+          3.146864558443439,
+          7.312128525952212
+        ],
+        [
+          3.124161315624255,
+          7.3500065982359075
+        ],
+        [
+          3.097854694798229,
+          7.385476970311083
+        ],
+        [
+          3.0681980431045766,
+          7.418198043104576
+        ],
+        [
+          3.035476970311083,
+          7.447854694798228
+        ],
+        [
+          3.000006598235908,
+          7.474161315624255
+        ],
+        [
+          2.962128525952212,
+          7.496864558443439
+        ],
+        [
+          2.9222075400023484,
+          7.5157457786165764
+        ],
+        [
+          2.880628101304045,
+          7.530623139671876
+        ],
+        [
+          2.8377906425816,
+          7.541353364489582
+        ],
+        [
+          2.794107711979847,
+          7.547833115138962
+        ],
+        [
+          2.75,
+          7.549999988079071
+        ],
+        [
+          2.705892288020153,
+          7.547833115138962
+        ],
+        [
+          2.6622093574184,
+          7.541353364489582
+        ],
+        [
+          2.619371898695955,
+          7.530623139671876
+        ],
+        [
+          2.5777924599976516,
+          7.5157457786165764
+        ],
+        [
+          2.537871474047788,
+          7.496864558443439
+        ],
+        [
+          2.4999934017640926,
+          7.474161315624255
+        ],
+        [
+          2.464523029688917,
+          7.447854694798228
+        ],
+        [
+          2.4318019568954234,
+          7.418198043104576
+        ],
+        [
+          2.402145305201771,
+          7.385476970311083
+        ],
+        [
+          2.375838684375745,
+          7.3500065982359075
+        ],
+        [
+          2.353135441556561,
+          7.312128525952212
+        ],
+        [
+          2.334254221383423,
+          7.2722075400023485
+        ],
+        [
+          2.319376860328124,
+          7.2306281013040445
+        ],
+        [
+          2.308646635510418,
+          7.1877906425816
+        ],
+        [
+          2.302166884861038,
+          7.144107711979847
+        ],
+        [
+          2.300000011920929,
+          7.1
+        ],
+        [
+          2.302166884861038,
+          7.055892288020153
+        ],
+        [
+          2.308646635510418,
+          7.0122093574184
+        ],
+        [
+          2.3193768603281235,
+          6.969371898695955
+        ],
+        [
+          2.334254221383423,
+          6.927792459997652
+        ],
+        [
+          2.353135441556561,
+          6.887871474047787
+        ],
+        [
+          2.375838684375745,
+          6.849993401764092
+        ],
+        [
+          2.402145305201771,
+          6.8145230296889165
+        ],
+        [
+          2.4318019568954234,
+          6.781801956895423
+        ],
+        [
+          2.4645230296889165,
+          6.752145305201771
+        ],
+        [
+          2.499993401764092,
+          6.725838684375744
+        ],
+        [
+          2.537871474047788,
+          6.703135441556561
+        ],
+        [
+          2.577792459997651,
+          6.684254221383423
+        ],
+        [
+          2.619371898695955,
+          6.669376860328123
+        ],
+        [
+          2.6622093574184,
+          6.658646635510418
+        ],
+        [
+          2.705892288020153,
+          6.652166884861037
+        ],
+        [
+          2.75,
+          6.650000011920929
+        ],
+        [
+          2.7941077119798465,
+          6.652166884861037
+        ],
+        [
+          2.8377906425816,
+          6.658646635510418
+        ],
+        [
+          2.880628101304045,
+          6.669376860328123
+        ],
+        [
+          2.9222075400023484,
+          6.684254221383423
+        ],
+        [
+          2.962128525952212,
+          6.703135441556561
+        ],
+        [
+          3.0000065982359074,
+          6.725838684375744
+        ],
+        [
+          3.035476970311083,
+          6.752145305201771
+        ],
+        [
+          3.0681980431045766,
+          6.781801956895423
+        ],
+        [
+          3.0978546947982286,
+          6.8145230296889165
+        ],
+        [
+          3.124161315624255,
+          6.849993401764092
+        ],
+        [
+          3.146864558443439,
+          6.887871474047787
+        ],
+        [
+          3.165745778616577,
+          6.927792459997651
+        ],
+        [
+          3.180623139671876,
+          6.969371898695955
+        ],
+        [
+          3.191353364489582,
+          7.012209357418399
+        ],
+        [
+          3.197833115138962,
+          7.055892288020153
+        ]
+      ],
+      "edge_margin_m": 0.012,
+      "tags": [
+        "flat",
+        "amenity",
+        "round_table"
+      ],
+      "geometry_hash": "e8900e37cbb66ba2114d95ada37f02e8bb181c79f4f6cb4c2366b3ed5164e966",
+      "obstacles": []
+    },
+    {
+      "support_id": "cabinet",
+      "prim": "/YAZHI_TWIN/Furniture/BEDSIDE_CABINET/CollisionProxies/Top",
+      "collider": "/YAZHI_TWIN/Furniture/BEDSIDE_CABINET/CollisionProxies/Top",
+      "kind": "primitive_top",
+      "local_frame": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "allowed_region": [
+        [
+          5.960463234089275e-10,
+          5.545000005960464
+        ],
+        [
+          5.9604643443123e-10,
+          4.994999994039535
+        ],
+        [
+          0.46999999940395365,
+          4.994999994039535
+        ],
+        [
+          0.46999999940395354,
+          5.545000005960464
+        ]
+      ],
+      "edge_margin_m": 0.012,
+      "tags": [
+        "flat",
+        "amenity",
+        "cabinet"
+      ],
+      "geometry_hash": "7626bd8964826792c3f0d838c62dad04369627672679c744f91de07adc78ffb6",
+      "obstacles": []
+    },
+    {
+      "support_id": "bench",
+      "prim": "/YAZHI_TWIN/Furniture/WOODEN_BENCH/CollisionProxies/Seat",
+      "collider": "/YAZHI_TWIN/Furniture/WOODEN_BENCH/CollisionProxies/Seat",
+      "kind": "primitive_top",
+      "local_frame": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "allowed_region": [
+        [
+          3.294999996423721,
+          5.55
+        ],
+        [
+          3.6000000035762785,
+          5.55
+        ],
+        [
+          3.6000000035762785,
+          7.05
+        ],
+        [
+          3.294999996423721,
+          7.05
+        ]
+      ],
+      "edge_margin_m": 0.012,
+      "tags": [
+        "flat",
+        "amenity",
+        "bench"
+      ],
+      "geometry_hash": "b803a44537a14dd2449bb347e1c3e0f1f368b3650627d975763477d4643d3bc6",
+      "obstacles": []
+    }
+  ],
+  "forbidden_regions": [],
+  "source_objects": [
+    {
+      "object_id": "BED_LEFT",
+      "prim": "/YAZHI_TWIN/Furniture/BED_LEFT",
+      "mobility": "FIXED",
+      "allowed_operations": []
+    },
+    {
+      "object_id": "BED_RIGHT",
+      "prim": "/YAZHI_TWIN/Furniture/BED_RIGHT",
+      "mobility": "FIXED",
+      "allowed_operations": []
+    },
+    {
+      "object_id": "BEDSIDE_CABINET",
+      "prim": "/YAZHI_TWIN/Furniture/BEDSIDE_CABINET",
+      "mobility": "FIXED",
+      "allowed_operations": []
+    },
+    {
+      "object_id": "VANITY",
+      "prim": "/YAZHI_TWIN/Furniture/VANITY",
+      "mobility": "FIXED",
+      "allowed_operations": []
+    },
+    {
+      "object_id": "TV_CABINET",
+      "prim": "/YAZHI_TWIN/Furniture/TV_CABINET",
+      "mobility": "FIXED",
+      "allowed_operations": []
+    },
+    {
+      "object_id": "FLOATING_BLACK_CABINET",
+      "prim": "/YAZHI_TWIN/Furniture/FLOATING_BLACK_CABINET",
+      "mobility": "FIXED",
+      "allowed_operations": []
+    },
+    {
+      "object_id": "WOODEN_BENCH",
+      "prim": "/YAZHI_TWIN/Furniture/WOODEN_BENCH",
+      "mobility": "FIXED",
+      "allowed_operations": []
+    },
+    {
+      "object_id": "WARDROBE",
+      "prim": "/YAZHI_TWIN/Furniture/WARDROBE",
+      "mobility": "FIXED",
+      "allowed_operations": []
+    },
+    {
+      "object_id": "LUGGAGE_RACK",
+      "prim": "/YAZHI_TWIN/Furniture/LUGGAGE_RACK",
+      "mobility": "FIXED",
+      "allowed_operations": []
+    },
+    {
+      "object_id": "ROUND_BLACK_TABLE",
+      "prim": "/YAZHI_TWIN/Furniture/ROUND_BLACK_TABLE",
+      "mobility": "FIXED",
+      "allowed_operations": []
+    }
+  ],
+  "override_allowlist": [],
+  "test_freeze": {
+    "body_mode": "kinematic",
+    "joint_mode": "preserve"
+  },
+  "cameras": [
+    {
+      "camera_id": "overview",
+      "purpose": "FIXED_VISUAL_ACCEPTANCE",
+      "eye": [
+        1.8,
+        1.0,
+        2.3
+      ],
+      "target": [
+        1.8,
+        5.0,
+        0.6
+      ],
+      "focal": 14.0
+    },
+    {
+      "camera_id": "round_table",
+      "purpose": "FIXED_VISUAL_ACCEPTANCE",
+      "eye": [
+        3.3,
+        6.0,
+        1.8
+      ],
+      "target": [
+        2.75,
+        7.1,
+        0.74
+      ],
+      "focal": 27.0
+    },
+    {
+      "camera_id": "cabinet",
+      "purpose": "FIXED_VISUAL_ACCEPTANCE",
+      "eye": [
+        0.885,
+        5.62,
+        1.63
+      ],
+      "target": [
+        0.235,
+        5.27,
+        0.605
+      ],
+      "focal": 24.0
+    },
+    {
+      "camera_id": "bench",
+      "purpose": "FIXED_VISUAL_ACCEPTANCE",
+      "eye": [
+        2.55,
+        6.3,
+        1.65
+      ],
+      "target": [
+        3.4475,
+        6.3,
+        0.45
+      ],
+      "focal": 18.0
+    }
+  ],
+  "provenance": {
+    "kind": "MEASURED_SOURCE_COLLIDERS",
+    "human_confirmed": false
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "outcome": "PASS",
+  "trials": [
+    {
+      "run": "physics_hold_high706_a001",
+      "outcome": "PASS",
+      "registered_bodies": 121,
+      "seconds": 30.0,
+      "steps": 3600,
+      "perturb_seed": 1706,
+      "mass_factor_range": [
+        0.8,
+        1.2
+      ],
+      "horizontal_center_of_mass_range_m": [
+        -0.001,
+        0.001
+      ],
+      "final2s_failed_bodies": [],
+      "result_sha256": "fd62f0455d4db49110f75b8e57822f961c6a0233a88851ce6b2d6f42504e1202"
+    },
+    {
+      "run": "physics_hold_high707_a001",
+      "outcome": "PASS",
+      "registered_bodies": 122,
+      "seconds": 30.0,
+      "steps": 3600,
+      "perturb_seed": 1707,
+      "mass_factor_range": [
+        0.8,
+        1.2
+      ],
+      "horizontal_center_of_mass_range_m": [
+        -0.001,
+        0.001
+      ],
+      "final2s_failed_bodies": [],
+      "result_sha256": "d7f59af0a45d0bb092fb31c359b7b76874ca5c6858a3851cdb5965eea8084439"
+    }
+  ],
+  "scope": "Two deterministic mass/COM sensitivity trials, not a Bayesian stability probability estimate or physical calibration"
+}

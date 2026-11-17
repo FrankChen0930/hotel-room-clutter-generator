@@ -1,0 +1,9 @@
+{
+  "native_exit_code": 0,
+  "timed_out": false,
+  "elapsed_s": 247.71799999999348,
+  "peak_working_set_bytes": 11365429248,
+  "termination_reason": null,
+  "outcome": "PASS",
+  "scope": "native capture process only; visual review separate"
+}

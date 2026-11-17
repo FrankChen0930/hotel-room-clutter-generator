@@ -1,0 +1,367 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:hotel-room:blendkit-asset-library:1.0",
+  "title": "Blendkit source and qualification record",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "assets"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/asset"
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "artifact": {
+      "type": "object",
+      "required": [
+        "path",
+        "sha256"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        }
+      }
+    },
+    "asset": {
+      "type": "object",
+      "required": [
+        "asset_id",
+        "name",
+        "author",
+        "category",
+        "situations",
+        "appearance_family",
+        "geometry_identity",
+        "state_id",
+        "status",
+        "last_completed_stage",
+        "source",
+        "rights",
+        "dimensions_m",
+        "physics",
+        "usd",
+        "evidence",
+        "blockers",
+        "semantic_category",
+        "hotel_use_scenarios",
+        "geometry_family",
+        "visual_family",
+        "object_form",
+        "physical_tags",
+        "possible_placement_regions",
+        "quality_decision",
+        "quality_reason",
+        "robotics_relevance",
+        "robotics_note",
+        "deformation_solved"
+      ],
+      "properties": {
+        "asset_id": {
+          "type": "string",
+          "pattern": "^bk-"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "author": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "category": {
+          "type": "string"
+        },
+        "situations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "appearance_family": {
+          "type": "string"
+        },
+        "geometry_identity": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "variant_of": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "state_id": {
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "DISCOVERED",
+            "ACQUIRED",
+            "CONVERTED",
+            "VISUAL_ACCEPTED",
+            "GENERATION_READY",
+            "REJECTED",
+            "BLOCKED"
+          ]
+        },
+        "last_completed_stage": {
+          "enum": [
+            "DISCOVERED",
+            "ACQUIRED",
+            "CONVERTED",
+            "VISUAL_ACCEPTED",
+            "GENERATION_READY"
+          ]
+        },
+        "source": {
+          "type": "object",
+          "required": [
+            "provider",
+            "asset_base_id",
+            "version_id",
+            "url",
+            "original_file",
+            "acquisition_method",
+            "receipt"
+          ],
+          "properties": {
+            "provider": {
+              "const": "Blendkit"
+            },
+            "asset_base_id": {
+              "type": "string",
+              "format": "uuid"
+            },
+            "version_id": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "url": {
+              "type": "string",
+              "format": "uri"
+            },
+            "original_file": {
+              "anyOf": [
+                {
+                  "$ref": "#/$defs/artifact"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "receipt": {
+              "anyOf": [
+                {
+                  "$ref": "#/$defs/artifact"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "acquisition_method": {
+              "enum": [
+                null,
+                "OFFICIAL_ADDON"
+              ]
+            }
+          }
+        },
+        "rights": {
+          "type": "object",
+          "required": [
+            "license",
+            "internal_use",
+            "redistribution",
+            "extractable_usd",
+            "requires_user_acquisition",
+            "decision",
+            "decision_evidence"
+          ],
+          "properties": {
+            "license": {
+              "enum": [
+                "CC0",
+                "Royalty Free",
+                "UNKNOWN"
+              ]
+            },
+            "internal_use": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "redistribution": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "extractable_usd": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "requires_user_acquisition": {
+              "type": "boolean"
+            },
+            "decision": {
+              "type": "string"
+            },
+            "decision_evidence": {
+              "anyOf": [
+                {
+                  "$ref": "#/$defs/artifact"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          }
+        },
+        "dimensions_m": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "array",
+              "items": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              "minItems": 3,
+              "maxItems": 3
+            }
+          ]
+        },
+        "physics": {
+          "type": "object",
+          "required": [
+            "mode"
+          ],
+          "properties": {
+            "mode": {
+              "enum": [
+                "UNQUALIFIED",
+                "STATIC_ONLY",
+                "DYNAMIC_QUALIFIED"
+              ]
+            }
+          }
+        },
+        "usd": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/artifact"
+            },
+            {
+              "type": "object",
+              "maxProperties": 0
+            }
+          ]
+        },
+        "evidence": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/$defs/artifact"
+          }
+        },
+        "blockers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "semantic_category": {
+          "type": "string"
+        },
+        "hotel_use_scenarios": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "geometry_family": {
+          "type": "string"
+        },
+        "visual_family": {
+          "type": "string"
+        },
+        "object_form": {
+          "enum": [
+            "rigid",
+            "soft-like",
+            "S0-like",
+            "static_only"
+          ]
+        },
+        "physical_tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "possible_placement_regions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "quality_decision": {
+          "enum": [
+            "accepted",
+            "blocked",
+            "rejected"
+          ]
+        },
+        "quality_reason": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "robotics_relevance": {
+          "enum": [
+            "scene_only",
+            "perception_candidate",
+            "manipulation_candidate",
+            "soft_object_research_candidate"
+          ]
+        },
+        "robotics_note": {
+          "type": "string"
+        },
+        "deformation_solved": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}
