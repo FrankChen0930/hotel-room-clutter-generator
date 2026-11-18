@@ -6,13 +6,14 @@
 
 **目前隨機化的是住客雜物，主要家具配置固定。** 床、桌、櫃、椅保留原始布局；原場景剛體／關節參與模擬，不代表已實作家具重新配置。
 
-![Hotel705 本機擴充資產場景](docs/previews/library-high706.png)
+![實際可下載的 Hotel705 原生道具場景](docs/previews/public-high706.png)
 
-上圖使用**本機研究資產池**。公開下載範例使用已確認房間散布同意的 Hotel705 原生道具，種類較少；下載包不含 Blendkit 模型。
+上圖與下方六組圖，都是**實際可下載的場景**：完整 Hotel705 房間、原有家具，以及五個原房間道具來源。**不含 Blendkit 模型**，因此會有較多重複物件。102 種資產的本機研究預覽另列於本頁下方。
 
-| Low | Medium | High |
-| --- | --- | --- |
-| ![Low](docs/previews/library-low706.png) | ![Medium](docs/previews/library-medium706.png) | ![High](docs/previews/library-high706.png) |
+| Seed | Low | Medium | High |
+| --- | --- | --- | --- |
+| 706 | ![Low706](docs/previews/public-low706.png) | ![Medium706](docs/previews/public-medium706.png) | ![High706](docs/previews/public-high706.png) |
+| 707 | ![Low707](docs/previews/public-low707.png) | ![Medium707](docs/previews/public-medium707.png) | ![High707](docs/previews/public-high707.png) |
 
 ## 目前成果
 
@@ -27,7 +28,7 @@
 
 完整解壓縮並保留 `assets/`，開啟 `clean_room.usda`，或選擇下列場景。一般版保留模擬後的生成物件姿態；`_dynamic.usda` 啟用已測試的剛體設定。僅拿走單一 USD 而省略依賴檔案，無法完整載入。
 
-![公開版原生道具範例](docs/previews/public-high706.png)
+
 
 **公開範例使用五個原房間道具紀錄，種類有限且含重複實例**；與擴充 Blendkit 研究池分開，不增加資產庫的獨立數量。原始來源、同意紀錄、封裝檔案對照均保留於下載包。
 
@@ -52,6 +53,14 @@
 
 指令會生成兩個 Seed 的三種程度，執行有上限的物理回饋重採樣，輸出 settled／dynamic USD，檢查來源 SHA、物理、Replay 與依賴，並拍攝實際影像。新結果位於 `research/_asset_library_blendkit/runs/`；每次使用新的 tag。公開範例流程不需 Blendkit 登入、訂閱或下載 API。
 
+## 本機研究預覽：模型不在下載包內
+
+以下圖片使用較豐富的102種獨立 Blendkit 本機資產池，是研究成果預覽，**不是目前的公開下載場景**。
+
+| Low | Medium | High |
+| --- | --- | --- |
+| ![Low](docs/previews/library-low706.png) | ![Medium](docs/previews/library-medium706.png) | ![High](docs/previews/library-high706.png) |
+
 ## 資產及授權範圍
 
 `docs/asset_sources.json` 保存 Blendkit 原始 ID、作者、來源網址、版本、來源 SHA 與不同權利門檻。免費取得、本機技術通過，不等於可散布可抽取 USD。Blendkit 的 GENERATION_READY／公開 Starter 仍為 0／0，與另獲同意的原房間範例分開計算。
@@ -59,7 +68,3 @@
 專案維護者於2026/11/18確認 Hotel705 房間及原生道具的作者／實驗室散布同意；未對第三方內容宣告概括授權。詳見 [權利範圍](RIGHTS.md)、[授權狀態](LICENSE_STATUS.md)、[交付範圍](docs/DELIVERY_SCOPE.md)。保留原房間出處；不含 Blendkit 原始模型／貼圖、Add-on、使用者設定、帳密、SDK 或論文 PDF。
 
 結果代表指定案例的研究驗證，不是機器人安全或任意場景的物理認證。
-
-## 研究進度簡報
-
-[11/19 研究報告（可編輯 PowerPoint）](reports/2026-11-19/hotel_room_weekly_20261119_editable.pptx)

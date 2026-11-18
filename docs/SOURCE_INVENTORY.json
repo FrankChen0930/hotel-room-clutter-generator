@@ -9,15 +9,15 @@
     },
     {
       "path": ".gitignore",
-      "git_blob": "3b5f7eebaf703b343ee834dfd953b42ab5970c88",
-      "sha256": "d7e77887bf50cde4be05505a48545a19dcd0b06d7b922d89dbdde6e9dec874d7",
-      "bytes": 1380
+      "git_blob": "022d7f79aad27b9a8625bbd7c777fb88732e739a",
+      "sha256": "772a0dd07166f6975a027fe388dd67ac4cd11c5bdeb38edaa2917ce113203c6b",
+      "bytes": 1393
     },
     {
       "path": "LICENSE_STATUS.md",
-      "git_blob": "67889da46bdc07e558cdb2640d35192607b84b37",
-      "sha256": "3647c80b920cf97a356a0958a53e46d45d6e56f77fe2aea80806dd94123cd7c7",
-      "bytes": 853
+      "git_blob": "051eeaa2acac5e9e76e464fdfc40426d3195cd72",
+      "sha256": "246d4c02a1cbeb2a0d1eb23e34e2ffe65960fdf3f930a9c4015fcadad77e90b8",
+      "bytes": 889
     },
     {
       "path": "PROJECT_STATUS.json",
@@ -27,21 +27,21 @@
     },
     {
       "path": "README.md",
-      "git_blob": "c8d08b41672f9ff6c0dd40376920d7b34d20ff27",
-      "sha256": "cfc2d3cdc3926362d087898898c94cad72a7b696fea039376a01a1a2c789ff0c",
-      "bytes": 5829
+      "git_blob": "d7741af9c9eb48ba3688c346afcd44591438594e",
+      "sha256": "a160d60e96d8ffe254b46e973e52a1ed1b338393e6dbdd95d054ade1166d846d",
+      "bytes": 6253
     },
     {
       "path": "README.zh-TW.md",
-      "git_blob": "99c477b2dbb0128d72318f512e74ed4773562438",
-      "sha256": "f8333156cb5399436572131a5664cc41d25b1d6a026885532892272a5a83ff1a",
-      "bytes": 4938
+      "git_blob": "3ab1e6cadc776b44cc9cff4e3b189f84bf58298c",
+      "sha256": "fabb60a6d4cd12f77fb209c981bde7254976a52048b2102912ed938a1f7ea7d0",
+      "bytes": 5392
     },
     {
       "path": "RIGHTS.md",
-      "git_blob": "1e1c04c1a89a563ab6a858a2bfc9501da968b3ff",
-      "sha256": "32250431f592cc08ef1b7d9d19bb444de4b70dca290701f46156c756b50c918f",
-      "bytes": 2283
+      "git_blob": "ce2782c6ef1b37d04f4ce1048c05dede082bdd0d",
+      "sha256": "17536feb035b487fc8baef15cadeed78fe0ab058c89dfb1befa20e263f497e08",
+      "bytes": 2307
     },
     {
       "path": "VERSION",
@@ -51,9 +51,9 @@
     },
     {
       "path": "docs/DELIVERY_SCOPE.md",
-      "git_blob": "b214b5ae1f7299bdea258d7d61a080f500c999b2",
-      "sha256": "6d2522ae2da9437c5097b0ee1367513d199324810a3b745c09a42d410c0389b3",
-      "bytes": 4354
+      "git_blob": "a8aa132337494b77c0d290efdb0a237f8ff97e3a",
+      "sha256": "0574d413cf8c8f1f84f4086556906c13af94a37597753be777093efcc3223e7a",
+      "bytes": 4350
     },
     {
       "path": "docs/PACKAGE_STATUS.json",
@@ -138,24 +138,6 @@
       "git_blob": "a30816d8d0dfb2e5b342dd1377597d14260f6ad3",
       "sha256": "ca15f86246c2485da68e57bf54d76dbb160b01b6a66c1965bdb797b2ace40d78",
       "bytes": 1896
-    },
-    {
-      "path": "docs/evidence/presentation/artifact_verification.json",
-      "git_blob": "7e447b985eb1f84dd35f8def9aad7a5c3facade9",
-      "sha256": "08d2720dee3fbb53ab05c0d3a1b13f1cda37cd4f5eef7947ee0ee7bc33eb4bda",
-      "bytes": 2832
-    },
-    {
-      "path": "docs/evidence/presentation/asset_funnel_audit.json",
-      "git_blob": "35ff52633d043bcf32900fcc382df204f837e5a4",
-      "sha256": "fb575692287486653019fa6826b7c9103b48856c2f5b912af804a3f387cef5fb",
-      "bytes": 73370
-    },
-    {
-      "path": "docs/evidence/presentation/visual_review.json",
-      "git_blob": "cd97b73db724749bbefad8ff784352685993ed44",
-      "sha256": "402cb710bca7078efa6efb42609a56f087a9a3fb7937f213a5d30eeb0859ae0c",
-      "bytes": 3852
     },
     {
       "path": "docs/evidence/protected_baseline.json",
@@ -306,12 +288,6 @@
       "git_blob": "37d19ce533c33d514c110585e75c8eaecda4cc13",
       "sha256": "d469b37a9124aa508e761ec1d70e10fdbf7a73dffcf264669501e1c317274eaa",
       "bytes": 69
-    },
-    {
-      "path": "reports/2026-11-19/hotel_room_weekly_20261119_editable.pptx",
-      "git_blob": "b4548276ce56859a9a0e82d17711bb997eb10a31",
-      "sha256": "2b3cef29a92c57dcc2c1cd3eb64bb0129db0269504bea652cff47436ae51482e",
-      "bytes": 9070331
     },
     {
       "path": "research/_asset_library_blendkit/artifacts/legacy_density_pool_a001/index.json",
@@ -1161,9 +1137,9 @@
     },
     {
       "path": "research/_asset_library_blendkit/scripts/prepare_main_delivery.py",
-      "git_blob": "81534264bd0f208d5795c1f04dc5b05dc72f90a7",
-      "sha256": "3f807a57d5608bf43c7164a936318bd1564365936acabf5c664c7d5d645078fb",
-      "bytes": 10791
+      "git_blob": "d3b2cb0de7177a62f5a126e3d17be32c912d2863",
+      "sha256": "d0df96b6be57a2fa7f0e65ea5bca092eca16535f7d10ba772f60e750462f12a7",
+      "bytes": 10275
     },
     {
       "path": "research/_asset_library_blendkit/scripts/prepare_public_runtime.py",
@@ -1509,9 +1485,9 @@
     },
     {
       "path": "research/_asset_library_blendkit/scripts/verify_main_delivery.py",
-      "git_blob": "33fe0cf3d929e6621ff880b6e1633b883351fc21",
-      "sha256": "3fd7ee632a5e668f846ceaf0c5c790138c6fb8cb330612077ee8160f7b2e2100",
-      "bytes": 5627
+      "git_blob": "362892b8c113882665a164f4698c2b0f85903669",
+      "sha256": "bead8b8a9fb36c9d497ee661bf04c80aed496f5753ad39eea11cb78c4793449b",
+      "bytes": 5579
     },
     {
       "path": "research/_asset_library_blendkit/scripts/verify_physics_scenes.py",
@@ -1539,9 +1515,9 @@
     },
     {
       "path": "research/_asset_library_blendkit/scripts/write_delivery_readmes.py",
-      "git_blob": "6ecde49b4a56d277bf08494873018fbadf225638",
-      "sha256": "63745afdfbb25c5084227eedeb72c9be1852c28cf046ae5175e8a7cef52f9214",
-      "bytes": 11627
+      "git_blob": "954df3bd82963ef829af6331f633d18dbfcc79cd",
+      "sha256": "c01872915ee6f5ddf4937feef0e99b6c18896bb803d93a166f8523d3130ccc60",
+      "bytes": 13997
     },
     {
       "path": "research/_asset_library_blendkit/tests/check_bump_only_bake.py",
@@ -2456,5 +2432,5 @@
       "bytes": 4730
     }
   ],
-  "scope": "Exact staged Git blob bytes, after configured line-ending filters. Inventory excludes itself to avoid a self-reference. Publication commit/push receipt is recorded separately."
+  "scope": "Exact staged Git blob bytes after configured line-ending filters; excludes itself. Personal presentations excluded. Publication receipt recorded separately."
 }

@@ -1,6 +1,6 @@
 # Rights and attribution
 
-The project maintainer explicitly authorized this GitHub publication of source, research metadata, actual rendered previews and the report. No blanket open-source license has been assigned.
+The project maintainer explicitly authorized this GitHub publication of source, research metadata and actual rendered scene previews. Personal presentations are excluded. No blanket open-source license has been assigned.
 
 ## Hotel705 room and native examples
 
@@ -12,7 +12,7 @@ The clean room, its textures and five extracted native prop source records fall 
 
 Original and converted Blendkit models/textures are **excluded**. `docs/asset_sources.json` contains curated provenance and distinct rights fields. Free acquisition or successful local testing does not imply permission to distribute extractable USD, package a model library or output reusable third-party models. Unknown rights remain unknown;102 local technical acceptances and3 variants do not create public Starter eligibility. Public Blendkit GENERATION_READY/Starter counts remain0/0.
 
-The richer local-pool README/report images are2D rendered results, explicitly distinguished from the smaller downloadable original-room examples.
+The richer local-pool README images are2D rendered results, explicitly distinguished from the smaller downloadable original-room examples.
 
 ## Code, existing toolkit and excluded software
 

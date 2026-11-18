@@ -90,11 +90,7 @@ For new scenes, run research/_asset_library_blendkit/scripts/run_public_workflow
         for name in ['verification.json','visual_handoff.json','scene_quality_summary.json']:copy(run/name,proof/label/name)
     for name in ['clean_room_acceptance.json','geometry_preservation.json']:copy(clean/name,proof/'clean_room'/name)
     copy(permission,proof/'hotel705_permission.json')
-    for name in ['asset_funnel_audit.json','visual_review.json','artifact_verification.json']:
-        copy(ROOT.parent/'presentation/2026-11-19/weekly-output'/name,proof/'presentation'/name)
-    copy(ROOT.parent/'presentation/2026-11-19/weekly-output/hotel_room_weekly_20261119_editable.pptx',checkout/'reports/2026-11-19/hotel_room_weekly_20261119_editable.pptx')
-    # Keep raw local backlog reasons private; public explanation is the aggregate only.
-    audit_path=proof/'presentation/asset_funnel_audit.json';audit=read(audit_path);audit.pop('rejected_or_pending',None);write(audit_path,audit)
+    # Personal slides and slide-validation artifacts stay outside this repository.
     print('MAIN_DELIVERY_ASSEMBLED',current['local_technical_ready'],'independent assets; ZIP',archive.stat().st_size,'bytes')
 
 if __name__=='__main__':main()

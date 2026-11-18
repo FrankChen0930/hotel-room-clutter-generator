@@ -138,8 +138,19 @@ This is research evidence for the included cases, not a robot-safety or universa
 
 結果代表指定案例的研究驗證，不是機器人安全或任意場景的物理認證。
 '''
-    english+='\n## Progress presentation\n\n[19 November research report (editable PowerPoint)](reports/2026-11-19/hotel_room_weekly_20261119_editable.pptx)\n'
-    chinese+='\n## 研究進度簡報\n\n[11/19 研究報告（可編輯 PowerPoint）](reports/2026-11-19/hotel_room_weekly_20261119_editable.pptx)\n'
+    public_gallery='''| Seed | Low | Medium | High |
+| --- | --- | --- | --- |
+| 706 | ![Low706](docs/previews/public-low706.png) | ![Medium706](docs/previews/public-medium706.png) | ![High706](docs/previews/public-high706.png) |
+| 707 | ![Low707](docs/previews/public-low707.png) | ![Medium707](docs/previews/public-medium707.png) | ![High707](docs/previews/public-high707.png) |
+'''
+    english=english.replace('![Hotel705 — expanded local library](docs/previews/library-high706.png)','![Downloadable Hotel705 native-prop scene](docs/previews/public-high706.png)')
+    english=english.replace('The image shows the **local research pool**. The downloadable examples use the original Hotel705 props with confirmed room redistribution permission; their smaller prop pool is shown separately below. Blendkit models are not included in the download.','The image and six-case gallery below show the **actual downloadable scenes**: the complete Hotel705 room, original furniture, and only five original-room prop source records. **No Blendkit models are included.** Repeated objects are expected. The separate102-asset local research gallery is farther down this page.')
+    english=english.replace(gallery,public_gallery).replace('![Public native-prop example](docs/previews/public-high706.png)','')
+    english=english.replace('## Asset and rights scopes','## Local research gallery — models excluded from download\n\nThese images use the richer102-independent-asset local Blendkit pool. They are research previews, **not** the downloadable scene package.\n\n'+gallery+'\n## Asset and rights scopes')
+    chinese=chinese.replace('![Hotel705 本機擴充資產場景](docs/previews/library-high706.png)','![實際可下載的 Hotel705 原生道具場景](docs/previews/public-high706.png)')
+    chinese=chinese.replace('上圖使用**本機研究資產池**。公開下載範例使用已確認房間散布同意的 Hotel705 原生道具，種類較少；下載包不含 Blendkit 模型。','上圖與下方六組圖，都是**實際可下載的場景**：完整 Hotel705 房間、原有家具，以及五個原房間道具來源。**不含 Blendkit 模型**，因此會有較多重複物件。102 種資產的本機研究預覽另列於本頁下方。')
+    chinese=chinese.replace(gallery,public_gallery).replace('![公開版原生道具範例](docs/previews/public-high706.png)','')
+    chinese=chinese.replace('## 資產及授權範圍','## 本機研究預覽：模型不在下載包內\n\n以下圖片使用較豐富的102種獨立 Blendkit 本機資產池，是研究成果預覽，**不是目前的公開下載場景**。\n\n'+gallery+'\n## 資產及授權範圍')
     archive=checkout/'docs/archive/README_before_20261119.md';archive.parent.mkdir(parents=True,exist_ok=True)
     if not archive.exists():archive.write_bytes((checkout/'README.md').read_bytes())
     (checkout/'README.md').write_text(english,encoding='utf-8');(checkout/'README.zh-TW.md').write_text(chinese,encoding='utf-8')

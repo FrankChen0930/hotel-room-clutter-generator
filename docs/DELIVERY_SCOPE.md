@@ -32,8 +32,8 @@ Adjust the executable path for a different installation. Included native-room in
 
 Optional asset-acquisition/local research scripts require legally acquired inputs and configuration; the public entrypoint above is the supported included workflow. No SDK is distributed. Proof summaries are under `docs/evidence/`.
 
-## Reports and publishing
+## Repository and publishing scope
 
-`reports/2026-11-19/` contains the editable16-page functional progress presentation. All16 GDI previews and structural checks passed; native PowerPoint export verification is separate. Code/model rights are scoped in the root rights documents; no blanket open-source license is selected.
+This repository distributes scenes, code, source attribution and scene/code verification evidence. Personal progress presentations and slide-review artifacts are excluded. Code/model rights are scoped in the root rights documents; no blanket open-source license is selected.
 
 Publication is a normal non-force push to existing `main`. The desktop publisher records success only when GitHub confirms the exact pushed HEAD. A prepared local commit is not a verified push.

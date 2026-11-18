@@ -1,6 +1,6 @@
 # License status
 
-- Project source/metadata/preview/report publication:authorized by the maintainer; no blanket open-source license selected.
+- Project source/metadata/scene-preview publication:authorized by the maintainer; no blanket open-source license selected. Personal presentations are excluded.
 - Hotel705 room/native examples:maintainer-confirmed author/laboratory redistribution permission; see `docs/evidence/hotel705_permission.json` and the ZIP. Preserve attribution and scope.
 - Blendkit extractable USD/library redistribution:not cleared; binaries/textures excluded.102 local technical acceptances are distinct from0 public Starter/GENERATION_READY assets.
 - Existing YAZHI toolkit:retained with its specific scope/history; no new YAZHI model payload.

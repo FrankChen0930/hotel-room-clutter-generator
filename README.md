@@ -6,13 +6,14 @@ Seeded hotel guest clutter, measured placement surfaces, full-room rigid simulat
 
 **Randomization scope: guest clutter only.** The original bed, desk, cabinet and chair layout is retained. Simulation of authored room bodies/joints is separate from furniture-layout randomization, which is not implemented here.
 
-![Hotel705 — expanded local library](docs/previews/library-high706.png)
+![Downloadable Hotel705 native-prop scene](docs/previews/public-high706.png)
 
-The image shows the **local research pool**. The downloadable examples use the original Hotel705 props with confirmed room redistribution permission; their smaller prop pool is shown separately below. Blendkit models are not included in the download.
+The image and six-case gallery below show the **actual downloadable scenes**: the complete Hotel705 room, original furniture, and only five original-room prop source records. **No Blendkit models are included.** Repeated objects are expected. The separate102-asset local research gallery is farther down this page.
 
-| Low | Medium | High |
-| --- | --- | --- |
-| ![Low](docs/previews/library-low706.png) | ![Medium](docs/previews/library-medium706.png) | ![High](docs/previews/library-high706.png) |
+| Seed | Low | Medium | High |
+| --- | --- | --- | --- |
+| 706 | ![Low706](docs/previews/public-low706.png) | ![Medium706](docs/previews/public-medium706.png) | ![High706](docs/previews/public-high706.png) |
+| 707 | ![Low707](docs/previews/public-low707.png) | ![Medium707](docs/previews/public-medium707.png) | ![High707](docs/previews/public-high707.png) |
 
 ## Current results
 
@@ -27,7 +28,7 @@ The image shows the **local research pool**. The downloadable examples use the o
 
 Extract the complete ZIP and keep its `assets/` folder. Open `clean_room.usda` for the unmodified room arrangement, or choose a scene below. Normal scenes retain the settled generated poses; `_dynamic.usda` variants activate the tested rigid setup. An isolated USD file without its dependencies is insufficient.
 
-![Public native-prop example](docs/previews/public-high706.png)
+
 
 **Public examples use five original-room prop records with limited diversity and repeated instances.** They are independent from the expanded Blendkit research pool and do not increase its asset count. Source/permission and exact package mappings are recorded in the archive.
 
@@ -62,6 +63,14 @@ flowchart LR
   U --> V[Manifest / Replay / native images]
 ```
 
+## Local research gallery — models excluded from download
+
+These images use the richer102-independent-asset local Blendkit pool. They are research previews, **not** the downloadable scene package.
+
+| Low | Medium | High |
+| --- | --- | --- |
+| ![Low](docs/previews/library-low706.png) | ![Medium](docs/previews/library-medium706.png) | ![High](docs/previews/library-high706.png) |
+
 ## Asset and rights scopes
 
 `docs/asset_sources.json` records original Blendkit IDs, authors, source URLs, versions, source SHA and separate rights gates. Free acquisition or local technical acceptance does not clear extractable-USD redistribution. Blendkit GENERATION_READY/public Starter remain 0/0; these counts do not describe the separately permitted original-room examples.
@@ -69,7 +78,3 @@ flowchart LR
 Hotel705 room/native redistribution permission was confirmed by the project maintainer on18November2026. No blanket license is assigned to third-party material. See [rights](RIGHTS.md), [license status](LICENSE_STATUS.md) and [delivery scope](docs/DELIVERY_SCOPE.md). The original room attribution is retained. Raw Blendkit models, textures, add-on, profiles, credentials, SDK and paper PDFs are excluded.
 
 This is research evidence for the included cases, not a robot-safety or universal dynamics certificate.
-
-## Progress presentation
-
-[19 November research report (editable PowerPoint)](reports/2026-11-19/hotel_room_weekly_20261119_editable.pptx)
