@@ -1,0 +1,100 @@
+{
+  "cases": [
+    {
+      "cameras": {
+        "overview": {
+          "eye": [
+            -0.25,
+            -2.55,
+            2.2
+          ],
+          "target": [
+            0.7,
+            -5.2,
+            0.25
+          ],
+          "focal": 10
+        },
+        "floor_foot": {
+          "eye": [
+            0.2,
+            -7.85,
+            1.5
+          ],
+          "target": [
+            1.0,
+            -6.65,
+            0.12
+          ],
+          "focal": 19
+        },
+        "bed_surface": {
+          "eye": [
+            -0.1,
+            -6.3,
+            2.25
+          ],
+          "target": [
+            1.6,
+            -4.95,
+            0.68
+          ],
+          "focal": 22
+        },
+        "pillows": {
+          "eye": [
+            0.95,
+            -4.95,
+            1.65
+          ],
+          "target": [
+            2.2,
+            -4.95,
+            0.92
+          ],
+          "focal": 28
+        },
+        "chair_seat": {
+          "eye": [
+            -0.02,
+            -6.5,
+            1.35
+          ],
+          "target": [
+            -0.5,
+            -7.34,
+            0.48
+          ],
+          "focal": 35
+        },
+        "single_bed": {
+          "eye": [
+            -0.15,
+            -2.7,
+            1.65
+          ],
+          "target": [
+            1.4,
+            -3.22,
+            0.51
+          ],
+          "focal": 25
+        },
+        "entry_bench": {
+          "eye": [
+            0,
+            -0.61,
+            1.65
+          ],
+          "target": [
+            -0.84,
+            -0.61,
+            0.47
+          ],
+          "focal": 21
+        }
+      }
+    }
+  ],
+  "scope": "Camera metadata only; no historical scene or evidence is reproduced here"
+}

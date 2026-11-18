@@ -1,0 +1,251 @@
+{
+  "cases": [
+    {
+      "level": "low",
+      "seed": 706,
+      "count": 15,
+      "unique_asset_ids": 13,
+      "category_counts": {
+        "personal": 3,
+        "paper": 2,
+        "electronics": 6,
+        "luggage": 1,
+        "footwear": 2,
+        "food": 1
+      },
+      "surface_counts": {
+        "pillow_left": 1,
+        "chair_seat": 1,
+        "bed_main": 1,
+        "floor_luggage": 1,
+        "floor_bedside": 1,
+        "desk": 1,
+        "floor_desk": 3,
+        "floor_window_side": 3,
+        "bench": 1,
+        "floor_bedfoot": 1,
+        "bed_single": 1
+      },
+      "physics": "PASS",
+      "registered_bodies": 64,
+      "native_steps": 3600,
+      "images": {
+        "overview": "runs/report_library_20261119_a000_settled/native_render/case-0/overview.png",
+        "floor_foot": "runs/report_library_20261119_a000_settled/native_render/case-0/floor_foot.png",
+        "bed_surface": "runs/report_library_20261119_a000_settled/native_render/case-0/bed_surface.png",
+        "pillow_left_detail": "runs/report_library_20261119_a000_settled/native_render/case-0/pillow_left_detail.png",
+        "chair_seat": "runs/report_library_20261119_a000_settled/native_render/case-0/chair_seat.png"
+      },
+      "visual_review": "PASS"
+    },
+    {
+      "level": "medium",
+      "seed": 706,
+      "count": 32,
+      "unique_asset_ids": 25,
+      "category_counts": {
+        "personal": 2,
+        "paper": 4,
+        "electronics": 14,
+        "luggage": 1,
+        "footwear": 2,
+        "clothing": 2,
+        "food": 2,
+        "bag": 1,
+        "toiletry": 4
+      },
+      "surface_counts": {
+        "pillow_left": 1,
+        "chair_seat": 1,
+        "bed_main": 6,
+        "floor_luggage": 6,
+        "floor_bedside": 3,
+        "desk": 1,
+        "bench": 3,
+        "floor_bedfoot": 2,
+        "floor_desk": 4,
+        "minibar": 1,
+        "bed_single": 3,
+        "floor_window_side": 1
+      },
+      "physics": "PASS",
+      "registered_bodies": 81,
+      "native_steps": 3600,
+      "images": {
+        "overview": "runs/report_library_20261119_a000_settled/native_render/case-1/overview.png",
+        "floor_foot": "runs/report_library_20261119_a000_settled/native_render/case-1/floor_foot.png",
+        "bed_surface": "runs/report_library_20261119_a000_settled/native_render/case-1/bed_surface.png",
+        "pillow_left_detail": "runs/report_library_20261119_a000_settled/native_render/case-1/pillow_left_detail.png",
+        "chair_seat": "runs/report_library_20261119_a000_settled/native_render/case-1/chair_seat.png"
+      },
+      "visual_review": "PASS"
+    },
+    {
+      "level": "high",
+      "seed": 706,
+      "count": 77,
+      "unique_asset_ids": 54,
+      "category_counts": {
+        "personal": 6,
+        "paper": 11,
+        "electronics": 27,
+        "luggage": 1,
+        "footwear": 3,
+        "food": 4,
+        "tea": 3,
+        "toiletry": 16,
+        "bag": 2,
+        "water": 2,
+        "wrapper": 1,
+        "towel": 1
+      },
+      "surface_counts": {
+        "pillow_left": 1,
+        "chair_seat": 1,
+        "bed_main": 9,
+        "floor_luggage": 13,
+        "floor_bedside": 9,
+        "desk": 1,
+        "bench": 6,
+        "floor_window_side": 6,
+        "bed_single": 12,
+        "floor_bedfoot": 6,
+        "minibar": 6,
+        "floor_desk": 7
+      },
+      "physics": "PASS",
+      "registered_bodies": 126,
+      "native_steps": 3600,
+      "images": {
+        "overview": "runs/report_library_20261119_a000_settled/native_render/case-2/overview.png",
+        "floor_foot": "runs/report_library_20261119_a000_settled/native_render/case-2/floor_foot.png",
+        "bed_surface": "runs/report_library_20261119_a000_settled/native_render/case-2/bed_surface.png",
+        "pillow_left_detail": "runs/report_library_20261119_a000_settled/native_render/case-2/pillow_left_detail.png",
+        "chair_seat": "runs/report_library_20261119_a000_settled/native_render/case-2/chair_seat.png"
+      },
+      "visual_review": "PASS"
+    },
+    {
+      "level": "low",
+      "seed": 707,
+      "count": 13,
+      "unique_asset_ids": 12,
+      "category_counts": {
+        "electronics": 5,
+        "personal": 2,
+        "bag": 2,
+        "footwear": 1,
+        "toiletry": 2,
+        "food": 1
+      },
+      "surface_counts": {
+        "pillow_left": 1,
+        "chair_seat": 1,
+        "bed_main": 1,
+        "floor_luggage": 1,
+        "floor_bedside": 3,
+        "desk": 1,
+        "bench": 1,
+        "floor_desk": 2,
+        "floor_window_side": 2
+      },
+      "physics": "PASS",
+      "registered_bodies": 62,
+      "native_steps": 3600,
+      "images": {
+        "overview": "runs/report_library_20261119_a000_settled/native_render/case-3/overview.png",
+        "floor_foot": "runs/report_library_20261119_a000_settled/native_render/case-3/floor_foot.png",
+        "bed_surface": "runs/report_library_20261119_a000_settled/native_render/case-3/bed_surface.png",
+        "pillow_left_detail": "runs/report_library_20261119_a000_settled/native_render/case-3/pillow_left_detail.png",
+        "chair_seat": "runs/report_library_20261119_a000_settled/native_render/case-3/chair_seat.png"
+      },
+      "visual_review": "PASS"
+    },
+    {
+      "level": "medium",
+      "seed": 707,
+      "count": 49,
+      "unique_asset_ids": 39,
+      "category_counts": {
+        "electronics": 15,
+        "personal": 6,
+        "bag": 2,
+        "footwear": 2,
+        "toiletry": 12,
+        "paper": 5,
+        "wrapper": 1,
+        "clothing": 2,
+        "food": 4
+      },
+      "surface_counts": {
+        "pillow_left": 1,
+        "chair_seat": 1,
+        "bed_main": 5,
+        "floor_luggage": 6,
+        "floor_bedside": 6,
+        "desk": 1,
+        "floor_bedfoot": 5,
+        "floor_window_side": 5,
+        "bed_single": 11,
+        "floor_desk": 4,
+        "bench": 2,
+        "minibar": 2
+      },
+      "physics": "PASS",
+      "registered_bodies": 98,
+      "native_steps": 3600,
+      "images": {
+        "overview": "runs/report_library_20261119_a000_settled/native_render/case-4/overview.png",
+        "floor_foot": "runs/report_library_20261119_a000_settled/native_render/case-4/floor_foot.png",
+        "bed_surface": "runs/report_library_20261119_a000_settled/native_render/case-4/bed_surface.png",
+        "pillow_left_detail": "runs/report_library_20261119_a000_settled/native_render/case-4/pillow_left_detail.png",
+        "chair_seat": "runs/report_library_20261119_a000_settled/native_render/case-4/chair_seat.png"
+      },
+      "visual_review": "PASS"
+    },
+    {
+      "level": "high",
+      "seed": 707,
+      "count": 73,
+      "unique_asset_ids": 52,
+      "category_counts": {
+        "electronics": 26,
+        "personal": 6,
+        "bag": 2,
+        "footwear": 3,
+        "mug": 2,
+        "toiletry": 19,
+        "clothing": 2,
+        "food": 6,
+        "paper": 6,
+        "water": 1
+      },
+      "surface_counts": {
+        "pillow_left": 1,
+        "chair_seat": 1,
+        "bed_main": 9,
+        "floor_luggage": 9,
+        "floor_bedside": 11,
+        "desk": 1,
+        "bed_single": 7,
+        "floor_bedfoot": 7,
+        "floor_desk": 5,
+        "bench": 8,
+        "floor_window_side": 6,
+        "minibar": 8
+      },
+      "physics": "PASS",
+      "registered_bodies": 122,
+      "native_steps": 3600,
+      "images": {
+        "overview": "runs/report_library_20261119_a000_settled/native_render/case-5/overview.png",
+        "floor_foot": "runs/report_library_20261119_a000_settled/native_render/case-5/floor_foot.png",
+        "bed_surface": "runs/report_library_20261119_a000_settled/native_render/case-5/bed_surface.png",
+        "pillow_left_detail": "runs/report_library_20261119_a000_settled/native_render/case-5/pillow_left_detail.png",
+        "chair_seat": "runs/report_library_20261119_a000_settled/native_render/case-5/chair_seat.png"
+      },
+      "visual_review": "PASS"
+    }
+  ],
+  "scope": "Experimental local rigid surrogate validation, not flexible or manipulation qualification"
+}

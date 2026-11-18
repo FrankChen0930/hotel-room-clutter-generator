@@ -1,0 +1,62 @@
+[
+  {
+    "asset_id": "legacy-native_water1",
+    "category": "water",
+    "dimensions_m": [
+      0.0698669578620641,
+      0.0694935164952849,
+      0.17571358961213512
+    ],
+    "state_id": "default",
+    "source_kind": "EXISTING_ROOM_NOT_NEW_BLENDKIT",
+    "usd_path_relative": "public_data/assets/04dd6928428b32b8.usdc"
+  },
+  {
+    "asset_id": "legacy-native_water2",
+    "category": "water",
+    "dimensions_m": [
+      0.06987797819876729,
+      0.0695043372918197,
+      0.17574097481515016
+    ],
+    "state_id": "default",
+    "source_kind": "EXISTING_ROOM_NOT_NEW_BLENDKIT",
+    "usd_path_relative": "public_data/assets/7d92204af36f5c05.usdc"
+  },
+  {
+    "asset_id": "legacy-native_mug1",
+    "category": "mug",
+    "dimensions_m": [
+      0.10648823973025245,
+      0.07858267682000869,
+      0.08240125920158681
+    ],
+    "state_id": "default",
+    "source_kind": "EXISTING_ROOM_NOT_NEW_BLENDKIT",
+    "usd_path_relative": "public_data/assets/7c217246cd2493aa.usdc"
+  },
+  {
+    "asset_id": "legacy-native_tea1",
+    "category": "tea",
+    "dimensions_m": [
+      0.04185281360360582,
+      0.06536864245190166,
+      0.08491880375341121
+    ],
+    "state_id": "default",
+    "source_kind": "EXISTING_ROOM_NOT_NEW_BLENDKIT",
+    "usd_path_relative": "public_data/assets/bf971e73162af606.usdc"
+  },
+  {
+    "asset_id": "legacy-native_cookiepack1",
+    "category": "snack",
+    "dimensions_m": [
+      0.08447319044954504,
+      0.1498392802550786,
+      0.026005688359553636
+    ],
+    "state_id": "default",
+    "source_kind": "EXISTING_ROOM_NOT_NEW_BLENDKIT",
+    "usd_path_relative": "public_data/assets/a2641959d51eb570.usdc"
+  }
+]

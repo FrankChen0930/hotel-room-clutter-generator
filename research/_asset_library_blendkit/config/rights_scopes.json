@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "local_research": {
+    "scope": "CONTROLLED_WORKSPACE_NO_DISTRIBUTION",
+    "requires": ["official_acquisition", "known_license_allows_internal_use", "user_local_technical_test_authorization", "all_technical_gates"],
+    "public_permission_required": false,
+    "counts_as_generation_ready": false
+  },
+  "generator": {
+    "requires": ["all_technical_gates", "explicit_extractable_usd_rights_evidence"],
+    "cc0_terms_interaction": "PENDING_CLARIFICATION_5_4_5_8_5_9",
+    "royalty_free": "NOT_CLEARED_FOR_EXTRACTABLE_USD_OUTPUT"
+  },
+  "github_starter": {
+    "requires": ["generator_qualification", "explicit_redistribution_evidence", "complete_provenance"],
+    "inferred_from_free_plan": false,
+    "inferred_from_user_can_download": false
+  }
+}

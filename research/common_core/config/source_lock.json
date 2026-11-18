@@ -1,0 +1,708 @@
+{
+  "schema_version": "1.0",
+  "rooms": {
+    "room_hotel": {
+      "root": {
+        "mount": "room_hotel",
+        "path": "assets/room7052/7052_ver3_0925.usda",
+        "sha256": "b8ef82a956a2869364faddf488fa13664afec070bb3a3e8ca32ca1215259fee2",
+        "bytes": 133563975
+      },
+      "closure": [
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/7052_ver3_0925.usda",
+          "sha256": "b8ef82a956a2869364faddf488fa13664afec070bb3a3e8ca32ca1215259fee2",
+          "bytes": 133563975
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/0c8969a77a8f62254f4a32eabdb24694.jpg",
+          "sha256": "4f549fdf3e61734cebbff2bd2ed17f02cd38a0647a86b0b37f3b9d7dec0adee5",
+          "bytes": 1194008
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/144d411053c582f5f60bf318f5a726c1.jpg",
+          "sha256": "91ae52e21572ac3a248af64ed875cd50b3c203db0faf3c2ad8ea628d04a097a8",
+          "bytes": 1394492
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/45c987851c0cd56836c6da76882a43d0.jpg",
+          "sha256": "7bce2132bc4b51cf65fae78298d136041b4e0caeaee90cb4b2656fbb4267f61f",
+          "bytes": 1201816
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/7052_Flat_Walnut_Counter_wood.png",
+          "sha256": "3072274af75c130add3e2d273beb6af30e2ea494e589864857886b846733bb65",
+          "bytes": 165299
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/7c6efa05c65200ab9082bd2a051e7673.jpg",
+          "sha256": "79dcfe693f06b25e24ee95eeabdd374895dfb3eb0c527948d2de584d423f67f4",
+          "bytes": 1222296
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/WALL WHITE.jpg",
+          "sha256": "568bead908d97169d43891870a3a259626c3b3c2d672c9594e1eeb9942811794",
+          "bytes": 1486
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/abstractwallart3dmodel_basecolor.JPEG",
+          "sha256": "3ae49748e201513a07f2bb431a69f799277be1c1425e729733a5a414106d7e53",
+          "bytes": 4506593
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/armchair3dmodel_basecolor.JPEG",
+          "sha256": "106b9c5956315dcc309f10525959484c539a0506913ff200ce1f1d98903ade0d",
+          "bytes": 5586402
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/bath_beige_large_tile.png",
+          "sha256": "22dd1f32455a0fc6424f2bd4c6b58768f882637f2445f903535946dc3c176bba",
+          "bytes": 299392
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/bath_beige_speckled_stone.png",
+          "sha256": "6d71204a61ec78c812138b77719503013adfbd832a636a736e4a1d24990f3572",
+          "bytes": 814092
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/bench_white_grey_marble.png",
+          "sha256": "d57eed6c961ee54537584b95c827a570e499be5d727a10b6933cf630e85ab8e3",
+          "bytes": 835236
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/chromebathroomhinge3dmodel_tripo_part_0_basecolor.JPEG",
+          "sha256": "9a41ed4d969fcd1f840e9e03cc7bf12e9263f9da182d9c077c7438c09ec00fb4",
+          "bytes": 172177
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/chromebathroomhinge3dmodel_tripo_part_12_basecolor.JPEG",
+          "sha256": "cb07dbdc16de9379bc4720d8e6bdea50f5304f9b58961bcb4abf7e99f5dc8537",
+          "bytes": 2646
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/chromebathroomhinge3dmodel_tripo_part_13_basecolor.JPEG",
+          "sha256": "a3d04e9895a3e2b62bdfd2a24409a4eedb3fc1f6b363ac3d9bb2082ec3fdbc11",
+          "bytes": 2618
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/chromebathroomhinge3dmodel_tripo_part_14_basecolor.JPEG",
+          "sha256": "1a7b9b719bbc5568cbed5abb481aaf4e2a4be57c299297092b1df9331ecc9dd5",
+          "bytes": 4653
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/chromebathroomhinge3dmodel_tripo_part_15_basecolor.JPEG",
+          "sha256": "53a6bf7110b00b888492b9243d0ed65c1156aa5fdab4c851ca07384705703a70",
+          "bytes": 1973
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/chromebathroomhinge3dmodel_tripo_part_16_basecolor.JPEG",
+          "sha256": "39abaca3689e6f22203c3f1a74ba5c8077588e256029989b289bef31669dc055",
+          "bytes": 1018
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/chromebathroomhinge3dmodel_tripo_part_17_basecolor.JPEG",
+          "sha256": "2d8ad2a61f6e8ac4d8616636fbbf425a977647c0a29919c2d325012b134c6c6c",
+          "bytes": 869
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/chromebathroomhinge3dmodel_tripo_part_18_basecolor.JPEG",
+          "sha256": "1cd6937f74c5a9f79ce7bca8b705ec2ea19fcb6f266d557fe630100a22b4e166",
+          "bytes": 3422
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/chromebathroomhinge3dmodel_tripo_part_19_basecolor.JPEG",
+          "sha256": "fb52dc924b71dbf40ee49ab4fd4e0c0666f0bf2aff7379e850adc86b37e96951",
+          "bytes": 920
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/chromebathroomhinge3dmodel_tripo_part_1_basecolor.JPEG",
+          "sha256": "f1c15cf347ab34585205113ead0ad0deaeb1365136e288ac8e718de24d8b99ea",
+          "bytes": 149561
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/chromebathroomhinge3dmodel_tripo_part_20_basecolor.JPEG",
+          "sha256": "37d7771d7bdaf49edae1227008dc1bc5d20eaabfee01a69934919568fe980e2f",
+          "bytes": 1041
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/chromebathroomhinge3dmodel_tripo_part_21_basecolor.JPEG",
+          "sha256": "ac7f7374d570fab07dda14ac0a2021adfd61bafffdb75e170fa15692d33d5631",
+          "bytes": 1400
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/chromebathroomhinge3dmodel_tripo_part_22_basecolor.JPEG",
+          "sha256": "f98dc4c21c14d98ca685e4b595b7f03d91d3ab0b083b4de25ea8e89b6ce05381",
+          "bytes": 863
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/chromebathroomhinge3dmodel_tripo_part_23_basecolor.JPEG",
+          "sha256": "d224aa16dcb52c62905a7e264b8cc15ebad6d64b1fb12ed1a7118e9b61d0b74f",
+          "bytes": 1187
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/chromebathroomhinge3dmodel_tripo_part_25_basecolor.JPEG",
+          "sha256": "a95bafc76f1e46f63dbccedf76977fd1b056090b713b65b1ea264cc803bbeea1",
+          "bytes": 746
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/chromebathroomhinge3dmodel_tripo_part_26_basecolor.JPEG",
+          "sha256": "c7825ef2eaa2627178b3e3e28fd60283709932cb2d63d0d5204098c6bac9540f",
+          "bytes": 799
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/chromebathroomhinge3dmodel_tripo_part_2_basecolor.JPEG",
+          "sha256": "67e65329bc29023841848ba41cd970dd9e6c442fce42178e0605d178cd935f1f",
+          "bytes": 68715
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/chromebathroomhinge3dmodel_tripo_part_4_basecolor.JPEG",
+          "sha256": "be2720348c01e52acac60a644ec2be8244fa1461693b93246e3fbc385ace0e02",
+          "bytes": 1984
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/chromebathroomhinge3dmodel_tripo_part_5_basecolor.JPEG",
+          "sha256": "b6019b205db15526391150c1969619c50a7394f10645491a7a408a25035a11db",
+          "bytes": 4408
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/chromebathroomhinge3dmodel_tripo_part_6_basecolor.JPEG",
+          "sha256": "6b5c439254c24bd585029be2b5b2a3edfcb8c4bc41ec311aebb596f6f23a34f0",
+          "bytes": 51380
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/chromebathroomhinge3dmodel_tripo_part_7_basecolor.JPEG",
+          "sha256": "4be3afdf7f07def3cdfcd8440b6130c6591af15506e49bfcff7ce998a44cd807",
+          "bytes": 2212
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/chromebathroomhinge3dmodel_tripo_part_9_basecolor.JPEG",
+          "sha256": "6c6db780e52070a617c2af004443ad8b6584648905a206dc2d9dd1bccfe7032c",
+          "bytes": 94341
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/color_165165165.hdr",
+          "sha256": "46872d0e369948ccf15b173ab6da6afdd6c6b31b5920096a0c153887b300f07c",
+          "bytes": 109
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/entry_door_ebony_stripe.png",
+          "sha256": "0c5520f4232deffe022e262f71aa0407767f4b586ac90e45c13a29fc8236fee3",
+          "bytes": 2890815
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/grey_marble_nightstand.png",
+          "sha256": "c392ea9dcf5bf464d6e9b6052f6095699d2fd7d3c4ac2e6e11e099447c02658c",
+          "bytes": 1142518
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/headboard_dark_wood.png",
+          "sha256": "591338eefdc1e3e9e3ea79b2be197692afcdf071ffe5f73bdc9e4e3a0c5b4c96",
+          "bytes": 514870
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/hotel_satin_stripes.png",
+          "sha256": "25962fa27b3f8e529fcff8c44e4f2040078e40bc80f7ea7d8de8985ac52b2274",
+          "bytes": 1425
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/reference_counter_marble.png",
+          "sha256": "2cf4f7cd1727c9c2dc50c36c55643613df5363023c8c445d41b75d821a45f33a",
+          "bytes": 488429
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/shampoobottle3dmodel_basecolor.JPEG",
+          "sha256": "82b082abbf02081e6bb81254381bec939d0333b8466af6f01e78332a2e67b628",
+          "bytes": 3958703
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/sofa_boucle_greige.png",
+          "sha256": "766644b024c47b6e3b43759129d7e1607763f3bc9cf03b3306f521281cd50d95",
+          "bytes": 1980293
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/tv_tv_AlbedoTransparency.png",
+          "sha256": "433abaf188f8c21aa0cca490cd5c721eaa025a1e9c65f3dbc2370feb20b4a882",
+          "bytes": 441720
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/vanity_black_granite.png",
+          "sha256": "5ea53fb564130bb17825155c8d83f879d1f2d51571f344d88619586f6bad3374",
+          "bytes": 713289
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/wardrobesliding3dmodel_tripo_part_107_basecolor_warm.JPEG",
+          "sha256": "e9241f99881be2b0ff1a0b62d4eeca9d69032f5b8d6333f82f6781814f72eabb",
+          "bytes": 165253
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/wardrobesliding3dmodel_tripo_part_116_basecolor.JPEG",
+          "sha256": "a5a3fce3b7fd90d98f5cc4f7673fb5bc0f04c597955adfff74921b4fd5a707a1",
+          "bytes": 1029
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/wardrobesliding3dmodel_tripo_part_118_basecolor.JPEG",
+          "sha256": "0049a64a6aad400f690ef747fcf30a34f9e91ddbc707a7c9108662c61f1a85ed",
+          "bytes": 1006
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/wardrobesliding3dmodel_tripo_part_119_basecolor.JPEG",
+          "sha256": "35927fcd85c5285112a9248f9c1ed3347cab1946fb1581c7af4900c9e1e12f92",
+          "bytes": 1045
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/wardrobesliding3dmodel_tripo_part_120_basecolor.JPEG",
+          "sha256": "5470f9e33608717e144326989cccea2cc68e85826d7440a5698cacecae4f6961",
+          "bytes": 896
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/wardrobesliding3dmodel_tripo_part_125_basecolor_warm.JPEG",
+          "sha256": "e22a75c6dc22d9e3ed69b64e5fcb85d3b1798822a1808b762f63dbafebd0eeb1",
+          "bytes": 72708
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/wardrobesliding3dmodel_tripo_part_139_basecolor.JPEG",
+          "sha256": "e0a2f8320ccc4f3237daa26ba611af0949b285b18d8aaed6594fe980d7de625e",
+          "bytes": 1079
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/wardrobesliding3dmodel_tripo_part_78_basecolor.JPEG",
+          "sha256": "6ff1d796d43d133aa04de395a10ba302ee0eea859c4ffe1db4535f916b8899b9",
+          "bytes": 54305
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/wood_floor_Rough_satin_longplank_2k.jpg",
+          "sha256": "5e04528dc4971ae1519fe7fa3928a2e863ef9ac0655f210ce8b1a23840d3ab87",
+          "bytes": 954966
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/wood_floor_nor_gl_longplank_2k.jpg",
+          "sha256": "5156a55377e47e54b0d1fde8256a2032ecc6847d3fcaeb6397cf4a6becdcfbfc",
+          "bytes": 771154
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/wood_floor_video_tone_2k.jpg",
+          "sha256": "2c2444c920caa79f5e1bbbde3e7f652547a1b21091ab2532be6aa03869595eb8",
+          "bytes": 1505734
+        },
+        {
+          "mount": "room_hotel",
+          "path": "assets/room7052/textures/woodenbench3dmodel_basecolor.JPEG",
+          "sha256": "194826b28223aee7631f77994dd8513565f5aa9b29f39eb9be6073f4c44a3dee",
+          "bytes": 3402387
+        }
+      ],
+      "unresolved": [],
+      "closure_verified": true
+    },
+    "room_yazhi": {
+      "root": {
+        "mount": "room_yazhi",
+        "path": "room/usd/YAZHI_TWIN.usd",
+        "sha256": "dac7989247f1012314dc9f4e5ff23c328fedcda3eea56a91a6cd44caa6ff1b64",
+        "bytes": 51014
+      },
+      "closure": [
+        {
+          "mount": "room_yazhi",
+          "path": "assets/beds/AST-BED-001/usd/AST-BED-001.usd",
+          "sha256": "8ab7dc4f8e55daa4dfbabc0343de038efb1e65364f3ef6447b423dc238169a18",
+          "bytes": 12687
+        },
+        {
+          "mount": "room_yazhi",
+          "path": "assets/beds/AST-BED-001/usd/AST-BED-001_collider.usda",
+          "sha256": "d4410bc6ce83d4744e004fabaab1e50325c7e4a87884e9009616d524338c7d62",
+          "bytes": 2078
+        },
+        {
+          "mount": "room_yazhi",
+          "path": "assets/cabinets/AST-CAB-001/usd/AST-CAB-001.usd",
+          "sha256": "8cafbd854eab3ff86eff88d65f2a98c6872d4a33e63df5657ea3eefbdd19b82f",
+          "bytes": 14303
+        },
+        {
+          "mount": "room_yazhi",
+          "path": "assets/cabinets/AST-CAB-001/usd/AST-CAB-001_collider.usda",
+          "sha256": "bfb80983139f5c0eb343d609445d875bdb0c6439fe4a7e32d0b8e70633039a52",
+          "bytes": 4675
+        },
+        {
+          "mount": "room_yazhi",
+          "path": "assets/cabinets/AST-CAB-001/usd/textures/stone_semantic_256.png",
+          "sha256": "488c8474df6036045e2db11f73a6830369b8a79df3acfec67c3a8f5d8aaf6a1c",
+          "bytes": 47322
+        },
+        {
+          "mount": "room_yazhi",
+          "path": "assets/cabinets/AST-CAB-002/usd/AST-CAB-002.usd",
+          "sha256": "83d5e303d8baf6163c2c690319664e2dd1942b1c7c90e730d12bd8feed9d13da",
+          "bytes": 27677
+        },
+        {
+          "mount": "room_yazhi",
+          "path": "assets/cabinets/AST-CAB-002/usd/AST-CAB-002_collider.usda",
+          "sha256": "2de74e23974026d3c32541650005858c2008534c28e96eb48e45efe6c8b1db4c",
+          "bytes": 17691
+        },
+        {
+          "mount": "room_yazhi",
+          "path": "assets/cabinets/AST-CAB-002/usd/AST-CAB-002_interaction.usda",
+          "sha256": "dd0da973d14c5c311a03df8ea1ea0b0e1c65dd5da61a9b713fdc1004c4379124",
+          "bytes": 5882
+        },
+        {
+          "mount": "room_yazhi",
+          "path": "assets/cabinets/AST-CAB-002/usd/textures/AST-CAB-002_grille.png",
+          "sha256": "d15d9aaeec2d36a2c77a44e01e5150aa004998a872cc3c75c673aec5a5f9131f",
+          "bytes": 18698
+        },
+        {
+          "mount": "room_yazhi",
+          "path": "assets/cabinets/AST-CAB-002/usd/textures/stone_semantic_256.png",
+          "sha256": "488c8474df6036045e2db11f73a6830369b8a79df3acfec67c3a8f5d8aaf6a1c",
+          "bytes": 47322
+        },
+        {
+          "mount": "room_yazhi",
+          "path": "assets/cabinets/AST-CAB-003/usd/AST-CAB-003.usd",
+          "sha256": "f3ea90da29a8da8f95a943af194d4b046b016c9175966b059bfe9bdb94f0c938",
+          "bytes": 10733
+        },
+        {
+          "mount": "room_yazhi",
+          "path": "assets/cabinets/AST-CAB-003/usd/AST-CAB-003_collider.usda",
+          "sha256": "df08421037c66542f25aa7f3bae689e6a0fd4955911ab34a6f5832229636eeee",
+          "bytes": 774
+        },
+        {
+          "mount": "room_yazhi",
+          "path": "assets/cabinets/AST-CAB-004/usd/AST-CAB-004.usd",
+          "sha256": "6d81256bff0f3a62b5be4de4ba4cc6d97b1e539bf7eb781caca4aae814f836c7",
+          "bytes": 5045
+        },
+        {
+          "mount": "room_yazhi",
+          "path": "assets/cabinets/AST-CAB-004/usd/AST-CAB-004_collider.usda",
+          "sha256": "1a831f88634089839735fb1a1fb00d95df61d56aaf40d3c85839b5b75b7b2a20",
+          "bytes": 784
+        },
+        {
+          "mount": "room_yazhi",
+          "path": "assets/cabinets/AST-CAB-005/usd/AST-CAB-005.usd",
+          "sha256": "70402a40a926df217f215d83959e741501b404c0e6a8bb01a750770265ad82cd",
+          "bytes": 7848
+        },
+        {
+          "mount": "room_yazhi",
+          "path": "assets/cabinets/AST-CAB-005/usd/AST-CAB-005_collider.usda",
+          "sha256": "dd06c2bd3cba916cd8c2e266c0ec85ae9705fd0d8f82acc100eaf8a4404d141a",
+          "bytes": 2056
+        },
+        {
+          "mount": "room_yazhi",
+          "path": "assets/luggage_racks/AST-LUG-001/usd/AST-LUG-001.usd",
+          "sha256": "abd896f5aa242e40df1d57de38868176ff7d71fee31843b8c95139fe9ceb5880",
+          "bytes": 10346
+        },
+        {
+          "mount": "room_yazhi",
+          "path": "assets/luggage_racks/AST-LUG-001/usd/AST-LUG-001_collider.usda",
+          "sha256": "69e17c90e8fa1ce84231843f7cc8fd103e780a20d8387014fba0199edf48cd69",
+          "bytes": 2694
+        },
+        {
+          "mount": "room_yazhi",
+          "path": "assets/tables/AST-TBL-001/usd/AST-TBL-001.usd",
+          "sha256": "7fe6679395dedd48504ff3423ba9cb8b19d01270d7d93f891d63b92a0900ec84",
+          "bytes": 20984
+        },
+        {
+          "mount": "room_yazhi",
+          "path": "assets/tables/AST-TBL-001/usd/AST-TBL-001_collider.usda",
+          "sha256": "eeded2b2e2c0ce70a4ac31b7369e7c8bdfe150a4fb355a880aa29ea945ae97bf",
+          "bytes": 2271
+        },
+        {
+          "mount": "room_yazhi",
+          "path": "assets/wardrobes/AST-WRD-001/usd/AST-WRD-001.usd",
+          "sha256": "64c491f2fa5e3c4efb2ea5395a480795291e8375b61b72aeb829cd043799c848",
+          "bytes": 13684
+        },
+        {
+          "mount": "room_yazhi",
+          "path": "assets/wardrobes/AST-WRD-001/usd/AST-WRD-001_collider.usda",
+          "sha256": "ecd020bc9cac15ed7cd32699da43c0b148770bfe0ae7a821416f0e488e663b38",
+          "bytes": 5333
+        },
+        {
+          "mount": "room_yazhi",
+          "path": "assets/wardrobes/AST-WRD-001/usd/AST-WRD-001_interaction.usda",
+          "sha256": "32e1ffa2d9f4e517aa521ea8ea64a59c476181d05c943e4ddd9c0c139a1c09c2",
+          "bytes": 3064
+        },
+        {
+          "mount": "room_yazhi",
+          "path": "interaction/YAZHI_TWIN_interaction.usda",
+          "sha256": "226f68552b147e7bd3b82399c74d7b8be455c6e8ebb83acb009d516ac9106ded",
+          "bytes": 3214
+        },
+        {
+          "mount": "room_yazhi",
+          "path": "room/collision/YAZHI_TWIN_collision.usda",
+          "sha256": "950e03bec53b382e7eb6c8d2f39c56f16ec4dcefae00c8c63e32c00fa5cb2323",
+          "bytes": 37449
+        },
+        {
+          "mount": "room_yazhi",
+          "path": "room/usd/YAZHI_TWIN.usd",
+          "sha256": "dac7989247f1012314dc9f4e5ff23c328fedcda3eea56a91a6cd44caa6ff1b64",
+          "bytes": 51014
+        },
+        {
+          "mount": "room_yazhi",
+          "path": "room/usd/textures/floor_1k.png",
+          "sha256": "261fd70dfa16cfb4930a00e0f628591e9ff032f666287857e391bba0632878df",
+          "bytes": 986768
+        },
+        {
+          "mount": "room_yazhi",
+          "path": "room/usd/textures/mapping_abstract_128.png",
+          "sha256": "e5dc6b6e96cc1e1bf2baa6cb0090e8b81681cc4bf678d769604bd7e700f72bab",
+          "bytes": 18713
+        },
+        {
+          "mount": "room_yazhi",
+          "path": "room/usd/textures/mapping_hvac_128x32.png",
+          "sha256": "b9f07e62f9defb94051a46022aa0a1fe46cde72c080a256092ac284d7fcd6a07",
+          "bytes": 425
+        }
+      ],
+      "unresolved": [],
+      "closure_verified": true
+    }
+  },
+  "helpers": [
+    {
+      "mount": "hotel_helpers",
+      "path": "roomscale/prepare.py",
+      "sha256": "1d21c29dc381833d8f580ae5d8442762e30a7da8cd9b45c74a87c2c6267f69ef",
+      "bytes": 6483,
+      "functions": [
+        "top_triangles"
+      ],
+      "reuse": "read-only reference; no historical main imports"
+    },
+    {
+      "mount": "hotel_helpers",
+      "path": "pilot.py",
+      "sha256": "712ed3102f1b46609e0a1dcf0311285ab02a86c35d51b625584ce5d6a7d42fdd",
+      "bytes": 10645,
+      "functions": [
+        "signature",
+        "rel"
+      ],
+      "reuse": "read-only reference; no historical main imports"
+    },
+    {
+      "mount": "hotel_helpers",
+      "path": "inspect_source.py",
+      "sha256": "59c523fff69eb5ee10cc7800ceb79398e841705e3c62311b4c9de49e2e64ba72",
+      "bytes": 3599,
+      "functions": [
+        "SDK bootstrap reference only"
+      ],
+      "reuse": "read-only reference; no historical main imports"
+    },
+    {
+      "mount": "toolkit",
+      "path": "toolkit/runtime_support.py",
+      "sha256": "344fc0d92a249d075d2121f69ba7bcce5f22f369f024e151721c361c100bc6ee",
+      "bytes": 12915,
+      "functions": [
+        "hash_json",
+        "reject_reparse",
+        "contained"
+      ],
+      "reuse": "read-only reference; no historical main imports"
+    },
+    {
+      "mount": "toolkit",
+      "path": "toolkit/vendor/geometry_check.py",
+      "sha256": "283b2c8274fdceeb0037d0d21714f71f0437c85503da819eb78026ce31fd7431",
+      "bytes": 16817,
+      "functions": [
+        "extract_primitive"
+      ],
+      "reuse": "read-only reference; no historical main imports"
+    },
+    {
+      "mount": "toolkit",
+      "path": "toolkit/vendor/randomize_table.py",
+      "sha256": "96632c3f4b939f67c2c9d72929b652fdcdd7fe3616708e3ae9089b3c31756331",
+      "bytes": 201,
+      "functions": [
+        "matrix_list"
+      ],
+      "reuse": "read-only reference; no historical main imports"
+    },
+    {
+      "mount": "hotel_helpers",
+      "path": "roomscale/evidence/adapter.json",
+      "sha256": "908b149971a506035b61ab6921f4575be14eca7c83d74be09414259b9f446a6e",
+      "bytes": 318132,
+      "functions": [
+        "adopted locators only"
+      ],
+      "reuse": "read-only reference; no import"
+    },
+    {
+      "mount": "hotel_helpers",
+      "path": "roomscale/generate.py",
+      "sha256": "695dd0f455a0531cf78f724d82e3f8a733c6b07613030655bc2a6ddfcbb62ad3",
+      "bytes": 16756,
+      "functions": [
+        "native alignment math reference only"
+      ],
+      "reuse": "read-only reference; no import"
+    },
+    {
+      "mount": "room_yazhi",
+      "path": "experiments/phase_v2_room_clutter/task_quality/outputs/run_20261105T084007032045Z/selective_acceptance.json",
+      "sha256": "f65f52cab6e0c58de78321199aabb9f93ec50b2130e7607d80be47e0c0dcd223",
+      "bytes": 8448,
+      "functions": [
+        "adoption decision metadata only"
+      ],
+      "reuse": "read-only adoption provenance"
+    },
+    {
+      "mount": "hotel_helpers",
+      "path": "roomscale/physics.py",
+      "sha256": "8e8c0d30adf714085b531a17764a4dbbd377e28ad7a13e2cba518e538c8df2ec",
+      "bytes": 8863,
+      "functions": [
+        "native tensor/contact sampling reference"
+      ],
+      "reuse": "read-only reference; generic worker adaptation, no historical import"
+    },
+    {
+      "mount": "hotel_helpers",
+      "path": "roomscale/raycheck.py",
+      "sha256": "e262f274a7bba26d928bde1eab869b71dd41c79abed07aec4c5cb64b0d95baf3",
+      "bytes": 4454,
+      "functions": [
+        "native source ray query reference"
+      ],
+      "reuse": "read-only reference; generic worker adaptation, no historical import"
+    }
+  ],
+  "environment": {
+    "python": "3.12.13 (tags/v3.12.13-dirty:3bb231a, Mar  4 2026, 05:54:47) [MSC v.1929 64 bit (AMD64)]",
+    "executable": "C:\\isaac_sim\\kit\\python\\python.exe",
+    "usd": [
+      0,
+      25,
+      11
+    ],
+    "isaac_build": "6.0.0-rc.59+release.41464.5f2772bc.gl"
+  },
+  "assets": [
+    {
+      "mount": "room_yazhi",
+      "path": "experiments/phase2_external_asset_pool/assets/EXT-BOOK-001/asset.usda",
+      "sha256": "bca480ca0f8e3f0702cf5b10576121ee7de561d5237a766446736ff50b9b991d",
+      "bytes": 3293
+    },
+    {
+      "mount": "room_yazhi",
+      "path": "experiments/phase2_external_asset_pool/assets/EXT-TISSUE-001/asset.usda",
+      "sha256": "9876ce91bc18ec4c84a9bf2da50ee9b9012584fd08241865a5f653c0dfeba927",
+      "bytes": 3725
+    },
+    {
+      "mount": "room_yazhi",
+      "path": "experiments/phase_v2_room_clutter/outputs/run_20261104T123147955366Z/assets/remote.usda",
+      "sha256": "cd2c58daa86ba77438726fa5db759c84a71c2c7720d508735c70c97076c5d492",
+      "bytes": 4564
+    },
+    {
+      "mount": "room_yazhi",
+      "path": "experiments/phase_v2_room_clutter/outputs/run_20261104T123147955366Z/assets/bottle.usda",
+      "sha256": "60234e6846f271b3cfa7e628b0521d8e1b3e9241b4b87033e5c42c07522994ab",
+      "bytes": 3252
+    },
+    {
+      "mount": "room_yazhi",
+      "path": "experiments/phase2_external_asset_pool/assets/EXT-CAN-001/asset.usda",
+      "sha256": "1a6fe742709b94c06f46ab0ca821b7760ded438aedc2bd61950c99ee58115705",
+      "bytes": 4050
+    },
+    {
+      "mount": "room_yazhi",
+      "path": "experiments/phase_v2_room_clutter/scene_diversity/outputs/run_20261105T015450164137Z/assets/FoldedTowel.usda",
+      "sha256": "d4aecf5e898ba8980eb73d8d2cdd351981d7322e9fcde53929e6f9fabd536450",
+      "bytes": 383892
+    },
+    {
+      "mount": "room_yazhi",
+      "path": "experiments/phase_v2_room_clutter/housekeeping_realism/outputs/run_20261105T075043618830Z/assets/LooseTowel.usda",
+      "sha256": "ba34ea5e783b2f798aa8dbbf801efa27da3a0b6255d4ae0ed28c68c8a2ceba6f",
+      "bytes": 913502
+    }
+  ]
+}

@@ -1,0 +1,1881 @@
+{
+  "execution": "EXECUTED",
+  "outcome": "PASS",
+  "variant": "baseline",
+  "case_budget": 36,
+  "cases": [
+    {
+      "room": "hotel705",
+      "scenario": "STAYOVER",
+      "seed": 7001,
+      "level": "low",
+      "status": "PASS",
+      "targets": {
+        "count": 6,
+        "count_range": [
+          5,
+          6
+        ],
+        "coverage": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "spread": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "state_proportions": {
+          "towel": {}
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle"
+        ],
+        "required_state_counts": {}
+      },
+      "achieved": {
+        "count": 6,
+        "coverage": 0.06601256404975749,
+        "denominator_m2": 2.0051940265127004,
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.38360630188123485,
+        "method": "v1 exact polygon area sum on disjoint conservative footprints per fixed allowed support; no stacked placement"
+      },
+      "elapsed_s": 0.0,
+      "samples": 26,
+      "failure": null,
+      "profile_hash": "9f3927eb9f79e0895922a47d34bf6b798a468803bb66e632cafc926d125fb4b5",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "65a976de7c6d79dad2a7cb065359c2fa233560313dd6cf633444326d59128a95"
+    },
+    {
+      "room": "hotel705",
+      "scenario": "STAYOVER",
+      "seed": 7001,
+      "level": "medium",
+      "status": "PASS",
+      "targets": {
+        "count": 9,
+        "count_range": [
+          8,
+          9
+        ],
+        "coverage": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "spread": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "state_proportions": {
+          "towel": {
+            "folded": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/folded": 1
+        }
+      },
+      "achieved": {
+        "count": 9,
+        "coverage": 0.1159666034196737,
+        "denominator_m2": 2.0051940265127004,
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.3332605584057063,
+        "method": "v1 exact polygon area sum on disjoint conservative footprints per fixed allowed support; no stacked placement"
+      },
+      "elapsed_s": 0.0,
+      "samples": 34,
+      "failure": null,
+      "profile_hash": "9f3927eb9f79e0895922a47d34bf6b798a468803bb66e632cafc926d125fb4b5",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "65a976de7c6d79dad2a7cb065359c2fa233560313dd6cf633444326d59128a95"
+    },
+    {
+      "room": "hotel705",
+      "scenario": "STAYOVER",
+      "seed": 7001,
+      "level": "high",
+      "status": "PASS",
+      "targets": {
+        "count": 13,
+        "count_range": [
+          12,
+          13
+        ],
+        "coverage": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "spread": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "state_proportions": {
+          "towel": {
+            "loose": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/loose": 1
+        }
+      },
+      "achieved": {
+        "count": 13,
+        "coverage": 0.14175839994236794,
+        "denominator_m2": 2.0051940265127004,
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.32424951075934233,
+        "method": "v1 exact polygon area sum on disjoint conservative footprints per fixed allowed support; no stacked placement"
+      },
+      "elapsed_s": 0.01600000000325963,
+      "samples": 68,
+      "failure": null,
+      "profile_hash": "9f3927eb9f79e0895922a47d34bf6b798a468803bb66e632cafc926d125fb4b5",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "65a976de7c6d79dad2a7cb065359c2fa233560313dd6cf633444326d59128a95"
+    },
+    {
+      "room": "hotel705",
+      "scenario": "STAYOVER",
+      "seed": 7002,
+      "level": "low",
+      "status": "PASS",
+      "targets": {
+        "count": 5,
+        "count_range": [
+          5,
+          6
+        ],
+        "coverage": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "spread": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "state_proportions": {
+          "towel": {}
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle"
+        ],
+        "required_state_counts": {}
+      },
+      "achieved": {
+        "count": 5,
+        "coverage": 0.06342727829429608,
+        "denominator_m2": 2.0051940265127004,
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.32870736032430575,
+        "method": "v1 exact polygon area sum on disjoint conservative footprints per fixed allowed support; no stacked placement"
+      },
+      "elapsed_s": 0.0,
+      "samples": 18,
+      "failure": null,
+      "profile_hash": "9f3927eb9f79e0895922a47d34bf6b798a468803bb66e632cafc926d125fb4b5",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "65a976de7c6d79dad2a7cb065359c2fa233560313dd6cf633444326d59128a95"
+    },
+    {
+      "room": "hotel705",
+      "scenario": "STAYOVER",
+      "seed": 7002,
+      "level": "medium",
+      "status": "PASS",
+      "targets": {
+        "count": 8,
+        "count_range": [
+          8,
+          9
+        ],
+        "coverage": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "spread": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "state_proportions": {
+          "towel": {
+            "folded": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/folded": 1
+        }
+      },
+      "achieved": {
+        "count": 8,
+        "coverage": 0.1135452424003438,
+        "denominator_m2": 2.0051940265127004,
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.33750209188647007,
+        "method": "v1 exact polygon area sum on disjoint conservative footprints per fixed allowed support; no stacked placement"
+      },
+      "elapsed_s": 0.014999999999417923,
+      "samples": 56,
+      "failure": null,
+      "profile_hash": "9f3927eb9f79e0895922a47d34bf6b798a468803bb66e632cafc926d125fb4b5",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "65a976de7c6d79dad2a7cb065359c2fa233560313dd6cf633444326d59128a95"
+    },
+    {
+      "room": "hotel705",
+      "scenario": "STAYOVER",
+      "seed": 7002,
+      "level": "high",
+      "status": "PASS",
+      "targets": {
+        "count": 12,
+        "count_range": [
+          12,
+          13
+        ],
+        "coverage": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "spread": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "state_proportions": {
+          "towel": {
+            "loose": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/loose": 1
+        }
+      },
+      "achieved": {
+        "count": 12,
+        "coverage": 0.135447456228252,
+        "denominator_m2": 2.0051940265127004,
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.3255571828733402,
+        "method": "v1 exact polygon area sum on disjoint conservative footprints per fixed allowed support; no stacked placement"
+      },
+      "elapsed_s": 0.0,
+      "samples": 106,
+      "failure": null,
+      "profile_hash": "9f3927eb9f79e0895922a47d34bf6b798a468803bb66e632cafc926d125fb4b5",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "65a976de7c6d79dad2a7cb065359c2fa233560313dd6cf633444326d59128a95"
+    },
+    {
+      "room": "hotel705",
+      "scenario": "STAYOVER",
+      "seed": 7003,
+      "level": "low",
+      "status": "PASS",
+      "targets": {
+        "count": 5,
+        "count_range": [
+          5,
+          6
+        ],
+        "coverage": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "spread": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "state_proportions": {
+          "towel": {}
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle"
+        ],
+        "required_state_counts": {}
+      },
+      "achieved": {
+        "count": 5,
+        "coverage": 0.06342727829429555,
+        "denominator_m2": 2.0051940265127004,
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.39370731481389537,
+        "method": "v1 exact polygon area sum on disjoint conservative footprints per fixed allowed support; no stacked placement"
+      },
+      "elapsed_s": 0.01599999999598367,
+      "samples": 15,
+      "failure": null,
+      "profile_hash": "9f3927eb9f79e0895922a47d34bf6b798a468803bb66e632cafc926d125fb4b5",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "65a976de7c6d79dad2a7cb065359c2fa233560313dd6cf633444326d59128a95"
+    },
+    {
+      "room": "hotel705",
+      "scenario": "STAYOVER",
+      "seed": 7003,
+      "level": "medium",
+      "status": "PASS",
+      "targets": {
+        "count": 8,
+        "count_range": [
+          8,
+          9
+        ],
+        "coverage": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "spread": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "state_proportions": {
+          "towel": {
+            "folded": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/folded": 1
+        }
+      },
+      "achieved": {
+        "count": 8,
+        "coverage": 0.11354817783394934,
+        "denominator_m2": 2.0051940265127004,
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.3595394013705502,
+        "method": "v1 exact polygon area sum on disjoint conservative footprints per fixed allowed support; no stacked placement"
+      },
+      "elapsed_s": 0.125,
+      "samples": 1839,
+      "failure": null,
+      "profile_hash": "9f3927eb9f79e0895922a47d34bf6b798a468803bb66e632cafc926d125fb4b5",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "65a976de7c6d79dad2a7cb065359c2fa233560313dd6cf633444326d59128a95"
+    },
+    {
+      "room": "hotel705",
+      "scenario": "STAYOVER",
+      "seed": 7003,
+      "level": "high",
+      "status": "PASS",
+      "targets": {
+        "count": 12,
+        "count_range": [
+          12,
+          13
+        ],
+        "coverage": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "spread": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "state_proportions": {
+          "towel": {
+            "loose": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/loose": 1
+        }
+      },
+      "achieved": {
+        "count": 12,
+        "coverage": 0.1354467637091238,
+        "denominator_m2": 2.0051940265127004,
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.2975235335996981,
+        "method": "v1 exact polygon area sum on disjoint conservative footprints per fixed allowed support; no stacked placement"
+      },
+      "elapsed_s": 0.20300000000133878,
+      "samples": 3008,
+      "failure": null,
+      "profile_hash": "9f3927eb9f79e0895922a47d34bf6b798a468803bb66e632cafc926d125fb4b5",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "65a976de7c6d79dad2a7cb065359c2fa233560313dd6cf633444326d59128a95"
+    },
+    {
+      "room": "hotel705",
+      "scenario": "CHECKOUT",
+      "seed": 7001,
+      "level": "low",
+      "status": "PASS",
+      "targets": {
+        "count": 8,
+        "count_range": [
+          7,
+          8
+        ],
+        "coverage": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "spread": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "state_proportions": {
+          "towel": {}
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "can"
+        ],
+        "required_state_counts": {}
+      },
+      "achieved": {
+        "count": 8,
+        "coverage": 0.07235814843630944,
+        "denominator_m2": 2.0051940265127004,
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.34758981985426357,
+        "method": "v1 exact polygon area sum on disjoint conservative footprints per fixed allowed support; no stacked placement"
+      },
+      "elapsed_s": 0.0,
+      "samples": 44,
+      "failure": null,
+      "profile_hash": "9f3927eb9f79e0895922a47d34bf6b798a468803bb66e632cafc926d125fb4b5",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "65a976de7c6d79dad2a7cb065359c2fa233560313dd6cf633444326d59128a95"
+    },
+    {
+      "room": "hotel705",
+      "scenario": "CHECKOUT",
+      "seed": 7001,
+      "level": "medium",
+      "status": "PASS",
+      "targets": {
+        "count": 12,
+        "count_range": [
+          11,
+          12
+        ],
+        "coverage": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "spread": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "state_proportions": {
+          "towel": {
+            "folded": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "can",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/folded": 1
+        }
+      },
+      "achieved": {
+        "count": 12,
+        "coverage": 0.12472280663849258,
+        "denominator_m2": 2.0051940265127004,
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.33816887306974963,
+        "method": "v1 exact polygon area sum on disjoint conservative footprints per fixed allowed support; no stacked placement"
+      },
+      "elapsed_s": 0.0,
+      "samples": 71,
+      "failure": null,
+      "profile_hash": "9f3927eb9f79e0895922a47d34bf6b798a468803bb66e632cafc926d125fb4b5",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "65a976de7c6d79dad2a7cb065359c2fa233560313dd6cf633444326d59128a95"
+    },
+    {
+      "room": "hotel705",
+      "scenario": "CHECKOUT",
+      "seed": 7001,
+      "level": "high",
+      "status": "PASS",
+      "targets": {
+        "count": 18,
+        "count_range": [
+          16,
+          18
+        ],
+        "coverage": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "spread": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "state_proportions": {
+          "towel": {
+            "loose": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "can",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/loose": 1
+        }
+      },
+      "achieved": {
+        "count": 18,
+        "coverage": 0.1811050409114064,
+        "denominator_m2": 2.0051940265127004,
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.3486954491680305,
+        "method": "v1 exact polygon area sum on disjoint conservative footprints per fixed allowed support; no stacked placement"
+      },
+      "elapsed_s": 0.20299999999406282,
+      "samples": 2783,
+      "failure": null,
+      "profile_hash": "9f3927eb9f79e0895922a47d34bf6b798a468803bb66e632cafc926d125fb4b5",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "65a976de7c6d79dad2a7cb065359c2fa233560313dd6cf633444326d59128a95"
+    },
+    {
+      "room": "hotel705",
+      "scenario": "CHECKOUT",
+      "seed": 7002,
+      "level": "low",
+      "status": "PASS",
+      "targets": {
+        "count": 7,
+        "count_range": [
+          7,
+          8
+        ],
+        "coverage": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "spread": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "state_proportions": {
+          "towel": {}
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "can"
+        ],
+        "required_state_counts": {}
+      },
+      "achieved": {
+        "count": 7,
+        "coverage": 0.06818492240630816,
+        "denominator_m2": 2.0051940265127004,
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.36550034929951797,
+        "method": "v1 exact polygon area sum on disjoint conservative footprints per fixed allowed support; no stacked placement"
+      },
+      "elapsed_s": 0.0,
+      "samples": 18,
+      "failure": null,
+      "profile_hash": "9f3927eb9f79e0895922a47d34bf6b798a468803bb66e632cafc926d125fb4b5",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "65a976de7c6d79dad2a7cb065359c2fa233560313dd6cf633444326d59128a95"
+    },
+    {
+      "room": "hotel705",
+      "scenario": "CHECKOUT",
+      "seed": 7002,
+      "level": "medium",
+      "status": "PASS",
+      "targets": {
+        "count": 11,
+        "count_range": [
+          11,
+          12
+        ],
+        "coverage": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "spread": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "state_proportions": {
+          "towel": {
+            "folded": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "can",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/folded": 1
+        }
+      },
+      "achieved": {
+        "count": 11,
+        "coverage": 0.12254751284833543,
+        "denominator_m2": 2.0051940265127004,
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.3194171017186037,
+        "method": "v1 exact polygon area sum on disjoint conservative footprints per fixed allowed support; no stacked placement"
+      },
+      "elapsed_s": 0.07800000000133878,
+      "samples": 1131,
+      "failure": null,
+      "profile_hash": "9f3927eb9f79e0895922a47d34bf6b798a468803bb66e632cafc926d125fb4b5",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "65a976de7c6d79dad2a7cb065359c2fa233560313dd6cf633444326d59128a95"
+    },
+    {
+      "room": "hotel705",
+      "scenario": "CHECKOUT",
+      "seed": 7002,
+      "level": "high",
+      "status": "PASS",
+      "targets": {
+        "count": 16,
+        "count_range": [
+          16,
+          18
+        ],
+        "coverage": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "spread": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "state_proportions": {
+          "towel": {
+            "loose": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "can",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/loose": 1
+        }
+      },
+      "achieved": {
+        "count": 16,
+        "coverage": 0.17434949068925837,
+        "denominator_m2": 2.0051940265127004,
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.29852963161354,
+        "method": "v1 exact polygon area sum on disjoint conservative footprints per fixed allowed support; no stacked placement"
+      },
+      "elapsed_s": 0.2190000000045984,
+      "samples": 3067,
+      "failure": null,
+      "profile_hash": "9f3927eb9f79e0895922a47d34bf6b798a468803bb66e632cafc926d125fb4b5",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "65a976de7c6d79dad2a7cb065359c2fa233560313dd6cf633444326d59128a95"
+    },
+    {
+      "room": "hotel705",
+      "scenario": "CHECKOUT",
+      "seed": 7003,
+      "level": "low",
+      "status": "PASS",
+      "targets": {
+        "count": 8,
+        "count_range": [
+          7,
+          8
+        ],
+        "coverage": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "spread": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "state_proportions": {
+          "towel": {}
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "can"
+        ],
+        "required_state_counts": {}
+      },
+      "achieved": {
+        "count": 8,
+        "coverage": 0.07235521300270308,
+        "denominator_m2": 2.0051940265127004,
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.3047269114601324,
+        "method": "v1 exact polygon area sum on disjoint conservative footprints per fixed allowed support; no stacked placement"
+      },
+      "elapsed_s": 0.014999999999417923,
+      "samples": 40,
+      "failure": null,
+      "profile_hash": "9f3927eb9f79e0895922a47d34bf6b798a468803bb66e632cafc926d125fb4b5",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "65a976de7c6d79dad2a7cb065359c2fa233560313dd6cf633444326d59128a95"
+    },
+    {
+      "room": "hotel705",
+      "scenario": "CHECKOUT",
+      "seed": 7003,
+      "level": "medium",
+      "status": "PASS",
+      "targets": {
+        "count": 12,
+        "count_range": [
+          11,
+          12
+        ],
+        "coverage": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "spread": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "state_proportions": {
+          "towel": {
+            "folded": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "can",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/folded": 1
+        }
+      },
+      "achieved": {
+        "count": 12,
+        "coverage": 0.12472063022207262,
+        "denominator_m2": 2.0051940265127004,
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.3442982406838491,
+        "method": "v1 exact polygon area sum on disjoint conservative footprints per fixed allowed support; no stacked placement"
+      },
+      "elapsed_s": 0.01599999999598367,
+      "samples": 84,
+      "failure": null,
+      "profile_hash": "9f3927eb9f79e0895922a47d34bf6b798a468803bb66e632cafc926d125fb4b5",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "65a976de7c6d79dad2a7cb065359c2fa233560313dd6cf633444326d59128a95"
+    },
+    {
+      "room": "hotel705",
+      "scenario": "CHECKOUT",
+      "seed": 7003,
+      "level": "high",
+      "status": "PASS",
+      "targets": {
+        "count": 17,
+        "count_range": [
+          16,
+          18
+        ],
+        "coverage": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "spread": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "state_proportions": {
+          "towel": {
+            "loose": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "can",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/loose": 1
+        }
+      },
+      "achieved": {
+        "count": 17,
+        "coverage": 0.1769319688421218,
+        "denominator_m2": 2.0051940265127004,
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.3343463334496227,
+        "method": "v1 exact polygon area sum on disjoint conservative footprints per fixed allowed support; no stacked placement"
+      },
+      "elapsed_s": 0.031000000002677552,
+      "samples": 350,
+      "failure": null,
+      "profile_hash": "9f3927eb9f79e0895922a47d34bf6b798a468803bb66e632cafc926d125fb4b5",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "65a976de7c6d79dad2a7cb065359c2fa233560313dd6cf633444326d59128a95"
+    },
+    {
+      "room": "yazhi",
+      "scenario": "STAYOVER",
+      "seed": 7001,
+      "level": "low",
+      "status": "PASS",
+      "targets": {
+        "count": 6,
+        "count_range": [
+          5,
+          6
+        ],
+        "coverage": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "spread": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "state_proportions": {
+          "towel": {}
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle"
+        ],
+        "required_state_counts": {}
+      },
+      "achieved": {
+        "count": 6,
+        "coverage": 0.09796684017980296,
+        "denominator_m2": 1.3511510513600504,
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.37161818367044563,
+        "method": "v1 exact polygon area sum on disjoint conservative footprints per fixed allowed support; no stacked placement"
+      },
+      "elapsed_s": 0.0,
+      "samples": 24,
+      "failure": null,
+      "profile_hash": "af9af193a6b2dab0502f876cc4c70823206dcdc434ffa30ee17af62c9826d5f0",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "65a976de7c6d79dad2a7cb065359c2fa233560313dd6cf633444326d59128a95"
+    },
+    {
+      "room": "yazhi",
+      "scenario": "STAYOVER",
+      "seed": 7001,
+      "level": "medium",
+      "status": "PASS",
+      "targets": {
+        "count": 9,
+        "count_range": [
+          8,
+          9
+        ],
+        "coverage": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "spread": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "state_proportions": {
+          "towel": {
+            "folded": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/folded": 1
+        }
+      },
+      "achieved": {
+        "count": 9,
+        "coverage": 0.17208586711953805,
+        "denominator_m2": 1.3511510513600504,
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.3364641577139027,
+        "method": "v1 exact polygon area sum on disjoint conservative footprints per fixed allowed support; no stacked placement"
+      },
+      "elapsed_s": 0.0,
+      "samples": 42,
+      "failure": null,
+      "profile_hash": "af9af193a6b2dab0502f876cc4c70823206dcdc434ffa30ee17af62c9826d5f0",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "65a976de7c6d79dad2a7cb065359c2fa233560313dd6cf633444326d59128a95"
+    },
+    {
+      "room": "yazhi",
+      "scenario": "STAYOVER",
+      "seed": 7001,
+      "level": "high",
+      "status": "PASS",
+      "targets": {
+        "count": 13,
+        "count_range": [
+          12,
+          13
+        ],
+        "coverage": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "spread": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "state_proportions": {
+          "towel": {
+            "loose": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/loose": 1
+        }
+      },
+      "achieved": {
+        "count": 13,
+        "coverage": 0.24260143900524878,
+        "denominator_m2": 1.3511510513600504,
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.3335677357208336,
+        "method": "v1 exact polygon area sum on disjoint conservative footprints per fixed allowed support; no stacked placement"
+      },
+      "elapsed_s": 0.0,
+      "samples": 128,
+      "failure": null,
+      "profile_hash": "af9af193a6b2dab0502f876cc4c70823206dcdc434ffa30ee17af62c9826d5f0",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "65a976de7c6d79dad2a7cb065359c2fa233560313dd6cf633444326d59128a95"
+    },
+    {
+      "room": "yazhi",
+      "scenario": "STAYOVER",
+      "seed": 7002,
+      "level": "low",
+      "status": "PASS",
+      "targets": {
+        "count": 5,
+        "count_range": [
+          5,
+          6
+        ],
+        "coverage": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "spread": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "state_proportions": {
+          "towel": {}
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle"
+        ],
+        "required_state_counts": {}
+      },
+      "achieved": {
+        "count": 5,
+        "coverage": 0.09413011182254984,
+        "denominator_m2": 1.3511510513600504,
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.3288717807425828,
+        "method": "v1 exact polygon area sum on disjoint conservative footprints per fixed allowed support; no stacked placement"
+      },
+      "elapsed_s": 0.0,
+      "samples": 28,
+      "failure": null,
+      "profile_hash": "af9af193a6b2dab0502f876cc4c70823206dcdc434ffa30ee17af62c9826d5f0",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "65a976de7c6d79dad2a7cb065359c2fa233560313dd6cf633444326d59128a95"
+    },
+    {
+      "room": "yazhi",
+      "scenario": "STAYOVER",
+      "seed": 7002,
+      "level": "medium",
+      "status": "PASS",
+      "targets": {
+        "count": 8,
+        "count_range": [
+          8,
+          9
+        ],
+        "coverage": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "spread": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "state_proportions": {
+          "towel": {
+            "folded": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/folded": 1
+        }
+      },
+      "achieved": {
+        "count": 8,
+        "coverage": 0.16886194926400028,
+        "denominator_m2": 1.3511510513600504,
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.3314718567241907,
+        "method": "v1 exact polygon area sum on disjoint conservative footprints per fixed allowed support; no stacked placement"
+      },
+      "elapsed_s": 0.0,
+      "samples": 32,
+      "failure": null,
+      "profile_hash": "af9af193a6b2dab0502f876cc4c70823206dcdc434ffa30ee17af62c9826d5f0",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "65a976de7c6d79dad2a7cb065359c2fa233560313dd6cf633444326d59128a95"
+    },
+    {
+      "room": "yazhi",
+      "scenario": "STAYOVER",
+      "seed": 7002,
+      "level": "high",
+      "status": "PASS",
+      "targets": {
+        "count": 12,
+        "count_range": [
+          12,
+          13
+        ],
+        "coverage": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "spread": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "state_proportions": {
+          "towel": {
+            "loose": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/loose": 1
+        }
+      },
+      "achieved": {
+        "count": 12,
+        "coverage": 0.23605886904870357,
+        "denominator_m2": 1.3511510513600504,
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.3431880264983113,
+        "method": "v1 exact polygon area sum on disjoint conservative footprints per fixed allowed support; no stacked placement"
+      },
+      "elapsed_s": 0.014999999999417923,
+      "samples": 97,
+      "failure": null,
+      "profile_hash": "af9af193a6b2dab0502f876cc4c70823206dcdc434ffa30ee17af62c9826d5f0",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "65a976de7c6d79dad2a7cb065359c2fa233560313dd6cf633444326d59128a95"
+    },
+    {
+      "room": "yazhi",
+      "scenario": "STAYOVER",
+      "seed": 7003,
+      "level": "low",
+      "status": "PASS",
+      "targets": {
+        "count": 5,
+        "count_range": [
+          5,
+          6
+        ],
+        "coverage": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "spread": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "state_proportions": {
+          "towel": {}
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle"
+        ],
+        "required_state_counts": {}
+      },
+      "achieved": {
+        "count": 5,
+        "coverage": 0.0941301118225525,
+        "denominator_m2": 1.3511510513600504,
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.36676120696437114,
+        "method": "v1 exact polygon area sum on disjoint conservative footprints per fixed allowed support; no stacked placement"
+      },
+      "elapsed_s": 0.0,
+      "samples": 62,
+      "failure": null,
+      "profile_hash": "af9af193a6b2dab0502f876cc4c70823206dcdc434ffa30ee17af62c9826d5f0",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "65a976de7c6d79dad2a7cb065359c2fa233560313dd6cf633444326d59128a95"
+    },
+    {
+      "room": "yazhi",
+      "scenario": "STAYOVER",
+      "seed": 7003,
+      "level": "medium",
+      "status": "PASS",
+      "targets": {
+        "count": 8,
+        "count_range": [
+          8,
+          9
+        ],
+        "coverage": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "spread": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "state_proportions": {
+          "towel": {
+            "folded": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/folded": 1
+        }
+      },
+      "achieved": {
+        "count": 8,
+        "coverage": 0.16886194926400475,
+        "denominator_m2": 1.3511510513600504,
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.36999666579472595,
+        "method": "v1 exact polygon area sum on disjoint conservative footprints per fixed allowed support; no stacked placement"
+      },
+      "elapsed_s": 0.01599999999598367,
+      "samples": 1081,
+      "failure": null,
+      "profile_hash": "af9af193a6b2dab0502f876cc4c70823206dcdc434ffa30ee17af62c9826d5f0",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "65a976de7c6d79dad2a7cb065359c2fa233560313dd6cf633444326d59128a95"
+    },
+    {
+      "room": "yazhi",
+      "scenario": "STAYOVER",
+      "seed": 7003,
+      "level": "high",
+      "status": "PASS",
+      "targets": {
+        "count": 12,
+        "count_range": [
+          12,
+          13
+        ],
+        "coverage": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "spread": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "state_proportions": {
+          "towel": {
+            "loose": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/loose": 1
+        }
+      },
+      "achieved": {
+        "count": 12,
+        "coverage": 0.23605886904870652,
+        "denominator_m2": 1.3511510513600504,
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.30822405065523384,
+        "method": "v1 exact polygon area sum on disjoint conservative footprints per fixed allowed support; no stacked placement"
+      },
+      "elapsed_s": 0.031000000002677552,
+      "samples": 3853,
+      "failure": null,
+      "profile_hash": "af9af193a6b2dab0502f876cc4c70823206dcdc434ffa30ee17af62c9826d5f0",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "65a976de7c6d79dad2a7cb065359c2fa233560313dd6cf633444326d59128a95"
+    },
+    {
+      "room": "yazhi",
+      "scenario": "CHECKOUT",
+      "seed": 7001,
+      "level": "low",
+      "status": "PASS",
+      "targets": {
+        "count": 8,
+        "count_range": [
+          7,
+          8
+        ],
+        "coverage": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "spread": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "state_proportions": {
+          "towel": {}
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "can"
+        ],
+        "required_state_counts": {}
+      },
+      "achieved": {
+        "count": 8,
+        "coverage": 0.10773332799186768,
+        "denominator_m2": 1.3511510513600504,
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.2730964408642373,
+        "method": "v1 exact polygon area sum on disjoint conservative footprints per fixed allowed support; no stacked placement"
+      },
+      "elapsed_s": 0.0,
+      "samples": 22,
+      "failure": null,
+      "profile_hash": "af9af193a6b2dab0502f876cc4c70823206dcdc434ffa30ee17af62c9826d5f0",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "65a976de7c6d79dad2a7cb065359c2fa233560313dd6cf633444326d59128a95"
+    },
+    {
+      "room": "yazhi",
+      "scenario": "CHECKOUT",
+      "seed": 7001,
+      "level": "medium",
+      "status": "PASS",
+      "targets": {
+        "count": 12,
+        "count_range": [
+          11,
+          12
+        ],
+        "coverage": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "spread": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "state_proportions": {
+          "towel": {
+            "folded": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "can",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/folded": 1
+        }
+      },
+      "achieved": {
+        "count": 12,
+        "coverage": 0.220456476707709,
+        "denominator_m2": 1.3511510513600504,
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.3363617048394608,
+        "method": "v1 exact polygon area sum on disjoint conservative footprints per fixed allowed support; no stacked placement"
+      },
+      "elapsed_s": 0.0,
+      "samples": 382,
+      "failure": null,
+      "profile_hash": "af9af193a6b2dab0502f876cc4c70823206dcdc434ffa30ee17af62c9826d5f0",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "65a976de7c6d79dad2a7cb065359c2fa233560313dd6cf633444326d59128a95"
+    },
+    {
+      "room": "yazhi",
+      "scenario": "CHECKOUT",
+      "seed": 7001,
+      "level": "high",
+      "status": "PASS",
+      "targets": {
+        "count": 18,
+        "count_range": [
+          16,
+          18
+        ],
+        "coverage": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "spread": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "state_proportions": {
+          "towel": {
+            "loose": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "can",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/loose": 1
+        }
+      },
+      "achieved": {
+        "count": 18,
+        "coverage": 0.29803269480620304,
+        "denominator_m2": 1.3511510513600504,
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.350818731431761,
+        "method": "v1 exact polygon area sum on disjoint conservative footprints per fixed allowed support; no stacked placement"
+      },
+      "elapsed_s": 0.0319999999992433,
+      "samples": 1922,
+      "failure": null,
+      "profile_hash": "af9af193a6b2dab0502f876cc4c70823206dcdc434ffa30ee17af62c9826d5f0",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "65a976de7c6d79dad2a7cb065359c2fa233560313dd6cf633444326d59128a95"
+    },
+    {
+      "room": "yazhi",
+      "scenario": "CHECKOUT",
+      "seed": 7002,
+      "level": "low",
+      "status": "PASS",
+      "targets": {
+        "count": 7,
+        "count_range": [
+          7,
+          8
+        ],
+        "coverage": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "spread": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "state_proportions": {
+          "towel": {}
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "can"
+        ],
+        "required_state_counts": {}
+      },
+      "achieved": {
+        "count": 7,
+        "coverage": 0.10119075803533659,
+        "denominator_m2": 1.3511510513600504,
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.3502205697248837,
+        "method": "v1 exact polygon area sum on disjoint conservative footprints per fixed allowed support; no stacked placement"
+      },
+      "elapsed_s": 0.0,
+      "samples": 48,
+      "failure": null,
+      "profile_hash": "af9af193a6b2dab0502f876cc4c70823206dcdc434ffa30ee17af62c9826d5f0",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "65a976de7c6d79dad2a7cb065359c2fa233560313dd6cf633444326d59128a95"
+    },
+    {
+      "room": "yazhi",
+      "scenario": "CHECKOUT",
+      "seed": 7002,
+      "level": "medium",
+      "status": "PASS",
+      "targets": {
+        "count": 11,
+        "count_range": [
+          11,
+          12
+        ],
+        "coverage": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "spread": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "state_proportions": {
+          "towel": {
+            "folded": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "can",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/folded": 1
+        }
+      },
+      "achieved": {
+        "count": 11,
+        "coverage": 0.20254582195476958,
+        "denominator_m2": 1.3511510513600504,
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.3145885438467681,
+        "method": "v1 exact polygon area sum on disjoint conservative footprints per fixed allowed support; no stacked placement"
+      },
+      "elapsed_s": 0.031000000002677552,
+      "samples": 2262,
+      "failure": null,
+      "profile_hash": "af9af193a6b2dab0502f876cc4c70823206dcdc434ffa30ee17af62c9826d5f0",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "65a976de7c6d79dad2a7cb065359c2fa233560313dd6cf633444326d59128a95"
+    },
+    {
+      "room": "yazhi",
+      "scenario": "CHECKOUT",
+      "seed": 7002,
+      "level": "high",
+      "status": "PASS",
+      "targets": {
+        "count": 16,
+        "count_range": [
+          16,
+          18
+        ],
+        "coverage": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "spread": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "state_proportions": {
+          "towel": {
+            "loose": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "can",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/loose": 1
+        }
+      },
+      "achieved": {
+        "count": 16,
+        "coverage": 0.2762853116960058,
+        "denominator_m2": 1.3511510513600504,
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.30585679330348114,
+        "method": "v1 exact polygon area sum on disjoint conservative footprints per fixed allowed support; no stacked placement"
+      },
+      "elapsed_s": 0.0,
+      "samples": 1035,
+      "failure": null,
+      "profile_hash": "af9af193a6b2dab0502f876cc4c70823206dcdc434ffa30ee17af62c9826d5f0",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "65a976de7c6d79dad2a7cb065359c2fa233560313dd6cf633444326d59128a95"
+    },
+    {
+      "room": "yazhi",
+      "scenario": "CHECKOUT",
+      "seed": 7003,
+      "level": "low",
+      "status": "PASS",
+      "targets": {
+        "count": 8,
+        "count_range": [
+          7,
+          8
+        ],
+        "coverage": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "spread": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "state_proportions": {
+          "towel": {}
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "can"
+        ],
+        "required_state_counts": {}
+      },
+      "achieved": {
+        "count": 8,
+        "coverage": 0.10773332799186777,
+        "denominator_m2": 1.3511510513600504,
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.2748399321580604,
+        "method": "v1 exact polygon area sum on disjoint conservative footprints per fixed allowed support; no stacked placement"
+      },
+      "elapsed_s": 0.0,
+      "samples": 39,
+      "failure": null,
+      "profile_hash": "af9af193a6b2dab0502f876cc4c70823206dcdc434ffa30ee17af62c9826d5f0",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "65a976de7c6d79dad2a7cb065359c2fa233560313dd6cf633444326d59128a95"
+    },
+    {
+      "room": "yazhi",
+      "scenario": "CHECKOUT",
+      "seed": 7003,
+      "level": "medium",
+      "status": "PASS",
+      "targets": {
+        "count": 12,
+        "count_range": [
+          11,
+          12
+        ],
+        "coverage": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "spread": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "state_proportions": {
+          "towel": {
+            "folded": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "can",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/folded": 1
+        }
+      },
+      "achieved": {
+        "count": 12,
+        "coverage": 0.2204564767077179,
+        "denominator_m2": 1.3511510513600504,
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.29704501191886395,
+        "method": "v1 exact polygon area sum on disjoint conservative footprints per fixed allowed support; no stacked placement"
+      },
+      "elapsed_s": 0.0,
+      "samples": 1001,
+      "failure": null,
+      "profile_hash": "af9af193a6b2dab0502f876cc4c70823206dcdc434ffa30ee17af62c9826d5f0",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "65a976de7c6d79dad2a7cb065359c2fa233560313dd6cf633444326d59128a95"
+    },
+    {
+      "room": "yazhi",
+      "scenario": "CHECKOUT",
+      "seed": 7003,
+      "level": "high",
+      "status": "PASS",
+      "targets": {
+        "count": 17,
+        "count_range": [
+          16,
+          18
+        ],
+        "coverage": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "spread": {
+          "hard": false,
+          "target": null,
+          "status": "CALIBRATION_PENDING_WU10"
+        },
+        "state_proportions": {
+          "towel": {
+            "loose": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "can",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/loose": 1
+        }
+      },
+      "achieved": {
+        "count": 17,
+        "coverage": 0.2941959664489495,
+        "denominator_m2": 1.3511510513600504,
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.33450184316652953,
+        "method": "v1 exact polygon area sum on disjoint conservative footprints per fixed allowed support; no stacked placement"
+      },
+      "elapsed_s": 0.01599999999598367,
+      "samples": 1457,
+      "failure": null,
+      "profile_hash": "af9af193a6b2dab0502f876cc4c70823206dcdc434ffa30ee17af62c9826d5f0",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "65a976de7c6d79dad2a7cb065359c2fa233560313dd6cf633444326d59128a95"
+    }
+  ],
+  "means": [
+    {
+      "room": "hotel705",
+      "scenario": "STAYOVER",
+      "coverage": [
+        0.06428904021278303,
+        0.11435334121798894,
+        0.13755087329324792
+      ],
+      "strictly_increasing": true
+    },
+    {
+      "room": "hotel705",
+      "scenario": "CHECKOUT",
+      "coverage": [
+        0.07096609461510689,
+        0.1239969832363002,
+        0.1774621668142622
+      ],
+      "strictly_increasing": true
+    },
+    {
+      "room": "yazhi",
+      "scenario": "STAYOVER",
+      "coverage": [
+        0.09540902127496843,
+        0.16993658854918103,
+        0.23823972570088628
+      ],
+      "strictly_increasing": true
+    },
+    {
+      "room": "yazhi",
+      "scenario": "CHECKOUT",
+      "coverage": [
+        0.10555247133969069,
+        0.21448625845673217,
+        0.28950465765038613
+      ],
+      "strictly_increasing": true
+    }
+  ],
+  "scope": "geometry-only calibration; policy remains unfrozen until WU-10 after S0 integration"
+}

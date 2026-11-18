@@ -1,0 +1,16 @@
+{
+  "outcome": "PASS",
+  "source_sha256": "b8ef82a956a2869364faddf488fa13664afec070bb3a3e8ca32ca1215259fee2",
+  "scene_sha256": "1b9dd20bf34cb9047f3aaef82d4150763d2efd8daa4faaebdbc5cc9680d1c4a3",
+  "meshes": 1650,
+  "removed_non_source_opinion_roots": [
+    "OmniverseKit_Persp",
+    "OmniverseKit_Front",
+    "OmniverseKit_Top",
+    "OmniverseKit_Right",
+    "Render",
+    "ExperimentalPhysics",
+    "CommonCore"
+  ],
+  "scope": "Actual source hierarchy, geometry/UV/normals and initial world matrices preserved; source-only physics opinions retained separately. Clean-room native dynamics still pending."
+}

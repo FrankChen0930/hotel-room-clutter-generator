@@ -1,0 +1,46 @@
+{
+  "outcome": "PASS",
+  "verified_cases": 6,
+  "reviewed_actual_images": 30,
+  "cases": [
+    {
+      "level": "low",
+      "seed": 706,
+      "manifest_sha256": "392220685f4f457d2c40f9ee07e87564d11f41ff8b2a892287e375e366a94779",
+      "review_sha256": "e919908512581a5189d47a20dcab2a7f56832ecfe861cafa0b0502b7293a14b3"
+    },
+    {
+      "level": "medium",
+      "seed": 706,
+      "manifest_sha256": "98c3fdb9c8f2fa874a3c2d78e83e181b5d22059ff8094ea5a97a25a0d1b0963f",
+      "review_sha256": "c126f2b041744f0f71e6fbfd4eeb9216b1b6c1e4a8bbbc22dfaf4b9336ef6891"
+    },
+    {
+      "level": "high",
+      "seed": 706,
+      "manifest_sha256": "df46d32a1df5d101db04f4b5273a3b71f527c41fe916c25d54600bb7f555a97f",
+      "review_sha256": "b5bbd918137172f5a09432ca0d11d5cad749d70e3cba4760669852b91f6039d0"
+    },
+    {
+      "level": "low",
+      "seed": 707,
+      "manifest_sha256": "944bfae9ee340e13a0a57a45c0b38912da91d3c69d68c8e255e627509cf2c1fc",
+      "review_sha256": "f42bc33a38cb6287e80c5fa03953b069f3a3b795dada11ae77636fc56a647451"
+    },
+    {
+      "level": "medium",
+      "seed": 707,
+      "manifest_sha256": "d8c343566affc5777d8af34519eeaa65ea073bf3bdeac3868982d87918b08d2f",
+      "review_sha256": "d193e23316aff2105c86639f8cf34a4483f4b7af14e02c39472aa1cc1ab6560e"
+    },
+    {
+      "level": "high",
+      "seed": 707,
+      "manifest_sha256": "768c5f45817c8b5412e6366661d3b2ffe3fa5fb0aa9add8013c32dd7ac393477",
+      "review_sha256": "4ce8af7ca89a7663e4ce58aab9557474b73ed71e66f3cdebb50cc8d7711d5081"
+    }
+  ],
+  "comparison_sha256": "26b7480ab82692c5d763896fd2125f904b5c46c0e93fc2adfe89b4c51806333a",
+  "verification_sha256": "9fe7c5af9f3678649650abeb2c912dcb1ce510c52d0756edc10bc1ae36fd5e4b",
+  "scope": "Six exact cases: actual thirty images, initial-static/physics/contact/Replay/dependency proof. No broad dynamic, deformable, rights or perturbation qualification inferred."
+}

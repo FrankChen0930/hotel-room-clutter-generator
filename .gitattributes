@@ -10,3 +10,6 @@
 *.png binary
 *.jpg binary
 *.zip binary
+
+# Research evidence pins exact bytes, including original source line endings.
+research/** -text

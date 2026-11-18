@@ -1,0 +1,67 @@
+{
+  "outcome": "PASS",
+  "cases": [
+    {
+      "level": "low",
+      "seed": 706,
+      "count": 15,
+      "outcome": "PASS",
+      "manifest_sha256": "392220685f4f457d2c40f9ee07e87564d11f41ff8b2a892287e375e366a94779",
+      "scene_sha256": "c3d4732ab395512941bf40f05e9117affae7666576fc3c77f7de909bbe873506",
+      "dynamic_scene_sha256": "4149afcfdb3141e4e249af3bb018625eb050476126f01d3037bb68b0f6480002"
+    },
+    {
+      "level": "medium",
+      "seed": 706,
+      "count": 32,
+      "outcome": "PASS",
+      "manifest_sha256": "98c3fdb9c8f2fa874a3c2d78e83e181b5d22059ff8094ea5a97a25a0d1b0963f",
+      "scene_sha256": "a275d02d94159c123ac87cceee968bed7488eb6724540640b5332036ba16a631",
+      "dynamic_scene_sha256": "ebdd624dfd01be34d12b98d0cfd759eff1d899700411158f135cc1507040e82d"
+    },
+    {
+      "level": "high",
+      "seed": 706,
+      "count": 77,
+      "outcome": "PASS",
+      "manifest_sha256": "df46d32a1df5d101db04f4b5273a3b71f527c41fe916c25d54600bb7f555a97f",
+      "scene_sha256": "d2945a1cfc85d1eec6e60278a4cca1bf14a850e730bcab87f2863a15d7333d56",
+      "dynamic_scene_sha256": "8dd3da496aab5d8fa2817493b0b133e03ccab6386a3a703e98d9b94eee67728c"
+    },
+    {
+      "level": "low",
+      "seed": 707,
+      "count": 13,
+      "outcome": "PASS",
+      "manifest_sha256": "944bfae9ee340e13a0a57a45c0b38912da91d3c69d68c8e255e627509cf2c1fc",
+      "scene_sha256": "1667e7193f0ec31dbd9373d655e44c64a3509217c8fcc9ec0690f86ed1d011b5",
+      "dynamic_scene_sha256": "42060379bcbdc82d712190c630165f47159f10ed0e820f61bfa9f67b4f1702c3"
+    },
+    {
+      "level": "medium",
+      "seed": 707,
+      "count": 49,
+      "outcome": "PASS",
+      "manifest_sha256": "d8c343566affc5777d8af34519eeaa65ea073bf3bdeac3868982d87918b08d2f",
+      "scene_sha256": "cb52a53c62b438a9981606bb8c6163d54bbb62b13d73ecdfdecfea6f67b43de4",
+      "dynamic_scene_sha256": "61999b37f2c6cfaab27358072b271c2c8d38edce89242d44305ee6ef2cc0fa75"
+    },
+    {
+      "level": "high",
+      "seed": 707,
+      "count": 73,
+      "outcome": "PASS",
+      "manifest_sha256": "768c5f45817c8b5412e6366661d3b2ffe3fa5fb0aa9add8013c32dd7ac393477",
+      "scene_sha256": "3ddb237dbcf343cacd2b7d21c06db316478dc703dec736021ebfc5a7a2e9af2f",
+      "dynamic_scene_sha256": "a09c0f2ec7478d4ec3fd9dddbf265b1aff4f54f9f67ab97a1c04d079b6f216a6"
+    }
+  ],
+  "tests": ".\n----------------------------------------------------------------------\nRan 1 test in 0.093s\n\nOK\n",
+  "protected": {
+    "outcome": "PASS",
+    "checked": 68,
+    "changed": [],
+    "scope": "Packaged public source data only; original private302-file baseline is not bundled or claimed"
+  },
+  "scope": "Exact candidate cases: simulated rigid surrogate evidence, pinned effective-pose replay, USD closure/body structure, scoped regression tests and source hashes; no inferred public rights or deformable qualification"
+}

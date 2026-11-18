@@ -1,0 +1,13 @@
+{
+  "bindings": {
+    "room_hotel": "REQUIRED_LOCAL_HOTEL705_RELEASE_ROOT",
+    "room_yazhi": "REQUIRED_LOCAL_YAZHI_TWIN_ROOT",
+    "hotel_helpers": "REQUIRED_LOCAL_HOTEL705_PILOT_ROOT",
+    "toolkit": "REQUIRED_LOCAL_TOOLKIT_ROOT"
+  },
+  "rooms": {"hotel705": "rooms/hotel705.json", "yazhi": "rooms/yazhi.json"},
+  "catalog": "catalog.json",
+  "policy": "policy.json",
+  "source_lock": "source_lock.json",
+  "isaac_root": "REQUIRED_LOCAL_ISAAC_SIM_ROOT"
+}

@@ -1,0 +1,128 @@
+{
+  "outcome": "PASS",
+  "pages": [
+    {
+      "page": 1,
+      "text_objects": 6,
+      "shape_objects": 6,
+      "pictures": 1,
+      "notes_characters": 93
+    },
+    {
+      "page": 2,
+      "text_objects": 15,
+      "shape_objects": 19,
+      "pictures": 0,
+      "notes_characters": 104
+    },
+    {
+      "page": 3,
+      "text_objects": 14,
+      "shape_objects": 18,
+      "pictures": 0,
+      "notes_characters": 161
+    },
+    {
+      "page": 4,
+      "text_objects": 8,
+      "shape_objects": 8,
+      "pictures": 2,
+      "notes_characters": 97
+    },
+    {
+      "page": 5,
+      "text_objects": 19,
+      "shape_objects": 23,
+      "pictures": 0,
+      "notes_characters": 143
+    },
+    {
+      "page": 6,
+      "text_objects": 10,
+      "shape_objects": 12,
+      "pictures": 0,
+      "notes_characters": 163
+    },
+    {
+      "page": 7,
+      "text_objects": 12,
+      "shape_objects": 15,
+      "pictures": 0,
+      "notes_characters": 159
+    },
+    {
+      "page": 8,
+      "text_objects": 10,
+      "shape_objects": 10,
+      "pictures": 3,
+      "notes_characters": 105
+    },
+    {
+      "page": 9,
+      "text_objects": 12,
+      "shape_objects": 12,
+      "pictures": 3,
+      "notes_characters": 109
+    },
+    {
+      "page": 10,
+      "text_objects": 7,
+      "shape_objects": 7,
+      "pictures": 2,
+      "notes_characters": 117
+    },
+    {
+      "page": 11,
+      "text_objects": 12,
+      "shape_objects": 16,
+      "pictures": 0,
+      "notes_characters": 134
+    },
+    {
+      "page": 12,
+      "text_objects": 12,
+      "shape_objects": 14,
+      "pictures": 1,
+      "notes_characters": 121
+    },
+    {
+      "page": 13,
+      "text_objects": 23,
+      "shape_objects": 24,
+      "pictures": 0,
+      "notes_characters": 231
+    },
+    {
+      "page": 14,
+      "text_objects": 9,
+      "shape_objects": 11,
+      "pictures": 0,
+      "notes_characters": 127
+    },
+    {
+      "page": 15,
+      "text_objects": 9,
+      "shape_objects": 9,
+      "pictures": 1,
+      "notes_characters": 161
+    },
+    {
+      "page": 16,
+      "text_objects": 11,
+      "shape_objects": 14,
+      "pictures": 0,
+      "notes_characters": 136
+    }
+  ],
+  "slides": 16,
+  "notes_slides": 16,
+  "embedded_original_images": 12,
+  "editable_text_objects": 189,
+  "deck_sha256": "2b3cef29a92c57dcc2c1cd3eb64bb0129db0269504bea652cff47436ae51482e",
+  "source_sha256": "b5ae2ef82a623d4eee68e608dce0be72322e86a2331180c29a1d4c163a1284d3",
+  "source": "C:\\hotel_room\\presentation\\lab-slides\\slides\\report-2026-11-19-weekly\\index.tsx",
+  "external_dependencies": 0,
+  "animations": 0,
+  "visual_review": "PENDING_NATIVE_POWERPOINT",
+  "scope": "OOXML well-formedness, all relationships, exact embedded PNG hashes, native text and matching notes, static16:9 deck. This is not a native PowerPoint layout check."
+}

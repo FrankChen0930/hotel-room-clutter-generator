@@ -1,0 +1,2328 @@
+{
+  "schema_version": "1.0",
+  "catalog_id": "common-core-adopted",
+  "version": "1.0",
+  "entries": [
+    {
+      "asset_id": "book",
+      "version": "1.0",
+      "category": "book",
+      "origin": "external",
+      "source_locator": {
+        "mount": "room_yazhi",
+        "path": "experiments/phase2_external_asset_pool/assets/EXT-BOOK-001/asset.usda"
+      },
+      "dependency_hashes": [
+        {
+          "mount": "room_yazhi",
+          "path": "experiments/phase2_external_asset_pool/assets/EXT-BOOK-001/asset.usda",
+          "sha256": "bca480ca0f8e3f0702cf5b10576121ee7de561d5237a766446736ff50b9b991d",
+          "bytes": 3293
+        }
+      ],
+      "root_prim": "/EXT_BOOK_001",
+      "dimensions": [
+        0.16,
+        0.23,
+        0.032
+      ],
+      "provenance": {
+        "kind": "EXISTING_LOCKED_YAZHI_PROVISIONAL_DESIGN_ASSET",
+        "human_confirmed": false
+      },
+      "license_scope": "INTERNAL_EVALUATION_ONLY; REDISTRIBUTION_NOT_CLEARED",
+      "states": [
+        {
+          "state_id": "default",
+          "version": "1.0",
+          "usd_locator_or_native_prim": {
+            "mount": "room_yazhi",
+            "path": "experiments/phase2_external_asset_pool/assets/EXT-BOOK-001/asset.usda"
+          },
+          "sha256": "bca480ca0f8e3f0702cf5b10576121ee7de561d5237a766446736ff50b9b991d",
+          "units": 1.0,
+          "up_axis": "Z",
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "alignment": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "state_transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "visual_bounds": [
+            [
+              -0.08,
+              -0.115,
+              0.0
+            ],
+            [
+              0.08,
+              0.115,
+              0.032
+            ]
+          ],
+          "footprint": [
+            [
+              -0.08,
+              -0.115
+            ],
+            [
+              0.08,
+              -0.115
+            ],
+            [
+              0.08,
+              0.115
+            ],
+            [
+              -0.08,
+              0.115
+            ]
+          ],
+          "support_envelope": {
+            "clearance_m": 0.001
+          },
+          "allowed_pose_tags": [
+            "upright"
+          ],
+          "acceptance_refs": [],
+          "physics_proxy": {
+            "kind": "box",
+            "capability": "DYNAMIC_CANDIDATE",
+            "shape_paths": [
+              "CollisionProxies/Body"
+            ],
+            "geometry_hash": "7b018c4c76c3a54f511e38f5572440168f16ecfad2d1045f75c8975eac7c1072",
+            "relative_transforms": [
+              [
+                [
+                  0.16,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.23,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.032,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.016,
+                  1.0
+                ]
+              ]
+            ],
+            "mass": {
+              "mode": "RUNTIME_DEFAULT_FROM_DENSITY",
+              "authored_kg": null
+            },
+            "inertia": {
+              "mode": "RUNTIME_COMPUTED_FROM_GEOMETRY",
+              "authored_diagonal": null
+            },
+            "material_refs": [],
+            "provenance": {
+              "kind": "EXISTING_SOURCE_PROXY",
+              "mass": "UNSPECIFIED_RUNTIME_DEFAULT",
+              "inertia": "UNSPECIFIED_RUNTIME_DEFAULT",
+              "materials": "UNSPECIFIED_RUNTIME_DEFAULT",
+              "qualification": "NONE; exact case evidence separate"
+            }
+          }
+        }
+      ],
+      "qualification_refs": []
+    },
+    {
+      "asset_id": "tissue",
+      "version": "1.0",
+      "category": "tissue",
+      "origin": "external",
+      "source_locator": {
+        "mount": "room_yazhi",
+        "path": "experiments/phase2_external_asset_pool/assets/EXT-TISSUE-001/asset.usda"
+      },
+      "dependency_hashes": [
+        {
+          "mount": "room_yazhi",
+          "path": "experiments/phase2_external_asset_pool/assets/EXT-TISSUE-001/asset.usda",
+          "sha256": "9876ce91bc18ec4c84a9bf2da50ee9b9012584fd08241865a5f653c0dfeba927",
+          "bytes": 3725
+        }
+      ],
+      "root_prim": "/EXT_TISSUE_001",
+      "dimensions": [
+        0.22,
+        0.11,
+        0.09
+      ],
+      "provenance": {
+        "kind": "EXISTING_LOCKED_YAZHI_PROVISIONAL_DESIGN_ASSET",
+        "human_confirmed": false
+      },
+      "license_scope": "INTERNAL_EVALUATION_ONLY; REDISTRIBUTION_NOT_CLEARED",
+      "states": [
+        {
+          "state_id": "default",
+          "version": "1.0",
+          "usd_locator_or_native_prim": {
+            "mount": "room_yazhi",
+            "path": "experiments/phase2_external_asset_pool/assets/EXT-TISSUE-001/asset.usda"
+          },
+          "sha256": "9876ce91bc18ec4c84a9bf2da50ee9b9012584fd08241865a5f653c0dfeba927",
+          "units": 1.0,
+          "up_axis": "Z",
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "alignment": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "state_transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "visual_bounds": [
+            [
+              -0.11,
+              -0.055,
+              0.0
+            ],
+            [
+              0.11,
+              0.055,
+              0.09
+            ]
+          ],
+          "footprint": [
+            [
+              -0.11,
+              -0.055
+            ],
+            [
+              0.11,
+              -0.055
+            ],
+            [
+              0.11,
+              0.055
+            ],
+            [
+              -0.11,
+              0.055
+            ]
+          ],
+          "support_envelope": {
+            "clearance_m": 0.001
+          },
+          "allowed_pose_tags": [
+            "upright"
+          ],
+          "acceptance_refs": [],
+          "physics_proxy": {
+            "kind": "none",
+            "capability": "STATIC_ONLY",
+            "shape_paths": [],
+            "geometry_hash": "9876ce91bc18ec4c84a9bf2da50ee9b9012584fd08241865a5f653c0dfeba927"
+          }
+        }
+      ],
+      "qualification_refs": []
+    },
+    {
+      "asset_id": "remote",
+      "version": "1.0",
+      "category": "remote",
+      "origin": "external",
+      "source_locator": {
+        "mount": "room_yazhi",
+        "path": "experiments/phase_v2_room_clutter/outputs/run_20261104T123147955366Z/assets/remote.usda"
+      },
+      "dependency_hashes": [
+        {
+          "mount": "room_yazhi",
+          "path": "experiments/phase_v2_room_clutter/outputs/run_20261104T123147955366Z/assets/remote.usda",
+          "sha256": "cd2c58daa86ba77438726fa5db759c84a71c2c7720d508735c70c97076c5d492",
+          "bytes": 4564
+        }
+      ],
+      "root_prim": "/REMOTE",
+      "dimensions": [
+        0.052000001072883606,
+        0.17000000178813934,
+        0.020999999625608327
+      ],
+      "provenance": {
+        "kind": "EXISTING_LOCKED_YAZHI_PROVISIONAL_DESIGN_ASSET",
+        "human_confirmed": false
+      },
+      "license_scope": "INTERNAL_EVALUATION_ONLY; REDISTRIBUTION_NOT_CLEARED",
+      "states": [
+        {
+          "state_id": "default",
+          "version": "1.0",
+          "usd_locator_or_native_prim": {
+            "mount": "room_yazhi",
+            "path": "experiments/phase_v2_room_clutter/outputs/run_20261104T123147955366Z/assets/remote.usda"
+          },
+          "sha256": "cd2c58daa86ba77438726fa5db759c84a71c2c7720d508735c70c97076c5d492",
+          "units": 1.0,
+          "up_axis": "Z",
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "alignment": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "state_transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "visual_bounds": [
+            [
+              -0.026000000536441803,
+              -0.08500000089406967,
+              3.8743019036002746e-10
+            ],
+            [
+              0.026000000536441803,
+              0.08500000089406967,
+              0.021000000013038516
+            ]
+          ],
+          "footprint": [
+            [
+              -0.026000000536441803,
+              -0.08500000089406967
+            ],
+            [
+              0.026000000536441803,
+              -0.08500000089406967
+            ],
+            [
+              0.026000000536441803,
+              0.08500000089406967
+            ],
+            [
+              -0.026000000536441803,
+              0.08500000089406967
+            ]
+          ],
+          "support_envelope": {
+            "clearance_m": 0.001
+          },
+          "allowed_pose_tags": [
+            "upright"
+          ],
+          "acceptance_refs": [],
+          "physics_proxy": {
+            "kind": "none",
+            "capability": "STATIC_ONLY",
+            "shape_paths": [],
+            "geometry_hash": "cd2c58daa86ba77438726fa5db759c84a71c2c7720d508735c70c97076c5d492"
+          }
+        }
+      ],
+      "qualification_refs": []
+    },
+    {
+      "asset_id": "bottle",
+      "version": "1.0",
+      "category": "bottle",
+      "origin": "external",
+      "source_locator": {
+        "mount": "room_yazhi",
+        "path": "experiments/phase_v2_room_clutter/outputs/run_20261104T123147955366Z/assets/bottle.usda"
+      },
+      "dependency_hashes": [
+        {
+          "mount": "room_yazhi",
+          "path": "experiments/phase_v2_room_clutter/outputs/run_20261104T123147955366Z/assets/bottle.usda",
+          "sha256": "60234e6846f271b3cfa7e628b0521d8e1b3e9241b4b87033e5c42c07522994ab",
+          "bytes": 3252
+        }
+      ],
+      "root_prim": "/BOTTLE",
+      "dimensions": [
+        0.07199999690055847,
+        0.07199999690055847,
+        0.24000000340864064
+      ],
+      "provenance": {
+        "kind": "EXISTING_LOCKED_YAZHI_PROVISIONAL_DESIGN_ASSET",
+        "human_confirmed": false
+      },
+      "license_scope": "INTERNAL_EVALUATION_ONLY; REDISTRIBUTION_NOT_CLEARED",
+      "states": [
+        {
+          "state_id": "default",
+          "version": "1.0",
+          "usd_locator_or_native_prim": {
+            "mount": "room_yazhi",
+            "path": "experiments/phase_v2_room_clutter/outputs/run_20261104T123147955366Z/assets/bottle.usda"
+          },
+          "sha256": "60234e6846f271b3cfa7e628b0521d8e1b3e9241b4b87033e5c42c07522994ab",
+          "units": 1.0,
+          "up_axis": "Z",
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "alignment": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "state_transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "visual_bounds": [
+            [
+              -0.035999998450279236,
+              -0.035999998450279236,
+              -3.5762786898541066e-09
+            ],
+            [
+              0.035999998450279236,
+              0.035999998450279236,
+              0.23999999983236195
+            ]
+          ],
+          "footprint": [
+            [
+              -0.035999998450279236,
+              -0.035999998450279236
+            ],
+            [
+              0.035999998450279236,
+              -0.035999998450279236
+            ],
+            [
+              0.035999998450279236,
+              0.035999998450279236
+            ],
+            [
+              -0.035999998450279236,
+              0.035999998450279236
+            ]
+          ],
+          "support_envelope": {
+            "clearance_m": 0.001
+          },
+          "allowed_pose_tags": [
+            "upright"
+          ],
+          "acceptance_refs": [],
+          "physics_proxy": {
+            "kind": "none",
+            "capability": "STATIC_ONLY",
+            "shape_paths": [],
+            "geometry_hash": "60234e6846f271b3cfa7e628b0521d8e1b3e9241b4b87033e5c42c07522994ab"
+          }
+        }
+      ],
+      "qualification_refs": []
+    },
+    {
+      "asset_id": "can",
+      "version": "1.0",
+      "category": "can",
+      "origin": "external",
+      "source_locator": {
+        "mount": "room_yazhi",
+        "path": "experiments/phase2_external_asset_pool/assets/EXT-CAN-001/asset.usda"
+      },
+      "dependency_hashes": [
+        {
+          "mount": "room_yazhi",
+          "path": "experiments/phase2_external_asset_pool/assets/EXT-CAN-001/asset.usda",
+          "sha256": "1a6fe742709b94c06f46ab0ca821b7760ded438aedc2bd61950c99ee58115705",
+          "bytes": 4050
+        }
+      ],
+      "root_prim": "/EXT_CAN_001",
+      "dimensions": [
+        0.066,
+        0.066,
+        0.123
+      ],
+      "provenance": {
+        "kind": "EXISTING_LOCKED_YAZHI_PROVISIONAL_DESIGN_ASSET",
+        "human_confirmed": false
+      },
+      "license_scope": "INTERNAL_EVALUATION_ONLY; REDISTRIBUTION_NOT_CLEARED",
+      "states": [
+        {
+          "state_id": "default",
+          "version": "1.0",
+          "usd_locator_or_native_prim": {
+            "mount": "room_yazhi",
+            "path": "experiments/phase2_external_asset_pool/assets/EXT-CAN-001/asset.usda"
+          },
+          "sha256": "1a6fe742709b94c06f46ab0ca821b7760ded438aedc2bd61950c99ee58115705",
+          "units": 1.0,
+          "up_axis": "Z",
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "alignment": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "state_transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "visual_bounds": [
+            [
+              -0.033,
+              -0.033,
+              0.0
+            ],
+            [
+              0.033,
+              0.033,
+              0.123
+            ]
+          ],
+          "footprint": [
+            [
+              -0.033,
+              -0.033
+            ],
+            [
+              0.033,
+              -0.033
+            ],
+            [
+              0.033,
+              0.033
+            ],
+            [
+              -0.033,
+              0.033
+            ]
+          ],
+          "support_envelope": {
+            "clearance_m": 0.001
+          },
+          "allowed_pose_tags": [
+            "upright"
+          ],
+          "acceptance_refs": [],
+          "physics_proxy": {
+            "kind": "cylinder",
+            "capability": "DYNAMIC_CANDIDATE",
+            "shape_paths": [
+              "CollisionProxies/Body"
+            ],
+            "geometry_hash": "e84610f664add6cf31f12d09fc3464b60e450f0c849b3955f3201e31df42e32b",
+            "relative_transforms": [
+              [
+                [
+                  0.066,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.066,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.123,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0615,
+                  1.0
+                ]
+              ]
+            ],
+            "mass": {
+              "mode": "RUNTIME_DEFAULT_FROM_DENSITY",
+              "authored_kg": null
+            },
+            "inertia": {
+              "mode": "RUNTIME_COMPUTED_FROM_GEOMETRY",
+              "authored_diagonal": null
+            },
+            "material_refs": [],
+            "provenance": {
+              "kind": "EXISTING_SOURCE_PROXY",
+              "mass": "UNSPECIFIED_RUNTIME_DEFAULT",
+              "inertia": "UNSPECIFIED_RUNTIME_DEFAULT",
+              "materials": "UNSPECIFIED_RUNTIME_DEFAULT",
+              "qualification": "NONE; exact case evidence separate"
+            }
+          }
+        }
+      ],
+      "qualification_refs": []
+    },
+    {
+      "asset_id": "native_water1",
+      "version": "1.0",
+      "category": "water",
+      "origin": "native",
+      "source_locator": "/root/Water1",
+      "room_ids": [
+        "hotel705"
+      ],
+      "source_object_id": "native_water1",
+      "dependency_hashes": [
+        {
+          "closure_sha256": "c3ea14a4c3de3346b948aa44c35ac07f1f0762a3c4d3fd5ed319f94c2aa68926"
+        }
+      ],
+      "root_prim": "/root/Water1",
+      "dimensions": [
+        0.069866948600392,
+        0.06949349798804771,
+        0.17571358961213512
+      ],
+      "provenance": {
+        "kind": "MEASURED_SOURCE_MESH",
+        "alignment": "ADAPTED_EXISTING_HOTEL_STATE_ALIGNMENT",
+        "human_confirmed": false
+      },
+      "license_scope": "INTERNAL_EVALUATION_ONLY; REDISTRIBUTION_NOT_CLEARED",
+      "states": [
+        {
+          "state_id": "default",
+          "version": "1.0",
+          "usd_locator_or_native_prim": "/root/Water1",
+          "sha256": "641c7ffef47887292bdf3d82ffa215e9f69dc68f93b4ba9aff022750dc6b7a25",
+          "units": 1.0,
+          "up_axis": "Z",
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "alignment": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "state_transform": [
+            [
+              3.1582318723619254e-07,
+              1.1858959197997625,
+              0.0,
+              0.0
+            ],
+            [
+              -1.1858959197997625,
+              3.1582318723619254e-07,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.9346467852592468,
+              0.0
+            ],
+            [
+              -0.00018700342300115302,
+              3.534252668302429e-08,
+              -0.08785679480606712,
+              1.0
+            ]
+          ],
+          "visual_bounds": [
+            [
+              -0.034933469677414175,
+              -0.03474674899402519,
+              -0.08785679480606712
+            ],
+            [
+              0.03493347892297782,
+              0.034746748994022525,
+              0.087856794806068
+            ]
+          ],
+          "footprint": [
+            [
+              -0.034933469677414175,
+              -0.03474674899402519
+            ],
+            [
+              0.03493347892297782,
+              -0.03474674899402519
+            ],
+            [
+              0.03493347892297782,
+              0.034746748994022525
+            ],
+            [
+              -0.034933469677414175,
+              0.034746748994022525
+            ]
+          ],
+          "support_envelope": {
+            "clearance_m": 0.001
+          },
+          "allowed_pose_tags": [
+            "upright"
+          ],
+          "acceptance_refs": [],
+          "physics_proxy": {
+            "kind": "none",
+            "capability": "STATIC_ONLY",
+            "shape_paths": [],
+            "geometry_hash": "641c7ffef47887292bdf3d82ffa215e9f69dc68f93b4ba9aff022750dc6b7a25"
+          }
+        }
+      ],
+      "qualification_refs": []
+    },
+    {
+      "asset_id": "native_water2",
+      "version": "1.0",
+      "category": "water",
+      "origin": "native",
+      "source_locator": "/root/Water2",
+      "room_ids": [
+        "hotel705"
+      ],
+      "source_object_id": "native_water2",
+      "dependency_hashes": [
+        {
+          "closure_sha256": "c3ea14a4c3de3346b948aa44c35ac07f1f0762a3c4d3fd5ed319f94c2aa68926"
+        }
+      ],
+      "root_prim": "/root/Water2",
+      "dimensions": [
+        0.06987796893565279,
+        0.06950431878169994,
+        0.17574097481515016
+      ],
+      "provenance": {
+        "kind": "MEASURED_SOURCE_MESH",
+        "alignment": "ADAPTED_EXISTING_HOTEL_STATE_ALIGNMENT",
+        "human_confirmed": false
+      },
+      "license_scope": "INTERNAL_EVALUATION_ONLY; REDISTRIBUTION_NOT_CLEARED",
+      "states": [
+        {
+          "state_id": "default",
+          "version": "1.0",
+          "usd_locator_or_native_prim": "/root/Water2",
+          "sha256": "da9cb70feea3236e083caebc34becbfd8cf0b9cfb1c6323288beb96550a1aef2",
+          "units": 1.0,
+          "up_axis": "Z",
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "alignment": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "state_transform": [
+            [
+              3.1587236388780115e-07,
+              1.1860805749892767,
+              0.0,
+              0.0
+            ],
+            [
+              -1.1860805749892767,
+              3.1587236388780115e-07,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.9347923398017883,
+              0.0
+            ],
+            [
+              -0.0001868204534647422,
+              3.5347955673614706e-08,
+              -0.08787059884350534,
+              1.0
+            ]
+          ],
+          "visual_bounds": [
+            [
+              -0.034938979844324036,
+              -0.03475215939084997,
+              -0.08787048740757464
+            ],
+            [
+              0.034938989091328754,
+              0.03475215939084997,
+              0.08787048740757553
+            ]
+          ],
+          "footprint": [
+            [
+              -0.034938979844324036,
+              -0.03475215939084997
+            ],
+            [
+              0.034938989091328754,
+              -0.03475215939084997
+            ],
+            [
+              0.034938989091328754,
+              0.03475215939084997
+            ],
+            [
+              -0.034938979844324036,
+              0.03475215939084997
+            ]
+          ],
+          "support_envelope": {
+            "clearance_m": 0.001
+          },
+          "allowed_pose_tags": [
+            "upright"
+          ],
+          "acceptance_refs": [],
+          "physics_proxy": {
+            "kind": "none",
+            "capability": "STATIC_ONLY",
+            "shape_paths": [],
+            "geometry_hash": "da9cb70feea3236e083caebc34becbfd8cf0b9cfb1c6323288beb96550a1aef2"
+          }
+        }
+      ],
+      "qualification_refs": []
+    },
+    {
+      "asset_id": "native_mug1",
+      "version": "1.0",
+      "category": "mug",
+      "origin": "native",
+      "source_locator": "/root/Mug1",
+      "room_ids": [
+        "hotel705"
+      ],
+      "source_object_id": "native_mug1",
+      "dependency_hashes": [
+        {
+          "closure_sha256": "c3ea14a4c3de3346b948aa44c35ac07f1f0762a3c4d3fd5ed319f94c2aa68926"
+        }
+      ],
+      "root_prim": "/root/Mug1",
+      "dimensions": [
+        0.10648823652269224,
+        0.07858265081574034,
+        0.08240125797053788
+      ],
+      "provenance": {
+        "kind": "MEASURED_SOURCE_MESH",
+        "alignment": "ADAPTED_EXISTING_HOTEL_STATE_ALIGNMENT",
+        "human_confirmed": false
+      },
+      "license_scope": "INTERNAL_EVALUATION_ONLY; REDISTRIBUTION_NOT_CLEARED",
+      "states": [
+        {
+          "state_id": "default",
+          "version": "1.0",
+          "usd_locator_or_native_prim": "/root/Mug1",
+          "sha256": "34489f14b07de227445275ac4635a6d3e887ded2eaa9e0759aa1fc239b1d805d",
+          "units": 1.0,
+          "up_axis": "Z",
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "alignment": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "state_transform": [
+            [
+              1.1556271314620938,
+              8.724742017402321e-08,
+              2.349409259785635e-22,
+              0.0
+            ],
+            [
+              -8.72474201740201e-08,
+              1.1556271314620528,
+              3.077621207837385e-07,
+              0.0
+            ],
+            [
+              2.020469026173165e-14,
+              -2.676192423657183e-07,
+              1.0048931837081552,
+              0.0
+            ],
+            [
+              -0.013952654532212172,
+              4.527898144820036e-08,
+              -0.040195807567354414,
+              1.0
+            ]
+          ],
+          "visual_bounds": [
+            [
+              -0.05324411689871167,
+              -0.0392913351759736,
+              -0.04120062929303103
+            ],
+            [
+              0.05324411962398057,
+              0.03929131563976674,
+              0.04120062867750684
+            ]
+          ],
+          "footprint": [
+            [
+              -0.05324411689871167,
+              -0.0392913351759736
+            ],
+            [
+              0.05324411962398057,
+              -0.0392913351759736
+            ],
+            [
+              0.05324411962398057,
+              0.03929131563976674
+            ],
+            [
+              -0.05324411689871167,
+              0.03929131563976674
+            ]
+          ],
+          "support_envelope": {
+            "clearance_m": 0.001
+          },
+          "allowed_pose_tags": [
+            "upright"
+          ],
+          "acceptance_refs": [],
+          "physics_proxy": {
+            "kind": "none",
+            "capability": "STATIC_ONLY",
+            "shape_paths": [],
+            "geometry_hash": "34489f14b07de227445275ac4635a6d3e887ded2eaa9e0759aa1fc239b1d805d"
+          }
+        }
+      ],
+      "qualification_refs": []
+    },
+    {
+      "asset_id": "native_mug2",
+      "version": "1.0",
+      "category": "mug",
+      "origin": "native",
+      "source_locator": "/root/Mug2",
+      "room_ids": [
+        "hotel705"
+      ],
+      "source_object_id": "native_mug2",
+      "dependency_hashes": [
+        {
+          "closure_sha256": "c3ea14a4c3de3346b948aa44c35ac07f1f0762a3c4d3fd5ed319f94c2aa68926"
+        }
+      ],
+      "root_prim": "/root/Mug2",
+      "dimensions": [
+        0.10645077819503235,
+        0.0785550085636122,
+        0.08237226970025269
+      ],
+      "provenance": {
+        "kind": "MEASURED_SOURCE_MESH",
+        "alignment": "ADAPTED_EXISTING_HOTEL_STATE_ALIGNMENT",
+        "human_confirmed": false
+      },
+      "license_scope": "INTERNAL_EVALUATION_ONLY; REDISTRIBUTION_NOT_CLEARED",
+      "states": [
+        {
+          "state_id": "default",
+          "version": "1.0",
+          "usd_locator_or_native_prim": "/root/Mug2",
+          "sha256": "2ef37d467dae4d71c5efdf9296b78aeaa4f1ca4eb217f3091b78cc1bfb957edf",
+          "units": 1.0,
+          "up_axis": "Z",
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "alignment": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "state_transform": [
+            [
+              1.1552206277847257,
+              8.72167300005442e-08,
+              2.3485828310200374e-22,
+              0.0
+            ],
+            [
+              -8.721673000054109e-08,
+              1.1552206277846846,
+              3.0765386230620083e-07,
+              0.0
+            ],
+            [
+              2.019758357627109e-14,
+              -2.675251114607626e-07,
+              1.004539728164637,
+              0.0
+            ],
+            [
+              -0.013947746543105932,
+              7.969128600967292e-08,
+              -0.04018156236287407,
+              1.0
+            ]
+          ],
+          "visual_bounds": [
+            [
+              -0.05322538773536234,
+              -0.03927751404646961,
+              -0.04118613515778058
+            ],
+            [
+              0.05322539045967001,
+              0.03927749451714258,
+              0.0411861345424721
+            ]
+          ],
+          "footprint": [
+            [
+              -0.05322538773536234,
+              -0.03927751404646961
+            ],
+            [
+              0.05322539045967001,
+              -0.03927751404646961
+            ],
+            [
+              0.05322539045967001,
+              0.03927749451714258
+            ],
+            [
+              -0.05322538773536234,
+              0.03927749451714258
+            ]
+          ],
+          "support_envelope": {
+            "clearance_m": 0.001
+          },
+          "allowed_pose_tags": [
+            "upright"
+          ],
+          "acceptance_refs": [],
+          "physics_proxy": {
+            "kind": "none",
+            "capability": "STATIC_ONLY",
+            "shape_paths": [],
+            "geometry_hash": "2ef37d467dae4d71c5efdf9296b78aeaa4f1ca4eb217f3091b78cc1bfb957edf"
+          }
+        }
+      ],
+      "qualification_refs": []
+    },
+    {
+      "asset_id": "native_tea1",
+      "version": "1.0",
+      "category": "tea",
+      "origin": "native",
+      "source_locator": "/root/Tea1",
+      "room_ids": [
+        "hotel705"
+      ],
+      "source_object_id": "native_tea1",
+      "dependency_hashes": [
+        {
+          "closure_sha256": "c3ea14a4c3de3346b948aa44c35ac07f1f0762a3c4d3fd5ed319f94c2aa68926"
+        }
+      ],
+      "root_prim": "/root/Tea1",
+      "dimensions": [
+        0.08556881717099757,
+        0.06545009120288409,
+        0.013777679746170592
+      ],
+      "provenance": {
+        "kind": "MEASURED_SOURCE_MESH",
+        "alignment": "ADAPTED_EXISTING_HOTEL_STATE_ALIGNMENT",
+        "human_confirmed": false
+      },
+      "license_scope": "INTERNAL_EVALUATION_ONLY; REDISTRIBUTION_NOT_CLEARED",
+      "states": [
+        {
+          "state_id": "default",
+          "version": "1.0",
+          "usd_locator_or_native_prim": "/root/Tea1",
+          "sha256": "e8ff1d78baac1dc64a9a4e21f135eb5871a559db84bbe87b91979dd4607f8ec0",
+          "units": 1.0,
+          "up_axis": "Z",
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "alignment": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "state_transform": [
+            [
+              -0.0010236988792388948,
+              1.0056696710892823,
+              0.0014674450708992352,
+              0.0
+            ],
+            [
+              -1.0056652292504096,
+              -0.0010285508942526026,
+              0.0033282822950493895,
+              0.0
+            ],
+            [
+              0.003329777857793481,
+              -0.0014640483220828482,
+              1.0056646845968018,
+              0.0
+            ],
+            [
+              -2.1833008287583367e-06,
+              9.584045281978304e-07,
+              -0.0006789198426911016,
+              1.0
+            ]
+          ],
+          "visual_bounds": [
+            [
+              -0.04277580350576145,
+              -0.03272405728658784,
+              -0.00687951181282718
+            ],
+            [
+              0.04279301366523613,
+              0.032726033916296256,
+              0.006898167933343412
+            ]
+          ],
+          "footprint": [
+            [
+              -0.04277580350576145,
+              -0.03272405728658784
+            ],
+            [
+              0.04279301366523613,
+              -0.03272405728658784
+            ],
+            [
+              0.04279301366523613,
+              0.032726033916296256
+            ],
+            [
+              -0.04277580350576145,
+              0.032726033916296256
+            ]
+          ],
+          "support_envelope": {
+            "clearance_m": 0.001
+          },
+          "allowed_pose_tags": [
+            "upright"
+          ],
+          "acceptance_refs": [],
+          "physics_proxy": {
+            "kind": "none",
+            "capability": "STATIC_ONLY",
+            "shape_paths": [],
+            "geometry_hash": "e8ff1d78baac1dc64a9a4e21f135eb5871a559db84bbe87b91979dd4607f8ec0"
+          }
+        }
+      ],
+      "qualification_refs": []
+    },
+    {
+      "asset_id": "native_tea2",
+      "version": "1.0",
+      "category": "tea",
+      "origin": "native",
+      "source_locator": "/root/Tea2",
+      "room_ids": [
+        "hotel705"
+      ],
+      "source_object_id": "native_tea2",
+      "dependency_hashes": [
+        {
+          "closure_sha256": "c3ea14a4c3de3346b948aa44c35ac07f1f0762a3c4d3fd5ed319f94c2aa68926"
+        }
+      ],
+      "root_prim": "/root/Tea2",
+      "dimensions": [
+        0.08560139395092776,
+        0.06549455725274522,
+        0.013844233647997615
+      ],
+      "provenance": {
+        "kind": "MEASURED_SOURCE_MESH",
+        "alignment": "ADAPTED_EXISTING_HOTEL_STATE_ALIGNMENT",
+        "human_confirmed": false
+      },
+      "license_scope": "INTERNAL_EVALUATION_ONLY; REDISTRIBUTION_NOT_CLEARED",
+      "states": [
+        {
+          "state_id": "default",
+          "version": "1.0",
+          "usd_locator_or_native_prim": "/root/Tea2",
+          "sha256": "41ba3b4e7b2f63f122a8c44b492b6e03b908604a5c4b731e3effd3279d8ea4b6",
+          "units": 1.0,
+          "up_axis": "Z",
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "alignment": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "state_transform": [
+            [
+              -0.0016261929083945512,
+              1.0056146739449396,
+              0.0023314428105024603,
+              0.0
+            ],
+            [
+              -1.005611157236459,
+              -0.001634378134823243,
+              0.003532963629020558,
+              0.0
+            ],
+            [
+              0.003536738683626195,
+              -0.0023257121632669934,
+              1.0056097827312336,
+              0.0
+            ],
+            [
+              -2.30837694849872e-06,
+              1.569914513971592e-06,
+              -0.00067878387226967,
+              1.0
+            ]
+          ],
+          "visual_bounds": [
+            [
+              -0.042790708774835394,
+              -0.032745708906150146,
+              -0.006910801211543981
+            ],
+            [
+              0.04281068517609237,
+              0.03274884834659508,
+              0.006933432436453633
+            ]
+          ],
+          "footprint": [
+            [
+              -0.042790708774835394,
+              -0.032745708906150146
+            ],
+            [
+              0.04281068517609237,
+              -0.032745708906150146
+            ],
+            [
+              0.04281068517609237,
+              0.03274884834659508
+            ],
+            [
+              -0.042790708774835394,
+              0.03274884834659508
+            ]
+          ],
+          "support_envelope": {
+            "clearance_m": 0.001
+          },
+          "allowed_pose_tags": [
+            "upright"
+          ],
+          "acceptance_refs": [],
+          "physics_proxy": {
+            "kind": "none",
+            "capability": "STATIC_ONLY",
+            "shape_paths": [],
+            "geometry_hash": "41ba3b4e7b2f63f122a8c44b492b6e03b908604a5c4b731e3effd3279d8ea4b6"
+          }
+        }
+      ],
+      "qualification_refs": []
+    },
+    {
+      "asset_id": "native_tea3",
+      "version": "1.0",
+      "category": "tea",
+      "origin": "native",
+      "source_locator": "/root/Tea3",
+      "room_ids": [
+        "hotel705"
+      ],
+      "source_object_id": "native_tea3",
+      "dependency_hashes": [
+        {
+          "closure_sha256": "c3ea14a4c3de3346b948aa44c35ac07f1f0762a3c4d3fd5ed319f94c2aa68926"
+        }
+      ],
+      "root_prim": "/root/Tea3",
+      "dimensions": [
+        0.08563246941709637,
+        0.06553796950685857,
+        0.013907437952064708
+      ],
+      "provenance": {
+        "kind": "MEASURED_SOURCE_MESH",
+        "alignment": "ADAPTED_EXISTING_HOTEL_STATE_ALIGNMENT",
+        "human_confirmed": false
+      },
+      "license_scope": "INTERNAL_EVALUATION_ONLY; REDISTRIBUTION_NOT_CLEARED",
+      "states": [
+        {
+          "state_id": "default",
+          "version": "1.0",
+          "usd_locator_or_native_prim": "/root/Tea3",
+          "sha256": "838667769a4a79c790f450db36ba1f4935d50746137af204296efea52191f84c",
+          "units": 1.0,
+          "up_axis": "Z",
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "alignment": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "state_transform": [
+            [
+              -0.002230836470249632,
+              1.005540437894172,
+              0.00319876653595074,
+              0.0
+            ],
+            [
+              -1.0055387006907968,
+              -0.002242595597479446,
+              0.0036977232403896942,
+              0.0
+            ],
+            [
+              0.003704829391396658,
+              -0.0031905334498606892,
+              1.005536113580511,
+              0.0
+            ],
+            [
+              -2.483519680246491e-06,
+              2.123483377530698e-06,
+              -0.000678694572291188,
+              1.0
+            ]
+          ],
+          "visual_bounds": [
+            [
+              -0.042804777382859815,
+              -0.032766831435537914,
+              -0.0069406113935561965
+            ],
+            [
+              0.042827692034236566,
+              0.032771138071320656,
+              0.006966826558508512
+            ]
+          ],
+          "footprint": [
+            [
+              -0.042804777382859815,
+              -0.032766831435537914
+            ],
+            [
+              0.042827692034236566,
+              -0.032766831435537914
+            ],
+            [
+              0.042827692034236566,
+              0.032771138071320656
+            ],
+            [
+              -0.042804777382859815,
+              0.032771138071320656
+            ]
+          ],
+          "support_envelope": {
+            "clearance_m": 0.001
+          },
+          "allowed_pose_tags": [
+            "upright"
+          ],
+          "acceptance_refs": [],
+          "physics_proxy": {
+            "kind": "none",
+            "capability": "STATIC_ONLY",
+            "shape_paths": [],
+            "geometry_hash": "838667769a4a79c790f450db36ba1f4935d50746137af204296efea52191f84c"
+          }
+        }
+      ],
+      "qualification_refs": []
+    },
+    {
+      "asset_id": "native_cookiepack1",
+      "version": "1.0",
+      "category": "snack",
+      "origin": "native",
+      "source_locator": "/root/CookiePack1",
+      "room_ids": [
+        "hotel705"
+      ],
+      "source_object_id": "native_cookiepack1",
+      "dependency_hashes": [
+        {
+          "closure_sha256": "c3ea14a4c3de3346b948aa44c35ac07f1f0762a3c4d3fd5ed319f94c2aa68926"
+        }
+      ],
+      "root_prim": "/root/CookiePack1",
+      "dimensions": [
+        0.08447318964609662,
+        0.14983927945163078,
+        0.026005688359553525
+      ],
+      "provenance": {
+        "kind": "MEASURED_SOURCE_MESH",
+        "alignment": "ADAPTED_EXISTING_HOTEL_STATE_ALIGNMENT",
+        "human_confirmed": false
+      },
+      "license_scope": "INTERNAL_EVALUATION_ONLY; REDISTRIBUTION_NOT_CLEARED",
+      "states": [
+        {
+          "state_id": "default",
+          "version": "1.0",
+          "usd_locator_or_native_prim": "/root/CookiePack1",
+          "sha256": "f0769272aa55b509b96d6c50774c83448c9cc9fdb7d14c783b67b34902567a91",
+          "units": 1.0,
+          "up_axis": "Z",
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "alignment": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "state_transform": [
+            [
+              2.678162033972523e-07,
+              1.0056327581405282,
+              0.0,
+              0.0
+            ],
+            [
+              -1.0056327581405282,
+              2.678162033972523e-07,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.005632758140564,
+              0.0
+            ],
+            [
+              7.993605777301127e-15,
+              2.9970190773553895e-08,
+              -0.0009352509771938244,
+              1.0
+            ]
+          ],
+          "visual_bounds": [
+            [
+              -0.04223659482304831,
+              -0.07491963972581628,
+              -0.013002844179776263
+            ],
+            [
+              0.04223659482304831,
+              0.0749196397258145,
+              0.013002844179777262
+            ]
+          ],
+          "footprint": [
+            [
+              -0.04223659482304831,
+              -0.07491963972581628
+            ],
+            [
+              0.04223659482304831,
+              -0.07491963972581628
+            ],
+            [
+              0.04223659482304831,
+              0.0749196397258145
+            ],
+            [
+              -0.04223659482304831,
+              0.0749196397258145
+            ]
+          ],
+          "support_envelope": {
+            "clearance_m": 0.001
+          },
+          "allowed_pose_tags": [
+            "upright"
+          ],
+          "acceptance_refs": [],
+          "physics_proxy": {
+            "kind": "none",
+            "capability": "STATIC_ONLY",
+            "shape_paths": [],
+            "geometry_hash": "f0769272aa55b509b96d6c50774c83448c9cc9fdb7d14c783b67b34902567a91"
+          }
+        }
+      ],
+      "qualification_refs": []
+    },
+    {
+      "asset_id": "native_cookiepack2",
+      "version": "1.0",
+      "category": "snack",
+      "origin": "native",
+      "source_locator": "/root/CookiePack2",
+      "room_ids": [
+        "hotel705"
+      ],
+      "source_object_id": "native_cookiepack2",
+      "dependency_hashes": [
+        {
+          "closure_sha256": "c3ea14a4c3de3346b948aa44c35ac07f1f0762a3c4d3fd5ed319f94c2aa68926"
+        }
+      ],
+      "root_prim": "/root/CookiePack2",
+      "dimensions": [
+        0.08446912413067498,
+        0.14983212794244105,
+        0.026004316885937517
+      ],
+      "provenance": {
+        "kind": "MEASURED_SOURCE_MESH",
+        "alignment": "ADAPTED_EXISTING_HOTEL_STATE_ALIGNMENT",
+        "human_confirmed": false
+      },
+      "license_scope": "INTERNAL_EVALUATION_ONLY; REDISTRIBUTION_NOT_CLEARED",
+      "states": [
+        {
+          "state_id": "default",
+          "version": "1.0",
+          "usd_locator_or_native_prim": "/root/CookiePack2",
+          "sha256": "7854c31c88e1847fb4c446458e34cf7621bf2445aece967abb0c1cbb4bcabfb0",
+          "units": 1.0,
+          "up_axis": "Z",
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "alignment": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "state_transform": [
+            [
+              2.6780331397145944e-07,
+              1.0055843591689706,
+              0.0,
+              0.0
+            ],
+            [
+              -1.0055843591689706,
+              2.6780331397145944e-07,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0055843591690063,
+              0.0
+            ],
+            [
+              1.1987498083065873e-07,
+              -5.993753138255897e-08,
+              -0.0009352659030473776,
+              1.0
+            ]
+          ],
+          "visual_bounds": [
+            [
+              -0.04223456206533771,
+              -0.07491606397122164,
+              -0.013002158442969036
+            ],
+            [
+              0.04223456206533727,
+              0.07491606397121942,
+              0.013002158442968481
+            ]
+          ],
+          "footprint": [
+            [
+              -0.04223456206533771,
+              -0.07491606397122164
+            ],
+            [
+              0.04223456206533727,
+              -0.07491606397122164
+            ],
+            [
+              0.04223456206533727,
+              0.07491606397121942
+            ],
+            [
+              -0.04223456206533771,
+              0.07491606397121942
+            ]
+          ],
+          "support_envelope": {
+            "clearance_m": 0.001
+          },
+          "allowed_pose_tags": [
+            "upright"
+          ],
+          "acceptance_refs": [],
+          "physics_proxy": {
+            "kind": "none",
+            "capability": "STATIC_ONLY",
+            "shape_paths": [],
+            "geometry_hash": "7854c31c88e1847fb4c446458e34cf7621bf2445aece967abb0c1cbb4bcabfb0"
+          }
+        }
+      ],
+      "qualification_refs": []
+    },
+    {
+      "asset_id": "s0_towel",
+      "version": "1.0",
+      "category": "towel",
+      "origin": "external",
+      "source_locator": {
+        "mount": "room_yazhi",
+        "path": "experiments/phase_v2_room_clutter/scene_diversity/outputs/run_20261105T015450164137Z/assets/FoldedTowel.usda"
+      },
+      "dependency_hashes": [
+        {
+          "mount": "room_yazhi",
+          "path": "experiments/phase_v2_room_clutter/scene_diversity/outputs/run_20261105T015450164137Z/assets/FoldedTowel.usda",
+          "sha256": "d4aecf5e898ba8980eb73d8d2cdd351981d7322e9fcde53929e6f9fabd536450",
+          "bytes": 383892
+        },
+        {
+          "mount": "room_yazhi",
+          "path": "experiments/phase_v2_room_clutter/housekeeping_realism/outputs/run_20261105T075043618830Z/assets/LooseTowel.usda",
+          "sha256": "ba34ea5e783b2f798aa8dbbf801efa27da3a0b6255d4ae0ed28c68c8a2ceba6f",
+          "bytes": 913502
+        }
+      ],
+      "root_prim": "/UsedCue",
+      "dimensions": [
+        0.37776392698287964,
+        0.3700000047683716,
+        0.08775230729952455
+      ],
+      "provenance": {
+        "kind": "ADOPTED_STATIC_MESH_STATES",
+        "decision_sha256": "f65f52cab6e0c58de78321199aabb9f93ec50b2130e7607d80be47e0c0dcd223",
+        "human_dimensions_confirmed": false
+      },
+      "license_scope": "INTERNAL_EVALUATION_ONLY; REDISTRIBUTION_NOT_CLEARED",
+      "states": [
+        {
+          "state_id": "folded",
+          "version": "1.0",
+          "usd_locator_or_native_prim": {
+            "mount": "room_yazhi",
+            "path": "experiments/phase_v2_room_clutter/scene_diversity/outputs/run_20261105T015450164137Z/assets/FoldedTowel.usda"
+          },
+          "sha256": "d4aecf5e898ba8980eb73d8d2cdd351981d7322e9fcde53929e6f9fabd536450",
+          "units": 1.0,
+          "up_axis": "Z",
+          "root_prim": "/UsedCue",
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "alignment": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "state_transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "visual_bounds": [
+            [
+              -0.11749999970197678,
+              -0.1850000023841858,
+              0.0
+            ],
+            [
+              0.11749999970197678,
+              0.1850000023841858,
+              0.037647414952516556
+            ]
+          ],
+          "footprint": [
+            [
+              -0.11749999970197678,
+              -0.1850000023841858
+            ],
+            [
+              0.11749999970197678,
+              -0.1850000023841858
+            ],
+            [
+              0.11749999970197678,
+              0.1850000023841858
+            ],
+            [
+              -0.11749999970197678,
+              0.1850000023841858
+            ]
+          ],
+          "support_envelope": {
+            "clearance_m": 0.001
+          },
+          "allowed_pose_tags": [
+            "flat"
+          ],
+          "acceptance_refs": [],
+          "physics_proxy": {
+            "kind": "none",
+            "capability": "STATIC_ONLY",
+            "shape_paths": [],
+            "geometry_hash": "0a01fac2ae12ccc473f67f49457295e9b954fd17d91b27fbf33ba42e4851dd4c"
+          }
+        },
+        {
+          "state_id": "loose",
+          "version": "1.0",
+          "usd_locator_or_native_prim": {
+            "mount": "room_yazhi",
+            "path": "experiments/phase_v2_room_clutter/housekeeping_realism/outputs/run_20261105T075043618830Z/assets/LooseTowel.usda"
+          },
+          "sha256": "ba34ea5e783b2f798aa8dbbf801efa27da3a0b6255d4ae0ed28c68c8a2ceba6f",
+          "units": 1.0,
+          "up_axis": "Z",
+          "root_prim": "/Cue",
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "alignment": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "state_transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "visual_bounds": [
+            [
+              -0.18888196349143982,
+              -0.14630599319934845,
+              0.001008791383355856
+            ],
+            [
+              0.18888196349143982,
+              0.1374775618314743,
+              0.0887610986828804
+            ]
+          ],
+          "footprint": [
+            [
+              -0.18888196349143982,
+              -0.14630599319934845
+            ],
+            [
+              0.18888196349143982,
+              -0.14630599319934845
+            ],
+            [
+              0.18888196349143982,
+              0.1374775618314743
+            ],
+            [
+              -0.18888196349143982,
+              0.1374775618314743
+            ]
+          ],
+          "support_envelope": {
+            "clearance_m": 0.001
+          },
+          "allowed_pose_tags": [
+            "flat"
+          ],
+          "acceptance_refs": [],
+          "physics_proxy": {
+            "kind": "none",
+            "capability": "STATIC_ONLY",
+            "shape_paths": [],
+            "geometry_hash": "a80e3c7f2dbed98d00b8257e7ee36e4494d7a26ba669fdf959f3211fc48d0ddb"
+          }
+        }
+      ],
+      "qualification_refs": []
+    }
+  ]
+}

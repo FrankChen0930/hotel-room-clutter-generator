@@ -1,0 +1,2347 @@
+{
+  "schema_version": "1.0",
+  "catalog_id": "blendkit-controlled-local-candidate",
+  "version": "public-native-portable-20261119",
+  "entries": [
+    {
+      "asset_id": "legacy-native_water1",
+      "version": "1.0",
+      "category": "water",
+      "origin": "external",
+      "source_locator": {
+        "mount": "blendkit_library",
+        "path": "public_data/assets/04dd6928428b32b8.usdc"
+      },
+      "dependency_hashes": [
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/04dd6928428b32b8.usdc",
+          "sha256": "45560c834721f9f0e7f41f3e06b085f44145c74a10bc15055ced6e212cd39495",
+          "bytes": 709013
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/099abefd7bedae9c.png",
+          "sha256": "591338eefdc1e3e9e3ea79b2be197692afcdf071ffe5f73bdc9e4e3a0c5b4c96",
+          "bytes": 514870
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/0f6d9f6fdbb574df.jpeg",
+          "sha256": "67e65329bc29023841848ba41cd970dd9e6c442fce42178e0605d178cd935f1f",
+          "bytes": 68715
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/0ff511eeae729d8e.jpeg",
+          "sha256": "4be3afdf7f07def3cdfcd8440b6130c6591af15506e49bfcff7ce998a44cd807",
+          "bytes": 2212
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/1585db862dbc1571.jpg",
+          "sha256": "568bead908d97169d43891870a3a259626c3b3c2d672c9594e1eeb9942811794",
+          "bytes": 1486
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/1832e7a96f891c23.jpeg",
+          "sha256": "5470f9e33608717e144326989cccea2cc68e85826d7440a5698cacecae4f6961",
+          "bytes": 896
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/24b72eca96843a21.jpeg",
+          "sha256": "0049a64a6aad400f690ef747fcf30a34f9e91ddbc707a7c9108662c61f1a85ed",
+          "bytes": 1006
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/26648fbb42431e6e.png",
+          "sha256": "3072274af75c130add3e2d273beb6af30e2ea494e589864857886b846733bb65",
+          "bytes": 165299
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/34fc160242a51c07.jpeg",
+          "sha256": "37d7771d7bdaf49edae1227008dc1bc5d20eaabfee01a69934919568fe980e2f",
+          "bytes": 1041
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/3c211dd4a33f256d.jpg",
+          "sha256": "2c2444c920caa79f5e1bbbde3e7f652547a1b21091ab2532be6aa03869595eb8",
+          "bytes": 1505734
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/3e5d7cf38af4df2b.png",
+          "sha256": "25962fa27b3f8e529fcff8c44e4f2040078e40bc80f7ea7d8de8985ac52b2274",
+          "bytes": 1425
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/3ec8c1874af1896c.jpeg",
+          "sha256": "e9241f99881be2b0ff1a0b62d4eeca9d69032f5b8d6333f82f6781814f72eabb",
+          "bytes": 165253
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/41d599b37a495795.jpeg",
+          "sha256": "194826b28223aee7631f77994dd8513565f5aa9b29f39eb9be6073f4c44a3dee",
+          "bytes": 3402387
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/4524eb94f146eaf0.jpeg",
+          "sha256": "e22a75c6dc22d9e3ed69b64e5fcb85d3b1798822a1808b762f63dbafebd0eeb1",
+          "bytes": 72708
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/45b3124b96bfbe14.png",
+          "sha256": "2cf4f7cd1727c9c2dc50c36c55643613df5363023c8c445d41b75d821a45f33a",
+          "bytes": 488429
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/4d9c1ce7685efa37.jpeg",
+          "sha256": "6ff1d796d43d133aa04de395a10ba302ee0eea859c4ffe1db4535f916b8899b9",
+          "bytes": 54305
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/51c419a8ee973f19.jpeg",
+          "sha256": "be2720348c01e52acac60a644ec2be8244fa1461693b93246e3fbc385ace0e02",
+          "bytes": 1984
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/54cee725f25a4225.jpg",
+          "sha256": "4f549fdf3e61734cebbff2bd2ed17f02cd38a0647a86b0b37f3b9d7dec0adee5",
+          "bytes": 1194008
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/5784324f61d334b9.jpeg",
+          "sha256": "39abaca3689e6f22203c3f1a74ba5c8077588e256029989b289bef31669dc055",
+          "bytes": 1018
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/58c47e4226f5e2a5.png",
+          "sha256": "766644b024c47b6e3b43759129d7e1607763f3bc9cf03b3306f521281cd50d95",
+          "bytes": 1980293
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/61051855e5d38852.png",
+          "sha256": "6d71204a61ec78c812138b77719503013adfbd832a636a736e4a1d24990f3572",
+          "bytes": 814092
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/626f230da2664bf7.jpeg",
+          "sha256": "cb07dbdc16de9379bc4720d8e6bdea50f5304f9b58961bcb4abf7e99f5dc8537",
+          "bytes": 2646
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/63b80b5462727619.jpeg",
+          "sha256": "c7825ef2eaa2627178b3e3e28fd60283709932cb2d63d0d5204098c6bac9540f",
+          "bytes": 799
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/6e811534f0b110f7.jpg",
+          "sha256": "5156a55377e47e54b0d1fde8256a2032ecc6847d3fcaeb6397cf4a6becdcfbfc",
+          "bytes": 771154
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/768d6e16e65be474.png",
+          "sha256": "433abaf188f8c21aa0cca490cd5c721eaa025a1e9c65f3dbc2370feb20b4a882",
+          "bytes": 441720
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/799fefecd4bba0f2.jpeg",
+          "sha256": "2d8ad2a61f6e8ac4d8616636fbbf425a977647c0a29919c2d325012b134c6c6c",
+          "bytes": 869
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/7b77d9c467f9de85.jpeg",
+          "sha256": "d224aa16dcb52c62905a7e264b8cc15ebad6d64b1fb12ed1a7118e9b61d0b74f",
+          "bytes": 1187
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/85a4b36c7f96ec34.jpeg",
+          "sha256": "6c6db780e52070a617c2af004443ad8b6584648905a206dc2d9dd1bccfe7032c",
+          "bytes": 94341
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/88e4ad44bb6d5502.jpeg",
+          "sha256": "35927fcd85c5285112a9248f9c1ed3347cab1946fb1581c7af4900c9e1e12f92",
+          "bytes": 1045
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/96b0acd8bfe7cb72.jpg",
+          "sha256": "7bce2132bc4b51cf65fae78298d136041b4e0caeaee90cb4b2656fbb4267f61f",
+          "bytes": 1201816
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/96e0dfaa3bb864de.jpg",
+          "sha256": "79dcfe693f06b25e24ee95eeabdd374895dfb3eb0c527948d2de584d423f67f4",
+          "bytes": 1222296
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/a671ced700dbce98.jpeg",
+          "sha256": "e0a2f8320ccc4f3237daa26ba611af0949b285b18d8aaed6594fe980d7de625e",
+          "bytes": 1079
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/a932c93087ff628e.png",
+          "sha256": "d57eed6c961ee54537584b95c827a570e499be5d727a10b6933cf630e85ab8e3",
+          "bytes": 835236
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/a9bb99a0c0ec9ee3.jpeg",
+          "sha256": "ac7f7374d570fab07dda14ac0a2021adfd61bafffdb75e170fa15692d33d5631",
+          "bytes": 1400
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/b109ffbffc139178.jpeg",
+          "sha256": "6b5c439254c24bd585029be2b5b2a3edfcb8c4bc41ec311aebb596f6f23a34f0",
+          "bytes": 51380
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/b1ece44965bd74b5.jpeg",
+          "sha256": "f1c15cf347ab34585205113ead0ad0deaeb1365136e288ac8e718de24d8b99ea",
+          "bytes": 149561
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/b265208fb8439d5a.jpeg",
+          "sha256": "1a7b9b719bbc5568cbed5abb481aaf4e2a4be57c299297092b1df9331ecc9dd5",
+          "bytes": 4653
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/b33749493d2461ed.jpeg",
+          "sha256": "fb52dc924b71dbf40ee49ab4fd4e0c0666f0bf2aff7379e850adc86b37e96951",
+          "bytes": 920
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/b47b9fabcfa70f54.jpeg",
+          "sha256": "f98dc4c21c14d98ca685e4b595b7f03d91d3ab0b083b4de25ea8e89b6ce05381",
+          "bytes": 863
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/bb067b123ad826f2.png",
+          "sha256": "c392ea9dcf5bf464d6e9b6052f6095699d2fd7d3c4ac2e6e11e099447c02658c",
+          "bytes": 1142518
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/bffc2874a9704a72.jpeg",
+          "sha256": "3ae49748e201513a07f2bb431a69f799277be1c1425e729733a5a414106d7e53",
+          "bytes": 4506593
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/c2080f8e9142fefa.png",
+          "sha256": "5ea53fb564130bb17825155c8d83f879d1f2d51571f344d88619586f6bad3374",
+          "bytes": 713289
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/c6ef30ebf6a95c46.jpg",
+          "sha256": "91ae52e21572ac3a248af64ed875cd50b3c203db0faf3c2ad8ea628d04a097a8",
+          "bytes": 1394492
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/c9a8992b904ccaba.jpeg",
+          "sha256": "1cd6937f74c5a9f79ce7bca8b705ec2ea19fcb6f266d557fe630100a22b4e166",
+          "bytes": 3422
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/d02d112d549f8feb.jpeg",
+          "sha256": "b6019b205db15526391150c1969619c50a7394f10645491a7a408a25035a11db",
+          "bytes": 4408
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/d6b23781df37b512.jpg",
+          "sha256": "5e04528dc4971ae1519fe7fa3928a2e863ef9ac0655f210ce8b1a23840d3ab87",
+          "bytes": 954966
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/e2bdf7484feeb5c9.jpeg",
+          "sha256": "a95bafc76f1e46f63dbccedf76977fd1b056090b713b65b1ea264cc803bbeea1",
+          "bytes": 746
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/e372f3177dec5c1e.jpeg",
+          "sha256": "82b082abbf02081e6bb81254381bec939d0333b8466af6f01e78332a2e67b628",
+          "bytes": 3958703
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/e67f0e78de855ef5.jpeg",
+          "sha256": "9a41ed4d969fcd1f840e9e03cc7bf12e9263f9da182d9c077c7438c09ec00fb4",
+          "bytes": 172177
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/e79831cd735a0646.jpeg",
+          "sha256": "a5a3fce3b7fd90d98f5cc4f7673fb5bc0f04c597955adfff74921b4fd5a707a1",
+          "bytes": 1029
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/ed40d946be96bd09.jpeg",
+          "sha256": "a3d04e9895a3e2b62bdfd2a24409a4eedb3fc1f6b363ac3d9bb2082ec3fdbc11",
+          "bytes": 2618
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/f36f2c5ebc25841b.png",
+          "sha256": "22dd1f32455a0fc6424f2bd4c6b58768f882637f2445f903535946dc3c176bba",
+          "bytes": 299392
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/f6a9d88505e054ba.png",
+          "sha256": "0c5520f4232deffe022e262f71aa0407767f4b586ac90e45c13a29fc8236fee3",
+          "bytes": 2890815
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/faca26fbbfb562ad.jpeg",
+          "sha256": "53a6bf7110b00b888492b9243d0ed65c1156aa5fdab4c851ca07384705703a70",
+          "bytes": 1973
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/fb0563660fd507cf.jpeg",
+          "sha256": "106b9c5956315dcc309f10525959484c539a0506913ff200ce1f1d98903ade0d",
+          "bytes": 5586402
+        }
+      ],
+      "root_prim": "/Asset",
+      "dimensions": [
+        0.0698669578620641,
+        0.0694935164952849,
+        0.17571358961213512
+      ],
+      "provenance": {
+        "kind": "HOTEL705_NATIVE_PROP_PORTABLE_DERIVATIVE",
+        "original_sha256": "ae40eb930ae44f33691343281a9639076b5c386e703e170c6951e07396122593",
+        "human_confirmed": true
+      },
+      "license_scope": "HOTEL705_USER_CONFIRMED_AUTHOR_LAB_REDISTRIBUTION_PERMISSION",
+      "states": [
+        {
+          "state_id": "default",
+          "version": "1.0",
+          "usd_locator_or_native_prim": {
+            "mount": "blendkit_library",
+            "path": "public_data/assets/04dd6928428b32b8.usdc"
+          },
+          "sha256": "45560c834721f9f0e7f41f3e06b085f44145c74a10bc15055ced6e212cd39495",
+          "units": 1,
+          "up_axis": "Z",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "state_transform": [
+            [
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "visual_bounds": [
+            [
+              -0.03493347893103205,
+              -0.03474675824764245,
+              0
+            ],
+            [
+              0.03493347893103205,
+              0.03474675824764245,
+              0.17571358961213512
+            ]
+          ],
+          "allowed_pose_tags": [
+            "upright"
+          ],
+          "support_envelope": {
+            "clearance_m": 0.001
+          },
+          "alignment": [
+            [
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "footprint": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "acceptance_refs": [],
+          "physics_proxy": {
+            "kind": "none",
+            "capability": "STATIC_ONLY",
+            "shape_paths": [],
+            "geometry_hash": "45560c834721f9f0e7f41f3e06b085f44145c74a10bc15055ced6e212cd39495"
+          }
+        }
+      ],
+      "qualification_refs": []
+    },
+    {
+      "asset_id": "legacy-native_water2",
+      "version": "1.0",
+      "category": "water",
+      "origin": "external",
+      "source_locator": {
+        "mount": "blendkit_library",
+        "path": "public_data/assets/7d92204af36f5c05.usdc"
+      },
+      "dependency_hashes": [
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/099abefd7bedae9c.png",
+          "sha256": "591338eefdc1e3e9e3ea79b2be197692afcdf071ffe5f73bdc9e4e3a0c5b4c96",
+          "bytes": 514870
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/0f6d9f6fdbb574df.jpeg",
+          "sha256": "67e65329bc29023841848ba41cd970dd9e6c442fce42178e0605d178cd935f1f",
+          "bytes": 68715
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/0ff511eeae729d8e.jpeg",
+          "sha256": "4be3afdf7f07def3cdfcd8440b6130c6591af15506e49bfcff7ce998a44cd807",
+          "bytes": 2212
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/1585db862dbc1571.jpg",
+          "sha256": "568bead908d97169d43891870a3a259626c3b3c2d672c9594e1eeb9942811794",
+          "bytes": 1486
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/1832e7a96f891c23.jpeg",
+          "sha256": "5470f9e33608717e144326989cccea2cc68e85826d7440a5698cacecae4f6961",
+          "bytes": 896
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/24b72eca96843a21.jpeg",
+          "sha256": "0049a64a6aad400f690ef747fcf30a34f9e91ddbc707a7c9108662c61f1a85ed",
+          "bytes": 1006
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/26648fbb42431e6e.png",
+          "sha256": "3072274af75c130add3e2d273beb6af30e2ea494e589864857886b846733bb65",
+          "bytes": 165299
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/34fc160242a51c07.jpeg",
+          "sha256": "37d7771d7bdaf49edae1227008dc1bc5d20eaabfee01a69934919568fe980e2f",
+          "bytes": 1041
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/3c211dd4a33f256d.jpg",
+          "sha256": "2c2444c920caa79f5e1bbbde3e7f652547a1b21091ab2532be6aa03869595eb8",
+          "bytes": 1505734
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/3e5d7cf38af4df2b.png",
+          "sha256": "25962fa27b3f8e529fcff8c44e4f2040078e40bc80f7ea7d8de8985ac52b2274",
+          "bytes": 1425
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/3ec8c1874af1896c.jpeg",
+          "sha256": "e9241f99881be2b0ff1a0b62d4eeca9d69032f5b8d6333f82f6781814f72eabb",
+          "bytes": 165253
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/41d599b37a495795.jpeg",
+          "sha256": "194826b28223aee7631f77994dd8513565f5aa9b29f39eb9be6073f4c44a3dee",
+          "bytes": 3402387
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/4524eb94f146eaf0.jpeg",
+          "sha256": "e22a75c6dc22d9e3ed69b64e5fcb85d3b1798822a1808b762f63dbafebd0eeb1",
+          "bytes": 72708
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/45b3124b96bfbe14.png",
+          "sha256": "2cf4f7cd1727c9c2dc50c36c55643613df5363023c8c445d41b75d821a45f33a",
+          "bytes": 488429
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/4d9c1ce7685efa37.jpeg",
+          "sha256": "6ff1d796d43d133aa04de395a10ba302ee0eea859c4ffe1db4535f916b8899b9",
+          "bytes": 54305
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/51c419a8ee973f19.jpeg",
+          "sha256": "be2720348c01e52acac60a644ec2be8244fa1461693b93246e3fbc385ace0e02",
+          "bytes": 1984
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/54cee725f25a4225.jpg",
+          "sha256": "4f549fdf3e61734cebbff2bd2ed17f02cd38a0647a86b0b37f3b9d7dec0adee5",
+          "bytes": 1194008
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/5784324f61d334b9.jpeg",
+          "sha256": "39abaca3689e6f22203c3f1a74ba5c8077588e256029989b289bef31669dc055",
+          "bytes": 1018
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/58c47e4226f5e2a5.png",
+          "sha256": "766644b024c47b6e3b43759129d7e1607763f3bc9cf03b3306f521281cd50d95",
+          "bytes": 1980293
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/61051855e5d38852.png",
+          "sha256": "6d71204a61ec78c812138b77719503013adfbd832a636a736e4a1d24990f3572",
+          "bytes": 814092
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/626f230da2664bf7.jpeg",
+          "sha256": "cb07dbdc16de9379bc4720d8e6bdea50f5304f9b58961bcb4abf7e99f5dc8537",
+          "bytes": 2646
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/63b80b5462727619.jpeg",
+          "sha256": "c7825ef2eaa2627178b3e3e28fd60283709932cb2d63d0d5204098c6bac9540f",
+          "bytes": 799
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/6e811534f0b110f7.jpg",
+          "sha256": "5156a55377e47e54b0d1fde8256a2032ecc6847d3fcaeb6397cf4a6becdcfbfc",
+          "bytes": 771154
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/768d6e16e65be474.png",
+          "sha256": "433abaf188f8c21aa0cca490cd5c721eaa025a1e9c65f3dbc2370feb20b4a882",
+          "bytes": 441720
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/799fefecd4bba0f2.jpeg",
+          "sha256": "2d8ad2a61f6e8ac4d8616636fbbf425a977647c0a29919c2d325012b134c6c6c",
+          "bytes": 869
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/7b77d9c467f9de85.jpeg",
+          "sha256": "d224aa16dcb52c62905a7e264b8cc15ebad6d64b1fb12ed1a7118e9b61d0b74f",
+          "bytes": 1187
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/7d92204af36f5c05.usdc",
+          "sha256": "fe02233be90c3e1e729a4e4bc01b7caf1e52c6a5522a14ffddcd34ad3147e76b",
+          "bytes": 695430
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/85a4b36c7f96ec34.jpeg",
+          "sha256": "6c6db780e52070a617c2af004443ad8b6584648905a206dc2d9dd1bccfe7032c",
+          "bytes": 94341
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/88e4ad44bb6d5502.jpeg",
+          "sha256": "35927fcd85c5285112a9248f9c1ed3347cab1946fb1581c7af4900c9e1e12f92",
+          "bytes": 1045
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/96b0acd8bfe7cb72.jpg",
+          "sha256": "7bce2132bc4b51cf65fae78298d136041b4e0caeaee90cb4b2656fbb4267f61f",
+          "bytes": 1201816
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/96e0dfaa3bb864de.jpg",
+          "sha256": "79dcfe693f06b25e24ee95eeabdd374895dfb3eb0c527948d2de584d423f67f4",
+          "bytes": 1222296
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/a671ced700dbce98.jpeg",
+          "sha256": "e0a2f8320ccc4f3237daa26ba611af0949b285b18d8aaed6594fe980d7de625e",
+          "bytes": 1079
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/a932c93087ff628e.png",
+          "sha256": "d57eed6c961ee54537584b95c827a570e499be5d727a10b6933cf630e85ab8e3",
+          "bytes": 835236
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/a9bb99a0c0ec9ee3.jpeg",
+          "sha256": "ac7f7374d570fab07dda14ac0a2021adfd61bafffdb75e170fa15692d33d5631",
+          "bytes": 1400
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/b109ffbffc139178.jpeg",
+          "sha256": "6b5c439254c24bd585029be2b5b2a3edfcb8c4bc41ec311aebb596f6f23a34f0",
+          "bytes": 51380
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/b1ece44965bd74b5.jpeg",
+          "sha256": "f1c15cf347ab34585205113ead0ad0deaeb1365136e288ac8e718de24d8b99ea",
+          "bytes": 149561
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/b265208fb8439d5a.jpeg",
+          "sha256": "1a7b9b719bbc5568cbed5abb481aaf4e2a4be57c299297092b1df9331ecc9dd5",
+          "bytes": 4653
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/b33749493d2461ed.jpeg",
+          "sha256": "fb52dc924b71dbf40ee49ab4fd4e0c0666f0bf2aff7379e850adc86b37e96951",
+          "bytes": 920
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/b47b9fabcfa70f54.jpeg",
+          "sha256": "f98dc4c21c14d98ca685e4b595b7f03d91d3ab0b083b4de25ea8e89b6ce05381",
+          "bytes": 863
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/bb067b123ad826f2.png",
+          "sha256": "c392ea9dcf5bf464d6e9b6052f6095699d2fd7d3c4ac2e6e11e099447c02658c",
+          "bytes": 1142518
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/bffc2874a9704a72.jpeg",
+          "sha256": "3ae49748e201513a07f2bb431a69f799277be1c1425e729733a5a414106d7e53",
+          "bytes": 4506593
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/c2080f8e9142fefa.png",
+          "sha256": "5ea53fb564130bb17825155c8d83f879d1f2d51571f344d88619586f6bad3374",
+          "bytes": 713289
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/c6ef30ebf6a95c46.jpg",
+          "sha256": "91ae52e21572ac3a248af64ed875cd50b3c203db0faf3c2ad8ea628d04a097a8",
+          "bytes": 1394492
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/c9a8992b904ccaba.jpeg",
+          "sha256": "1cd6937f74c5a9f79ce7bca8b705ec2ea19fcb6f266d557fe630100a22b4e166",
+          "bytes": 3422
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/d02d112d549f8feb.jpeg",
+          "sha256": "b6019b205db15526391150c1969619c50a7394f10645491a7a408a25035a11db",
+          "bytes": 4408
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/d6b23781df37b512.jpg",
+          "sha256": "5e04528dc4971ae1519fe7fa3928a2e863ef9ac0655f210ce8b1a23840d3ab87",
+          "bytes": 954966
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/e2bdf7484feeb5c9.jpeg",
+          "sha256": "a95bafc76f1e46f63dbccedf76977fd1b056090b713b65b1ea264cc803bbeea1",
+          "bytes": 746
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/e372f3177dec5c1e.jpeg",
+          "sha256": "82b082abbf02081e6bb81254381bec939d0333b8466af6f01e78332a2e67b628",
+          "bytes": 3958703
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/e67f0e78de855ef5.jpeg",
+          "sha256": "9a41ed4d969fcd1f840e9e03cc7bf12e9263f9da182d9c077c7438c09ec00fb4",
+          "bytes": 172177
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/e79831cd735a0646.jpeg",
+          "sha256": "a5a3fce3b7fd90d98f5cc4f7673fb5bc0f04c597955adfff74921b4fd5a707a1",
+          "bytes": 1029
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/ed40d946be96bd09.jpeg",
+          "sha256": "a3d04e9895a3e2b62bdfd2a24409a4eedb3fc1f6b363ac3d9bb2082ec3fdbc11",
+          "bytes": 2618
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/f36f2c5ebc25841b.png",
+          "sha256": "22dd1f32455a0fc6424f2bd4c6b58768f882637f2445f903535946dc3c176bba",
+          "bytes": 299392
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/f6a9d88505e054ba.png",
+          "sha256": "0c5520f4232deffe022e262f71aa0407767f4b586ac90e45c13a29fc8236fee3",
+          "bytes": 2890815
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/faca26fbbfb562ad.jpeg",
+          "sha256": "53a6bf7110b00b888492b9243d0ed65c1156aa5fdab4c851ca07384705703a70",
+          "bytes": 1973
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/fb0563660fd507cf.jpeg",
+          "sha256": "106b9c5956315dcc309f10525959484c539a0506913ff200ce1f1d98903ade0d",
+          "bytes": 5586402
+        }
+      ],
+      "root_prim": "/Asset",
+      "dimensions": [
+        0.06987797819876729,
+        0.0695043372918197,
+        0.17574097481515016
+      ],
+      "provenance": {
+        "kind": "HOTEL705_NATIVE_PROP_PORTABLE_DERIVATIVE",
+        "original_sha256": "bb4641c9821d76f3565671c05b435b4775f881a66720c70cf52727c5868844ad",
+        "human_confirmed": true
+      },
+      "license_scope": "HOTEL705_USER_CONFIRMED_AUTHOR_LAB_REDISTRIBUTION_PERMISSION",
+      "states": [
+        {
+          "state_id": "default",
+          "version": "1.0",
+          "usd_locator_or_native_prim": {
+            "mount": "blendkit_library",
+            "path": "public_data/assets/7d92204af36f5c05.usdc"
+          },
+          "sha256": "fe02233be90c3e1e729a4e4bc01b7caf1e52c6a5522a14ffddcd34ad3147e76b",
+          "units": 1,
+          "up_axis": "Z",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "state_transform": [
+            [
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "visual_bounds": [
+            [
+              -0.034938989099383644,
+              -0.03475216864590985,
+              0
+            ],
+            [
+              0.034938989099383644,
+              0.03475216864590985,
+              0.17574097481515016
+            ]
+          ],
+          "allowed_pose_tags": [
+            "upright"
+          ],
+          "support_envelope": {
+            "clearance_m": 0.001
+          },
+          "alignment": [
+            [
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "footprint": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "acceptance_refs": [],
+          "physics_proxy": {
+            "kind": "none",
+            "capability": "STATIC_ONLY",
+            "shape_paths": [],
+            "geometry_hash": "fe02233be90c3e1e729a4e4bc01b7caf1e52c6a5522a14ffddcd34ad3147e76b"
+          }
+        }
+      ],
+      "qualification_refs": []
+    },
+    {
+      "asset_id": "legacy-native_mug1",
+      "version": "1.0",
+      "category": "mug",
+      "origin": "external",
+      "source_locator": {
+        "mount": "blendkit_library",
+        "path": "public_data/assets/7c217246cd2493aa.usdc"
+      },
+      "dependency_hashes": [
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/099abefd7bedae9c.png",
+          "sha256": "591338eefdc1e3e9e3ea79b2be197692afcdf071ffe5f73bdc9e4e3a0c5b4c96",
+          "bytes": 514870
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/0f6d9f6fdbb574df.jpeg",
+          "sha256": "67e65329bc29023841848ba41cd970dd9e6c442fce42178e0605d178cd935f1f",
+          "bytes": 68715
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/0ff511eeae729d8e.jpeg",
+          "sha256": "4be3afdf7f07def3cdfcd8440b6130c6591af15506e49bfcff7ce998a44cd807",
+          "bytes": 2212
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/1585db862dbc1571.jpg",
+          "sha256": "568bead908d97169d43891870a3a259626c3b3c2d672c9594e1eeb9942811794",
+          "bytes": 1486
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/1832e7a96f891c23.jpeg",
+          "sha256": "5470f9e33608717e144326989cccea2cc68e85826d7440a5698cacecae4f6961",
+          "bytes": 896
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/24b72eca96843a21.jpeg",
+          "sha256": "0049a64a6aad400f690ef747fcf30a34f9e91ddbc707a7c9108662c61f1a85ed",
+          "bytes": 1006
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/26648fbb42431e6e.png",
+          "sha256": "3072274af75c130add3e2d273beb6af30e2ea494e589864857886b846733bb65",
+          "bytes": 165299
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/34fc160242a51c07.jpeg",
+          "sha256": "37d7771d7bdaf49edae1227008dc1bc5d20eaabfee01a69934919568fe980e2f",
+          "bytes": 1041
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/3c211dd4a33f256d.jpg",
+          "sha256": "2c2444c920caa79f5e1bbbde3e7f652547a1b21091ab2532be6aa03869595eb8",
+          "bytes": 1505734
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/3e5d7cf38af4df2b.png",
+          "sha256": "25962fa27b3f8e529fcff8c44e4f2040078e40bc80f7ea7d8de8985ac52b2274",
+          "bytes": 1425
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/3ec8c1874af1896c.jpeg",
+          "sha256": "e9241f99881be2b0ff1a0b62d4eeca9d69032f5b8d6333f82f6781814f72eabb",
+          "bytes": 165253
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/41d599b37a495795.jpeg",
+          "sha256": "194826b28223aee7631f77994dd8513565f5aa9b29f39eb9be6073f4c44a3dee",
+          "bytes": 3402387
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/4524eb94f146eaf0.jpeg",
+          "sha256": "e22a75c6dc22d9e3ed69b64e5fcb85d3b1798822a1808b762f63dbafebd0eeb1",
+          "bytes": 72708
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/45b3124b96bfbe14.png",
+          "sha256": "2cf4f7cd1727c9c2dc50c36c55643613df5363023c8c445d41b75d821a45f33a",
+          "bytes": 488429
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/4d9c1ce7685efa37.jpeg",
+          "sha256": "6ff1d796d43d133aa04de395a10ba302ee0eea859c4ffe1db4535f916b8899b9",
+          "bytes": 54305
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/51c419a8ee973f19.jpeg",
+          "sha256": "be2720348c01e52acac60a644ec2be8244fa1461693b93246e3fbc385ace0e02",
+          "bytes": 1984
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/54cee725f25a4225.jpg",
+          "sha256": "4f549fdf3e61734cebbff2bd2ed17f02cd38a0647a86b0b37f3b9d7dec0adee5",
+          "bytes": 1194008
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/5784324f61d334b9.jpeg",
+          "sha256": "39abaca3689e6f22203c3f1a74ba5c8077588e256029989b289bef31669dc055",
+          "bytes": 1018
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/58c47e4226f5e2a5.png",
+          "sha256": "766644b024c47b6e3b43759129d7e1607763f3bc9cf03b3306f521281cd50d95",
+          "bytes": 1980293
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/61051855e5d38852.png",
+          "sha256": "6d71204a61ec78c812138b77719503013adfbd832a636a736e4a1d24990f3572",
+          "bytes": 814092
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/626f230da2664bf7.jpeg",
+          "sha256": "cb07dbdc16de9379bc4720d8e6bdea50f5304f9b58961bcb4abf7e99f5dc8537",
+          "bytes": 2646
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/63b80b5462727619.jpeg",
+          "sha256": "c7825ef2eaa2627178b3e3e28fd60283709932cb2d63d0d5204098c6bac9540f",
+          "bytes": 799
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/6e811534f0b110f7.jpg",
+          "sha256": "5156a55377e47e54b0d1fde8256a2032ecc6847d3fcaeb6397cf4a6becdcfbfc",
+          "bytes": 771154
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/768d6e16e65be474.png",
+          "sha256": "433abaf188f8c21aa0cca490cd5c721eaa025a1e9c65f3dbc2370feb20b4a882",
+          "bytes": 441720
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/799fefecd4bba0f2.jpeg",
+          "sha256": "2d8ad2a61f6e8ac4d8616636fbbf425a977647c0a29919c2d325012b134c6c6c",
+          "bytes": 869
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/7b77d9c467f9de85.jpeg",
+          "sha256": "d224aa16dcb52c62905a7e264b8cc15ebad6d64b1fb12ed1a7118e9b61d0b74f",
+          "bytes": 1187
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/7c217246cd2493aa.usdc",
+          "sha256": "4fff05cc68972fd4aceec139b86814fb1ef7d96d05c5fef17082dcc1eaf81a0c",
+          "bytes": 166175
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/85a4b36c7f96ec34.jpeg",
+          "sha256": "6c6db780e52070a617c2af004443ad8b6584648905a206dc2d9dd1bccfe7032c",
+          "bytes": 94341
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/88e4ad44bb6d5502.jpeg",
+          "sha256": "35927fcd85c5285112a9248f9c1ed3347cab1946fb1581c7af4900c9e1e12f92",
+          "bytes": 1045
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/96b0acd8bfe7cb72.jpg",
+          "sha256": "7bce2132bc4b51cf65fae78298d136041b4e0caeaee90cb4b2656fbb4267f61f",
+          "bytes": 1201816
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/96e0dfaa3bb864de.jpg",
+          "sha256": "79dcfe693f06b25e24ee95eeabdd374895dfb3eb0c527948d2de584d423f67f4",
+          "bytes": 1222296
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/a671ced700dbce98.jpeg",
+          "sha256": "e0a2f8320ccc4f3237daa26ba611af0949b285b18d8aaed6594fe980d7de625e",
+          "bytes": 1079
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/a932c93087ff628e.png",
+          "sha256": "d57eed6c961ee54537584b95c827a570e499be5d727a10b6933cf630e85ab8e3",
+          "bytes": 835236
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/a9bb99a0c0ec9ee3.jpeg",
+          "sha256": "ac7f7374d570fab07dda14ac0a2021adfd61bafffdb75e170fa15692d33d5631",
+          "bytes": 1400
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/b109ffbffc139178.jpeg",
+          "sha256": "6b5c439254c24bd585029be2b5b2a3edfcb8c4bc41ec311aebb596f6f23a34f0",
+          "bytes": 51380
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/b1ece44965bd74b5.jpeg",
+          "sha256": "f1c15cf347ab34585205113ead0ad0deaeb1365136e288ac8e718de24d8b99ea",
+          "bytes": 149561
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/b265208fb8439d5a.jpeg",
+          "sha256": "1a7b9b719bbc5568cbed5abb481aaf4e2a4be57c299297092b1df9331ecc9dd5",
+          "bytes": 4653
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/b33749493d2461ed.jpeg",
+          "sha256": "fb52dc924b71dbf40ee49ab4fd4e0c0666f0bf2aff7379e850adc86b37e96951",
+          "bytes": 920
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/b47b9fabcfa70f54.jpeg",
+          "sha256": "f98dc4c21c14d98ca685e4b595b7f03d91d3ab0b083b4de25ea8e89b6ce05381",
+          "bytes": 863
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/bb067b123ad826f2.png",
+          "sha256": "c392ea9dcf5bf464d6e9b6052f6095699d2fd7d3c4ac2e6e11e099447c02658c",
+          "bytes": 1142518
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/bffc2874a9704a72.jpeg",
+          "sha256": "3ae49748e201513a07f2bb431a69f799277be1c1425e729733a5a414106d7e53",
+          "bytes": 4506593
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/c2080f8e9142fefa.png",
+          "sha256": "5ea53fb564130bb17825155c8d83f879d1f2d51571f344d88619586f6bad3374",
+          "bytes": 713289
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/c6ef30ebf6a95c46.jpg",
+          "sha256": "91ae52e21572ac3a248af64ed875cd50b3c203db0faf3c2ad8ea628d04a097a8",
+          "bytes": 1394492
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/c9a8992b904ccaba.jpeg",
+          "sha256": "1cd6937f74c5a9f79ce7bca8b705ec2ea19fcb6f266d557fe630100a22b4e166",
+          "bytes": 3422
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/d02d112d549f8feb.jpeg",
+          "sha256": "b6019b205db15526391150c1969619c50a7394f10645491a7a408a25035a11db",
+          "bytes": 4408
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/d6b23781df37b512.jpg",
+          "sha256": "5e04528dc4971ae1519fe7fa3928a2e863ef9ac0655f210ce8b1a23840d3ab87",
+          "bytes": 954966
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/e2bdf7484feeb5c9.jpeg",
+          "sha256": "a95bafc76f1e46f63dbccedf76977fd1b056090b713b65b1ea264cc803bbeea1",
+          "bytes": 746
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/e372f3177dec5c1e.jpeg",
+          "sha256": "82b082abbf02081e6bb81254381bec939d0333b8466af6f01e78332a2e67b628",
+          "bytes": 3958703
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/e67f0e78de855ef5.jpeg",
+          "sha256": "9a41ed4d969fcd1f840e9e03cc7bf12e9263f9da182d9c077c7438c09ec00fb4",
+          "bytes": 172177
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/e79831cd735a0646.jpeg",
+          "sha256": "a5a3fce3b7fd90d98f5cc4f7673fb5bc0f04c597955adfff74921b4fd5a707a1",
+          "bytes": 1029
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/ed40d946be96bd09.jpeg",
+          "sha256": "a3d04e9895a3e2b62bdfd2a24409a4eedb3fc1f6b363ac3d9bb2082ec3fdbc11",
+          "bytes": 2618
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/f36f2c5ebc25841b.png",
+          "sha256": "22dd1f32455a0fc6424f2bd4c6b58768f882637f2445f903535946dc3c176bba",
+          "bytes": 299392
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/f6a9d88505e054ba.png",
+          "sha256": "0c5520f4232deffe022e262f71aa0407767f4b586ac90e45c13a29fc8236fee3",
+          "bytes": 2890815
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/faca26fbbfb562ad.jpeg",
+          "sha256": "53a6bf7110b00b888492b9243d0ed65c1156aa5fdab4c851ca07384705703a70",
+          "bytes": 1973
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/fb0563660fd507cf.jpeg",
+          "sha256": "106b9c5956315dcc309f10525959484c539a0506913ff200ce1f1d98903ade0d",
+          "bytes": 5586402
+        }
+      ],
+      "root_prim": "/Asset",
+      "dimensions": [
+        0.10648823973025245,
+        0.07858267682000869,
+        0.08240125920158681
+      ],
+      "provenance": {
+        "kind": "HOTEL705_NATIVE_PROP_PORTABLE_DERIVATIVE",
+        "original_sha256": "07df1009b72b7edc5441e76a5367a6157d3620dd2b1468b1c3c97d22048ccc5b",
+        "human_confirmed": true
+      },
+      "license_scope": "HOTEL705_USER_CONFIRMED_AUTHOR_LAB_REDISTRIBUTION_PERMISSION",
+      "states": [
+        {
+          "state_id": "default",
+          "version": "1.0",
+          "usd_locator_or_native_prim": {
+            "mount": "blendkit_library",
+            "path": "public_data/assets/7c217246cd2493aa.usdc"
+          },
+          "sha256": "4fff05cc68972fd4aceec139b86814fb1ef7d96d05c5fef17082dcc1eaf81a0c",
+          "units": 1,
+          "up_axis": "Z",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "state_transform": [
+            [
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "visual_bounds": [
+            [
+              -0.05324411986512623,
+              -0.039291338410004345,
+              0
+            ],
+            [
+              0.05324411986512623,
+              0.039291338410004345,
+              0.08240125920158681
+            ]
+          ],
+          "allowed_pose_tags": [
+            "upright"
+          ],
+          "support_envelope": {
+            "clearance_m": 0.001
+          },
+          "alignment": [
+            [
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "footprint": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "acceptance_refs": [],
+          "physics_proxy": {
+            "kind": "none",
+            "capability": "STATIC_ONLY",
+            "shape_paths": [],
+            "geometry_hash": "4fff05cc68972fd4aceec139b86814fb1ef7d96d05c5fef17082dcc1eaf81a0c"
+          }
+        }
+      ],
+      "qualification_refs": []
+    },
+    {
+      "asset_id": "legacy-native_tea1",
+      "version": "1.0",
+      "category": "tea",
+      "origin": "external",
+      "source_locator": {
+        "mount": "blendkit_library",
+        "path": "public_data/assets/bf971e73162af606.usdc"
+      },
+      "dependency_hashes": [
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/099abefd7bedae9c.png",
+          "sha256": "591338eefdc1e3e9e3ea79b2be197692afcdf071ffe5f73bdc9e4e3a0c5b4c96",
+          "bytes": 514870
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/0f6d9f6fdbb574df.jpeg",
+          "sha256": "67e65329bc29023841848ba41cd970dd9e6c442fce42178e0605d178cd935f1f",
+          "bytes": 68715
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/0ff511eeae729d8e.jpeg",
+          "sha256": "4be3afdf7f07def3cdfcd8440b6130c6591af15506e49bfcff7ce998a44cd807",
+          "bytes": 2212
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/1585db862dbc1571.jpg",
+          "sha256": "568bead908d97169d43891870a3a259626c3b3c2d672c9594e1eeb9942811794",
+          "bytes": 1486
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/1832e7a96f891c23.jpeg",
+          "sha256": "5470f9e33608717e144326989cccea2cc68e85826d7440a5698cacecae4f6961",
+          "bytes": 896
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/24b72eca96843a21.jpeg",
+          "sha256": "0049a64a6aad400f690ef747fcf30a34f9e91ddbc707a7c9108662c61f1a85ed",
+          "bytes": 1006
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/26648fbb42431e6e.png",
+          "sha256": "3072274af75c130add3e2d273beb6af30e2ea494e589864857886b846733bb65",
+          "bytes": 165299
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/34fc160242a51c07.jpeg",
+          "sha256": "37d7771d7bdaf49edae1227008dc1bc5d20eaabfee01a69934919568fe980e2f",
+          "bytes": 1041
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/3c211dd4a33f256d.jpg",
+          "sha256": "2c2444c920caa79f5e1bbbde3e7f652547a1b21091ab2532be6aa03869595eb8",
+          "bytes": 1505734
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/3e5d7cf38af4df2b.png",
+          "sha256": "25962fa27b3f8e529fcff8c44e4f2040078e40bc80f7ea7d8de8985ac52b2274",
+          "bytes": 1425
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/3ec8c1874af1896c.jpeg",
+          "sha256": "e9241f99881be2b0ff1a0b62d4eeca9d69032f5b8d6333f82f6781814f72eabb",
+          "bytes": 165253
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/41d599b37a495795.jpeg",
+          "sha256": "194826b28223aee7631f77994dd8513565f5aa9b29f39eb9be6073f4c44a3dee",
+          "bytes": 3402387
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/4524eb94f146eaf0.jpeg",
+          "sha256": "e22a75c6dc22d9e3ed69b64e5fcb85d3b1798822a1808b762f63dbafebd0eeb1",
+          "bytes": 72708
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/45b3124b96bfbe14.png",
+          "sha256": "2cf4f7cd1727c9c2dc50c36c55643613df5363023c8c445d41b75d821a45f33a",
+          "bytes": 488429
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/4d9c1ce7685efa37.jpeg",
+          "sha256": "6ff1d796d43d133aa04de395a10ba302ee0eea859c4ffe1db4535f916b8899b9",
+          "bytes": 54305
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/51c419a8ee973f19.jpeg",
+          "sha256": "be2720348c01e52acac60a644ec2be8244fa1461693b93246e3fbc385ace0e02",
+          "bytes": 1984
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/54cee725f25a4225.jpg",
+          "sha256": "4f549fdf3e61734cebbff2bd2ed17f02cd38a0647a86b0b37f3b9d7dec0adee5",
+          "bytes": 1194008
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/5784324f61d334b9.jpeg",
+          "sha256": "39abaca3689e6f22203c3f1a74ba5c8077588e256029989b289bef31669dc055",
+          "bytes": 1018
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/58c47e4226f5e2a5.png",
+          "sha256": "766644b024c47b6e3b43759129d7e1607763f3bc9cf03b3306f521281cd50d95",
+          "bytes": 1980293
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/61051855e5d38852.png",
+          "sha256": "6d71204a61ec78c812138b77719503013adfbd832a636a736e4a1d24990f3572",
+          "bytes": 814092
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/626f230da2664bf7.jpeg",
+          "sha256": "cb07dbdc16de9379bc4720d8e6bdea50f5304f9b58961bcb4abf7e99f5dc8537",
+          "bytes": 2646
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/63b80b5462727619.jpeg",
+          "sha256": "c7825ef2eaa2627178b3e3e28fd60283709932cb2d63d0d5204098c6bac9540f",
+          "bytes": 799
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/6e811534f0b110f7.jpg",
+          "sha256": "5156a55377e47e54b0d1fde8256a2032ecc6847d3fcaeb6397cf4a6becdcfbfc",
+          "bytes": 771154
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/768d6e16e65be474.png",
+          "sha256": "433abaf188f8c21aa0cca490cd5c721eaa025a1e9c65f3dbc2370feb20b4a882",
+          "bytes": 441720
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/799fefecd4bba0f2.jpeg",
+          "sha256": "2d8ad2a61f6e8ac4d8616636fbbf425a977647c0a29919c2d325012b134c6c6c",
+          "bytes": 869
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/7b77d9c467f9de85.jpeg",
+          "sha256": "d224aa16dcb52c62905a7e264b8cc15ebad6d64b1fb12ed1a7118e9b61d0b74f",
+          "bytes": 1187
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/85a4b36c7f96ec34.jpeg",
+          "sha256": "6c6db780e52070a617c2af004443ad8b6584648905a206dc2d9dd1bccfe7032c",
+          "bytes": 94341
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/88e4ad44bb6d5502.jpeg",
+          "sha256": "35927fcd85c5285112a9248f9c1ed3347cab1946fb1581c7af4900c9e1e12f92",
+          "bytes": 1045
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/96b0acd8bfe7cb72.jpg",
+          "sha256": "7bce2132bc4b51cf65fae78298d136041b4e0caeaee90cb4b2656fbb4267f61f",
+          "bytes": 1201816
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/96e0dfaa3bb864de.jpg",
+          "sha256": "79dcfe693f06b25e24ee95eeabdd374895dfb3eb0c527948d2de584d423f67f4",
+          "bytes": 1222296
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/a671ced700dbce98.jpeg",
+          "sha256": "e0a2f8320ccc4f3237daa26ba611af0949b285b18d8aaed6594fe980d7de625e",
+          "bytes": 1079
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/a932c93087ff628e.png",
+          "sha256": "d57eed6c961ee54537584b95c827a570e499be5d727a10b6933cf630e85ab8e3",
+          "bytes": 835236
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/a9bb99a0c0ec9ee3.jpeg",
+          "sha256": "ac7f7374d570fab07dda14ac0a2021adfd61bafffdb75e170fa15692d33d5631",
+          "bytes": 1400
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/b109ffbffc139178.jpeg",
+          "sha256": "6b5c439254c24bd585029be2b5b2a3edfcb8c4bc41ec311aebb596f6f23a34f0",
+          "bytes": 51380
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/b1ece44965bd74b5.jpeg",
+          "sha256": "f1c15cf347ab34585205113ead0ad0deaeb1365136e288ac8e718de24d8b99ea",
+          "bytes": 149561
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/b265208fb8439d5a.jpeg",
+          "sha256": "1a7b9b719bbc5568cbed5abb481aaf4e2a4be57c299297092b1df9331ecc9dd5",
+          "bytes": 4653
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/b33749493d2461ed.jpeg",
+          "sha256": "fb52dc924b71dbf40ee49ab4fd4e0c0666f0bf2aff7379e850adc86b37e96951",
+          "bytes": 920
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/b47b9fabcfa70f54.jpeg",
+          "sha256": "f98dc4c21c14d98ca685e4b595b7f03d91d3ab0b083b4de25ea8e89b6ce05381",
+          "bytes": 863
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/bb067b123ad826f2.png",
+          "sha256": "c392ea9dcf5bf464d6e9b6052f6095699d2fd7d3c4ac2e6e11e099447c02658c",
+          "bytes": 1142518
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/bf971e73162af606.usdc",
+          "sha256": "7c2786088ddc83b8658fd933a62fb41fe0cd0f29886e76f998534a929b73fefa",
+          "bytes": 458750
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/bffc2874a9704a72.jpeg",
+          "sha256": "3ae49748e201513a07f2bb431a69f799277be1c1425e729733a5a414106d7e53",
+          "bytes": 4506593
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/c2080f8e9142fefa.png",
+          "sha256": "5ea53fb564130bb17825155c8d83f879d1f2d51571f344d88619586f6bad3374",
+          "bytes": 713289
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/c6ef30ebf6a95c46.jpg",
+          "sha256": "91ae52e21572ac3a248af64ed875cd50b3c203db0faf3c2ad8ea628d04a097a8",
+          "bytes": 1394492
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/c9a8992b904ccaba.jpeg",
+          "sha256": "1cd6937f74c5a9f79ce7bca8b705ec2ea19fcb6f266d557fe630100a22b4e166",
+          "bytes": 3422
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/d02d112d549f8feb.jpeg",
+          "sha256": "b6019b205db15526391150c1969619c50a7394f10645491a7a408a25035a11db",
+          "bytes": 4408
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/d6b23781df37b512.jpg",
+          "sha256": "5e04528dc4971ae1519fe7fa3928a2e863ef9ac0655f210ce8b1a23840d3ab87",
+          "bytes": 954966
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/e2bdf7484feeb5c9.jpeg",
+          "sha256": "a95bafc76f1e46f63dbccedf76977fd1b056090b713b65b1ea264cc803bbeea1",
+          "bytes": 746
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/e372f3177dec5c1e.jpeg",
+          "sha256": "82b082abbf02081e6bb81254381bec939d0333b8466af6f01e78332a2e67b628",
+          "bytes": 3958703
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/e67f0e78de855ef5.jpeg",
+          "sha256": "9a41ed4d969fcd1f840e9e03cc7bf12e9263f9da182d9c077c7438c09ec00fb4",
+          "bytes": 172177
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/e79831cd735a0646.jpeg",
+          "sha256": "a5a3fce3b7fd90d98f5cc4f7673fb5bc0f04c597955adfff74921b4fd5a707a1",
+          "bytes": 1029
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/ed40d946be96bd09.jpeg",
+          "sha256": "a3d04e9895a3e2b62bdfd2a24409a4eedb3fc1f6b363ac3d9bb2082ec3fdbc11",
+          "bytes": 2618
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/f36f2c5ebc25841b.png",
+          "sha256": "22dd1f32455a0fc6424f2bd4c6b58768f882637f2445f903535946dc3c176bba",
+          "bytes": 299392
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/f6a9d88505e054ba.png",
+          "sha256": "0c5520f4232deffe022e262f71aa0407767f4b586ac90e45c13a29fc8236fee3",
+          "bytes": 2890815
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/faca26fbbfb562ad.jpeg",
+          "sha256": "53a6bf7110b00b888492b9243d0ed65c1156aa5fdab4c851ca07384705703a70",
+          "bytes": 1973
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/fb0563660fd507cf.jpeg",
+          "sha256": "106b9c5956315dcc309f10525959484c539a0506913ff200ce1f1d98903ade0d",
+          "bytes": 5586402
+        }
+      ],
+      "root_prim": "/Asset",
+      "dimensions": [
+        0.04185281360360582,
+        0.06536864245190166,
+        0.08491880375341121
+      ],
+      "provenance": {
+        "kind": "HOTEL705_NATIVE_PROP_PORTABLE_DERIVATIVE",
+        "original_sha256": "2228141e341a0390552fa33ec28c6c8b834eccf408ccdb8b7655bf10a2a98d68",
+        "human_confirmed": true
+      },
+      "license_scope": "HOTEL705_USER_CONFIRMED_AUTHOR_LAB_REDISTRIBUTION_PERMISSION",
+      "states": [
+        {
+          "state_id": "default",
+          "version": "1.0",
+          "usd_locator_or_native_prim": {
+            "mount": "blendkit_library",
+            "path": "public_data/assets/bf971e73162af606.usdc"
+          },
+          "sha256": "7c2786088ddc83b8658fd933a62fb41fe0cd0f29886e76f998534a929b73fefa",
+          "units": 1,
+          "up_axis": "Z",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "state_transform": [
+            [
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "visual_bounds": [
+            [
+              -0.02092640680180291,
+              -0.03268432122595083,
+              0
+            ],
+            [
+              0.02092640680180291,
+              0.03268432122595083,
+              0.08491880375341121
+            ]
+          ],
+          "allowed_pose_tags": [
+            "upright"
+          ],
+          "support_envelope": {
+            "clearance_m": 0.001
+          },
+          "alignment": [
+            [
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "footprint": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "acceptance_refs": [],
+          "physics_proxy": {
+            "kind": "none",
+            "capability": "STATIC_ONLY",
+            "shape_paths": [],
+            "geometry_hash": "7c2786088ddc83b8658fd933a62fb41fe0cd0f29886e76f998534a929b73fefa"
+          }
+        }
+      ],
+      "qualification_refs": []
+    },
+    {
+      "asset_id": "legacy-native_cookiepack1",
+      "version": "1.0",
+      "category": "snack",
+      "origin": "external",
+      "source_locator": {
+        "mount": "blendkit_library",
+        "path": "public_data/assets/a2641959d51eb570.usdc"
+      },
+      "dependency_hashes": [
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/099abefd7bedae9c.png",
+          "sha256": "591338eefdc1e3e9e3ea79b2be197692afcdf071ffe5f73bdc9e4e3a0c5b4c96",
+          "bytes": 514870
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/0f6d9f6fdbb574df.jpeg",
+          "sha256": "67e65329bc29023841848ba41cd970dd9e6c442fce42178e0605d178cd935f1f",
+          "bytes": 68715
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/0ff511eeae729d8e.jpeg",
+          "sha256": "4be3afdf7f07def3cdfcd8440b6130c6591af15506e49bfcff7ce998a44cd807",
+          "bytes": 2212
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/1585db862dbc1571.jpg",
+          "sha256": "568bead908d97169d43891870a3a259626c3b3c2d672c9594e1eeb9942811794",
+          "bytes": 1486
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/1832e7a96f891c23.jpeg",
+          "sha256": "5470f9e33608717e144326989cccea2cc68e85826d7440a5698cacecae4f6961",
+          "bytes": 896
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/24b72eca96843a21.jpeg",
+          "sha256": "0049a64a6aad400f690ef747fcf30a34f9e91ddbc707a7c9108662c61f1a85ed",
+          "bytes": 1006
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/26648fbb42431e6e.png",
+          "sha256": "3072274af75c130add3e2d273beb6af30e2ea494e589864857886b846733bb65",
+          "bytes": 165299
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/34fc160242a51c07.jpeg",
+          "sha256": "37d7771d7bdaf49edae1227008dc1bc5d20eaabfee01a69934919568fe980e2f",
+          "bytes": 1041
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/3c211dd4a33f256d.jpg",
+          "sha256": "2c2444c920caa79f5e1bbbde3e7f652547a1b21091ab2532be6aa03869595eb8",
+          "bytes": 1505734
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/3e5d7cf38af4df2b.png",
+          "sha256": "25962fa27b3f8e529fcff8c44e4f2040078e40bc80f7ea7d8de8985ac52b2274",
+          "bytes": 1425
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/3ec8c1874af1896c.jpeg",
+          "sha256": "e9241f99881be2b0ff1a0b62d4eeca9d69032f5b8d6333f82f6781814f72eabb",
+          "bytes": 165253
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/41d599b37a495795.jpeg",
+          "sha256": "194826b28223aee7631f77994dd8513565f5aa9b29f39eb9be6073f4c44a3dee",
+          "bytes": 3402387
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/4524eb94f146eaf0.jpeg",
+          "sha256": "e22a75c6dc22d9e3ed69b64e5fcb85d3b1798822a1808b762f63dbafebd0eeb1",
+          "bytes": 72708
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/45b3124b96bfbe14.png",
+          "sha256": "2cf4f7cd1727c9c2dc50c36c55643613df5363023c8c445d41b75d821a45f33a",
+          "bytes": 488429
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/4d9c1ce7685efa37.jpeg",
+          "sha256": "6ff1d796d43d133aa04de395a10ba302ee0eea859c4ffe1db4535f916b8899b9",
+          "bytes": 54305
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/51c419a8ee973f19.jpeg",
+          "sha256": "be2720348c01e52acac60a644ec2be8244fa1461693b93246e3fbc385ace0e02",
+          "bytes": 1984
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/54cee725f25a4225.jpg",
+          "sha256": "4f549fdf3e61734cebbff2bd2ed17f02cd38a0647a86b0b37f3b9d7dec0adee5",
+          "bytes": 1194008
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/5784324f61d334b9.jpeg",
+          "sha256": "39abaca3689e6f22203c3f1a74ba5c8077588e256029989b289bef31669dc055",
+          "bytes": 1018
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/58c47e4226f5e2a5.png",
+          "sha256": "766644b024c47b6e3b43759129d7e1607763f3bc9cf03b3306f521281cd50d95",
+          "bytes": 1980293
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/61051855e5d38852.png",
+          "sha256": "6d71204a61ec78c812138b77719503013adfbd832a636a736e4a1d24990f3572",
+          "bytes": 814092
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/626f230da2664bf7.jpeg",
+          "sha256": "cb07dbdc16de9379bc4720d8e6bdea50f5304f9b58961bcb4abf7e99f5dc8537",
+          "bytes": 2646
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/63b80b5462727619.jpeg",
+          "sha256": "c7825ef2eaa2627178b3e3e28fd60283709932cb2d63d0d5204098c6bac9540f",
+          "bytes": 799
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/6e811534f0b110f7.jpg",
+          "sha256": "5156a55377e47e54b0d1fde8256a2032ecc6847d3fcaeb6397cf4a6becdcfbfc",
+          "bytes": 771154
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/768d6e16e65be474.png",
+          "sha256": "433abaf188f8c21aa0cca490cd5c721eaa025a1e9c65f3dbc2370feb20b4a882",
+          "bytes": 441720
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/799fefecd4bba0f2.jpeg",
+          "sha256": "2d8ad2a61f6e8ac4d8616636fbbf425a977647c0a29919c2d325012b134c6c6c",
+          "bytes": 869
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/7b77d9c467f9de85.jpeg",
+          "sha256": "d224aa16dcb52c62905a7e264b8cc15ebad6d64b1fb12ed1a7118e9b61d0b74f",
+          "bytes": 1187
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/85a4b36c7f96ec34.jpeg",
+          "sha256": "6c6db780e52070a617c2af004443ad8b6584648905a206dc2d9dd1bccfe7032c",
+          "bytes": 94341
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/88e4ad44bb6d5502.jpeg",
+          "sha256": "35927fcd85c5285112a9248f9c1ed3347cab1946fb1581c7af4900c9e1e12f92",
+          "bytes": 1045
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/96b0acd8bfe7cb72.jpg",
+          "sha256": "7bce2132bc4b51cf65fae78298d136041b4e0caeaee90cb4b2656fbb4267f61f",
+          "bytes": 1201816
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/96e0dfaa3bb864de.jpg",
+          "sha256": "79dcfe693f06b25e24ee95eeabdd374895dfb3eb0c527948d2de584d423f67f4",
+          "bytes": 1222296
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/a2641959d51eb570.usdc",
+          "sha256": "26bbbd776790bdc8e86aa5c7f8d50abeaba23ad90f4d90bc3eac8333c09ae397",
+          "bytes": 950385
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/a671ced700dbce98.jpeg",
+          "sha256": "e0a2f8320ccc4f3237daa26ba611af0949b285b18d8aaed6594fe980d7de625e",
+          "bytes": 1079
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/a932c93087ff628e.png",
+          "sha256": "d57eed6c961ee54537584b95c827a570e499be5d727a10b6933cf630e85ab8e3",
+          "bytes": 835236
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/a9bb99a0c0ec9ee3.jpeg",
+          "sha256": "ac7f7374d570fab07dda14ac0a2021adfd61bafffdb75e170fa15692d33d5631",
+          "bytes": 1400
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/b109ffbffc139178.jpeg",
+          "sha256": "6b5c439254c24bd585029be2b5b2a3edfcb8c4bc41ec311aebb596f6f23a34f0",
+          "bytes": 51380
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/b1ece44965bd74b5.jpeg",
+          "sha256": "f1c15cf347ab34585205113ead0ad0deaeb1365136e288ac8e718de24d8b99ea",
+          "bytes": 149561
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/b265208fb8439d5a.jpeg",
+          "sha256": "1a7b9b719bbc5568cbed5abb481aaf4e2a4be57c299297092b1df9331ecc9dd5",
+          "bytes": 4653
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/b33749493d2461ed.jpeg",
+          "sha256": "fb52dc924b71dbf40ee49ab4fd4e0c0666f0bf2aff7379e850adc86b37e96951",
+          "bytes": 920
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/b47b9fabcfa70f54.jpeg",
+          "sha256": "f98dc4c21c14d98ca685e4b595b7f03d91d3ab0b083b4de25ea8e89b6ce05381",
+          "bytes": 863
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/bb067b123ad826f2.png",
+          "sha256": "c392ea9dcf5bf464d6e9b6052f6095699d2fd7d3c4ac2e6e11e099447c02658c",
+          "bytes": 1142518
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/bffc2874a9704a72.jpeg",
+          "sha256": "3ae49748e201513a07f2bb431a69f799277be1c1425e729733a5a414106d7e53",
+          "bytes": 4506593
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/c2080f8e9142fefa.png",
+          "sha256": "5ea53fb564130bb17825155c8d83f879d1f2d51571f344d88619586f6bad3374",
+          "bytes": 713289
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/c6ef30ebf6a95c46.jpg",
+          "sha256": "91ae52e21572ac3a248af64ed875cd50b3c203db0faf3c2ad8ea628d04a097a8",
+          "bytes": 1394492
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/c9a8992b904ccaba.jpeg",
+          "sha256": "1cd6937f74c5a9f79ce7bca8b705ec2ea19fcb6f266d557fe630100a22b4e166",
+          "bytes": 3422
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/d02d112d549f8feb.jpeg",
+          "sha256": "b6019b205db15526391150c1969619c50a7394f10645491a7a408a25035a11db",
+          "bytes": 4408
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/d6b23781df37b512.jpg",
+          "sha256": "5e04528dc4971ae1519fe7fa3928a2e863ef9ac0655f210ce8b1a23840d3ab87",
+          "bytes": 954966
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/e2bdf7484feeb5c9.jpeg",
+          "sha256": "a95bafc76f1e46f63dbccedf76977fd1b056090b713b65b1ea264cc803bbeea1",
+          "bytes": 746
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/e372f3177dec5c1e.jpeg",
+          "sha256": "82b082abbf02081e6bb81254381bec939d0333b8466af6f01e78332a2e67b628",
+          "bytes": 3958703
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/e67f0e78de855ef5.jpeg",
+          "sha256": "9a41ed4d969fcd1f840e9e03cc7bf12e9263f9da182d9c077c7438c09ec00fb4",
+          "bytes": 172177
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/e79831cd735a0646.jpeg",
+          "sha256": "a5a3fce3b7fd90d98f5cc4f7673fb5bc0f04c597955adfff74921b4fd5a707a1",
+          "bytes": 1029
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/ed40d946be96bd09.jpeg",
+          "sha256": "a3d04e9895a3e2b62bdfd2a24409a4eedb3fc1f6b363ac3d9bb2082ec3fdbc11",
+          "bytes": 2618
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/f36f2c5ebc25841b.png",
+          "sha256": "22dd1f32455a0fc6424f2bd4c6b58768f882637f2445f903535946dc3c176bba",
+          "bytes": 299392
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/f6a9d88505e054ba.png",
+          "sha256": "0c5520f4232deffe022e262f71aa0407767f4b586ac90e45c13a29fc8236fee3",
+          "bytes": 2890815
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/faca26fbbfb562ad.jpeg",
+          "sha256": "53a6bf7110b00b888492b9243d0ed65c1156aa5fdab4c851ca07384705703a70",
+          "bytes": 1973
+        },
+        {
+          "mount": "blendkit_library",
+          "path": "public_data/assets/fb0563660fd507cf.jpeg",
+          "sha256": "106b9c5956315dcc309f10525959484c539a0506913ff200ce1f1d98903ade0d",
+          "bytes": 5586402
+        }
+      ],
+      "root_prim": "/Asset",
+      "dimensions": [
+        0.08447319044954504,
+        0.1498392802550786,
+        0.026005688359553636
+      ],
+      "provenance": {
+        "kind": "HOTEL705_NATIVE_PROP_PORTABLE_DERIVATIVE",
+        "original_sha256": "167e507194ae121ad4d7b528cb738ae778f6a5dd86db0b52129a8fcca1aca59c",
+        "human_confirmed": true
+      },
+      "license_scope": "HOTEL705_USER_CONFIRMED_AUTHOR_LAB_REDISTRIBUTION_PERMISSION",
+      "states": [
+        {
+          "state_id": "default",
+          "version": "1.0",
+          "usd_locator_or_native_prim": {
+            "mount": "blendkit_library",
+            "path": "public_data/assets/a2641959d51eb570.usdc"
+          },
+          "sha256": "26bbbd776790bdc8e86aa5c7f8d50abeaba23ad90f4d90bc3eac8333c09ae397",
+          "units": 1,
+          "up_axis": "Z",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "state_transform": [
+            [
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "visual_bounds": [
+            [
+              -0.04223659522477252,
+              -0.0749196401275393,
+              0
+            ],
+            [
+              0.04223659522477252,
+              0.0749196401275393,
+              0.026005688359553636
+            ]
+          ],
+          "allowed_pose_tags": [
+            "upright"
+          ],
+          "support_envelope": {
+            "clearance_m": 0.001
+          },
+          "alignment": [
+            [
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "footprint": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "acceptance_refs": [],
+          "physics_proxy": {
+            "kind": "none",
+            "capability": "STATIC_ONLY",
+            "shape_paths": [],
+            "geometry_hash": "26bbbd776790bdc8e86aa5c7f8d50abeaba23ad90f4d90bc3eac8333c09ae397"
+          }
+        }
+      ],
+      "qualification_refs": []
+    }
+  ]
+}

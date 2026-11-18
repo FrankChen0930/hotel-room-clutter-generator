@@ -1,85 +1,75 @@
-# YAZHI-TWIN Randomization Toolkit
+# Hotel Room Clutter Generator
 
-Version: **0.1.0-rc.1-internal**. P5.2 local Git preparation; not a published GitHub Release. Intended private repository: `hotel-room-clutter-generator`; remote creation and first push require separate Human authorization.
+**English** | [繁體中文](README.zh-TW.md)
 
-**INTERNAL_EVALUATION_ONLY / REDISTRIBUTION_NOT_CLEARED / LICENSE_PENDING_HUMAN_APPROVAL**
+Seeded hotel guest clutter, measured placement surfaces, full-room rigid simulation and portable USD examples. Research progress for **19 November 2026**.
 
-Generate bounded static hotel-room configurations from an existing room USD. The retained sampler supports integer seeds, CHECKOUT/STAYOVER policies, relative USD overlays, manifests, geometry/support checks and deterministic replay. No runtime physics, cloth, renderer or robot certification is included.
+**Randomization scope: guest clutter only.** The original bed, desk, cabinet and chair layout is retained. Simulation of authored room bodies/joints is separate from furniture-layout randomization, which is not implemented here.
 
-## Installation and layout
+![Hotel705 — expanded local library](docs/previews/library-high706.png)
 
-You need an existing Windows Isaac Sim **6.0.0-rc.59** installation with bundled Python **3.12.13 / OpenUSD0.25.11**. No installer, SDK binaries or pip environment is supplied; do not upgrade your system just to try this candidate. Other versions/machines are not certified.
+The image shows the **local research pool**. The downloadable examples use the original Hotel705 props with confirmed room redistribution permission; their smaller prop pool is shown separately below. Blendkit models are not included in the download.
 
-Place the two separately approved local folders as siblings:
+| Low | Medium | High |
+| --- | --- | --- |
+| ![Low](docs/previews/library-low706.png) | ![Medium](docs/previews/library-medium706.png) | ![High](docs/previews/library-high706.png) |
 
-~~~text
-deployment/
-  code-repo/                 # this folder
-  asset-package/
-    asset_manifest.json
-    assets/                  # 39 immutable dependency files
-  local-test-outputs/         # new generated directories, never tracked
-~~~
+## Current results
 
-Keep the Asset Package intact. Its internal historic-looking path identifiers are preserved only to keep relative references; no original research/output folder is accessed at runtime. Code and Asset Package versions must both be **0.1.0-rc.1-internal** for this candidate.
+- **102 independently counted Blendkit assets locally accepted**, plus 3 appearance variants counted separately. Conversion, actual Isaac images, visual review, Static/Integrity/Native Support/Replay are checked; downloads and instances are not usable-asset counts.
+- Two seeds (**706 / 707**) × three density ranges: **Low 10–20**, **Medium 30–50**, **High 70–80** object instances.
+- Every delivered scene has an actual **30 s / 120 Hz / 3,600-step CPU PhysX** room test, including the original room bodies and joints. Final-two-second stability, displacement, support-region retention, dependencies and effective-pose replay are checked for these exact cases.
+- Soft-body deformation is deferred. Fixed-form geometry and approximate rigid proxies do not qualify cloth manipulation, calibrated masses or arbitrary future seeds.
 
-## Quick Start: native Kit Python (recommended)
+## Download ready-to-open rooms
 
-Open PowerShell, change to this code-repo folder, then:
+[**Download clean room + six example scenes**](https://github.com/FrankChen0930/hotel-room-clutter-generator/raw/refs/heads/main/downloads/hotel705_examples.zip) · [Package checksums](docs/PACKAGE_STATUS.json)
 
-~~~powershell
-$code = (Get-Location).Path
-$deployment = Split-Path $code -Parent
-$isaac = 'C:\isaac_sim'                    # set your existing installation
-$assets = Join-Path $deployment 'asset-package'
-New-Item -ItemType Directory -Force -Path (Join-Path $deployment 'local-test-outputs') | Out-Null
-$py = Join-Path $isaac 'kit\python\python.exe'
-$cli = Join-Path $code 'toolkit\randomize.py'
+Extract the complete ZIP and keep its `assets/` folder. Open `clean_room.usda` for the unmodified room arrangement, or choose a scene below. Normal scenes retain the settled generated poses; `_dynamic.usda` variants activate the tested rigid setup. An isolated USD file without its dependencies is insufficient.
 
-& $py -I -B $cli --help
-& $py -I -B $cli --isaac-root $isaac --asset-package $assets --seed 49 --preflight
-& $py -I -B $cli --isaac-root $isaac --asset-package $assets --seed 49 --task-mode checkout --output-dir "$deployment\local-test-outputs\checkout49"
-& $py -I -B $cli --isaac-root $isaac --asset-package $assets --seed 50 --task-mode checkout --output "$deployment\local-test-outputs\checkout50"
-& $py -I -B $cli --isaac-root $isaac --asset-package $assets --seed 49 --task-mode stayover --output-dir "$deployment\local-test-outputs\stayover49"
-~~~
+![Public native-prop example](docs/previews/public-high706.png)
 
-These output names must not already exist. --output-dir and --output are aliases. The argument is an **exact new directory**, not a USD filename or an existing output root. Its parent must exist below deployment/local-test-outputs/. Relative output paths resolve against the caller's working directory; absolute paths are clearer. Omitting --output creates a new timestamped directory there.
+**Public examples use five original-room prop records with limited diversity and repeated instances.** They are independent from the expanded Blendkit research pool and do not increase its asset count. Source/permission and exact package mappings are recorded in the archive.
 
-The CLI also works from another CWD when absolute CLI/asset/output paths are supplied. Preflight is read-only; it starts no SimulationApp and writes no output. Ordinary WindowsApps Python is not required.
+| Seed | Level | Instances | Room physics | Preview | Path inside ZIP |
+| --- | --- | ---: | --- | --- | --- |
+| 706 | Low | 15 | PASS | [Preview](docs/previews/public-low706.png) | `scenes/low_seed_706.usda` |
+| 706 | Medium | 32 | PASS | [Preview](docs/previews/public-medium706.png) | `scenes/medium_seed_706.usda` |
+| 706 | High | 77 | PASS | [Preview](docs/previews/public-high706.png) | `scenes/high_seed_706.usda` |
+| 707 | Low | 13 | PASS | [Preview](docs/previews/public-low707.png) | `scenes/low_seed_707.usda` |
+| 707 | Medium | 49 | PASS | [Preview](docs/previews/public-medium707.png) | `scenes/medium_seed_707.usda` |
+| 707 | High | 73 | PASS | [Preview](docs/previews/public-high707.png) | `scenes/high_seed_707.usda` |
 
-## Optional process-scoped PowerShell launcher
+## Reproduce room → generation → physics → USD
 
-A machine may refuse direct .ps1 invocation. Use the native Python route above, or:
+The repository includes permission-audited room/native input data and a separate public runtime under `research/`. The existing `toolkit/` is retained.
 
-~~~powershell
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File "$code\toolkit\randomize.ps1" --isaac-root $isaac --asset-package $assets --seed 49 --preflight
-~~~
+Tested on Windows, Isaac Sim **6.0.0-rc.59**, its bundled Python and an RTX5070Ti Laptop GPU. Rendering uses Direct3D12; dynamics use CPU PhysX. Other SDK versions are not certified. Use the bundled Isaac Python; change its executable path for your installation.
 
-This applies only to that child process. Never run Set-ExecutionPolicy or weaken persistent policy for this toolkit. Launcher SDK precedence: explicit --isaac-root, local --config isaac_root, YAZHI_ISAAC_ROOT, then C:\isaac_sim. Native Python must itself come from the configured installation.
+```powershell
+& "C:\isaac_sim\kit\python\python.exe" -B research\_asset_library_blendkit\scripts\run_public_workflow.py --tag my_hotel705_run --seeds 706 707
+```
 
-## Replay and outputs
+This samples both seeds and all levels, runs bounded simulation feedback, exports settled/dynamic USD, verifies scoped source hashes/physics/Replay/dependencies, and captures actual images. Results go to new directories under `research/_asset_library_blendkit/runs/`. Use a fresh tag each time. No Blendkit login, subscription or model-download API is used by this public example workflow.
 
-~~~powershell
-& $py -I -B $cli --isaac-root $isaac --asset-package $assets --replay "$deployment\local-test-outputs\checkout49\scene_manifest.json" --output-dir "$deployment\local-test-outputs\checkout49_replay"
-~~~
+```mermaid
+flowchart LR
+  R[Room + permitted props] --> P[Seed / level / measured supports]
+  P --> C[Static and dependency checks]
+  C --> S[Whole-room rigid simulation]
+  S -->|Failed, bounded resampling| P
+  S -->|Pass| U[Settled USD + dynamic USD]
+  U --> V[Manifest / Replay / native images]
+```
 
-Saved-manifest replay restores recorded poses without resampling. Same-seed generation independently resamples deterministically. Both require matching code/config/asset identity. v0.1.0 manifests are not silently migrated into this RC.
+## Asset and rights scopes
 
-Each successful output includes scene.usda, scene_manifest.json, validation.json, dependency_manifest.json, run_report.json, generated/refined USD layers and immutable phase receipts. Preserve the layers and Asset Package; scene.usda alone is not standalone. Failure details are printed as JSON and, after output claim, preserved in failure.json. Never reuse a failed or completed output directory.
+`docs/asset_sources.json` records original Blendkit IDs, authors, source URLs, versions, source SHA and separate rights gates. Free acquisition or local technical acceptance does not clear extractable-USD redistribution. Blendkit GENERATION_READY/public Starter remain 0/0; these counts do not describe the separately permitted original-room examples.
 
-## Scope and limitations
+Hotel705 room/native redistribution permission was confirmed by the project maintainer on18November2026. No blanket license is assigned to third-party material. See [rights](RIGHTS.md), [license status](LICENSE_STATUS.md) and [delivery scope](docs/DELIVERY_SCOPE.md). The original room attribution is retained. Raw Blendkit models, textures, add-on, profiles, credentials, SDK and paper PDFs are excluded.
 
-- Tested examples: Seed49/50 CHECKOUT and Seed49 STAYOVER. Arbitrary signed32-bit seeds may geometrically reject; the tool never quietly substitutes another seed.
-- Existing conservative furniture/rigid-item sampling and Task/Ownership policies are retained. Guest belongings stay DO_NOT_TOUCH; labels are synthetic research assumptions, not hotel SOP or robot permission.
-- Only retained NeatCanonical/SideDrape and Neat/Compressed pillow states. No new bedding or trash/cue algorithm.
-- PHYSICS_NOT_RUN; COLLISION_NOT_CERTIFIED; HUMAN_ACCEPTANCE_PENDING. --physics qualified is explicitly refused.
-- P3.5 Blender diagnostic cylinder envelope discrepancy is about **1.47 mm** against the unchanged **0.20 mm** threshold: NOT_MET. It does not overturn static USD QA, and no new rendering/certification is claimed.
-- GUI, navigation, manipulation, runtime cloth, full-room dynamics and general cross-machine compatibility remain unsupported.
+This is research evidence for the included cases, not a robot-safety or universal dynamics certificate.
 
-## Documentation and QA
+## Progress presentation
 
-[Installation](docs/installation.md) | [CLI/config/output reference](docs/cli_reference.md) | [Reproducibility](docs/reproducibility.md) | [Troubleshooting](docs/troubleshooting.md) | [Known limitations](docs/known_limitations.md) | [Version/update/rollback](docs/versioning.md) | [Publication draft](docs/publication_plan.md) | [Human decisions](docs/human_approval_checklist.md) | [Rights](RIGHTS.md).
-
-The supplied tests use this candidate only and the installed SDK; no original research/staging/QA-builder import is needed. They create fresh sequential bounded static runs and negative fixtures under sibling QA/output directories. See tests/README.md. QA evidence and actual generated samples are delivered outside this code candidate, not committed into it.
-
-This isolated copy is prepared for a local Git repository on `main`. No remote repository, GitHub release or upload is authorized by this preparation. The first commit SHA and Git QA evidence are recorded outside the code repository. Local technical PASS is not distribution permission.
+[19 November research report (editable PowerPoint)](reports/2026-11-19/hotel_room_weekly_20261119_editable.pptx)

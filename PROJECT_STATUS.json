@@ -1,0 +1,367 @@
+{
+  "report_date": "2026-11-19",
+  "asset_library": {
+    "candidates": 673,
+    "acquired": 369,
+    "converted": 134,
+    "local_technical_ready": 102,
+    "local_qualified_variants": 3,
+    "generation_ready": 0,
+    "public_starter": 0,
+    "category_local_technical_ready": {
+      "toiletry": 22,
+      "electronics": 33,
+      "bag": 6,
+      "luggage": 3,
+      "clothing": 8,
+      "footwear": 8,
+      "paper": 5,
+      "towel": 3,
+      "food": 9,
+      "personal": 5
+    }
+  },
+  "room_generation": "Two room adapters;36 formal cases retained. New full-room simulation evidence is Hotel705 only.",
+  "randomization_scope": "Clutter only; original furniture layout fixed",
+  "soft_object_physics": "DEFERRED; fixed shapes only",
+  "local_cases": [
+    {
+      "level": "low",
+      "seed": 706,
+      "count": 15,
+      "unique_asset_ids": 13,
+      "category_counts": {
+        "personal": 3,
+        "paper": 2,
+        "electronics": 6,
+        "luggage": 1,
+        "footwear": 2,
+        "food": 1
+      },
+      "surface_counts": {
+        "pillow_left": 1,
+        "chair_seat": 1,
+        "bed_main": 1,
+        "floor_luggage": 1,
+        "floor_bedside": 1,
+        "desk": 1,
+        "floor_desk": 3,
+        "floor_window_side": 3,
+        "bench": 1,
+        "floor_bedfoot": 1,
+        "bed_single": 1
+      },
+      "physics": "PASS",
+      "registered_bodies": 64,
+      "native_steps": 3600,
+      "images": {
+        "overview": "runs/report_library_20261119_a000_settled/native_render/case-0/overview.png",
+        "floor_foot": "runs/report_library_20261119_a000_settled/native_render/case-0/floor_foot.png",
+        "bed_surface": "runs/report_library_20261119_a000_settled/native_render/case-0/bed_surface.png",
+        "pillow_left_detail": "runs/report_library_20261119_a000_settled/native_render/case-0/pillow_left_detail.png",
+        "chair_seat": "runs/report_library_20261119_a000_settled/native_render/case-0/chair_seat.png"
+      },
+      "visual_review": "PASS"
+    },
+    {
+      "level": "medium",
+      "seed": 706,
+      "count": 32,
+      "unique_asset_ids": 25,
+      "category_counts": {
+        "personal": 2,
+        "paper": 4,
+        "electronics": 14,
+        "luggage": 1,
+        "footwear": 2,
+        "clothing": 2,
+        "food": 2,
+        "bag": 1,
+        "toiletry": 4
+      },
+      "surface_counts": {
+        "pillow_left": 1,
+        "chair_seat": 1,
+        "bed_main": 6,
+        "floor_luggage": 6,
+        "floor_bedside": 3,
+        "desk": 1,
+        "bench": 3,
+        "floor_bedfoot": 2,
+        "floor_desk": 4,
+        "minibar": 1,
+        "bed_single": 3,
+        "floor_window_side": 1
+      },
+      "physics": "PASS",
+      "registered_bodies": 81,
+      "native_steps": 3600,
+      "images": {
+        "overview": "runs/report_library_20261119_a000_settled/native_render/case-1/overview.png",
+        "floor_foot": "runs/report_library_20261119_a000_settled/native_render/case-1/floor_foot.png",
+        "bed_surface": "runs/report_library_20261119_a000_settled/native_render/case-1/bed_surface.png",
+        "pillow_left_detail": "runs/report_library_20261119_a000_settled/native_render/case-1/pillow_left_detail.png",
+        "chair_seat": "runs/report_library_20261119_a000_settled/native_render/case-1/chair_seat.png"
+      },
+      "visual_review": "PASS"
+    },
+    {
+      "level": "high",
+      "seed": 706,
+      "count": 77,
+      "unique_asset_ids": 54,
+      "category_counts": {
+        "personal": 6,
+        "paper": 11,
+        "electronics": 27,
+        "luggage": 1,
+        "footwear": 3,
+        "food": 4,
+        "tea": 3,
+        "toiletry": 16,
+        "bag": 2,
+        "water": 2,
+        "wrapper": 1,
+        "towel": 1
+      },
+      "surface_counts": {
+        "pillow_left": 1,
+        "chair_seat": 1,
+        "bed_main": 9,
+        "floor_luggage": 13,
+        "floor_bedside": 9,
+        "desk": 1,
+        "bench": 6,
+        "floor_window_side": 6,
+        "bed_single": 12,
+        "floor_bedfoot": 6,
+        "minibar": 6,
+        "floor_desk": 7
+      },
+      "physics": "PASS",
+      "registered_bodies": 126,
+      "native_steps": 3600,
+      "images": {
+        "overview": "runs/report_library_20261119_a000_settled/native_render/case-2/overview.png",
+        "floor_foot": "runs/report_library_20261119_a000_settled/native_render/case-2/floor_foot.png",
+        "bed_surface": "runs/report_library_20261119_a000_settled/native_render/case-2/bed_surface.png",
+        "pillow_left_detail": "runs/report_library_20261119_a000_settled/native_render/case-2/pillow_left_detail.png",
+        "chair_seat": "runs/report_library_20261119_a000_settled/native_render/case-2/chair_seat.png"
+      },
+      "visual_review": "PASS"
+    },
+    {
+      "level": "low",
+      "seed": 707,
+      "count": 13,
+      "unique_asset_ids": 12,
+      "category_counts": {
+        "electronics": 5,
+        "personal": 2,
+        "bag": 2,
+        "footwear": 1,
+        "toiletry": 2,
+        "food": 1
+      },
+      "surface_counts": {
+        "pillow_left": 1,
+        "chair_seat": 1,
+        "bed_main": 1,
+        "floor_luggage": 1,
+        "floor_bedside": 3,
+        "desk": 1,
+        "bench": 1,
+        "floor_desk": 2,
+        "floor_window_side": 2
+      },
+      "physics": "PASS",
+      "registered_bodies": 62,
+      "native_steps": 3600,
+      "images": {
+        "overview": "runs/report_library_20261119_a000_settled/native_render/case-3/overview.png",
+        "floor_foot": "runs/report_library_20261119_a000_settled/native_render/case-3/floor_foot.png",
+        "bed_surface": "runs/report_library_20261119_a000_settled/native_render/case-3/bed_surface.png",
+        "pillow_left_detail": "runs/report_library_20261119_a000_settled/native_render/case-3/pillow_left_detail.png",
+        "chair_seat": "runs/report_library_20261119_a000_settled/native_render/case-3/chair_seat.png"
+      },
+      "visual_review": "PASS"
+    },
+    {
+      "level": "medium",
+      "seed": 707,
+      "count": 49,
+      "unique_asset_ids": 39,
+      "category_counts": {
+        "electronics": 15,
+        "personal": 6,
+        "bag": 2,
+        "footwear": 2,
+        "toiletry": 12,
+        "paper": 5,
+        "wrapper": 1,
+        "clothing": 2,
+        "food": 4
+      },
+      "surface_counts": {
+        "pillow_left": 1,
+        "chair_seat": 1,
+        "bed_main": 5,
+        "floor_luggage": 6,
+        "floor_bedside": 6,
+        "desk": 1,
+        "floor_bedfoot": 5,
+        "floor_window_side": 5,
+        "bed_single": 11,
+        "floor_desk": 4,
+        "bench": 2,
+        "minibar": 2
+      },
+      "physics": "PASS",
+      "registered_bodies": 98,
+      "native_steps": 3600,
+      "images": {
+        "overview": "runs/report_library_20261119_a000_settled/native_render/case-4/overview.png",
+        "floor_foot": "runs/report_library_20261119_a000_settled/native_render/case-4/floor_foot.png",
+        "bed_surface": "runs/report_library_20261119_a000_settled/native_render/case-4/bed_surface.png",
+        "pillow_left_detail": "runs/report_library_20261119_a000_settled/native_render/case-4/pillow_left_detail.png",
+        "chair_seat": "runs/report_library_20261119_a000_settled/native_render/case-4/chair_seat.png"
+      },
+      "visual_review": "PASS"
+    },
+    {
+      "level": "high",
+      "seed": 707,
+      "count": 73,
+      "unique_asset_ids": 52,
+      "category_counts": {
+        "electronics": 26,
+        "personal": 6,
+        "bag": 2,
+        "footwear": 3,
+        "mug": 2,
+        "toiletry": 19,
+        "clothing": 2,
+        "food": 6,
+        "paper": 6,
+        "water": 1
+      },
+      "surface_counts": {
+        "pillow_left": 1,
+        "chair_seat": 1,
+        "bed_main": 9,
+        "floor_luggage": 9,
+        "floor_bedside": 11,
+        "desk": 1,
+        "bed_single": 7,
+        "floor_bedfoot": 7,
+        "floor_desk": 5,
+        "bench": 8,
+        "floor_window_side": 6,
+        "minibar": 8
+      },
+      "physics": "PASS",
+      "registered_bodies": 122,
+      "native_steps": 3600,
+      "images": {
+        "overview": "runs/report_library_20261119_a000_settled/native_render/case-5/overview.png",
+        "floor_foot": "runs/report_library_20261119_a000_settled/native_render/case-5/floor_foot.png",
+        "bed_surface": "runs/report_library_20261119_a000_settled/native_render/case-5/bed_surface.png",
+        "pillow_left_detail": "runs/report_library_20261119_a000_settled/native_render/case-5/pillow_left_detail.png",
+        "chair_seat": "runs/report_library_20261119_a000_settled/native_render/case-5/chair_seat.png"
+      },
+      "visual_review": "PASS"
+    }
+  ],
+  "public_cases": [
+    {
+      "seed": 706,
+      "level": "low",
+      "instances": 15,
+      "scene": "scenes/low_seed_706.usda",
+      "dynamic_scene": "scenes/low_seed_706_dynamic.usda",
+      "original_manifest_sha256": "7ce9046e7ad593cd9c3128ea8d537f202a6bf6932c9a7b59ca346019a280f270",
+      "tested_scene_sha256": "66f7de30e73065fe0de307a817b3718587a624cd001276c77cd769acc0c9c44f",
+      "delivered_scene_sha256": "75c2a8b4b87f397ebec5621e37a24b696ef67241abe0960942a9397c28855474",
+      "equivalence": "PASS",
+      "physics": "PASS",
+      "scope": "Original manifest and native receipts describe the exact tested source; relative-path package re-encoding is separately verified compositionally equivalent."
+    },
+    {
+      "seed": 706,
+      "level": "medium",
+      "instances": 32,
+      "scene": "scenes/medium_seed_706.usda",
+      "dynamic_scene": "scenes/medium_seed_706_dynamic.usda",
+      "original_manifest_sha256": "0211346bb1cb65a2da08b23817d7f252cb134a607fb068c62f333f5241dccd5d",
+      "tested_scene_sha256": "1e0975bfde8521263379679a8111d0b52b5311c2d625e15ac51bb680c758fc44",
+      "delivered_scene_sha256": "35ef12508c8512f98f92b8ac789528f6b22b15767cc79dcfa666b56097b650d7",
+      "equivalence": "PASS",
+      "physics": "PASS",
+      "scope": "Original manifest and native receipts describe the exact tested source; relative-path package re-encoding is separately verified compositionally equivalent."
+    },
+    {
+      "seed": 706,
+      "level": "high",
+      "instances": 77,
+      "scene": "scenes/high_seed_706.usda",
+      "dynamic_scene": "scenes/high_seed_706_dynamic.usda",
+      "original_manifest_sha256": "76b934893617c9c6f2a196487a99856f7777f96779983f410461fa8192d18d2c",
+      "tested_scene_sha256": "0d737ac9fbfb09d6bac84ab4268152119cc3b76c8e0348e351808d0a3cc52e95",
+      "delivered_scene_sha256": "c1eea74ad65886a3ea99a08f26b6f14902fa0e8ca866daba53a14d7b92676823",
+      "equivalence": "PASS",
+      "physics": "PASS",
+      "scope": "Original manifest and native receipts describe the exact tested source; relative-path package re-encoding is separately verified compositionally equivalent."
+    },
+    {
+      "seed": 707,
+      "level": "low",
+      "instances": 13,
+      "scene": "scenes/low_seed_707.usda",
+      "dynamic_scene": "scenes/low_seed_707_dynamic.usda",
+      "original_manifest_sha256": "b0b3a9d66b4c9bc628bf8e122e6b990edf7a163ebcf37795cc70742377eb9e7d",
+      "tested_scene_sha256": "651dc103f0c0f3ea204503805ebf1ead5dbd504ad43c6732c148e38091191654",
+      "delivered_scene_sha256": "129bcb3803c59003edbae1ca4469147429a4784dbb35aa39bf2fb3c39c5e60af",
+      "equivalence": "PASS",
+      "physics": "PASS",
+      "scope": "Original manifest and native receipts describe the exact tested source; relative-path package re-encoding is separately verified compositionally equivalent."
+    },
+    {
+      "seed": 707,
+      "level": "medium",
+      "instances": 49,
+      "scene": "scenes/medium_seed_707.usda",
+      "dynamic_scene": "scenes/medium_seed_707_dynamic.usda",
+      "original_manifest_sha256": "9d1156706344ae451189b83a51d951258a08110f4c005ba18510033f73139931",
+      "tested_scene_sha256": "a7dc9a620b540db3eaaec82e00fdf3ff766413dba0b634a77fbdb915b2d0fc51",
+      "delivered_scene_sha256": "5235c5d2b223c0e172e2ffb4142b89bb13b3dd516ac651770e5f1b95d157c63e",
+      "equivalence": "PASS",
+      "physics": "PASS",
+      "scope": "Original manifest and native receipts describe the exact tested source; relative-path package re-encoding is separately verified compositionally equivalent."
+    },
+    {
+      "seed": 707,
+      "level": "high",
+      "instances": 73,
+      "scene": "scenes/high_seed_707.usda",
+      "dynamic_scene": "scenes/high_seed_707_dynamic.usda",
+      "original_manifest_sha256": "0b5c7c7c2d056a300478b162aa54d82847d2ed783c861836f0646b5d209ccd5c",
+      "tested_scene_sha256": "fd91f536b9f1bc468dde379dd0fec4ab1a1eee6aeb995b6ed96b2e713107104d",
+      "delivered_scene_sha256": "da2c6eae030a1355977634e0b3b355ddb569b99f78696cf01b368269d2d2b01b",
+      "equivalence": "PASS",
+      "physics": "PASS",
+      "scope": "Original manifest and native receipts describe the exact tested source; relative-path package re-encoding is separately verified compositionally equivalent."
+    }
+  ],
+  "public_native_source_records": 5,
+  "regression_tests": 64,
+  "protected_original_files": 302,
+  "publication": "Prepared main-branch delivery; verified remote push receipt is recorded separately.",
+  "portable_runtime_reproduction": {
+    "outcome": "PASS",
+    "cases": 6,
+    "native_steps_per_case": 3600,
+    "actual_images_reviewed": 30,
+    "protected_public_inputs": 68,
+    "source": "docs/evidence/portable_runtime/"
+  }
+}

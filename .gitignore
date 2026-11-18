@@ -33,3 +33,22 @@ node_modules/
 .codex/
 .agents/
 **/chrome-profile/
+
+# 2026-11-19: audited original-room inputs and actual result previews only.
+!research/_asset_library_blendkit/public_data/**
+!docs/previews/*.png
+!downloads/hotel705_examples.zip
+research/_asset_library_blendkit/runs/**
+!research/_asset_library_blendkit/runs/measured_surfaces_a002/
+!research/_asset_library_blendkit/runs/measured_surfaces_a002/render_batch.json
+research/_asset_library_blendkit/artifacts/**
+!research/_asset_library_blendkit/artifacts/legacy_density_pool_a001/
+!research/_asset_library_blendkit/artifacts/legacy_density_pool_a001/index.json
+research/_asset_library_blendkit/config/portable_smoke_*/
+research/_asset_library_blendkit/config/*_proposals/
+research/_asset_library_blendkit/reports/**
+!research/_asset_library_blendkit/reports/hotel705_redistribution_permission_20261118.json
+!research/_asset_library_blendkit/reports/portable_runtime_preparation.json
+research/_asset_library_blendkit/blender_profile/
+research/_asset_library_blendkit/sources/
+research/_asset_library_blendkit/*_comparison.html

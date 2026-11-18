@@ -1,0 +1,142 @@
+{
+  "scope": "Search intents, not candidates or category quotas; zones require room-specific validation",
+  "situations": {
+    "arrival_unpacking": {
+      "activity": "Guest opens luggage and sorts belongings",
+      "zones": [
+        "local_floor",
+        "bench",
+        "chair"
+      ],
+      "queries": [
+        "carry on suitcase",
+        "open suitcase",
+        "duffel bag",
+        "backpack",
+        "handbag",
+        "packing cube"
+      ]
+    },
+    "rest_reading": {
+      "activity": "Guest rests, reads and leaves items nearby",
+      "zones": [
+        "bed_s0",
+        "chair",
+        "bedside",
+        "local_floor"
+      ],
+      "queries": [
+        "paperback book",
+        "magazine",
+        "reading glasses",
+        "headphones",
+        "travel pillow"
+      ]
+    },
+    "desk_charging": {
+      "activity": "Laptop work and charging personal electronics",
+      "zones": [
+        "desk",
+        "bedside",
+        "local_floor"
+      ],
+      "queries": [
+        "laptop",
+        "smartphone",
+        "charger",
+        "USB cable",
+        "power bank",
+        "earbuds case",
+        "notebook",
+        "pen"
+      ]
+    },
+    "changing_clothes": {
+      "activity": "Changing for outings and sorting clothes",
+      "zones": [
+        "bed_s0",
+        "chair",
+        "local_floor",
+        "bench"
+      ],
+      "queries": [
+        "crumpled t-shirt",
+        "folded jeans",
+        "jacket",
+        "socks",
+        "cap",
+        "sneaker",
+        "slipper"
+      ]
+    },
+    "food_drink": {
+      "activity": "Eating snacks and drinking in room",
+      "zones": [
+        "desk",
+        "minibar",
+        "bedside",
+        "local_floor"
+      ],
+      "queries": [
+        "takeaway cup",
+        "water bottle",
+        "paper bag",
+        "snack wrapper",
+        "food container",
+        "drink can"
+      ]
+    },
+    "bathroom_use": {
+      "activity": "Washing and personal grooming",
+      "zones": [
+        "bathroom_support",
+        "bench",
+        "bed_s0"
+      ],
+      "queries": [
+        "toothbrush",
+        "toothpaste",
+        "shampoo bottle",
+        "cosmetic pouch",
+        "hairbrush",
+        "razor",
+        "folded towel",
+        "crumpled towel"
+      ]
+    },
+    "stayover_personal": {
+      "activity": "Personal belongings remain during stay",
+      "zones": [
+        "desk",
+        "bed_s0",
+        "bench",
+        "chair",
+        "local_floor"
+      ],
+      "queries": [
+        "passport",
+        "travel document",
+        "key card",
+        "watch",
+        "wallet",
+        "shopping bag"
+      ]
+    },
+    "checkout_traces": {
+      "activity": "Guest has left; housekeeping sorts traces",
+      "zones": [
+        "local_floor",
+        "bed_s0",
+        "desk",
+        "bathroom_support"
+      ],
+      "queries": [
+        "used tissue",
+        "crumpled paper",
+        "empty carton",
+        "discarded clothes",
+        "used towel"
+      ]
+    }
+  }
+}

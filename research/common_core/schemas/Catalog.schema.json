@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Catalog 1.0",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "catalog_id",
+    "version",
+    "entries"
+  ],
+  "properties": {
+    "catalog_id": {},
+    "version": {},
+    "entries": {
+      "type": "array"
+    },
+    "schema_version": {
+      "type": "string",
+      "pattern": "^1\\.\\d+$"
+    }
+  },
+  "$comment": "Structural draft. Mandatory nested and cross-field semantic checks are implemented by common_core.contracts.validate_contract; this document alone is not acceptance."
+}

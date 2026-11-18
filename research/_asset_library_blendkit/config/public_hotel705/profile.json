@@ -1,0 +1,3886 @@
+{
+  "schema_version": "1.0",
+  "profile_id": "hotel705",
+  "profile_version": "public-native-portable-20261119",
+  "source": {
+    "mount": "room_hotel",
+    "path": "assets/c4c6d8fdda14c783.usdc",
+    "sha256": "7f460f7225fc958967bf68b6c7493872dfd91126fa6e634d990c9917275b8b84",
+    "bytes": 26745550,
+    "root_prim": "/root",
+    "closure_ref": "source_lock.json#rooms/room_hotel/closure",
+    "closure_sha256": "67efd133c610471ef562ee0612fe4d4dc6ebf2664b5435ad71e4245b959d4711"
+  },
+  "coordinates": {
+    "meters_per_unit": 1.0,
+    "up_axis": "Z",
+    "to_common": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "supports": [
+    {
+      "support_id": "desk",
+      "prim": "/root/_7052_Round_Table_Top",
+      "collider": "/root/_7052_Round_Table_Top/_7052_Round_Table_Top_001",
+      "kind": "mesh_top",
+      "local_frame": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "allowed_region": [
+        [
+          -0.9719999670982361,
+          -6.7039998912811285
+        ],
+        [
+          -0.9705072283744812,
+          -6.734385204836727
+        ],
+        [
+          -0.9660434067249298,
+          -6.7644778931140905
+        ],
+        [
+          -0.958651477098465,
+          -6.793988145291806
+        ],
+        [
+          -0.9484026074409485,
+          -6.822631760835648
+        ],
+        [
+          -0.9353955626487732,
+          -6.850132881999016
+        ],
+        [
+          -0.9197555422782898,
+          -6.876226662993432
+        ],
+        [
+          -0.9016331970691681,
+          -6.900661825537682
+        ],
+        [
+          -0.8812030643224716,
+          -6.92320299088955
+        ],
+        [
+          -0.858661898970604,
+          -6.943633123636246
+        ],
+        [
+          -0.8342267364263535,
+          -6.961755468845368
+        ],
+        [
+          -0.8081329554319382,
+          -6.977395489215851
+        ],
+        [
+          -0.78063183426857,
+          -6.990402534008027
+        ],
+        [
+          -0.7519882187247277,
+          -7.000651403665543
+        ],
+        [
+          -0.7224779665470124,
+          -7.008043333292008
+        ],
+        [
+          -0.6923852782696486,
+          -7.012507154941559
+        ],
+        [
+          -0.6619999647140503,
+          -7.013999893665314
+        ],
+        [
+          -0.6316146511584521,
+          -7.012507154941559
+        ],
+        [
+          -0.6015219628810883,
+          -7.008043333292008
+        ],
+        [
+          -0.572011710703373,
+          -7.000651403665543
+        ],
+        [
+          -0.5433680951595307,
+          -6.990402534008027
+        ],
+        [
+          -0.5158669739961624,
+          -6.977395489215851
+        ],
+        [
+          -0.48977319300174715,
+          -6.961755468845368
+        ],
+        [
+          -0.46533803045749667,
+          -6.943633123636246
+        ],
+        [
+          -0.442796865105629,
+          -6.92320299088955
+        ],
+        [
+          -0.4223667323589325,
+          -6.900661825537682
+        ],
+        [
+          -0.4042443871498108,
+          -6.876226662993432
+        ],
+        [
+          -0.3886043667793274,
+          -6.850132881999016
+        ],
+        [
+          -0.3755973219871521,
+          -6.822631760835648
+        ],
+        [
+          -0.36534845232963564,
+          -6.793988145291806
+        ],
+        [
+          -0.3579565227031708,
+          -6.7644778931140905
+        ],
+        [
+          -0.3534927010536194,
+          -6.734385204836727
+        ],
+        [
+          -0.3519999623298645,
+          -6.7039998912811285
+        ],
+        [
+          -0.3534927010536194,
+          -6.67361457772553
+        ],
+        [
+          -0.3579565227031708,
+          -6.6435218894481665
+        ],
+        [
+          -0.36534845232963564,
+          -6.614011637270451
+        ],
+        [
+          -0.3755973219871521,
+          -6.585368021726609
+        ],
+        [
+          -0.3886043667793274,
+          -6.557866900563241
+        ],
+        [
+          -0.4042443871498108,
+          -6.531773119568825
+        ],
+        [
+          -0.4223667323589325,
+          -6.507337957024575
+        ],
+        [
+          -0.442796865105629,
+          -6.484796791672707
+        ],
+        [
+          -0.46533803045749667,
+          -6.464366658926011
+        ],
+        [
+          -0.48977319300174715,
+          -6.446244313716889
+        ],
+        [
+          -0.5158669739961624,
+          -6.430604293346406
+        ],
+        [
+          -0.5433680951595307,
+          -6.41759724855423
+        ],
+        [
+          -0.572011710703373,
+          -6.407348378896714
+        ],
+        [
+          -0.6015219628810883,
+          -6.399956449270249
+        ],
+        [
+          -0.6316146511584521,
+          -6.395492627620698
+        ],
+        [
+          -0.6619999647140503,
+          -6.393999888896943
+        ],
+        [
+          -0.6923852782696486,
+          -6.395492627620698
+        ],
+        [
+          -0.7224779665470124,
+          -6.399956449270249
+        ],
+        [
+          -0.7519882187247277,
+          -6.407348378896714
+        ],
+        [
+          -0.78063183426857,
+          -6.41759724855423
+        ],
+        [
+          -0.8081329554319382,
+          -6.430604293346406
+        ],
+        [
+          -0.8342267364263535,
+          -6.446244313716889
+        ],
+        [
+          -0.858661898970604,
+          -6.464366658926011
+        ],
+        [
+          -0.8812030643224716,
+          -6.484796791672707
+        ],
+        [
+          -0.9016331970691681,
+          -6.507337957024575
+        ],
+        [
+          -0.9197555422782898,
+          -6.531773119568825
+        ],
+        [
+          -0.9353955626487732,
+          -6.557866900563241
+        ],
+        [
+          -0.9484026074409485,
+          -6.585368021726609
+        ],
+        [
+          -0.958651477098465,
+          -6.614011637270451
+        ],
+        [
+          -0.9660434067249298,
+          -6.6435218894481665
+        ],
+        [
+          -0.9705072283744812,
+          -6.67361457772553
+        ]
+      ],
+      "edge_margin_m": 0.012,
+      "tags": [
+        "flat",
+        "amenity",
+        "desk"
+      ],
+      "geometry_hash": "a7a6cf58ace20d9f44eb1993932f6a7728a786b12dd67046a754e426ace5a6f3",
+      "obstacle_clip": [
+        [
+          -0.9719999670982361,
+          -7.013999893665314,
+          0.7501000283867121
+        ],
+        [
+          -0.3519999623298645,
+          -6.393999888896943,
+          1.250000028386712
+        ]
+      ],
+      "obstacles": [
+        {
+          "prim": "/root/_7052_Desk_Lamp_Post/_7052_Desk_Lamp_Post_001",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/_7052_Desk_Lamp_Base/_7052_Desk_Lamp_Base_001",
+          "triangle_refinement": false
+        }
+      ]
+    },
+    {
+      "support_id": "minibar",
+      "prim": "/root/_7052_Flat_Walnut_Counter",
+      "collider": "/root/_7052_Flat_Walnut_Counter/Counter_stone_upper",
+      "kind": "mesh_top",
+      "local_frame": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "allowed_region": [
+        [
+          -1.372634251846685,
+          -3.9926224009775235
+        ],
+        [
+          -0.4673657100063423,
+          -3.9926224009775235
+        ],
+        [
+          -0.4673657100063423,
+          -2.727676499528744
+        ],
+        [
+          -1.372634251846685,
+          -2.727676499528744
+        ]
+      ],
+      "edge_margin_m": 0.012,
+      "tags": [
+        "flat",
+        "amenity",
+        "minibar"
+      ],
+      "geometry_hash": "413171ade66f2effbe1616ac7b2d6cbacf7c57ee6aa333a5ce46a4e43a72f437",
+      "obstacle_clip": [
+        [
+          -1.372634251846685,
+          -3.9926224009775235,
+          0.8797345608726779
+        ],
+        [
+          -0.4673657100063423,
+          -2.727676499528744,
+          1.3796345608726779
+        ]
+      ],
+      "obstacles": [
+        {
+          "prim": "/root/Kettle/Kettle_base/Kettle_base",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Kettle/Kettle_pouring_spout/Kettle_pouring_spout",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Kettle/Kettle_stainless_body/Kettle_stainless_body",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Kettle/Kettle_lid_button/Kettle_lid_button",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Kettle/Kettle_handle/Kettle_handle",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Kettle/Kettle_switch/__________006",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Kettle/Kettle_lid/Kettle_lid",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/_7052_Minibar_Mirror_Left_Frame/_7052_Minibar_Mirror_Left_Frame_004",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_073/Cube_697",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_107/Cube_731",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_059/Cube_683",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_176/Cube_800",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_354/Cube_978",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_371/Cube_995",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_039/Cube_663",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_327/Cube_951",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_074/Cube_698",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_396/Cube_1020",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_344/Cube_968",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_145/Cube_769",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_300/Cube_924",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_317/Cube_941",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_040/Cube_664",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_075/Cube_699",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_266/Cube_890",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_061/Cube_685",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_048/Cube_672",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_281/Cube_905",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_375/Cube_999",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_065/Cube_689",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_041/Cube_665",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_228/Cube_852",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_076/Cube_700",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_363/Cube_987",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_380/Cube_1004",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_239/Cube_863",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_388/Cube_1012",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_093/Cube_717",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_042/Cube_666",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_292/Cube_916",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_309/Cube_933",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_077/Cube_701",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Tray_bottom/Cube_003",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_196/Cube_820",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_379/Cube_1003",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_205/Cube_829",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_043/Cube_667",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_258/Cube_882",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_275/Cube_899",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_057/Cube_681",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_078/Cube_702",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_181/Cube_805",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_177/Cube_801",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_355/Cube_979",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_193/Cube_817",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_044/Cube_668",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_328/Cube_952",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_079/Cube_703",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_397/Cube_1021",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_345/Cube_969",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_142/Cube_766",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_150/Cube_774",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_301/Cube_925",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_318/Cube_942",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_045/Cube_669",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Gold_rim_002/Cube_009",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_365/Cube_989",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_080/Cube_704",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_343/Cube_967",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_210/Cube_834",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_267/Cube_891",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Tray_wall/Cube_004",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_282/Cube_906",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_066/Cube_690",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_046/Cube_670",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_229/Cube_853",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_382/Cube_1006",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_117/Cube_741",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_081/Cube_705",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_364/Cube_988",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_130/Cube_754",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_184/Cube_808",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_320/Cube_944",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_299/Cube_923",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_389/Cube_1013",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_337/Cube_961",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_094/Cube_718",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_286/Cube_910",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_134/Cube_758",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_293/Cube_917",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_151/Cube_775",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_082/Cube_706",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_310/Cube_934",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_180/Cube_804",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_247/Cube_871",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Tray_wall_001/Cube_006",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_206/Cube_830",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_047/Cube_671",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_259/Cube_883",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_276/Cube_900",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_083/Cube_707",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_377/Cube_1001",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_257/Cube_881",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_186/Cube_810",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_109/Cube_733",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_178/Cube_802",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_356/Cube_980",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_294/Cube_918",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_194/Cube_818",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_197/Cube_821",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_072/Cube_696",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_164/Cube_788",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_329/Cube_953",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_084/Cube_708",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_335/Cube_959",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_346/Cube_970",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_175/Cube_799",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_070/Cube_694",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_242/Cube_866",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_012/Cube_082",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_394/Cube_1018",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_099/Cube_723",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Tray_side_001/Cube_010",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_085/Cube_709",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_198/Cube_822",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_211/Cube_835",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_188/Cube_812",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_050/Cube_674",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_283/Cube_907",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_067/Cube_691",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_100/Cube_724",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_101/Cube_725",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_230/Cube_854",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_213/Cube_837",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_086/Cube_710",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_187/Cube_811",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_338/Cube_962",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_268/Cube_892",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_131/Cube_755",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Tray_side/Cube_008",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_321/Cube_945",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_185/Cube_809",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_170/Cube_794",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_390/Cube_1014",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_095/Cube_719",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_200/Cube_824",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_135/Cube_759",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_306/Cube_930",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_004/Cube_074",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_152/Cube_776",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_087/Cube_711",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_311/Cube_935",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_158/Cube_782",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_201/Cube_825",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_260/Cube_884",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_159/Cube_783",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_110/Cube_734",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_179/Cube_803",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_357/Cube_981",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_195/Cube_819",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_123/Cube_747",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_330/Cube_954",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_399/Cube_1023",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_347/Cube_971",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Bottle_cup_divider/Cube_013",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_160/Cube_784",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_144/Cube_768",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_013/Cube_083",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_161/Cube_785",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_104/Cube_728",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_362/Cube_986",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Gold_rim_003/Cube_011",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_340/Cube_964",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_199/Cube_823",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_122/Cube_746",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_207/Cube_831",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_212/Cube_836",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_192/Cube_816",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_269/Cube_893",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_051/Cube_675",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_284/Cube_908",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_068/Cube_692",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_291/Cube_915",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_102/Cube_726",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_171/Cube_795",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_088/Cube_712",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_248/Cube_872",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_366/Cube_990",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_162/Cube_786",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_322/Cube_946",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_237/Cube_861",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_391/Cube_1015",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_096/Cube_720",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_120/Cube_744",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_136/Cube_760",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_089/Cube_713",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_005/Cube_075",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_153/Cube_777",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_312/Cube_936",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Gold_rim/Cube_005",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_163/Cube_787",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_121/Cube_745",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_208/Cube_832",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_261/Cube_885",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_374/Cube_998",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_277/Cube_901",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_060/Cube_684",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_372/Cube_996",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_097/Cube_721",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_111/Cube_735",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_069/Cube_693",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_240/Cube_864",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_358/Cube_982",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Tea_cookie_divider/Cube_014",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_124/Cube_748",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_090/Cube_714",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_331/Cube_955",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_172/Cube_796",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_348/Cube_972",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_017/Cube_641",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_304/Cube_928",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Fine_gold_line/Cube_015",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_369/Cube_993",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_018/Cube_642",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_270/Cube_894",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_052/Cube_676",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_285/Cube_909",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Fine_gold_line_001/Cube_016",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_103/Cube_727",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_232/Cube_856",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_249/Cube_873",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_367/Cube_991",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_308/Cube_932",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_019/Cube_643",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_167/Cube_791",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_323/Cube_947",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_392/Cube_1016",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_125/Cube_749",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_303/Cube_927",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_296/Cube_920",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_154/Cube_778",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_313/Cube_937",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_370/Cube_994",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_020/Cube_644",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_251/Cube_875",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_112/Cube_736",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_209/Cube_833",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_262/Cube_886",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_307/Cube_931",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_021/Cube_645",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_241/Cube_865",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_359/Cube_983",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_002/Cube_072",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_376/Cube_1000",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_298/Cube_922",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_091/Cube_715",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_384/Cube_1008",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_332/Cube_956",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Front_back_divider/Cube_012",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_349/Cube_973",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_022/Cube_646",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_288/Cube_912",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_146/Cube_770",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_305/Cube_929",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_003/Cube_073",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_253/Cube_877",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_023/Cube_647",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_271/Cube_895",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_129/Cube_753",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_173/Cube_797",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_254/Cube_878",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_189/Cube_813",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_368/Cube_992",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_024/Cube_648",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_324/Cube_948",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_393/Cube_1017",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_116/Cube_740",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_138/Cube_762",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_297/Cube_921",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_255/Cube_879",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_155/Cube_779",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_314/Cube_938",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_025/Cube_649",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_287/Cube_911",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_006/Cube_076",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_016/Cube_086",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_263/Cube_887",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_256/Cube_880",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_278/Cube_902",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_062/Cube_686",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_246/Cube_870",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_026/Cube_650",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_225/Cube_849",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_113/Cube_737",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_182/Cube_806",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_360/Cube_984",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_007/Cube_077",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_126/Cube_750",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_092/Cube_716",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_385/Cube_1009",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_333/Cube_957",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_169/Cube_793",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_236/Cube_860",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_350/Cube_974",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_027/Cube_651",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_289/Cube_913",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_147/Cube_771",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_014/Cube_084",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_214/Cube_838",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_165/Cube_789",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_202/Cube_826",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_028/Cube_652",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_381/Cube_1005",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_272/Cube_896",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_054/Cube_678",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_215/Cube_839",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_071/Cube_695",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_105/Cube_729",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_174/Cube_798",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_049/Cube_673",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_352/Cube_976",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_383/Cube_1007",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_190/Cube_814",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_118/Cube_742",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_245/Cube_869",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_029/Cube_653",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_325/Cube_949",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_373/Cube_997",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_010/Cube_080",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_342/Cube_966",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_139/Cube_763",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_008/Cube_078",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_156/Cube_780",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_315/Cube_939",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_030/Cube_654",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_339/Cube_963",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_011/Cube_081",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_264/Cube_888",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_168/Cube_792",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_279/Cube_903",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_063/Cube_687",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_378/Cube_1002",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_031/Cube_655",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_166/Cube_790",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_226/Cube_850",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_114/Cube_738",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_183/Cube_807",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_361/Cube_985",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_218/Cube_842",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_295/Cube_919",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_127/Cube_751",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_137/Cube_761",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_386/Cube_1010",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_334/Cube_958",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_032/Cube_656",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching/Cube_017",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_148/Cube_772",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_243/Cube_867",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_015/Cube_085",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_219/Cube_843",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_252/Cube_876",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_053/Cube_677",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_143/Cube_767",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_203/Cube_827",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_033/Cube_657",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_216/Cube_840",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_273/Cube_897",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_351/Cube_975",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_220/Cube_844",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_133/Cube_757",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_336/Cube_960",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_290/Cube_914",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_106/Cube_730",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_231/Cube_855",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_353/Cube_977",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_191/Cube_815",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_119/Cube_743",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_034/Cube_658",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_326/Cube_950",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_221/Cube_845",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_395/Cube_1019",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_238/Cube_862",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_140/Cube_764",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_055/Cube_679",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_009/Cube_079",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_157/Cube_781",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_316/Cube_940",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_035/Cube_659",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Gold_rim_001/Cube_007",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_222/Cube_846",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_398/Cube_1022",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_265/Cube_889",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_341/Cube_965",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_141/Cube_765",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_280/Cube_904",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_132/Cube_756",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_064/Cube_688",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_036/Cube_660",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_098/Cube_722",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_227/Cube_851",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_115/Cube_739",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_244/Cube_868",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_223/Cube_847",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_128/Cube_752",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_234/Cube_858",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_233/Cube_857",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_387/Cube_1011",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_302/Cube_926",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_037/Cube_661",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_001/Cube_018",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_149/Cube_773",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_108/Cube_732",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_224/Cube_848",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_250/Cube_874",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_235/Cube_859",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_319/Cube_943",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_204/Cube_828",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_038/Cube_662",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_058/Cube_682",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_217/Cube_841",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_274/Cube_898",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Organizer/Saddle_stitching_056/Cube_680",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Seal_crimp_100/Cube_133",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Chocolate_piece_041/Icosphere_041",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Seal_crimp_091/Cube_124",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Seal_crimp_095/Cube_128",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Chocolate_piece_040/Icosphere_040",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Seal_crimp_090/Cube_123",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Chocolate_piece_039/Icosphere_039",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/COOKIES_003/Text_032",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Seal_crimp_116/Cube_150",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Seal_crimp_105/Cube_139",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Butter_cookie_003/Cylinder_007",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Seal_crimp_096/Cube_129",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/_30_g_003/Text_033",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Seal_crimp_106/Cube_140",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Cookie_emblem_003/Cylinder_006",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Chocolate_piece_046/Icosphere_046",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Chocolate_piece_045/Icosphere_045",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Seal_crimp_103/Cube_136",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Seal_crimp_117/Cube_151",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Seal_crimp_102/Cube_135",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/BUTTER_003/Text_031",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Seal_crimp_097/Cube_130",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Heat_sealed_end_007/Cube_138",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Chocolate_piece_051/Icosphere_051",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Seal_crimp_101/Cube_134",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/CRUMB_003/Text_030",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Seal_crimp_107/Cube_141",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Chocolate_piece_050/Icosphere_050",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/__003/Text_029",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Seal_crimp_118/Cube_152",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Chocolate_piece_049/Icosphere_049",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/LEAF_004/Text_028",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Seal_crimp_098/Cube_131",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Chocolate_piece_048/Icosphere_048",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Seal_crimp_114/Cube_148",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Brand_band_003/Cube_154",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Seal_crimp_108/Cube_142",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Chocolate_piece_047/Icosphere_047",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Seal_crimp_119/Cube_153",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Seal_crimp_113/Cube_147",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Pillow_wrapper_003/Cube_121",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Seal_crimp_104/Cube_137",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Seal_crimp_112/Cube_146",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Seal_crimp_099/Cube_132",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Seal_crimp_111/Cube_145",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Chocolate_piece_044/Icosphere_044",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Seal_crimp_094/Cube_127",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Seal_crimp_110/Cube_144",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Chocolate_piece_043/Icosphere_043",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Seal_crimp_093/Cube_126",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Heat_sealed_end_006/Cube_122",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Seal_crimp_115/Cube_149",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Seal_crimp_109/Cube_143",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Chocolate_piece_042/Icosphere_042",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack2/Seal_crimp_092/Cube_125",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/_7052_Minibar_Mirror_Right_Black_Wood/_7052_Minibar_Mirror_Right_Black_Wood_004",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/_7052_TV_Wall_Continuous_Plane/__________281",
+          "triangle_refinement": true
+        },
+        {
+          "prim": "/root/_7052_Minibar_Mirror/_7052_Minibar_Mirror_004",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Tea3/SLOW_LEAF_005/Text_040",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Tea3/Sealed_edge_010/Cube_162",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Tea3/WHOLE_LEAF___2_g_005/Text_042",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Tea3/Tea_sachet_005/Cube_161",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Tea3/Leaf_mark_011/Sphere_011",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Tea3/Sealed_edge_011/Cube_163",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Tea3/GREEN_TEA_001/Text_041",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Tea3/Leaf_mark_010/Sphere_010",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/_7052_Minibar_Socket_Plate/_7052_Minibar_Socket_Plate",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/_7052_Minibar_Oak_Upstand/_7052_Minibar_Oak_Upstand",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Mug1/Hollow_porcelain_cup/Hollow_porcelain_cup",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Mug1/Foot_ring/Foot_ring",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Mug1/Cup_handle/Cup_handle",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water1/Cap_ridges_011/Cube_588",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water1/Cap_ridges_030/Cube_607",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water1/Cap_ridges_022/Cube_599",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water1/Cap_ridges_031/Cube_608",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water1/Cap_ridges_029/Cube_606",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water1/Cap_ridges_001/Cube_578",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water1/Cap_ridges_028/Cube_605",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water1/Cap_ridges_012/Cube_589",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water1/Cap_ridges_027/Cube_604",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water1/Cap_ridges_007/Cube_584",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water1/Cap_ridges_026/Cube_603",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water1/Cap_ridges_018/Cube_595",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water1/Cap_ridges_025/Cube_602",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water1/Cap_ridges_006/Cube_583",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water1/Cap_ridges_013/Cube_590",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water1/Cap_ridges_024/Cube_601",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water1/Cap_ridges_005/Cube_582",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water1/Cap_ridges_008/Cube_585",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water1/Cap_ridges_023/Cube_600",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water1/Cap_ridges_004/Cube_581",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water1/Cap_ridges/Cube_577",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water1/Cap_ridges_003/Cube_580",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water1/Cap_ridges_014/Cube_591",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water1/Cap_ridges_002/Cube_579",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water1/Cap_ridges_009/Cube_586",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water1/WATER/Text_001",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water1/Cap_ridges_019/Cube_596",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water1/Cap_ridges_020/Cube_597",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water1/MINERAL/Text",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water1/Cap_ridges_015/Cube_592",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water1/_330_ml/Text_002",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water1/Blue_neck_cap/Blue_neck_cap",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water1/Cap_ridges_017/Cube_594",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water1/Printed_label/Printed_label",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water1/Cap_ridges_010/Cube_587",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water1/Water_fill/Water_fill",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water1/Cap_ridges_021/Cube_598",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water1/Ribbed_PET_bottle/Ribbed_PET_bottle",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water1/Cap_ridges_016/Cube_593",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Mug2/Hollow_porcelain_cup_001/Hollow_porcelain_cup_001",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Mug2/Foot_ring_001/Foot_ring_001",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Mug2/Cup_handle_001/Cup_handle_001",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Tea1/SLOW_LEAF_003/Text_034",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Tea1/Leaf_mark_006/Sphere_006",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Tea1/OOLONG_001/Text_035",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Tea1/Sealed_edge_006/Cube_156",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Tea1/Tea_sachet_003/Cube_155",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Tea1/WHOLE_LEAF___2_g_003/Text_036",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Tea1/Leaf_mark_007/Sphere_007",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Tea1/Sealed_edge_007/Cube_157",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/_7052_Minibar_Socket_Insert_2/_7052_Minibar_Socket_Insert_2",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/_7052_Minibar_Socket_Insert_1/_7052_Minibar_Socket_Insert_1",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Seal_crimp_062/Cube_091",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Chocolate_piece_032/Icosphere_032",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Seal_crimp_088/Cube_118",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Chocolate_piece_026/Icosphere_026",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Chocolate_piece_033/Icosphere_033",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Chocolate_piece_031/Icosphere_031",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Chocolate_piece_037/Icosphere_037",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Seal_crimp_068/Cube_097",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Chocolate_piece_030/Icosphere_030",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Seal_crimp_085/Cube_115",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Seal_crimp_063/Cube_092",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Chocolate_piece_029/Icosphere_029",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Seal_crimp_084/Cube_114",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Pillow_wrapper_002/Cube_087",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Heat_sealed_end_004/Cube_088",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Chocolate_piece_028/Icosphere_028",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Seal_crimp_083/Cube_113",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Seal_crimp_075/Cube_105",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Seal_crimp_069/Cube_098",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Chocolate_piece_027/Icosphere_027",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Butter_cookie_002/Cylinder_005",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Seal_crimp_082/Cube_112",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Seal_crimp_079/Cube_109",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Seal_crimp_076/Cube_106",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Seal_crimp_081/Cube_111",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Seal_crimp_074/Cube_103",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Heat_sealed_end_005/Cube_104",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Chocolate_piece_036/Icosphere_036",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Seal_crimp_080/Cube_110",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Seal_crimp_087/Cube_117",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Seal_crimp_073/Cube_102",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Seal_crimp_070/Cube_099",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Chocolate_piece_035/Icosphere_035",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Cookie_emblem_002/Cylinder_004",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Seal_crimp_065/Cube_094",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Seal_crimp_078/Cube_108",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Seal_crimp_071/Cube_100",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/COOKIES_002/Text_026",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Seal_crimp_060/Cube_089",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Seal_crimp_077/Cube_107",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/_30_g_002/Text_027",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/BUTTER_002/Text_025",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Seal_crimp_086/Cube_116",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/CRUMB_002/Text_024",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Seal_crimp_066/Cube_095",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/__002/Text_023",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Seal_crimp_061/Cube_090",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/LEAF_003/Text_022",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Chocolate_piece_038/Icosphere_038",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Seal_crimp_072/Cube_101",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Brand_band_002/Cube_120",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Chocolate_piece_034/Icosphere_034",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Seal_crimp_067/Cube_096",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Seal_crimp_089/Cube_119",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/CookiePack1/Seal_crimp_064/Cube_093",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Tea2/Tea_sachet_004/Cube_158",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Tea2/Leaf_mark_008/Sphere_008",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Tea2/Sealed_edge_008/Cube_159",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Tea2/SLOW_LEAF_004/Text_037",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Tea2/Leaf_mark_009/Sphere_009",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Tea2/WHOLE_LEAF___2_g_004/Text_039",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Tea2/Sealed_edge_009/Cube_160",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Tea2/JASMINE_001/Text_038",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/_7052_Minibar_Socket_Insert_3/_7052_Minibar_Socket_Insert_3",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water2/Cap_ridges_032/Cube_609",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water2/Cap_ridges_060/Cube_637",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water2/Cap_ridges_043/Cube_620",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water2/Cap_ridges_059/Cube_636",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water2/Cap_ridges_038/Cube_615",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water2/Cap_ridges_058/Cube_635",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water2/Cap_ridges_033/Cube_610",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water2/Cap_ridges_057/Cube_634",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water2/Ribbed_PET_bottle_001/Ribbed_PET_bottle_001",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water2/Cap_ridges_056/Cube_633",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water2/Cap_ridges_039/Cube_616",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water2/Cap_ridges_055/Cube_632",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water2/Cap_ridges_037/Cube_614",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water2/Cap_ridges_034/Cube_611",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water2/Cap_ridges_054/Cube_631",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water2/Cap_ridges_036/Cube_613",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water2/Printed_label_001/Printed_label_001",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water2/Cap_ridges_045/Cube_622",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water2/Cap_ridges_035/Cube_612",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water2/Cap_ridges_063/Cube_640",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water2/Water_fill_001/Water_fill_001",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water2/Cap_ridges_040/Cube_617",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water2/WATER_001/Text_004",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water2/Cap_ridges_051/Cube_628",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water2/MINERAL_001/Text_003",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water2/Cap_ridges_050/Cube_627",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water2/Cap_ridges_046/Cube_623",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water2/_330_ml_001/Text_005",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water2/Cap_ridges_049/Cube_626",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water2/Cap_ridges_041/Cube_618",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water2/Cap_ridges_048/Cube_625",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water2/Cap_ridges_052/Cube_629",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water2/Cap_ridges_047/Cube_624",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water2/Cap_ridges_044/Cube_621",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water2/Cap_ridges_042/Cube_619",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water2/Cap_ridges_062/Cube_639",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water2/Cap_ridges_053/Cube_630",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water2/Blue_neck_cap_001/Blue_neck_cap_001",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/Water2/Cap_ridges_061/Cube_638",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/World/house_grp/_________/_________",
+          "triangle_refinement": true
+        },
+        {
+          "prim": "/root/World/house_grp/obj2/obj2_002",
+          "triangle_refinement": true
+        },
+        {
+          "prim": "/root/World/house_grp/obj4/obj4_002",
+          "triangle_refinement": true
+        }
+      ]
+    },
+    {
+      "support_id": "bench",
+      "prim": "/root/_7052_Bench_Marble_Top",
+      "collider": "/root/_7052_Bench_Marble_Top/_7052_Bench_Marble_Top",
+      "kind": "mesh_top",
+      "local_frame": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "allowed_region": [
+        [
+          -1.0669999361038207,
+          -1.212000026702881
+        ],
+        [
+          -0.6029999494552613,
+          -1.212000026702881
+        ],
+        [
+          -0.6029999494552613,
+          -0.00800003051757825
+        ],
+        [
+          -1.0669999361038207,
+          -0.00800003051757825
+        ]
+      ],
+      "edge_margin_m": 0.012,
+      "tags": [
+        "flat",
+        "amenity",
+        "bench"
+      ],
+      "geometry_hash": "32e851ecb9bbb053b6e7a2d40c54496a206397619944ddbab1e82151b56010ce",
+      "obstacle_clip": [
+        [
+          -1.0669999361038207,
+          -1.212000026702881,
+          0.47010000204890967
+        ],
+        [
+          -0.6029999494552613,
+          -0.00800003051757825,
+          0.9700000020489097
+        ]
+      ],
+      "obstacles": [
+        {
+          "prim": "/root/_7052_Grab_Rail_3_Post_2/_7052_Grab_Rail_3_Post_2",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/_7052_Grab_Rail_1_Post_1/_7052_Grab_Rail_1_Post_1",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/_7052_Grab_Rail_2_Post_1/_7052_Grab_Rail_2_Post_1",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/_7052_Grab_Rail_1_Bar/_7052_Grab_Rail_1_Bar",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/_7052_Grab_Rail_3_Bar/_7052_Grab_Rail_3_Bar",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/_7052_Grab_Rail_3_Post_1/_7052_Grab_Rail_3_Post_1",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/_7052_Grab_Rail_1_Post_2/_7052_Grab_Rail_1_Post_2",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/_7052_Grab_Rail_2_Bar/_7052_Grab_Rail_2_Bar",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/_7052_Grab_Rail_2_Post_2/_7052_Grab_Rail_2_Post_2",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/_7052_Door_Jamb/Cube_020",
+          "triangle_refinement": false
+        },
+        {
+          "prim": "/root/World/house_grp/obj2/obj2_002",
+          "triangle_refinement": true
+        },
+        {
+          "prim": "/root/World/house_grp/obj4/obj4_002",
+          "triangle_refinement": true
+        }
+      ]
+    },
+    {
+      "support_id": "floor_bedside",
+      "prim": "/root/_7052_Floor_Backfill",
+      "collider": "/root/_7052_Floor_Backfill/Cube_002",
+      "kind": "floor_region",
+      "local_frame": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "allowed_region": [
+        [
+          -0.85,
+          -5.85
+        ],
+        [
+          -0.32,
+          -5.85
+        ],
+        [
+          -0.32,
+          -4.95
+        ],
+        [
+          -0.85,
+          -4.95
+        ]
+      ],
+      "edge_margin_m": 0.015,
+      "tags": [
+        "floor",
+        "bedside"
+      ],
+      "geometry_hash": "7098567a68c963c33397c3579f3d6589a4bfd26fa1b58db60e49bbda03be0484",
+      "obstacles": [],
+      "obstacle_clip": [
+        [
+          -0.85,
+          -5.85,
+          -0.00018254515590651653
+        ],
+        [
+          -0.32,
+          -4.95,
+          0.7993174548440936
+        ]
+      ]
+    },
+    {
+      "support_id": "floor_luggage",
+      "prim": "/root/_7052_Floor_Backfill",
+      "collider": "/root/_7052_Floor_Backfill/Cube_002",
+      "kind": "floor_region",
+      "local_frame": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "allowed_region": [
+        [
+          0.8,
+          -7.3
+        ],
+        [
+          1.6,
+          -7.3
+        ],
+        [
+          1.6,
+          -6.3
+        ],
+        [
+          0.8,
+          -6.3
+        ]
+      ],
+      "edge_margin_m": 0.015,
+      "tags": [
+        "floor",
+        "luggage"
+      ],
+      "geometry_hash": "7098567a68c963c33397c3579f3d6589a4bfd26fa1b58db60e49bbda03be0484",
+      "obstacles": [
+        {
+          "prim": "/root/World/house_grp/tripo_mesh_d418dcbe/tripo_mesh_d418dcbe",
+          "triangle_refinement": true
+        }
+      ],
+      "obstacle_clip": [
+        [
+          0.8,
+          -7.3,
+          -0.00018254515590651653
+        ],
+        [
+          1.6,
+          -6.3,
+          0.7993174548440936
+        ]
+      ]
+    },
+    {
+      "support_id": "floor_desk",
+      "prim": "/root/_7052_Floor_Backfill",
+      "collider": "/root/_7052_Floor_Backfill/Cube_002",
+      "kind": "floor_region",
+      "local_frame": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "allowed_region": [
+        [
+          -1.32,
+          -6.85
+        ],
+        [
+          -0.97,
+          -6.85
+        ],
+        [
+          -0.97,
+          -6.0
+        ],
+        [
+          -1.32,
+          -6.0
+        ]
+      ],
+      "edge_margin_m": 0.015,
+      "tags": [
+        "floor",
+        "paper"
+      ],
+      "geometry_hash": "7098567a68c963c33397c3579f3d6589a4bfd26fa1b58db60e49bbda03be0484",
+      "obstacles": [
+        {
+          "prim": "/root/_7052_TV_Floating_Console/_7052_TV_Floating_Console_001",
+          "triangle_refinement": true
+        },
+        {
+          "prim": "/root/_7052_TV_Floating_Console_Drawer_Groove/_7052_TV_Floating_Console_Drawer_Groove_001",
+          "triangle_refinement": true
+        },
+        {
+          "prim": "/root/_7052_Round_Table_Top/_7052_Round_Table_Top_001",
+          "triangle_refinement": true
+        },
+        {
+          "prim": "/root/World/house_grp/tripo_mesh_9dd079c6/tripo_mesh_9dd079c6",
+          "triangle_refinement": true
+        }
+      ],
+      "obstacle_clip": [
+        [
+          -1.32,
+          -6.85,
+          -0.00018254515590651653
+        ],
+        [
+          -0.97,
+          -6.0,
+          0.7993174548440936
+        ]
+      ]
+    },
+    {
+      "support_id": "floor_bedfoot",
+      "prim": "/root/_7052_Floor_Backfill",
+      "collider": "/root/_7052_Floor_Backfill/Cube_002",
+      "kind": "floor_region",
+      "local_frame": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "allowed_region": [
+        [
+          0.43,
+          -6.38
+        ],
+        [
+          1.1,
+          -6.38
+        ],
+        [
+          1.1,
+          -6.06
+        ],
+        [
+          0.43,
+          -6.06
+        ]
+      ],
+      "edge_margin_m": 0.015,
+      "tags": [
+        "floor",
+        "paper"
+      ],
+      "geometry_hash": "7098567a68c963c33397c3579f3d6589a4bfd26fa1b58db60e49bbda03be0484",
+      "obstacles": [],
+      "obstacle_clip": [
+        [
+          0.43,
+          -6.38,
+          -0.00018254515590651653
+        ],
+        [
+          1.1,
+          -6.06,
+          0.7993174548440936
+        ]
+      ]
+    },
+    {
+      "support_id": "bed_single_foot",
+      "prim": "/root/_7052_Asset_sofa_seat_cushion/_7052_Sofa_Seat_Upholstery",
+      "collider": "/root/_7052_Asset_sofa_seat_cushion/_7052_Sofa_Seat_Upholstery/__________525",
+      "kind": "mesh_top",
+      "local_frame": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "allowed_region": [
+        [
+          0.65,
+          -3.45
+        ],
+        [
+          1.3,
+          -3.45
+        ],
+        [
+          1.3,
+          -2.95
+        ],
+        [
+          0.65,
+          -2.95
+        ]
+      ],
+      "edge_margin_m": 0.015,
+      "tags": [
+        "bed",
+        "soft_surface"
+      ],
+      "geometry_hash": "f32474e4e0769a206e77da6586412bf2cf0f634fbe13376233cfea1d68cfd0e6",
+      "obstacles": [
+        {
+          "prim": "/root/World/house_grp/obj1/obj1_003",
+          "triangle_refinement": true
+        },
+        {
+          "prim": "/root/World/house_grp/obj2/obj2_002",
+          "triangle_refinement": true
+        },
+        {
+          "prim": "/root/World/house_grp/obj4/obj4_002",
+          "triangle_refinement": true
+        }
+      ],
+      "obstacle_clip": [
+        [
+          0.65,
+          -3.45,
+          0.4894999967813492
+        ],
+        [
+          1.3,
+          -2.95,
+          0.7389999967813492
+        ]
+      ]
+    }
+  ],
+  "forbidden_regions": [
+    {
+      "id": "main_circulation",
+      "bounds": [
+        [
+          -0.28,
+          -6.35,
+          -0.1
+        ],
+        [
+          0.38,
+          -0.2,
+          0.4
+        ]
+      ]
+    },
+    {
+      "id": "entry_door_swing_and_bath_access",
+      "bounds": [
+        [
+          -0.6,
+          -2.65,
+          -0.1
+        ],
+        [
+          0.65,
+          0.5,
+          2.3
+        ]
+      ]
+    },
+    {
+      "id": "minibar_door_sweep",
+      "bounds": [
+        [
+          -0.56,
+          -4.0,
+          -0.1
+        ],
+        [
+          0.4,
+          -2.65,
+          0.86
+        ]
+      ]
+    }
+  ],
+  "source_objects": [
+    {
+      "object_id": "fixed_desk",
+      "prim": "/root/_7052_Round_Table_Top",
+      "mobility": "FIXED",
+      "allowed_operations": []
+    },
+    {
+      "object_id": "fixed_minibar",
+      "prim": "/root/_7052_Flat_Walnut_Counter",
+      "mobility": "FIXED",
+      "allowed_operations": []
+    },
+    {
+      "object_id": "fixed_bench",
+      "prim": "/root/_7052_Bench_Marble_Top",
+      "mobility": "FIXED",
+      "allowed_operations": []
+    },
+    {
+      "object_id": "native_water1",
+      "prim": "/root/Water1",
+      "mobility": "MOVABLE",
+      "allowed_operations": [
+        "xformOpOrder",
+        "xformOp:transform:commoncore",
+        "physics:kinematicEnabled",
+        "physics:rigidBodyEnabled",
+        "commoncore:semantics"
+      ],
+      "catalog_link": "native_water1"
+    },
+    {
+      "object_id": "native_water2",
+      "prim": "/root/Water2",
+      "mobility": "MOVABLE",
+      "allowed_operations": [
+        "xformOpOrder",
+        "xformOp:transform:commoncore",
+        "physics:kinematicEnabled",
+        "physics:rigidBodyEnabled",
+        "commoncore:semantics"
+      ],
+      "catalog_link": "native_water2"
+    },
+    {
+      "object_id": "native_mug1",
+      "prim": "/root/Mug1",
+      "mobility": "MOVABLE",
+      "allowed_operations": [
+        "xformOpOrder",
+        "xformOp:transform:commoncore",
+        "physics:kinematicEnabled",
+        "physics:rigidBodyEnabled",
+        "commoncore:semantics"
+      ],
+      "catalog_link": "native_mug1"
+    },
+    {
+      "object_id": "native_mug2",
+      "prim": "/root/Mug2",
+      "mobility": "MOVABLE",
+      "allowed_operations": [
+        "xformOpOrder",
+        "xformOp:transform:commoncore",
+        "physics:kinematicEnabled",
+        "physics:rigidBodyEnabled",
+        "commoncore:semantics"
+      ],
+      "catalog_link": "native_mug2"
+    },
+    {
+      "object_id": "native_tea1",
+      "prim": "/root/Tea1",
+      "mobility": "MOVABLE",
+      "allowed_operations": [
+        "xformOpOrder",
+        "xformOp:transform:commoncore",
+        "physics:kinematicEnabled",
+        "physics:rigidBodyEnabled",
+        "commoncore:semantics"
+      ],
+      "catalog_link": "native_tea1"
+    },
+    {
+      "object_id": "native_tea2",
+      "prim": "/root/Tea2",
+      "mobility": "MOVABLE",
+      "allowed_operations": [
+        "xformOpOrder",
+        "xformOp:transform:commoncore",
+        "physics:kinematicEnabled",
+        "physics:rigidBodyEnabled",
+        "commoncore:semantics"
+      ],
+      "catalog_link": "native_tea2"
+    },
+    {
+      "object_id": "native_tea3",
+      "prim": "/root/Tea3",
+      "mobility": "MOVABLE",
+      "allowed_operations": [
+        "xformOpOrder",
+        "xformOp:transform:commoncore",
+        "physics:kinematicEnabled",
+        "physics:rigidBodyEnabled",
+        "commoncore:semantics"
+      ],
+      "catalog_link": "native_tea3"
+    },
+    {
+      "object_id": "native_cookiepack1",
+      "prim": "/root/CookiePack1",
+      "mobility": "MOVABLE",
+      "allowed_operations": [
+        "xformOpOrder",
+        "xformOp:transform:commoncore",
+        "physics:kinematicEnabled",
+        "physics:rigidBodyEnabled",
+        "commoncore:semantics"
+      ],
+      "catalog_link": "native_cookiepack1"
+    },
+    {
+      "object_id": "native_cookiepack2",
+      "prim": "/root/CookiePack2",
+      "mobility": "MOVABLE",
+      "allowed_operations": [
+        "xformOpOrder",
+        "xformOp:transform:commoncore",
+        "physics:kinematicEnabled",
+        "physics:rigidBodyEnabled",
+        "commoncore:semantics"
+      ],
+      "catalog_link": "native_cookiepack2"
+    }
+  ],
+  "override_allowlist": [
+    {
+      "prim": "/root/Water1",
+      "attributes": [
+        "xformOpOrder",
+        "xformOp:transform:commoncore",
+        "physics:kinematicEnabled",
+        "physics:rigidBodyEnabled",
+        "commoncore:semantics"
+      ]
+    },
+    {
+      "prim": "/root/Water2",
+      "attributes": [
+        "xformOpOrder",
+        "xformOp:transform:commoncore",
+        "physics:kinematicEnabled",
+        "physics:rigidBodyEnabled",
+        "commoncore:semantics"
+      ]
+    },
+    {
+      "prim": "/root/Mug1",
+      "attributes": [
+        "xformOpOrder",
+        "xformOp:transform:commoncore",
+        "physics:kinematicEnabled",
+        "physics:rigidBodyEnabled",
+        "commoncore:semantics"
+      ]
+    },
+    {
+      "prim": "/root/Mug2",
+      "attributes": [
+        "xformOpOrder",
+        "xformOp:transform:commoncore",
+        "physics:kinematicEnabled",
+        "physics:rigidBodyEnabled",
+        "commoncore:semantics"
+      ]
+    },
+    {
+      "prim": "/root/Tea1",
+      "attributes": [
+        "xformOpOrder",
+        "xformOp:transform:commoncore",
+        "physics:kinematicEnabled",
+        "physics:rigidBodyEnabled",
+        "commoncore:semantics"
+      ]
+    },
+    {
+      "prim": "/root/Tea2",
+      "attributes": [
+        "xformOpOrder",
+        "xformOp:transform:commoncore",
+        "physics:kinematicEnabled",
+        "physics:rigidBodyEnabled",
+        "commoncore:semantics"
+      ]
+    },
+    {
+      "prim": "/root/Tea3",
+      "attributes": [
+        "xformOpOrder",
+        "xformOp:transform:commoncore",
+        "physics:kinematicEnabled",
+        "physics:rigidBodyEnabled",
+        "commoncore:semantics"
+      ]
+    },
+    {
+      "prim": "/root/CookiePack1",
+      "attributes": [
+        "xformOpOrder",
+        "xformOp:transform:commoncore",
+        "physics:kinematicEnabled",
+        "physics:rigidBodyEnabled",
+        "commoncore:semantics"
+      ]
+    },
+    {
+      "prim": "/root/CookiePack2",
+      "attributes": [
+        "xformOpOrder",
+        "xformOp:transform:commoncore",
+        "physics:kinematicEnabled",
+        "physics:rigidBodyEnabled",
+        "commoncore:semantics"
+      ]
+    }
+  ],
+  "test_freeze": {
+    "body_mode": "kinematic",
+    "joint_mode": "preserve"
+  },
+  "cameras": [
+    {
+      "camera_id": "overview",
+      "purpose": "FIXED_VISUAL_ACCEPTANCE",
+      "eye": [
+        -0.1,
+        -2.45,
+        2.02
+      ],
+      "target": [
+        0.45,
+        -5.65,
+        0.45
+      ],
+      "focal": 14.0
+    },
+    {
+      "camera_id": "desk",
+      "purpose": "FIXED_VISUAL_ACCEPTANCE",
+      "eye": [
+        0.2,
+        -6.25,
+        1.65
+      ],
+      "target": [
+        -0.662,
+        -6.704,
+        0.76
+      ],
+      "focal": 27.0
+    },
+    {
+      "camera_id": "minibar",
+      "purpose": "FIXED_VISUAL_ACCEPTANCE",
+      "eye": [
+        0.05,
+        -4.22,
+        1.65
+      ],
+      "target": [
+        -0.88,
+        -3.3,
+        0.89
+      ],
+      "focal": 23.0
+    },
+    {
+      "camera_id": "entry_bench",
+      "purpose": "FIXED_VISUAL_ACCEPTANCE",
+      "eye": [
+        0,
+        -0.61,
+        1.65
+      ],
+      "target": [
+        -0.84,
+        -0.61,
+        0.47
+      ],
+      "focal": 21.0
+    }
+  ],
+  "provenance": {
+    "kind": "MEASURED_SOURCE_USD",
+    "locator_metadata_sha256": "908b149971a506035b61ab6921f4575be14eca7c83d74be09414259b9f446a6e",
+    "human_confirmed": false
+  }
+}

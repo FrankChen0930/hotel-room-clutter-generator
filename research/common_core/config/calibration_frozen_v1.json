@@ -1,0 +1,2598 @@
+{
+  "execution": "EXECUTED",
+  "outcome": "PASS",
+  "variant": "baseline",
+  "case_budget": 36,
+  "cases": [
+    {
+      "room": "hotel705",
+      "scenario": "STAYOVER",
+      "seed": 7001,
+      "level": "low",
+      "status": "PASS",
+      "targets": {
+        "count": 6,
+        "count_range": [
+          5,
+          6
+        ],
+        "coverage": {
+          "hard": true,
+          "source": "metrics.rooms[room].coverage[scenario][level]"
+        },
+        "spread": {
+          "hard": true,
+          "occupied_support_min": 1
+        },
+        "state_proportions": {
+          "towel": {}
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle"
+        ],
+        "required_state_counts": {}
+      },
+      "achieved": {
+        "version": "canonical-state-polygons-v1",
+        "count": 6,
+        "coverage": 0.06601256404975749,
+        "denominator_m2": 2.0051940265127004,
+        "area_by_support_m2": {
+          "desk": 0.02938399955368043,
+          "minibar": 0.0051839995536803185,
+          "bench": 0.0978
+        },
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.38360630188123485,
+        "category_counts": {
+          "book": 2,
+          "tissue": 2,
+          "bottle": 2
+        },
+        "state_counts": {
+          "book/default": 2,
+          "tissue/default": 2,
+          "bottle/default": 2
+        },
+        "method": "disjoint conservative canonical-state polygons / fixed annotated support-mask area; obstacles are separate 3D gates and do not change denominator"
+      },
+      "elapsed_s": 0.0,
+      "samples": 26,
+      "failure": null,
+      "profile_hash": "a91db2b1824469dfd8cfc267a4c3c901838ebf9b0df64b74d5d7e82c04f52c58",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "e4c9863ea4a68caf4a4cfda20e7e3f5913cd3a0b1499312cd9d2b0186d5f2fb8"
+    },
+    {
+      "room": "hotel705",
+      "scenario": "STAYOVER",
+      "seed": 7001,
+      "level": "medium",
+      "status": "PASS",
+      "targets": {
+        "count": 9,
+        "count_range": [
+          8,
+          9
+        ],
+        "coverage": {
+          "hard": true,
+          "source": "metrics.rooms[room].coverage[scenario][level]"
+        },
+        "spread": {
+          "hard": true,
+          "occupied_support_min": 2
+        },
+        "state_proportions": {
+          "towel": {
+            "folded": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/folded": 1
+        }
+      },
+      "achieved": {
+        "version": "canonical-state-polygons-v1",
+        "count": 9,
+        "coverage": 0.1159666034196737,
+        "denominator_m2": 2.0051940265127004,
+        "area_by_support_m2": {
+          "desk": 0.02938399955368043,
+          "minibar": 0.09698929910570264,
+          "bench": 0.10616224179271394
+        },
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.3332605584057063,
+        "category_counts": {
+          "towel": 1,
+          "book": 2,
+          "tissue": 2,
+          "bottle": 2,
+          "mug": 1,
+          "water": 1
+        },
+        "state_counts": {
+          "s0_towel/folded": 1,
+          "book/default": 2,
+          "tissue/default": 2,
+          "bottle/default": 2,
+          "native_mug2/default": 1,
+          "native_water1/default": 1
+        },
+        "method": "disjoint conservative canonical-state polygons / fixed annotated support-mask area; obstacles are separate 3D gates and do not change denominator"
+      },
+      "elapsed_s": 0.0,
+      "samples": 34,
+      "failure": null,
+      "profile_hash": "a91db2b1824469dfd8cfc267a4c3c901838ebf9b0df64b74d5d7e82c04f52c58",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "e4c9863ea4a68caf4a4cfda20e7e3f5913cd3a0b1499312cd9d2b0186d5f2fb8"
+    },
+    {
+      "room": "hotel705",
+      "scenario": "STAYOVER",
+      "seed": 7001,
+      "level": "high",
+      "status": "PASS",
+      "targets": {
+        "count": 13,
+        "count_range": [
+          12,
+          13
+        ],
+        "coverage": {
+          "hard": true,
+          "source": "metrics.rooms[room].coverage[scenario][level]"
+        },
+        "spread": {
+          "hard": true,
+          "occupied_support_min": 3
+        },
+        "state_proportions": {
+          "towel": {
+            "loose": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/loose": 1
+        }
+      },
+      "achieved": {
+        "version": "canonical-state-polygons-v1",
+        "count": 13,
+        "coverage": 0.14175839994236814,
+        "denominator_m2": 2.0051940265127004,
+        "area_by_support_m2": {
+          "desk": 0.0788401881676144,
+          "minibar": 0.13169466681210662,
+          "bench": 0.07371824179271391
+        },
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.33918631011857187,
+        "category_counts": {
+          "towel": 1,
+          "book": 2,
+          "tissue": 2,
+          "bottle": 2,
+          "mug": 1,
+          "water": 1,
+          "remote": 1,
+          "can": 1,
+          "tea": 1,
+          "snack": 1
+        },
+        "state_counts": {
+          "s0_towel/loose": 1,
+          "book/default": 2,
+          "tissue/default": 2,
+          "bottle/default": 2,
+          "native_mug2/default": 1,
+          "native_water1/default": 1,
+          "remote/default": 1,
+          "can/default": 1,
+          "native_tea3/default": 1,
+          "native_cookiepack2/default": 1
+        },
+        "method": "disjoint conservative canonical-state polygons / fixed annotated support-mask area; obstacles are separate 3D gates and do not change denominator"
+      },
+      "elapsed_s": 0.014999999999417923,
+      "samples": 101,
+      "failure": null,
+      "profile_hash": "a91db2b1824469dfd8cfc267a4c3c901838ebf9b0df64b74d5d7e82c04f52c58",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "e4c9863ea4a68caf4a4cfda20e7e3f5913cd3a0b1499312cd9d2b0186d5f2fb8"
+    },
+    {
+      "room": "hotel705",
+      "scenario": "STAYOVER",
+      "seed": 7002,
+      "level": "low",
+      "status": "PASS",
+      "targets": {
+        "count": 5,
+        "count_range": [
+          5,
+          6
+        ],
+        "coverage": {
+          "hard": true,
+          "source": "metrics.rooms[room].coverage[scenario][level]"
+        },
+        "spread": {
+          "hard": true,
+          "occupied_support_min": 1
+        },
+        "state_proportions": {
+          "towel": {}
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle"
+        ],
+        "required_state_counts": {}
+      },
+      "achieved": {
+        "version": "canonical-state-polygons-v1",
+        "count": 5,
+        "coverage": 0.06342727829429608,
+        "denominator_m2": 2.0051940265127004,
+        "area_by_support_m2": {
+          "desk": 0.024200000000000443,
+          "minibar": 0.041983999553680706,
+          "bench": 0.061
+        },
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.32870736032430575,
+        "category_counts": {
+          "book": 2,
+          "tissue": 2,
+          "bottle": 1
+        },
+        "state_counts": {
+          "book/default": 2,
+          "tissue/default": 2,
+          "bottle/default": 1
+        },
+        "method": "disjoint conservative canonical-state polygons / fixed annotated support-mask area; obstacles are separate 3D gates and do not change denominator"
+      },
+      "elapsed_s": 0.0,
+      "samples": 18,
+      "failure": null,
+      "profile_hash": "a91db2b1824469dfd8cfc267a4c3c901838ebf9b0df64b74d5d7e82c04f52c58",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "e4c9863ea4a68caf4a4cfda20e7e3f5913cd3a0b1499312cd9d2b0186d5f2fb8"
+    },
+    {
+      "room": "hotel705",
+      "scenario": "STAYOVER",
+      "seed": 7002,
+      "level": "medium",
+      "status": "PASS",
+      "targets": {
+        "count": 8,
+        "count_range": [
+          8,
+          9
+        ],
+        "coverage": {
+          "hard": true,
+          "source": "metrics.rooms[room].coverage[scenario][level]"
+        },
+        "spread": {
+          "hard": true,
+          "occupied_support_min": 2
+        },
+        "state_proportions": {
+          "towel": {
+            "folded": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/folded": 1
+        }
+      },
+      "achieved": {
+        "version": "canonical-state-polygons-v1",
+        "count": 8,
+        "coverage": 0.1135452424003438,
+        "denominator_m2": 2.0051940265127004,
+        "area_by_support_m2": {
+          "desk": 0.037746241346394926,
+          "minibar": 0.12893400045371106,
+          "bench": 0.061
+        },
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.33750209188647007,
+        "category_counts": {
+          "towel": 1,
+          "book": 2,
+          "tissue": 2,
+          "bottle": 2,
+          "mug": 1
+        },
+        "state_counts": {
+          "s0_towel/folded": 1,
+          "book/default": 2,
+          "tissue/default": 2,
+          "bottle/default": 2,
+          "native_mug2/default": 1
+        },
+        "method": "disjoint conservative canonical-state polygons / fixed annotated support-mask area; obstacles are separate 3D gates and do not change denominator"
+      },
+      "elapsed_s": 0.0,
+      "samples": 56,
+      "failure": null,
+      "profile_hash": "a91db2b1824469dfd8cfc267a4c3c901838ebf9b0df64b74d5d7e82c04f52c58",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "e4c9863ea4a68caf4a4cfda20e7e3f5913cd3a0b1499312cd9d2b0186d5f2fb8"
+    },
+    {
+      "room": "hotel705",
+      "scenario": "STAYOVER",
+      "seed": 7002,
+      "level": "high",
+      "status": "PASS",
+      "targets": {
+        "count": 12,
+        "count_range": [
+          12,
+          13
+        ],
+        "coverage": {
+          "hard": true,
+          "source": "metrics.rooms[room].coverage[scenario][level]"
+        },
+        "spread": {
+          "hard": true,
+          "occupied_support_min": 3
+        },
+        "state_proportions": {
+          "towel": {
+            "loose": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/loose": 1
+        }
+      },
+      "achieved": {
+        "version": "canonical-state-polygons-v1",
+        "count": 12,
+        "coverage": 0.13544745622825188,
+        "denominator_m2": 2.0051940265127004,
+        "area_by_support_m2": {
+          "desk": 0.07940306197511693,
+          "minibar": 0.1268393681601142,
+          "bench": 0.06535600000000003
+        },
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.33851016484024016,
+        "category_counts": {
+          "towel": 1,
+          "book": 2,
+          "tissue": 2,
+          "bottle": 2,
+          "mug": 1,
+          "water": 1,
+          "remote": 1,
+          "can": 1,
+          "tea": 1
+        },
+        "state_counts": {
+          "s0_towel/loose": 1,
+          "book/default": 2,
+          "tissue/default": 2,
+          "bottle/default": 2,
+          "native_mug2/default": 1,
+          "native_water2/default": 1,
+          "remote/default": 1,
+          "can/default": 1,
+          "native_tea3/default": 1
+        },
+        "method": "disjoint conservative canonical-state polygons / fixed annotated support-mask area; obstacles are separate 3D gates and do not change denominator"
+      },
+      "elapsed_s": 0.014999999999417923,
+      "samples": 212,
+      "failure": null,
+      "profile_hash": "a91db2b1824469dfd8cfc267a4c3c901838ebf9b0df64b74d5d7e82c04f52c58",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "e4c9863ea4a68caf4a4cfda20e7e3f5913cd3a0b1499312cd9d2b0186d5f2fb8"
+    },
+    {
+      "room": "hotel705",
+      "scenario": "STAYOVER",
+      "seed": 7003,
+      "level": "low",
+      "status": "PASS",
+      "targets": {
+        "count": 5,
+        "count_range": [
+          5,
+          6
+        ],
+        "coverage": {
+          "hard": true,
+          "source": "metrics.rooms[room].coverage[scenario][level]"
+        },
+        "spread": {
+          "hard": true,
+          "occupied_support_min": 1
+        },
+        "state_proportions": {
+          "towel": {}
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle"
+        ],
+        "required_state_counts": {}
+      },
+      "achieved": {
+        "version": "canonical-state-polygons-v1",
+        "count": 5,
+        "coverage": 0.06342727829429555,
+        "denominator_m2": 2.0051940265127004,
+        "area_by_support_m2": {
+          "desk": 0.061000000000000165,
+          "minibar": 0.0051839995536799854,
+          "bench": 0.06099999999999996
+        },
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.39370731481389537,
+        "category_counts": {
+          "book": 2,
+          "tissue": 2,
+          "bottle": 1
+        },
+        "state_counts": {
+          "book/default": 2,
+          "tissue/default": 2,
+          "bottle/default": 1
+        },
+        "method": "disjoint conservative canonical-state polygons / fixed annotated support-mask area; obstacles are separate 3D gates and do not change denominator"
+      },
+      "elapsed_s": 0.0,
+      "samples": 15,
+      "failure": null,
+      "profile_hash": "a91db2b1824469dfd8cfc267a4c3c901838ebf9b0df64b74d5d7e82c04f52c58",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "e4c9863ea4a68caf4a4cfda20e7e3f5913cd3a0b1499312cd9d2b0186d5f2fb8"
+    },
+    {
+      "room": "hotel705",
+      "scenario": "STAYOVER",
+      "seed": 7003,
+      "level": "medium",
+      "status": "PASS",
+      "targets": {
+        "count": 8,
+        "count_range": [
+          8,
+          9
+        ],
+        "coverage": {
+          "hard": true,
+          "source": "metrics.rooms[room].coverage[scenario][level]"
+        },
+        "spread": {
+          "hard": true,
+          "occupied_support_min": 2
+        },
+        "state_proportions": {
+          "towel": {
+            "folded": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/folded": 1
+        }
+      },
+      "achieved": {
+        "version": "canonical-state-polygons-v1",
+        "count": 8,
+        "coverage": 0.11354817783394934,
+        "denominator_m2": 2.0051940265127004,
+        "area_by_support_m2": {
+          "desk": 0.11115000090002969,
+          "minibar": 0.010367999107360637,
+          "bench": 0.10616812790664672
+        },
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.3595394013705502,
+        "category_counts": {
+          "towel": 1,
+          "book": 2,
+          "tissue": 2,
+          "bottle": 2,
+          "mug": 1
+        },
+        "state_counts": {
+          "s0_towel/folded": 1,
+          "book/default": 2,
+          "tissue/default": 2,
+          "bottle/default": 2,
+          "native_mug1/default": 1
+        },
+        "method": "disjoint conservative canonical-state polygons / fixed annotated support-mask area; obstacles are separate 3D gates and do not change denominator"
+      },
+      "elapsed_s": 0.11000000000058208,
+      "samples": 1839,
+      "failure": null,
+      "profile_hash": "a91db2b1824469dfd8cfc267a4c3c901838ebf9b0df64b74d5d7e82c04f52c58",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "e4c9863ea4a68caf4a4cfda20e7e3f5913cd3a0b1499312cd9d2b0186d5f2fb8"
+    },
+    {
+      "room": "hotel705",
+      "scenario": "STAYOVER",
+      "seed": 7003,
+      "level": "high",
+      "status": "PASS",
+      "targets": {
+        "count": 12,
+        "count_range": [
+          12,
+          13
+        ],
+        "coverage": {
+          "hard": true,
+          "source": "metrics.rooms[room].coverage[scenario][level]"
+        },
+        "spread": {
+          "hard": true,
+          "occupied_support_min": 3
+        },
+        "state_proportions": {
+          "towel": {
+            "loose": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/loose": 1
+        }
+      },
+      "achieved": {
+        "version": "canonical-state-polygons-v1",
+        "count": 12,
+        "coverage": 0.13544676370912376,
+        "denominator_m2": 2.0051940265127004,
+        "area_by_support_m2": {
+          "desk": 0.11557131806825183,
+          "minibar": 0.0652192980347267,
+          "bench": 0.09080642539703367
+        },
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.29061017554292207,
+        "category_counts": {
+          "towel": 1,
+          "book": 2,
+          "tissue": 2,
+          "bottle": 2,
+          "mug": 1,
+          "water": 1,
+          "remote": 1,
+          "can": 1,
+          "tea": 1
+        },
+        "state_counts": {
+          "s0_towel/loose": 1,
+          "book/default": 2,
+          "tissue/default": 2,
+          "bottle/default": 2,
+          "native_mug1/default": 1,
+          "native_water1/default": 1,
+          "remote/default": 1,
+          "can/default": 1,
+          "native_tea2/default": 1
+        },
+        "method": "disjoint conservative canonical-state polygons / fixed annotated support-mask area; obstacles are separate 3D gates and do not change denominator"
+      },
+      "elapsed_s": 0.09399999999732245,
+      "samples": 2004,
+      "failure": null,
+      "profile_hash": "a91db2b1824469dfd8cfc267a4c3c901838ebf9b0df64b74d5d7e82c04f52c58",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "e4c9863ea4a68caf4a4cfda20e7e3f5913cd3a0b1499312cd9d2b0186d5f2fb8"
+    },
+    {
+      "room": "hotel705",
+      "scenario": "CHECKOUT",
+      "seed": 7001,
+      "level": "low",
+      "status": "PASS",
+      "targets": {
+        "count": 8,
+        "count_range": [
+          7,
+          8
+        ],
+        "coverage": {
+          "hard": true,
+          "source": "metrics.rooms[room].coverage[scenario][level]"
+        },
+        "spread": {
+          "hard": true,
+          "occupied_support_min": 1
+        },
+        "state_proportions": {
+          "towel": {}
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "can"
+        ],
+        "required_state_counts": {}
+      },
+      "achieved": {
+        "version": "canonical-state-polygons-v1",
+        "count": 8,
+        "coverage": 0.07235814843630944,
+        "denominator_m2": 2.0051940265127004,
+        "area_by_support_m2": {
+          "desk": 0.04516812790664604,
+          "minibar": 0.061000000000000054,
+          "bench": 0.03892399910736087
+        },
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.34758981985426357,
+        "category_counts": {
+          "book": 2,
+          "tissue": 2,
+          "bottle": 2,
+          "mug": 1,
+          "can": 1
+        },
+        "state_counts": {
+          "book/default": 2,
+          "tissue/default": 2,
+          "bottle/default": 2,
+          "native_mug1/default": 1,
+          "can/default": 1
+        },
+        "method": "disjoint conservative canonical-state polygons / fixed annotated support-mask area; obstacles are separate 3D gates and do not change denominator"
+      },
+      "elapsed_s": 0.0,
+      "samples": 44,
+      "failure": null,
+      "profile_hash": "a91db2b1824469dfd8cfc267a4c3c901838ebf9b0df64b74d5d7e82c04f52c58",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "e4c9863ea4a68caf4a4cfda20e7e3f5913cd3a0b1499312cd9d2b0186d5f2fb8"
+    },
+    {
+      "room": "hotel705",
+      "scenario": "CHECKOUT",
+      "seed": 7001,
+      "level": "medium",
+      "status": "PASS",
+      "targets": {
+        "count": 12,
+        "count_range": [
+          11,
+          12
+        ],
+        "coverage": {
+          "hard": true,
+          "source": "metrics.rooms[room].coverage[scenario][level]"
+        },
+        "spread": {
+          "hard": true,
+          "occupied_support_min": 2
+        },
+        "state_proportions": {
+          "towel": {
+            "folded": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "can",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/folded": 1
+        }
+      },
+      "achieved": {
+        "version": "canonical-state-polygons-v1",
+        "count": 12,
+        "coverage": 0.12472280663849258,
+        "denominator_m2": 2.0051940265127004,
+        "area_by_support_m2": {
+          "desk": 0.050023426558639006,
+          "minibar": 0.15230600090003066,
+          "bench": 0.04776399938273425
+        },
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.33816887306974963,
+        "category_counts": {
+          "towel": 1,
+          "book": 2,
+          "tissue": 2,
+          "bottle": 2,
+          "mug": 1,
+          "water": 1,
+          "remote": 1,
+          "can": 2
+        },
+        "state_counts": {
+          "s0_towel/folded": 1,
+          "book/default": 2,
+          "tissue/default": 2,
+          "bottle/default": 2,
+          "native_mug1/default": 1,
+          "native_water1/default": 1,
+          "remote/default": 1,
+          "can/default": 2
+        },
+        "method": "disjoint conservative canonical-state polygons / fixed annotated support-mask area; obstacles are separate 3D gates and do not change denominator"
+      },
+      "elapsed_s": 0.0,
+      "samples": 71,
+      "failure": null,
+      "profile_hash": "a91db2b1824469dfd8cfc267a4c3c901838ebf9b0df64b74d5d7e82c04f52c58",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "e4c9863ea4a68caf4a4cfda20e7e3f5913cd3a0b1499312cd9d2b0186d5f2fb8"
+    },
+    {
+      "room": "hotel705",
+      "scenario": "CHECKOUT",
+      "seed": 7001,
+      "level": "high",
+      "status": "PASS",
+      "targets": {
+        "count": 18,
+        "count_range": [
+          16,
+          18
+        ],
+        "coverage": {
+          "hard": true,
+          "source": "metrics.rooms[room].coverage[scenario][level]"
+        },
+        "spread": {
+          "hard": true,
+          "occupied_support_min": 3
+        },
+        "state_proportions": {
+          "towel": {
+            "loose": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "can",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/loose": 1
+        }
+      },
+      "achieved": {
+        "version": "canonical-state-polygons-v1",
+        "count": 18,
+        "coverage": 0.18110504091140628,
+        "denominator_m2": 2.0051940265127004,
+        "area_by_support_m2": {
+          "desk": 0.1134397850936375,
+          "minibar": 0.1567788338238716,
+          "bench": 0.092932127289381
+        },
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.36589200941438577,
+        "category_counts": {
+          "towel": 1,
+          "book": 3,
+          "tissue": 3,
+          "bottle": 3,
+          "mug": 2,
+          "water": 1,
+          "remote": 1,
+          "can": 2,
+          "tea": 1,
+          "snack": 1
+        },
+        "state_counts": {
+          "s0_towel/loose": 1,
+          "book/default": 3,
+          "tissue/default": 3,
+          "bottle/default": 3,
+          "native_mug1/default": 1,
+          "native_mug2/default": 1,
+          "native_water1/default": 1,
+          "remote/default": 1,
+          "can/default": 2,
+          "native_tea1/default": 1,
+          "native_cookiepack1/default": 1
+        },
+        "method": "disjoint conservative canonical-state polygons / fixed annotated support-mask area; obstacles are separate 3D gates and do not change denominator"
+      },
+      "elapsed_s": 0.15600000000267755,
+      "samples": 2734,
+      "failure": null,
+      "profile_hash": "a91db2b1824469dfd8cfc267a4c3c901838ebf9b0df64b74d5d7e82c04f52c58",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "e4c9863ea4a68caf4a4cfda20e7e3f5913cd3a0b1499312cd9d2b0186d5f2fb8"
+    },
+    {
+      "room": "hotel705",
+      "scenario": "CHECKOUT",
+      "seed": 7002,
+      "level": "low",
+      "status": "PASS",
+      "targets": {
+        "count": 7,
+        "count_range": [
+          7,
+          8
+        ],
+        "coverage": {
+          "hard": true,
+          "source": "metrics.rooms[room].coverage[scenario][level]"
+        },
+        "spread": {
+          "hard": true,
+          "occupied_support_min": 1
+        },
+        "state_proportions": {
+          "towel": {}
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "can"
+        ],
+        "required_state_counts": {}
+      },
+      "achieved": {
+        "version": "canonical-state-polygons-v1",
+        "count": 7,
+        "coverage": 0.06818492240630816,
+        "denominator_m2": 2.0051940265127004,
+        "area_by_support_m2": {
+          "desk": 0.02855600000000047,
+          "minibar": 0.04198399955368026,
+          "bench": 0.06618399955368037
+        },
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.36550034929951797,
+        "category_counts": {
+          "book": 2,
+          "tissue": 2,
+          "bottle": 2,
+          "can": 1
+        },
+        "state_counts": {
+          "book/default": 2,
+          "tissue/default": 2,
+          "bottle/default": 2,
+          "can/default": 1
+        },
+        "method": "disjoint conservative canonical-state polygons / fixed annotated support-mask area; obstacles are separate 3D gates and do not change denominator"
+      },
+      "elapsed_s": 0.0,
+      "samples": 18,
+      "failure": null,
+      "profile_hash": "a91db2b1824469dfd8cfc267a4c3c901838ebf9b0df64b74d5d7e82c04f52c58",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "e4c9863ea4a68caf4a4cfda20e7e3f5913cd3a0b1499312cd9d2b0186d5f2fb8"
+    },
+    {
+      "room": "hotel705",
+      "scenario": "CHECKOUT",
+      "seed": 7002,
+      "level": "medium",
+      "status": "PASS",
+      "targets": {
+        "count": 11,
+        "count_range": [
+          11,
+          12
+        ],
+        "coverage": {
+          "hard": true,
+          "source": "metrics.rooms[room].coverage[scenario][level]"
+        },
+        "spread": {
+          "hard": true,
+          "occupied_support_min": 2
+        },
+        "state_proportions": {
+          "towel": {
+            "folded": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "can",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/folded": 1
+        }
+      },
+      "achieved": {
+        "version": "canonical-state-polygons-v1",
+        "count": 11,
+        "coverage": 0.12254751284833543,
+        "denominator_m2": 2.0051940265127004,
+        "area_by_support_m2": {
+          "desk": 0.09966824269274399,
+          "minibar": 0.07987929848104625,
+          "bench": 0.06618399955368037
+        },
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.3194171017186037,
+        "category_counts": {
+          "towel": 1,
+          "book": 2,
+          "tissue": 2,
+          "bottle": 2,
+          "mug": 1,
+          "water": 1,
+          "remote": 1,
+          "can": 1
+        },
+        "state_counts": {
+          "s0_towel/folded": 1,
+          "book/default": 2,
+          "tissue/default": 2,
+          "bottle/default": 2,
+          "native_mug2/default": 1,
+          "native_water1/default": 1,
+          "remote/default": 1,
+          "can/default": 1
+        },
+        "method": "disjoint conservative canonical-state polygons / fixed annotated support-mask area; obstacles are separate 3D gates and do not change denominator"
+      },
+      "elapsed_s": 0.07899999999790452,
+      "samples": 1131,
+      "failure": null,
+      "profile_hash": "a91db2b1824469dfd8cfc267a4c3c901838ebf9b0df64b74d5d7e82c04f52c58",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "e4c9863ea4a68caf4a4cfda20e7e3f5913cd3a0b1499312cd9d2b0186d5f2fb8"
+    },
+    {
+      "room": "hotel705",
+      "scenario": "CHECKOUT",
+      "seed": 7002,
+      "level": "high",
+      "status": "PASS",
+      "targets": {
+        "count": 16,
+        "count_range": [
+          16,
+          18
+        ],
+        "coverage": {
+          "hard": true,
+          "source": "metrics.rooms[room].coverage[scenario][level]"
+        },
+        "spread": {
+          "hard": true,
+          "occupied_support_min": 3
+        },
+        "state_proportions": {
+          "towel": {
+            "loose": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "can",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/loose": 1
+        }
+      },
+      "achieved": {
+        "version": "canonical-state-polygons-v1",
+        "count": 16,
+        "coverage": 0.17434949068925837,
+        "denominator_m2": 2.0051940265127004,
+        "area_by_support_m2": {
+          "desk": 0.1115591901616062,
+          "minibar": 0.10407929848104625,
+          "bench": 0.13396606861298013
+        },
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.29852963161354,
+        "category_counts": {
+          "towel": 1,
+          "book": 3,
+          "tissue": 3,
+          "bottle": 2,
+          "mug": 1,
+          "water": 1,
+          "remote": 1,
+          "can": 2,
+          "tea": 1,
+          "snack": 1
+        },
+        "state_counts": {
+          "s0_towel/loose": 1,
+          "book/default": 3,
+          "tissue/default": 3,
+          "bottle/default": 2,
+          "native_mug2/default": 1,
+          "native_water1/default": 1,
+          "remote/default": 1,
+          "can/default": 2,
+          "native_tea2/default": 1,
+          "native_cookiepack1/default": 1
+        },
+        "method": "disjoint conservative canonical-state polygons / fixed annotated support-mask area; obstacles are separate 3D gates and do not change denominator"
+      },
+      "elapsed_s": 0.15600000000267755,
+      "samples": 3067,
+      "failure": null,
+      "profile_hash": "a91db2b1824469dfd8cfc267a4c3c901838ebf9b0df64b74d5d7e82c04f52c58",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "e4c9863ea4a68caf4a4cfda20e7e3f5913cd3a0b1499312cd9d2b0186d5f2fb8"
+    },
+    {
+      "room": "hotel705",
+      "scenario": "CHECKOUT",
+      "seed": 7003,
+      "level": "low",
+      "status": "PASS",
+      "targets": {
+        "count": 8,
+        "count_range": [
+          7,
+          8
+        ],
+        "coverage": {
+          "hard": true,
+          "source": "metrics.rooms[room].coverage[scenario][level]"
+        },
+        "spread": {
+          "hard": true,
+          "occupied_support_min": 1
+        },
+        "state_proportions": {
+          "towel": {}
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "can"
+        ],
+        "required_state_counts": {}
+      },
+      "achieved": {
+        "version": "canonical-state-polygons-v1",
+        "count": 8,
+        "coverage": 0.07235521300270308,
+        "denominator_m2": 2.0051940265127004,
+        "area_by_support_m2": {
+          "desk": 0.045162241792713775,
+          "minibar": 0.09038399955368015,
+          "bench": 0.009539999553680345
+        },
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.3047269114601324,
+        "category_counts": {
+          "book": 2,
+          "tissue": 2,
+          "bottle": 2,
+          "mug": 1,
+          "can": 1
+        },
+        "state_counts": {
+          "book/default": 2,
+          "tissue/default": 2,
+          "bottle/default": 2,
+          "native_mug2/default": 1,
+          "can/default": 1
+        },
+        "method": "disjoint conservative canonical-state polygons / fixed annotated support-mask area; obstacles are separate 3D gates and do not change denominator"
+      },
+      "elapsed_s": 0.0,
+      "samples": 40,
+      "failure": null,
+      "profile_hash": "a91db2b1824469dfd8cfc267a4c3c901838ebf9b0df64b74d5d7e82c04f52c58",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "e4c9863ea4a68caf4a4cfda20e7e3f5913cd3a0b1499312cd9d2b0186d5f2fb8"
+    },
+    {
+      "room": "hotel705",
+      "scenario": "CHECKOUT",
+      "seed": 7003,
+      "level": "medium",
+      "status": "PASS",
+      "targets": {
+        "count": 12,
+        "count_range": [
+          11,
+          12
+        ],
+        "coverage": {
+          "hard": true,
+          "source": "metrics.rooms[room].coverage[scenario][level]"
+        },
+        "spread": {
+          "hard": true,
+          "occupied_support_min": 2
+        },
+        "state_proportions": {
+          "towel": {
+            "folded": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "can",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/folded": 1
+        }
+      },
+      "achieved": {
+        "version": "canonical-state-polygons-v1",
+        "count": 12,
+        "coverage": 0.12472063022207262,
+        "denominator_m2": 2.0051940265127004,
+        "area_by_support_m2": {
+          "desk": 0.05001906242143539,
+          "minibar": 0.09038399955368015,
+          "bench": 0.10968600072908384
+        },
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.3442982406838491,
+        "category_counts": {
+          "towel": 1,
+          "book": 2,
+          "tissue": 2,
+          "bottle": 2,
+          "mug": 1,
+          "water": 1,
+          "remote": 1,
+          "can": 2
+        },
+        "state_counts": {
+          "s0_towel/folded": 1,
+          "book/default": 2,
+          "tissue/default": 2,
+          "bottle/default": 2,
+          "native_mug2/default": 1,
+          "native_water2/default": 1,
+          "remote/default": 1,
+          "can/default": 2
+        },
+        "method": "disjoint conservative canonical-state polygons / fixed annotated support-mask area; obstacles are separate 3D gates and do not change denominator"
+      },
+      "elapsed_s": 0.014999999999417923,
+      "samples": 84,
+      "failure": null,
+      "profile_hash": "a91db2b1824469dfd8cfc267a4c3c901838ebf9b0df64b74d5d7e82c04f52c58",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "e4c9863ea4a68caf4a4cfda20e7e3f5913cd3a0b1499312cd9d2b0186d5f2fb8"
+    },
+    {
+      "room": "hotel705",
+      "scenario": "CHECKOUT",
+      "seed": 7003,
+      "level": "high",
+      "status": "PASS",
+      "targets": {
+        "count": 17,
+        "count_range": [
+          16,
+          18
+        ],
+        "coverage": {
+          "hard": true,
+          "source": "metrics.rooms[room].coverage[scenario][level]"
+        },
+        "spread": {
+          "hard": true,
+          "occupied_support_min": 3
+        },
+        "state_proportions": {
+          "towel": {
+            "loose": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "can",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/loose": 1
+        }
+      },
+      "achieved": {
+        "version": "canonical-state-polygons-v1",
+        "count": 17,
+        "coverage": 0.1769319688421218,
+        "denominator_m2": 2.0051940265127004,
+        "area_by_support_m2": {
+          "desk": 0.07940306197511604,
+          "minibar": 0.14544067505557812,
+          "bench": 0.12993918999065973
+        },
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.3343463334496227,
+        "category_counts": {
+          "towel": 1,
+          "book": 3,
+          "tissue": 3,
+          "bottle": 3,
+          "mug": 1,
+          "water": 1,
+          "remote": 1,
+          "can": 2,
+          "tea": 1,
+          "snack": 1
+        },
+        "state_counts": {
+          "s0_towel/loose": 1,
+          "book/default": 3,
+          "tissue/default": 3,
+          "bottle/default": 3,
+          "native_mug2/default": 1,
+          "native_water2/default": 1,
+          "remote/default": 1,
+          "can/default": 2,
+          "native_tea1/default": 1,
+          "native_cookiepack2/default": 1
+        },
+        "method": "disjoint conservative canonical-state polygons / fixed annotated support-mask area; obstacles are separate 3D gates and do not change denominator"
+      },
+      "elapsed_s": 0.01599999999598367,
+      "samples": 350,
+      "failure": null,
+      "profile_hash": "a91db2b1824469dfd8cfc267a4c3c901838ebf9b0df64b74d5d7e82c04f52c58",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "e4c9863ea4a68caf4a4cfda20e7e3f5913cd3a0b1499312cd9d2b0186d5f2fb8"
+    },
+    {
+      "room": "yazhi",
+      "scenario": "STAYOVER",
+      "seed": 7001,
+      "level": "low",
+      "status": "PASS",
+      "targets": {
+        "count": 6,
+        "count_range": [
+          5,
+          6
+        ],
+        "coverage": {
+          "hard": true,
+          "source": "metrics.rooms[room].coverage[scenario][level]"
+        },
+        "spread": {
+          "hard": true,
+          "occupied_support_min": 1
+        },
+        "state_proportions": {
+          "towel": {}
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle"
+        ],
+        "required_state_counts": {}
+      },
+      "achieved": {
+        "version": "canonical-state-polygons-v1",
+        "count": 6,
+        "coverage": 0.09796684017980296,
+        "denominator_m2": 1.3511510513600504,
+        "area_by_support_m2": {
+          "round_table": 0.005183999553681318,
+          "cabinet": 0.029383999553680262,
+          "bench": 0.09780000000000122
+        },
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.37161818367044563,
+        "category_counts": {
+          "book": 2,
+          "tissue": 2,
+          "bottle": 2
+        },
+        "state_counts": {
+          "book/default": 2,
+          "tissue/default": 2,
+          "bottle/default": 2
+        },
+        "method": "disjoint conservative canonical-state polygons / fixed annotated support-mask area; obstacles are separate 3D gates and do not change denominator"
+      },
+      "elapsed_s": 0.0,
+      "samples": 24,
+      "failure": null,
+      "profile_hash": "54edf46e9943953cac6f9551eda0c4ea2625733826b9f6588e3315d6e52e1793",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "e4c9863ea4a68caf4a4cfda20e7e3f5913cd3a0b1499312cd9d2b0186d5f2fb8"
+    },
+    {
+      "room": "yazhi",
+      "scenario": "STAYOVER",
+      "seed": 7001,
+      "level": "medium",
+      "status": "PASS",
+      "targets": {
+        "count": 9,
+        "count_range": [
+          8,
+          9
+        ],
+        "coverage": {
+          "hard": true,
+          "source": "metrics.rooms[room].coverage[scenario][level]"
+        },
+        "spread": {
+          "hard": true,
+          "occupied_support_min": 2
+        },
+        "state_proportions": {
+          "towel": {
+            "folded": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/folded": 1
+        }
+      },
+      "achieved": {
+        "version": "canonical-state-polygons-v1",
+        "count": 9,
+        "coverage": 0.17208586711953805,
+        "denominator_m2": 1.3511510513600504,
+        "area_by_support_m2": {
+          "round_table": 0.10097400072908869,
+          "cabinet": 0.029383999553680262,
+          "bench": 0.1021560000000008
+        },
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.3364641577139027,
+        "category_counts": {
+          "towel": 1,
+          "book": 2,
+          "tissue": 2,
+          "bottle": 2,
+          "remote": 1,
+          "can": 1
+        },
+        "state_counts": {
+          "s0_towel/folded": 1,
+          "book/default": 2,
+          "tissue/default": 2,
+          "bottle/default": 2,
+          "remote/default": 1,
+          "can/default": 1
+        },
+        "method": "disjoint conservative canonical-state polygons / fixed annotated support-mask area; obstacles are separate 3D gates and do not change denominator"
+      },
+      "elapsed_s": 0.0,
+      "samples": 42,
+      "failure": null,
+      "profile_hash": "54edf46e9943953cac6f9551eda0c4ea2625733826b9f6588e3315d6e52e1793",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "e4c9863ea4a68caf4a4cfda20e7e3f5913cd3a0b1499312cd9d2b0186d5f2fb8"
+    },
+    {
+      "room": "yazhi",
+      "scenario": "STAYOVER",
+      "seed": 7001,
+      "level": "high",
+      "status": "PASS",
+      "targets": {
+        "count": 13,
+        "count_range": [
+          12,
+          13
+        ],
+        "coverage": {
+          "hard": true,
+          "source": "metrics.rooms[room].coverage[scenario][level]"
+        },
+        "spread": {
+          "hard": true,
+          "occupied_support_min": 3
+        },
+        "state_proportions": {
+          "towel": {
+            "loose": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/loose": 1
+        }
+      },
+      "achieved": {
+        "version": "canonical-state-polygons-v1",
+        "count": 13,
+        "coverage": 0.24260143900524356,
+        "denominator_m2": 1.3511510513600504,
+        "area_by_support_m2": {
+          "round_table": 0.12122718999066251,
+          "cabinet": 0.10298399955368025,
+          "bench": 0.1035799998290532
+        },
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.36012650653038125,
+        "category_counts": {
+          "towel": 1,
+          "book": 3,
+          "tissue": 3,
+          "bottle": 3,
+          "remote": 2,
+          "can": 1
+        },
+        "state_counts": {
+          "s0_towel/loose": 1,
+          "book/default": 3,
+          "tissue/default": 3,
+          "bottle/default": 3,
+          "remote/default": 2,
+          "can/default": 1
+        },
+        "method": "disjoint conservative canonical-state polygons / fixed annotated support-mask area; obstacles are separate 3D gates and do not change denominator"
+      },
+      "elapsed_s": 0.0,
+      "samples": 138,
+      "failure": null,
+      "profile_hash": "54edf46e9943953cac6f9551eda0c4ea2625733826b9f6588e3315d6e52e1793",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "e4c9863ea4a68caf4a4cfda20e7e3f5913cd3a0b1499312cd9d2b0186d5f2fb8"
+    },
+    {
+      "room": "yazhi",
+      "scenario": "STAYOVER",
+      "seed": 7002,
+      "level": "low",
+      "status": "PASS",
+      "targets": {
+        "count": 5,
+        "count_range": [
+          5,
+          6
+        ],
+        "coverage": {
+          "hard": true,
+          "source": "metrics.rooms[room].coverage[scenario][level]"
+        },
+        "spread": {
+          "hard": true,
+          "occupied_support_min": 1
+        },
+        "state_proportions": {
+          "towel": {}
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle"
+        ],
+        "required_state_counts": {}
+      },
+      "achieved": {
+        "version": "canonical-state-polygons-v1",
+        "count": 5,
+        "coverage": 0.09413011182254984,
+        "denominator_m2": 1.3511510513600504,
+        "area_by_support_m2": {
+          "round_table": 0.04198399955367904,
+          "cabinet": 0.02420000000000011,
+          "bench": 0.06099999999999817
+        },
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.3288717807425828,
+        "category_counts": {
+          "book": 2,
+          "tissue": 2,
+          "bottle": 1
+        },
+        "state_counts": {
+          "book/default": 2,
+          "tissue/default": 2,
+          "bottle/default": 1
+        },
+        "method": "disjoint conservative canonical-state polygons / fixed annotated support-mask area; obstacles are separate 3D gates and do not change denominator"
+      },
+      "elapsed_s": 0.0,
+      "samples": 28,
+      "failure": null,
+      "profile_hash": "54edf46e9943953cac6f9551eda0c4ea2625733826b9f6588e3315d6e52e1793",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "e4c9863ea4a68caf4a4cfda20e7e3f5913cd3a0b1499312cd9d2b0186d5f2fb8"
+    },
+    {
+      "room": "yazhi",
+      "scenario": "STAYOVER",
+      "seed": 7002,
+      "level": "medium",
+      "status": "PASS",
+      "targets": {
+        "count": 8,
+        "count_range": [
+          8,
+          9
+        ],
+        "coverage": {
+          "hard": true,
+          "source": "metrics.rooms[room].coverage[scenario][level]"
+        },
+        "spread": {
+          "hard": true,
+          "occupied_support_min": 2
+        },
+        "state_proportions": {
+          "towel": {
+            "folded": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/folded": 1
+        }
+      },
+      "achieved": {
+        "version": "canonical-state-polygons-v1",
+        "count": 8,
+        "coverage": 0.16886194926400028,
+        "denominator_m2": 1.3511510513600504,
+        "area_by_support_m2": {
+          "round_table": 0.13777400072908286,
+          "cabinet": 0.02938399955368043,
+          "bench": 0.06099999999999817
+        },
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.3314718567241907,
+        "category_counts": {
+          "towel": 1,
+          "book": 2,
+          "tissue": 2,
+          "bottle": 2,
+          "remote": 1
+        },
+        "state_counts": {
+          "s0_towel/folded": 1,
+          "book/default": 2,
+          "tissue/default": 2,
+          "bottle/default": 2,
+          "remote/default": 1
+        },
+        "method": "disjoint conservative canonical-state polygons / fixed annotated support-mask area; obstacles are separate 3D gates and do not change denominator"
+      },
+      "elapsed_s": 0.0,
+      "samples": 32,
+      "failure": null,
+      "profile_hash": "54edf46e9943953cac6f9551eda0c4ea2625733826b9f6588e3315d6e52e1793",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "e4c9863ea4a68caf4a4cfda20e7e3f5913cd3a0b1499312cd9d2b0186d5f2fb8"
+    },
+    {
+      "room": "yazhi",
+      "scenario": "STAYOVER",
+      "seed": 7002,
+      "level": "high",
+      "status": "PASS",
+      "targets": {
+        "count": 12,
+        "count_range": [
+          12,
+          13
+        ],
+        "coverage": {
+          "hard": true,
+          "source": "metrics.rooms[room].coverage[scenario][level]"
+        },
+        "spread": {
+          "hard": true,
+          "occupied_support_min": 3
+        },
+        "state_proportions": {
+          "towel": {
+            "loose": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/loose": 1
+        }
+      },
+      "achieved": {
+        "version": "canonical-state-polygons-v1",
+        "count": 12,
+        "coverage": 0.23605886904870238,
+        "denominator_m2": 1.3511510513600504,
+        "area_by_support_m2": {
+          "round_table": 0.14542718999065762,
+          "cabinet": 0.1029839995536802,
+          "bench": 0.07053999955368084
+        },
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.35849638843728304,
+        "category_counts": {
+          "towel": 1,
+          "book": 3,
+          "tissue": 3,
+          "bottle": 3,
+          "remote": 1,
+          "can": 1
+        },
+        "state_counts": {
+          "s0_towel/loose": 1,
+          "book/default": 3,
+          "tissue/default": 3,
+          "bottle/default": 3,
+          "remote/default": 1,
+          "can/default": 1
+        },
+        "method": "disjoint conservative canonical-state polygons / fixed annotated support-mask area; obstacles are separate 3D gates and do not change denominator"
+      },
+      "elapsed_s": 0.01600000000325963,
+      "samples": 968,
+      "failure": null,
+      "profile_hash": "54edf46e9943953cac6f9551eda0c4ea2625733826b9f6588e3315d6e52e1793",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "e4c9863ea4a68caf4a4cfda20e7e3f5913cd3a0b1499312cd9d2b0186d5f2fb8"
+    },
+    {
+      "room": "yazhi",
+      "scenario": "STAYOVER",
+      "seed": 7003,
+      "level": "low",
+      "status": "PASS",
+      "targets": {
+        "count": 5,
+        "count_range": [
+          5,
+          6
+        ],
+        "coverage": {
+          "hard": true,
+          "source": "metrics.rooms[room].coverage[scenario][level]"
+        },
+        "spread": {
+          "hard": true,
+          "occupied_support_min": 1
+        },
+        "state_proportions": {
+          "towel": {}
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle"
+        ],
+        "required_state_counts": {}
+      },
+      "achieved": {
+        "version": "canonical-state-polygons-v1",
+        "count": 5,
+        "coverage": 0.0941301118225525,
+        "denominator_m2": 1.3511510513600504,
+        "area_by_support_m2": {
+          "round_table": 0.005183999553679541,
+          "cabinet": 0.060999999999999666,
+          "bench": 0.06100000000000172
+        },
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.36676120696437114,
+        "category_counts": {
+          "book": 2,
+          "tissue": 2,
+          "bottle": 1
+        },
+        "state_counts": {
+          "book/default": 2,
+          "tissue/default": 2,
+          "bottle/default": 1
+        },
+        "method": "disjoint conservative canonical-state polygons / fixed annotated support-mask area; obstacles are separate 3D gates and do not change denominator"
+      },
+      "elapsed_s": 0.0,
+      "samples": 62,
+      "failure": null,
+      "profile_hash": "54edf46e9943953cac6f9551eda0c4ea2625733826b9f6588e3315d6e52e1793",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "e4c9863ea4a68caf4a4cfda20e7e3f5913cd3a0b1499312cd9d2b0186d5f2fb8"
+    },
+    {
+      "room": "yazhi",
+      "scenario": "STAYOVER",
+      "seed": 7003,
+      "level": "medium",
+      "status": "PASS",
+      "targets": {
+        "count": 8,
+        "count_range": [
+          8,
+          9
+        ],
+        "coverage": {
+          "hard": true,
+          "source": "metrics.rooms[room].coverage[scenario][level]"
+        },
+        "spread": {
+          "hard": true,
+          "occupied_support_min": 2
+        },
+        "state_proportions": {
+          "towel": {
+            "folded": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/folded": 1
+        }
+      },
+      "achieved": {
+        "version": "canonical-state-polygons-v1",
+        "count": 8,
+        "coverage": 0.16886194926400475,
+        "denominator_m2": 1.3511510513600504,
+        "area_by_support_m2": {
+          "round_table": 0.010367999107360859,
+          "cabinet": 0.11999000117540365,
+          "bench": 0.097800000000003
+        },
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.36999666579472595,
+        "category_counts": {
+          "towel": 1,
+          "book": 2,
+          "tissue": 2,
+          "bottle": 2,
+          "remote": 1
+        },
+        "state_counts": {
+          "s0_towel/folded": 1,
+          "book/default": 2,
+          "tissue/default": 2,
+          "bottle/default": 2,
+          "remote/default": 1
+        },
+        "method": "disjoint conservative canonical-state polygons / fixed annotated support-mask area; obstacles are separate 3D gates and do not change denominator"
+      },
+      "elapsed_s": 0.014999999999417923,
+      "samples": 1081,
+      "failure": null,
+      "profile_hash": "54edf46e9943953cac6f9551eda0c4ea2625733826b9f6588e3315d6e52e1793",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "e4c9863ea4a68caf4a4cfda20e7e3f5913cd3a0b1499312cd9d2b0186d5f2fb8"
+    },
+    {
+      "room": "yazhi",
+      "scenario": "STAYOVER",
+      "seed": 7003,
+      "level": "high",
+      "status": "PASS",
+      "targets": {
+        "count": 12,
+        "count_range": [
+          12,
+          13
+        ],
+        "coverage": {
+          "hard": true,
+          "source": "metrics.rooms[room].coverage[scenario][level]"
+        },
+        "spread": {
+          "hard": true,
+          "occupied_support_min": 3
+        },
+        "state_proportions": {
+          "towel": {
+            "loose": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/loose": 1
+        }
+      },
+      "achieved": {
+        "version": "canonical-state-polygons-v1",
+        "count": 12,
+        "coverage": 0.2360588690487052,
+        "denominator_m2": 1.3511510513600504,
+        "area_by_support_m2": {
+          "round_table": 0.07572399910736038,
+          "cabinet": 0.11604319043697915,
+          "bench": 0.12718399955368298
+        },
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.30333922371667804,
+        "category_counts": {
+          "towel": 1,
+          "book": 3,
+          "tissue": 3,
+          "bottle": 3,
+          "remote": 1,
+          "can": 1
+        },
+        "state_counts": {
+          "s0_towel/loose": 1,
+          "book/default": 3,
+          "tissue/default": 3,
+          "bottle/default": 3,
+          "remote/default": 1,
+          "can/default": 1
+        },
+        "method": "disjoint conservative canonical-state polygons / fixed annotated support-mask area; obstacles are separate 3D gates and do not change denominator"
+      },
+      "elapsed_s": 0.01600000000325963,
+      "samples": 2810,
+      "failure": null,
+      "profile_hash": "54edf46e9943953cac6f9551eda0c4ea2625733826b9f6588e3315d6e52e1793",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "e4c9863ea4a68caf4a4cfda20e7e3f5913cd3a0b1499312cd9d2b0186d5f2fb8"
+    },
+    {
+      "room": "yazhi",
+      "scenario": "CHECKOUT",
+      "seed": 7001,
+      "level": "low",
+      "status": "PASS",
+      "targets": {
+        "count": 8,
+        "count_range": [
+          7,
+          8
+        ],
+        "coverage": {
+          "hard": true,
+          "source": "metrics.rooms[room].coverage[scenario][level]"
+        },
+        "spread": {
+          "hard": true,
+          "occupied_support_min": 1
+        },
+        "state_proportions": {
+          "towel": {}
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "can"
+        ],
+        "required_state_counts": {}
+      },
+      "achieved": {
+        "version": "canonical-state-polygons-v1",
+        "count": 8,
+        "coverage": 0.10773332799186768,
+        "denominator_m2": 1.3511510513600504,
+        "area_by_support_m2": {
+          "round_table": 0.06100000000000172,
+          "cabinet": 0.03679999999999997,
+          "bench": 0.04776399938272746
+        },
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.2730964408642373,
+        "category_counts": {
+          "book": 2,
+          "tissue": 2,
+          "bottle": 2,
+          "remote": 1,
+          "can": 1
+        },
+        "state_counts": {
+          "book/default": 2,
+          "tissue/default": 2,
+          "bottle/default": 2,
+          "remote/default": 1,
+          "can/default": 1
+        },
+        "method": "disjoint conservative canonical-state polygons / fixed annotated support-mask area; obstacles are separate 3D gates and do not change denominator"
+      },
+      "elapsed_s": 0.0,
+      "samples": 22,
+      "failure": null,
+      "profile_hash": "54edf46e9943953cac6f9551eda0c4ea2625733826b9f6588e3315d6e52e1793",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "e4c9863ea4a68caf4a4cfda20e7e3f5913cd3a0b1499312cd9d2b0186d5f2fb8"
+    },
+    {
+      "room": "yazhi",
+      "scenario": "CHECKOUT",
+      "seed": 7001,
+      "level": "medium",
+      "status": "PASS",
+      "targets": {
+        "count": 12,
+        "count_range": [
+          11,
+          12
+        ],
+        "coverage": {
+          "hard": true,
+          "source": "metrics.rooms[room].coverage[scenario][level]"
+        },
+        "spread": {
+          "hard": true,
+          "occupied_support_min": 2
+        },
+        "state_proportions": {
+          "towel": {
+            "folded": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "can",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/folded": 1
+        }
+      },
+      "achieved": {
+        "version": "canonical-state-polygons-v1",
+        "count": 12,
+        "coverage": 0.220456476707709,
+        "denominator_m2": 1.3511510513600504,
+        "area_by_support_m2": {
+          "round_table": 0.1523060009000261,
+          "cabinet": 0.09779999999999991,
+          "bench": 0.04776399938272746
+        },
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.3363617048394608,
+        "category_counts": {
+          "towel": 1,
+          "book": 3,
+          "tissue": 3,
+          "bottle": 2,
+          "remote": 1,
+          "can": 2
+        },
+        "state_counts": {
+          "s0_towel/folded": 1,
+          "book/default": 3,
+          "tissue/default": 3,
+          "bottle/default": 2,
+          "remote/default": 1,
+          "can/default": 2
+        },
+        "method": "disjoint conservative canonical-state polygons / fixed annotated support-mask area; obstacles are separate 3D gates and do not change denominator"
+      },
+      "elapsed_s": 0.014999999999417923,
+      "samples": 382,
+      "failure": null,
+      "profile_hash": "54edf46e9943953cac6f9551eda0c4ea2625733826b9f6588e3315d6e52e1793",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "e4c9863ea4a68caf4a4cfda20e7e3f5913cd3a0b1499312cd9d2b0186d5f2fb8"
+    },
+    {
+      "room": "yazhi",
+      "scenario": "CHECKOUT",
+      "seed": 7001,
+      "level": "high",
+      "status": "PASS",
+      "targets": {
+        "count": 18,
+        "count_range": [
+          16,
+          18
+        ],
+        "coverage": {
+          "hard": true,
+          "source": "metrics.rooms[room].coverage[scenario][level]"
+        },
+        "spread": {
+          "hard": true,
+          "occupied_support_min": 3
+        },
+        "state_proportions": {
+          "towel": {
+            "loose": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "can",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/loose": 1
+        }
+      },
+      "achieved": {
+        "version": "canonical-state-polygons-v1",
+        "count": 18,
+        "coverage": 0.2980326948062083,
+        "denominator_m2": 1.3511510513600504,
+        "area_by_support_m2": {
+          "round_table": 0.1813991904369825,
+          "cabinet": 0.1081679991073608,
+          "bench": 0.1131199993827341
+        },
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.35358613321491983,
+        "category_counts": {
+          "towel": 1,
+          "book": 4,
+          "tissue": 4,
+          "bottle": 4,
+          "remote": 2,
+          "can": 3
+        },
+        "state_counts": {
+          "s0_towel/loose": 1,
+          "book/default": 4,
+          "tissue/default": 4,
+          "bottle/default": 4,
+          "remote/default": 2,
+          "can/default": 3
+        },
+        "method": "disjoint conservative canonical-state polygons / fixed annotated support-mask area; obstacles are separate 3D gates and do not change denominator"
+      },
+      "elapsed_s": 0.01599999999598367,
+      "samples": 2053,
+      "failure": null,
+      "profile_hash": "54edf46e9943953cac6f9551eda0c4ea2625733826b9f6588e3315d6e52e1793",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "e4c9863ea4a68caf4a4cfda20e7e3f5913cd3a0b1499312cd9d2b0186d5f2fb8"
+    },
+    {
+      "room": "yazhi",
+      "scenario": "CHECKOUT",
+      "seed": 7002,
+      "level": "low",
+      "status": "PASS",
+      "targets": {
+        "count": 7,
+        "count_range": [
+          7,
+          8
+        ],
+        "coverage": {
+          "hard": true,
+          "source": "metrics.rooms[room].coverage[scenario][level]"
+        },
+        "spread": {
+          "hard": true,
+          "occupied_support_min": 1
+        },
+        "state_proportions": {
+          "towel": {}
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "can"
+        ],
+        "required_state_counts": {}
+      },
+      "achieved": {
+        "version": "canonical-state-polygons-v1",
+        "count": 7,
+        "coverage": 0.10119075803533659,
+        "denominator_m2": 1.3511510513600504,
+        "area_by_support_m2": {
+          "round_table": 0.041983999553682594,
+          "cabinet": 0.02855599999999986,
+          "bench": 0.06618399955368304
+        },
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.3502205697248837,
+        "category_counts": {
+          "book": 2,
+          "tissue": 2,
+          "bottle": 2,
+          "can": 1
+        },
+        "state_counts": {
+          "book/default": 2,
+          "tissue/default": 2,
+          "bottle/default": 2,
+          "can/default": 1
+        },
+        "method": "disjoint conservative canonical-state polygons / fixed annotated support-mask area; obstacles are separate 3D gates and do not change denominator"
+      },
+      "elapsed_s": 0.0,
+      "samples": 48,
+      "failure": null,
+      "profile_hash": "54edf46e9943953cac6f9551eda0c4ea2625733826b9f6588e3315d6e52e1793",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "e4c9863ea4a68caf4a4cfda20e7e3f5913cd3a0b1499312cd9d2b0186d5f2fb8"
+    },
+    {
+      "room": "yazhi",
+      "scenario": "CHECKOUT",
+      "seed": 7002,
+      "level": "medium",
+      "status": "PASS",
+      "targets": {
+        "count": 11,
+        "count_range": [
+          11,
+          12
+        ],
+        "coverage": {
+          "hard": true,
+          "source": "metrics.rooms[room].coverage[scenario][level]"
+        },
+        "spread": {
+          "hard": true,
+          "occupied_support_min": 2
+        },
+        "state_proportions": {
+          "towel": {
+            "folded": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "can",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/folded": 1
+        }
+      },
+      "achieved": {
+        "version": "canonical-state-polygons-v1",
+        "count": 11,
+        "coverage": 0.20254582195476958,
+        "denominator_m2": 1.3511510513600504,
+        "area_by_support_m2": {
+          "round_table": 0.0750239998290585,
+          "cabinet": 0.09130600090003012,
+          "bench": 0.1073399995536839
+        },
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.3145885438467681,
+        "category_counts": {
+          "towel": 1,
+          "book": 3,
+          "tissue": 2,
+          "bottle": 2,
+          "remote": 1,
+          "can": 2
+        },
+        "state_counts": {
+          "s0_towel/folded": 1,
+          "book/default": 3,
+          "tissue/default": 2,
+          "bottle/default": 2,
+          "remote/default": 1,
+          "can/default": 2
+        },
+        "method": "disjoint conservative canonical-state polygons / fixed annotated support-mask area; obstacles are separate 3D gates and do not change denominator"
+      },
+      "elapsed_s": 0.031000000002677552,
+      "samples": 2262,
+      "failure": null,
+      "profile_hash": "54edf46e9943953cac6f9551eda0c4ea2625733826b9f6588e3315d6e52e1793",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "e4c9863ea4a68caf4a4cfda20e7e3f5913cd3a0b1499312cd9d2b0186d5f2fb8"
+    },
+    {
+      "room": "yazhi",
+      "scenario": "CHECKOUT",
+      "seed": 7002,
+      "level": "high",
+      "status": "PASS",
+      "targets": {
+        "count": 16,
+        "count_range": [
+          16,
+          18
+        ],
+        "coverage": {
+          "hard": true,
+          "source": "metrics.rooms[room].coverage[scenario][level]"
+        },
+        "spread": {
+          "hard": true,
+          "occupied_support_min": 3
+        },
+        "state_proportions": {
+          "towel": {
+            "loose": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "can",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/loose": 1
+        }
+      },
+      "achieved": {
+        "version": "canonical-state-polygons-v1",
+        "count": 16,
+        "coverage": 0.2762853116960058,
+        "denominator_m2": 1.3511510513600504,
+        "area_by_support_m2": {
+          "round_table": 0.09922399982905716,
+          "cabinet": 0.11591519016160547,
+          "bench": 0.15816399938273484
+        },
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.30585679330348114,
+        "category_counts": {
+          "towel": 1,
+          "book": 4,
+          "tissue": 3,
+          "bottle": 3,
+          "remote": 2,
+          "can": 3
+        },
+        "state_counts": {
+          "s0_towel/loose": 1,
+          "book/default": 4,
+          "tissue/default": 3,
+          "bottle/default": 3,
+          "remote/default": 2,
+          "can/default": 3
+        },
+        "method": "disjoint conservative canonical-state polygons / fixed annotated support-mask area; obstacles are separate 3D gates and do not change denominator"
+      },
+      "elapsed_s": 0.0,
+      "samples": 1035,
+      "failure": null,
+      "profile_hash": "54edf46e9943953cac6f9551eda0c4ea2625733826b9f6588e3315d6e52e1793",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "e4c9863ea4a68caf4a4cfda20e7e3f5913cd3a0b1499312cd9d2b0186d5f2fb8"
+    },
+    {
+      "room": "yazhi",
+      "scenario": "CHECKOUT",
+      "seed": 7003,
+      "level": "low",
+      "status": "PASS",
+      "targets": {
+        "count": 8,
+        "count_range": [
+          7,
+          8
+        ],
+        "coverage": {
+          "hard": true,
+          "source": "metrics.rooms[room].coverage[scenario][level]"
+        },
+        "spread": {
+          "hard": true,
+          "occupied_support_min": 1
+        },
+        "state_proportions": {
+          "towel": {}
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "can"
+        ],
+        "required_state_counts": {}
+      },
+      "achieved": {
+        "version": "canonical-state-polygons-v1",
+        "count": 8,
+        "coverage": 0.10773332799186777,
+        "denominator_m2": 1.3511510513600504,
+        "area_by_support_m2": {
+          "round_table": 0.09038399955367815,
+          "cabinet": 0.03680000000000011,
+          "bench": 0.01837999982905103
+        },
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.2748399321580604,
+        "category_counts": {
+          "book": 2,
+          "tissue": 2,
+          "bottle": 2,
+          "remote": 1,
+          "can": 1
+        },
+        "state_counts": {
+          "book/default": 2,
+          "tissue/default": 2,
+          "bottle/default": 2,
+          "remote/default": 1,
+          "can/default": 1
+        },
+        "method": "disjoint conservative canonical-state polygons / fixed annotated support-mask area; obstacles are separate 3D gates and do not change denominator"
+      },
+      "elapsed_s": 0.0,
+      "samples": 39,
+      "failure": null,
+      "profile_hash": "54edf46e9943953cac6f9551eda0c4ea2625733826b9f6588e3315d6e52e1793",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "e4c9863ea4a68caf4a4cfda20e7e3f5913cd3a0b1499312cd9d2b0186d5f2fb8"
+    },
+    {
+      "room": "yazhi",
+      "scenario": "CHECKOUT",
+      "seed": 7003,
+      "level": "medium",
+      "status": "PASS",
+      "targets": {
+        "count": 12,
+        "count_range": [
+          11,
+          12
+        ],
+        "coverage": {
+          "hard": true,
+          "source": "metrics.rooms[room].coverage[scenario][level]"
+        },
+        "spread": {
+          "hard": true,
+          "occupied_support_min": 2
+        },
+        "state_proportions": {
+          "towel": {
+            "folded": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "can",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/folded": 1
+        }
+      },
+      "achieved": {
+        "version": "canonical-state-polygons-v1",
+        "count": 12,
+        "coverage": 0.2204564767077179,
+        "denominator_m2": 1.3511510513600504,
+        "area_by_support_m2": {
+          "round_table": 0.1271839995536812,
+          "cabinet": 0.061,
+          "bench": 0.1096860007290843
+        },
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.29704501191886395,
+        "category_counts": {
+          "towel": 1,
+          "book": 3,
+          "tissue": 3,
+          "bottle": 2,
+          "remote": 1,
+          "can": 2
+        },
+        "state_counts": {
+          "s0_towel/folded": 1,
+          "book/default": 3,
+          "tissue/default": 3,
+          "bottle/default": 2,
+          "remote/default": 1,
+          "can/default": 2
+        },
+        "method": "disjoint conservative canonical-state polygons / fixed annotated support-mask area; obstacles are separate 3D gates and do not change denominator"
+      },
+      "elapsed_s": 0.01599999999598367,
+      "samples": 1001,
+      "failure": null,
+      "profile_hash": "54edf46e9943953cac6f9551eda0c4ea2625733826b9f6588e3315d6e52e1793",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "e4c9863ea4a68caf4a4cfda20e7e3f5913cd3a0b1499312cd9d2b0186d5f2fb8"
+    },
+    {
+      "room": "yazhi",
+      "scenario": "CHECKOUT",
+      "seed": 7003,
+      "level": "high",
+      "status": "PASS",
+      "targets": {
+        "count": 17,
+        "count_range": [
+          16,
+          18
+        ],
+        "coverage": {
+          "hard": true,
+          "source": "metrics.rooms[room].coverage[scenario][level]"
+        },
+        "spread": {
+          "hard": true,
+          "occupied_support_min": 3
+        },
+        "state_proportions": {
+          "towel": {
+            "loose": 1.0
+          }
+        },
+        "required_categories": [
+          "book",
+          "tissue",
+          "bottle",
+          "can",
+          "towel"
+        ],
+        "required_state_counts": {
+          "s0_towel/loose": 1
+        }
+      },
+      "achieved": {
+        "version": "canonical-state-polygons-v1",
+        "count": 17,
+        "coverage": 0.29419596644895607,
+        "denominator_m2": 1.3511510513600504,
+        "area_by_support_m2": {
+          "round_table": 0.19758718971528566,
+          "cabinet": 0.07053999955368015,
+          "bench": 0.1293760001044273
+        },
+        "occupied_supports": 3,
+        "normalized_centroid_spread": 0.3361513563996773,
+        "category_counts": {
+          "towel": 1,
+          "book": 4,
+          "tissue": 4,
+          "bottle": 3,
+          "remote": 2,
+          "can": 3
+        },
+        "state_counts": {
+          "s0_towel/loose": 1,
+          "book/default": 4,
+          "tissue/default": 4,
+          "bottle/default": 3,
+          "remote/default": 2,
+          "can/default": 3
+        },
+        "method": "disjoint conservative canonical-state polygons / fixed annotated support-mask area; obstacles are separate 3D gates and do not change denominator"
+      },
+      "elapsed_s": 0.01600000000325963,
+      "samples": 1415,
+      "failure": null,
+      "profile_hash": "54edf46e9943953cac6f9551eda0c4ea2625733826b9f6588e3315d6e52e1793",
+      "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+      "policy_hash": "e4c9863ea4a68caf4a4cfda20e7e3f5913cd3a0b1499312cd9d2b0186d5f2fb8"
+    }
+  ],
+  "means": [
+    {
+      "room": "hotel705",
+      "scenario": "STAYOVER",
+      "coverage": [
+        0.06428904021278303,
+        0.11435334121798894,
+        0.13755087329324792
+      ],
+      "strictly_increasing": true
+    },
+    {
+      "room": "hotel705",
+      "scenario": "CHECKOUT",
+      "coverage": [
+        0.07096609461510689,
+        0.1239969832363002,
+        0.17746216681426216
+      ],
+      "strictly_increasing": true
+    },
+    {
+      "room": "yazhi",
+      "scenario": "STAYOVER",
+      "coverage": [
+        0.09540902127496843,
+        0.16993658854918103,
+        0.2382397257008837
+      ],
+      "strictly_increasing": true
+    },
+    {
+      "room": "yazhi",
+      "scenario": "CHECKOUT",
+      "coverage": [
+        0.10555247133969069,
+        0.21448625845673217,
+        0.2895046576503901
+      ],
+      "strictly_increasing": true
+    }
+  ],
+  "scope": "geometry-only calibration; policy remains unfrozen until WU-10 after S0 integration"
+}

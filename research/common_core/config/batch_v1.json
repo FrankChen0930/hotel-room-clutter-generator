@@ -1,0 +1,258 @@
+{
+  "schema": "Batch/1",
+  "purpose": "FORMAL36_FIXED_KEYS",
+  "cases": [
+    {
+      "case_key": "hotel705_STAYOVER_low_706",
+      "room": "hotel705",
+      "scenario": "STAYOVER",
+      "level": "low",
+      "seed": 706
+    },
+    {
+      "case_key": "hotel705_STAYOVER_low_707",
+      "room": "hotel705",
+      "scenario": "STAYOVER",
+      "level": "low",
+      "seed": 707
+    },
+    {
+      "case_key": "hotel705_STAYOVER_low_708",
+      "room": "hotel705",
+      "scenario": "STAYOVER",
+      "level": "low",
+      "seed": 708
+    },
+    {
+      "case_key": "hotel705_STAYOVER_medium_706",
+      "room": "hotel705",
+      "scenario": "STAYOVER",
+      "level": "medium",
+      "seed": 706
+    },
+    {
+      "case_key": "hotel705_STAYOVER_medium_707",
+      "room": "hotel705",
+      "scenario": "STAYOVER",
+      "level": "medium",
+      "seed": 707
+    },
+    {
+      "case_key": "hotel705_STAYOVER_medium_708",
+      "room": "hotel705",
+      "scenario": "STAYOVER",
+      "level": "medium",
+      "seed": 708
+    },
+    {
+      "case_key": "hotel705_STAYOVER_high_706",
+      "room": "hotel705",
+      "scenario": "STAYOVER",
+      "level": "high",
+      "seed": 706
+    },
+    {
+      "case_key": "hotel705_STAYOVER_high_707",
+      "room": "hotel705",
+      "scenario": "STAYOVER",
+      "level": "high",
+      "seed": 707
+    },
+    {
+      "case_key": "hotel705_STAYOVER_high_708",
+      "room": "hotel705",
+      "scenario": "STAYOVER",
+      "level": "high",
+      "seed": 708
+    },
+    {
+      "case_key": "hotel705_CHECKOUT_low_706",
+      "room": "hotel705",
+      "scenario": "CHECKOUT",
+      "level": "low",
+      "seed": 706
+    },
+    {
+      "case_key": "hotel705_CHECKOUT_low_707",
+      "room": "hotel705",
+      "scenario": "CHECKOUT",
+      "level": "low",
+      "seed": 707
+    },
+    {
+      "case_key": "hotel705_CHECKOUT_low_708",
+      "room": "hotel705",
+      "scenario": "CHECKOUT",
+      "level": "low",
+      "seed": 708
+    },
+    {
+      "case_key": "hotel705_CHECKOUT_medium_706",
+      "room": "hotel705",
+      "scenario": "CHECKOUT",
+      "level": "medium",
+      "seed": 706
+    },
+    {
+      "case_key": "hotel705_CHECKOUT_medium_707",
+      "room": "hotel705",
+      "scenario": "CHECKOUT",
+      "level": "medium",
+      "seed": 707
+    },
+    {
+      "case_key": "hotel705_CHECKOUT_medium_708",
+      "room": "hotel705",
+      "scenario": "CHECKOUT",
+      "level": "medium",
+      "seed": 708
+    },
+    {
+      "case_key": "hotel705_CHECKOUT_high_706",
+      "room": "hotel705",
+      "scenario": "CHECKOUT",
+      "level": "high",
+      "seed": 706
+    },
+    {
+      "case_key": "hotel705_CHECKOUT_high_707",
+      "room": "hotel705",
+      "scenario": "CHECKOUT",
+      "level": "high",
+      "seed": 707
+    },
+    {
+      "case_key": "hotel705_CHECKOUT_high_708",
+      "room": "hotel705",
+      "scenario": "CHECKOUT",
+      "level": "high",
+      "seed": 708
+    },
+    {
+      "case_key": "yazhi_STAYOVER_low_706",
+      "room": "yazhi",
+      "scenario": "STAYOVER",
+      "level": "low",
+      "seed": 706
+    },
+    {
+      "case_key": "yazhi_STAYOVER_low_707",
+      "room": "yazhi",
+      "scenario": "STAYOVER",
+      "level": "low",
+      "seed": 707
+    },
+    {
+      "case_key": "yazhi_STAYOVER_low_708",
+      "room": "yazhi",
+      "scenario": "STAYOVER",
+      "level": "low",
+      "seed": 708
+    },
+    {
+      "case_key": "yazhi_STAYOVER_medium_706",
+      "room": "yazhi",
+      "scenario": "STAYOVER",
+      "level": "medium",
+      "seed": 706
+    },
+    {
+      "case_key": "yazhi_STAYOVER_medium_707",
+      "room": "yazhi",
+      "scenario": "STAYOVER",
+      "level": "medium",
+      "seed": 707
+    },
+    {
+      "case_key": "yazhi_STAYOVER_medium_708",
+      "room": "yazhi",
+      "scenario": "STAYOVER",
+      "level": "medium",
+      "seed": 708
+    },
+    {
+      "case_key": "yazhi_STAYOVER_high_706",
+      "room": "yazhi",
+      "scenario": "STAYOVER",
+      "level": "high",
+      "seed": 706
+    },
+    {
+      "case_key": "yazhi_STAYOVER_high_707",
+      "room": "yazhi",
+      "scenario": "STAYOVER",
+      "level": "high",
+      "seed": 707
+    },
+    {
+      "case_key": "yazhi_STAYOVER_high_708",
+      "room": "yazhi",
+      "scenario": "STAYOVER",
+      "level": "high",
+      "seed": 708
+    },
+    {
+      "case_key": "yazhi_CHECKOUT_low_706",
+      "room": "yazhi",
+      "scenario": "CHECKOUT",
+      "level": "low",
+      "seed": 706
+    },
+    {
+      "case_key": "yazhi_CHECKOUT_low_707",
+      "room": "yazhi",
+      "scenario": "CHECKOUT",
+      "level": "low",
+      "seed": 707
+    },
+    {
+      "case_key": "yazhi_CHECKOUT_low_708",
+      "room": "yazhi",
+      "scenario": "CHECKOUT",
+      "level": "low",
+      "seed": 708
+    },
+    {
+      "case_key": "yazhi_CHECKOUT_medium_706",
+      "room": "yazhi",
+      "scenario": "CHECKOUT",
+      "level": "medium",
+      "seed": 706
+    },
+    {
+      "case_key": "yazhi_CHECKOUT_medium_707",
+      "room": "yazhi",
+      "scenario": "CHECKOUT",
+      "level": "medium",
+      "seed": 707
+    },
+    {
+      "case_key": "yazhi_CHECKOUT_medium_708",
+      "room": "yazhi",
+      "scenario": "CHECKOUT",
+      "level": "medium",
+      "seed": 708
+    },
+    {
+      "case_key": "yazhi_CHECKOUT_high_706",
+      "room": "yazhi",
+      "scenario": "CHECKOUT",
+      "level": "high",
+      "seed": 706
+    },
+    {
+      "case_key": "yazhi_CHECKOUT_high_707",
+      "room": "yazhi",
+      "scenario": "CHECKOUT",
+      "level": "high",
+      "seed": 707
+    },
+    {
+      "case_key": "yazhi_CHECKOUT_high_708",
+      "room": "yazhi",
+      "scenario": "CHECKOUT",
+      "level": "high",
+      "seed": 708
+    }
+  ]
+}

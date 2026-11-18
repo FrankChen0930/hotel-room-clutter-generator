@@ -1,0 +1,12 @@
+{
+  "bindings": {
+    "room_hotel": "../../public_data",
+    "blendkit_library": "../.."
+  },
+  "rooms": {
+    "hotel705": "profile.json"
+  },
+  "catalog": "catalog.json",
+  "policy": "policy.json",
+  "source_lock": "source_lock.json"
+}

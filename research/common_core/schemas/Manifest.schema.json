@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Manifest 3.0",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "generator_version",
+    "run_id",
+    "attempt_id",
+    "parent_attempt_id",
+    "inputs",
+    "environment",
+    "requests",
+    "targets",
+    "achieved",
+    "objects",
+    "scene",
+    "evidence_refs",
+    "failure_refs",
+    "attempt_lineage",
+    "limits"
+  ],
+  "properties": {
+    "generator_version": {},
+    "run_id": {},
+    "attempt_id": {},
+    "parent_attempt_id": {},
+    "inputs": {
+      "type": "object"
+    },
+    "environment": {
+      "type": "object"
+    },
+    "requests": {
+      "type": "array"
+    },
+    "targets": {
+      "type": "object"
+    },
+    "achieved": {
+      "type": "object"
+    },
+    "objects": {
+      "type": "array"
+    },
+    "scene": {
+      "type": "object"
+    },
+    "evidence_refs": {
+      "type": "array"
+    },
+    "failure_refs": {
+      "type": "array"
+    },
+    "attempt_lineage": {
+      "type": "array"
+    },
+    "limits": {
+      "type": "array"
+    },
+    "schema_version": {
+      "type": "string",
+      "pattern": "^3\\.\\d+$"
+    }
+  },
+  "$comment": "Structural draft. Mandatory nested and cross-field semantic checks are implemented by common_core.contracts.validate_contract; this document alone is not acceptance."
+}

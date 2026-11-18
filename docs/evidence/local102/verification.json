@@ -1,0 +1,67 @@
+{
+  "outcome": "PASS",
+  "cases": [
+    {
+      "level": "low",
+      "seed": 706,
+      "count": 15,
+      "outcome": "PASS",
+      "manifest_sha256": "a9d16ecce14b82a93c021f6d19ea8d2a9237a3bbff53e6c5f6731a5e70285813",
+      "scene_sha256": "b29313642b8984af899818d0eab14349cc958679bb1d44cceeab9ebc847f1d22",
+      "dynamic_scene_sha256": "4149afcfdb3141e4e249af3bb018625eb050476126f01d3037bb68b0f6480002"
+    },
+    {
+      "level": "medium",
+      "seed": 706,
+      "count": 32,
+      "outcome": "PASS",
+      "manifest_sha256": "589bdfa022b4d406794ddc0326c137f19652ee309ae8ffb137db38bc4863c544",
+      "scene_sha256": "2cf19049aba0d5372d407c6bb02f8ee5346e1f96a04b31f3d786f6886836fd43",
+      "dynamic_scene_sha256": "ebdd624dfd01be34d12b98d0cfd759eff1d899700411158f135cc1507040e82d"
+    },
+    {
+      "level": "high",
+      "seed": 706,
+      "count": 77,
+      "outcome": "PASS",
+      "manifest_sha256": "5a03ca2077804dfc68cd0434e7ea738b1d2cf7e24e6911d692260a807afec7ee",
+      "scene_sha256": "c2b5dd789805432246dd5bb1b16b53444edff56007c16b3164b5411303f66f9c",
+      "dynamic_scene_sha256": "8dd3da496aab5d8fa2817493b0b133e03ccab6386a3a703e98d9b94eee67728c"
+    },
+    {
+      "level": "low",
+      "seed": 707,
+      "count": 13,
+      "outcome": "PASS",
+      "manifest_sha256": "5f2e53698e12a191aad1f3344f42274ad20515b2d2807007bee3eef0ca169007",
+      "scene_sha256": "51808f99dbd34c7a38343dd1c3fb1f7a62b0e5ce37d11f2f4c8d3a643007115d",
+      "dynamic_scene_sha256": "42060379bcbdc82d712190c630165f47159f10ed0e820f61bfa9f67b4f1702c3"
+    },
+    {
+      "level": "medium",
+      "seed": 707,
+      "count": 49,
+      "outcome": "PASS",
+      "manifest_sha256": "a476418d3be9ff2a329036fc8b30cec66935c2c1b3531f2b4e48909903bf7b26",
+      "scene_sha256": "d162597eee45092a223fef233b9b99b3ee4fea70dcf8dbb3cb74b5f0e72add3d",
+      "dynamic_scene_sha256": "61999b37f2c6cfaab27358072b271c2c8d38edce89242d44305ee6ef2cc0fa75"
+    },
+    {
+      "level": "high",
+      "seed": 707,
+      "count": 73,
+      "outcome": "PASS",
+      "manifest_sha256": "08bf19217387fa1d9a38c3333938d1d2f1a307a616e6030e1957f456511f0d1f",
+      "scene_sha256": "f22e641197d2a966cce398f44b2cf2f1ee99274c604caa94c60242a242aa55c1",
+      "dynamic_scene_sha256": "a09c0f2ec7478d4ec3fd9dddbf265b1aff4f54f9f67ab97a1c04d079b6f216a6"
+    }
+  ],
+  "tests": "................................................................\n----------------------------------------------------------------------\nRan 64 tests in 1.593s\n\nOK\n",
+  "protected": {
+    "outcome": "PASS",
+    "checked": 302,
+    "changed": [],
+    "scope": "Common Core code/config and V0.2 code/config/receipts; original Hotel reference scene and blend files"
+  },
+  "scope": "Exact candidate cases: simulated rigid surrogate evidence, pinned effective-pose replay, USD closure/body structure, scoped regression tests and source hashes; no inferred public rights or deformable qualification"
+}

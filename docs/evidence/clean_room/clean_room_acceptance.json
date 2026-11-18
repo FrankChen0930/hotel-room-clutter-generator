@@ -1,0 +1,12 @@
+{
+  "outcome": "PASS",
+  "scene_sha256": "1b9dd20bf34cb9047f3aaef82d4150763d2efd8daa4faaebdbc5cc9680d1c4a3",
+  "native_result_sha256": "710f19dc4f76d5e9f3c15865b8a2e640e0030a02ae1b2c19e9cbae9ec1b7ef2d",
+  "native_steps": 3600,
+  "seconds": 30,
+  "registered_dynamic_bodies": 49,
+  "authored_joints": 31,
+  "final_two_seconds": "PASS",
+  "source_saved": false,
+  "scope": "Exact independent clean-room physics preparation layer; original geometry/layout retained. No deformable or robot manipulation qualification."
+}

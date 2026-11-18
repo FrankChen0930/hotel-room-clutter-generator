@@ -1,0 +1,6 @@
+{
+  "outcome": "CONFIG_CATALOG_SOURCE_LOAD_PASS",
+  "source_files": 68,
+  "native_source_records": 5,
+  "scope": "Portable relative bindings, dependency pins and real USD dimensions verified; new generation and physics execution remain required."
+}

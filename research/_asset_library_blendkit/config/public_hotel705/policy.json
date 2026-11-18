@@ -1,0 +1,522 @@
+{
+  "schema_version": "1.0",
+  "policy_id": "blendkit-controlled-local",
+  "version": "1.0-local-unfrozen",
+  "release_frozen": false,
+  "assumptions": [
+    "SYNTHETIC_RESEARCH_ASSUMPTIONS",
+    "Counts are initial Spec proposals; coverage/spread freeze occurs in WU-10."
+  ],
+  "scenarios": {
+    "STAYOVER": {
+      "roles": [
+        {
+          "role": "personal",
+          "category": "book",
+          "priority": 0,
+          "semantics": {
+            "ownership": "GUEST",
+            "action_policy": "DO_NOT_TOUCH",
+            "task_role": "PERSONAL_ITEM"
+          }
+        },
+        {
+          "role": "amenity",
+          "category": "tissue",
+          "priority": 1,
+          "semantics": {
+            "ownership": "HOTEL",
+            "action_policy": "OBSERVE_ONLY",
+            "task_role": "HOTEL_AMENITY"
+          }
+        },
+        {
+          "role": "consumable",
+          "category": "bottle",
+          "priority": 2,
+          "semantics": {
+            "ownership": "UNKNOWN",
+            "action_policy": "DO_NOT_TOUCH",
+            "task_role": "PERSONAL_CONSUMABLE"
+          }
+        },
+        {
+          "role": "amenity",
+          "category": "mug",
+          "priority": 3,
+          "semantics": {
+            "ownership": "HOTEL",
+            "action_policy": "OBSERVE_ONLY",
+            "task_role": "HOTEL_AMENITY"
+          }
+        },
+        {
+          "role": "amenity",
+          "category": "water",
+          "priority": 4,
+          "semantics": {
+            "ownership": "HOTEL",
+            "action_policy": "OBSERVE_ONLY",
+            "task_role": "HOTEL_AMENITY"
+          }
+        },
+        {
+          "role": "amenity",
+          "category": "remote",
+          "priority": 5,
+          "semantics": {
+            "ownership": "HOTEL",
+            "action_policy": "OBSERVE_ONLY",
+            "task_role": "HOTEL_AMENITY"
+          }
+        },
+        {
+          "role": "consumable",
+          "category": "can",
+          "priority": 6,
+          "semantics": {
+            "ownership": "UNKNOWN",
+            "action_policy": "DO_NOT_TOUCH",
+            "task_role": "PERSONAL_CONSUMABLE"
+          }
+        },
+        {
+          "role": "amenity",
+          "category": "tea",
+          "priority": 7,
+          "semantics": {
+            "ownership": "HOTEL",
+            "action_policy": "OBSERVE_ONLY",
+            "task_role": "HOTEL_AMENITY"
+          }
+        },
+        {
+          "role": "amenity",
+          "category": "snack",
+          "priority": 8,
+          "semantics": {
+            "ownership": "HOTEL",
+            "action_policy": "OBSERVE_ONLY",
+            "task_role": "HOTEL_AMENITY"
+          }
+        },
+        {
+          "role": "amenity",
+          "category": "towel",
+          "priority": -10,
+          "max_instances": 1,
+          "semantics": {
+            "ownership": "HOTEL",
+            "action_policy": "OBSERVE_ONLY",
+            "task_role": "STATIC_MULTIFORM_TOWEL"
+          }
+        }
+      ],
+      "eligible_categories": [
+        "mug",
+        "snack",
+        "tea",
+        "water"
+      ],
+      "ownership": "mixed",
+      "action": "role_defined",
+      "required_categories": [
+        "book",
+        "tissue",
+        "bottle"
+      ],
+      "allowed_support_tags": [
+        "flat"
+      ]
+    },
+    "CHECKOUT": {
+      "roles": [
+        {
+          "role": "personal",
+          "category": "book",
+          "priority": 0,
+          "semantics": {
+            "ownership": "GUEST",
+            "action_policy": "DO_NOT_TOUCH",
+            "task_role": "LEFT_BEHIND_CANDIDATE"
+          }
+        },
+        {
+          "role": "amenity",
+          "category": "tissue",
+          "priority": 1,
+          "semantics": {
+            "ownership": "HOTEL",
+            "action_policy": "RETURN_AMENITY_CANDIDATE",
+            "task_role": "HOTEL_AMENITY"
+          }
+        },
+        {
+          "role": "consumable",
+          "category": "bottle",
+          "priority": 2,
+          "semantics": {
+            "ownership": "UNKNOWN",
+            "action_policy": "DO_NOT_TOUCH",
+            "task_role": "PERSONAL_CONSUMABLE"
+          }
+        },
+        {
+          "role": "amenity",
+          "category": "mug",
+          "priority": 3,
+          "semantics": {
+            "ownership": "HOTEL",
+            "action_policy": "RETURN_AMENITY_CANDIDATE",
+            "task_role": "HOTEL_AMENITY"
+          }
+        },
+        {
+          "role": "amenity",
+          "category": "water",
+          "priority": 4,
+          "semantics": {
+            "ownership": "HOTEL",
+            "action_policy": "RETURN_AMENITY_CANDIDATE",
+            "task_role": "HOTEL_AMENITY"
+          }
+        },
+        {
+          "role": "amenity",
+          "category": "remote",
+          "priority": 5,
+          "semantics": {
+            "ownership": "HOTEL",
+            "action_policy": "RETURN_AMENITY_CANDIDATE",
+            "task_role": "HOTEL_AMENITY"
+          }
+        },
+        {
+          "role": "waste",
+          "category": "can",
+          "priority": 6,
+          "semantics": {
+            "ownership": "SYNTHETIC_DECLARED_WASTE",
+            "action_policy": "COLLECT_IF_CONFIRMED",
+            "task_role": "DECLARED_TRASH",
+            "state_evidence": "EXPLICIT_SYNTHETIC_AUTHOR_DECLARATION: generated used packaging"
+          }
+        },
+        {
+          "role": "amenity",
+          "category": "tea",
+          "priority": 7,
+          "semantics": {
+            "ownership": "HOTEL",
+            "action_policy": "RETURN_AMENITY_CANDIDATE",
+            "task_role": "HOTEL_AMENITY"
+          }
+        },
+        {
+          "role": "amenity",
+          "category": "snack",
+          "priority": 8,
+          "semantics": {
+            "ownership": "HOTEL",
+            "action_policy": "RETURN_AMENITY_CANDIDATE",
+            "task_role": "HOTEL_AMENITY"
+          }
+        },
+        {
+          "role": "amenity",
+          "category": "towel",
+          "priority": -10,
+          "max_instances": 1,
+          "semantics": {
+            "ownership": "HOTEL",
+            "action_policy": "RETURN_AMENITY_CANDIDATE",
+            "task_role": "STATIC_MULTIFORM_TOWEL"
+          }
+        }
+      ],
+      "eligible_categories": [
+        "book",
+        "bottle",
+        "can",
+        "mug",
+        "paper",
+        "remote",
+        "slipper",
+        "snack",
+        "suitcase",
+        "tea",
+        "tissue",
+        "towel",
+        "water",
+        "wrapper"
+      ],
+      "ownership": "mixed",
+      "action": "role_defined",
+      "required_categories": [
+        "book",
+        "tissue",
+        "bottle",
+        "can"
+      ],
+      "allowed_support_tags": [
+        "flat"
+      ]
+    }
+  },
+  "levels": {
+    "low": {
+      "count_ranges": {
+        "STAYOVER": [
+          10,
+          20
+        ],
+        "CHECKOUT": [
+          7,
+          8
+        ]
+      },
+      "coverage": {
+        "hard": true,
+        "source": "metrics.rooms[room].coverage[scenario][level]"
+      },
+      "spread": {
+        "hard": true,
+        "occupied_support_min": 1
+      },
+      "state_proportions": {
+        "towel": {}
+      },
+      "allowed_pose_tags": [
+        "upright",
+        "flat"
+      ],
+      "eligible_categories": [
+        "mug",
+        "snack",
+        "tea",
+        "water"
+      ],
+      "extra_required_categories": [],
+      "allowed_states": {},
+      "required_state_counts": {}
+    },
+    "medium": {
+      "count_ranges": {
+        "STAYOVER": [
+          30,
+          50
+        ],
+        "CHECKOUT": [
+          11,
+          12
+        ]
+      },
+      "coverage": {
+        "hard": true,
+        "source": "metrics.rooms[room].coverage[scenario][level]"
+      },
+      "spread": {
+        "hard": true,
+        "occupied_support_min": 2
+      },
+      "state_proportions": {
+        "towel": {
+          "folded": 1.0
+        }
+      },
+      "allowed_pose_tags": [
+        "upright",
+        "flat"
+      ],
+      "eligible_categories": [
+        "mug",
+        "snack",
+        "tea",
+        "water"
+      ],
+      "extra_required_categories": [
+        "towel"
+      ],
+      "allowed_states": {
+        "towel": [
+          "folded"
+        ]
+      },
+      "required_state_counts": {
+        "s0_towel/folded": 1
+      }
+    },
+    "high": {
+      "count_ranges": {
+        "STAYOVER": [
+          70,
+          80
+        ],
+        "CHECKOUT": [
+          20,
+          30
+        ]
+      },
+      "coverage": {
+        "hard": true,
+        "source": "metrics.rooms[room].coverage[scenario][level]"
+      },
+      "spread": {
+        "hard": true,
+        "occupied_support_min": 3
+      },
+      "state_proportions": {
+        "towel": {
+          "loose": 1.0
+        }
+      },
+      "allowed_pose_tags": [
+        "upright",
+        "flat"
+      ],
+      "eligible_categories": [
+        "mug",
+        "snack",
+        "tea",
+        "water"
+      ],
+      "extra_required_categories": [
+        "towel"
+      ],
+      "allowed_states": {
+        "towel": [
+          "folded",
+          "loose",
+          "source_fixed_form"
+        ],
+        "bag": [
+          "lying_scan",
+          "source_fixed_form",
+          "upright_scan"
+        ],
+        "luggage": [
+          "source_fixed_form"
+        ],
+        "clothing": [
+          "s0_source_rest_scan",
+          "source_fixed_form"
+        ],
+        "footwear": [
+          "source_fixed_form"
+        ],
+        "electronics": [
+          "source_fixed_form",
+          "source_standing_with_kickstand"
+        ],
+        "toiletry": [
+          "source_fixed_form"
+        ],
+        "paper": [
+          "default",
+          "source_fixed_form"
+        ],
+        "food": [
+          "source_fixed_form"
+        ]
+      },
+      "required_state_counts": {
+        "s0_towel/loose": 1
+      }
+    }
+  },
+  "budgets": {
+    "max_supports": 3,
+    "samples_per_support": 800,
+    "repair_passes": 1,
+    "max_samples_per_request": 4800,
+    "native_retries": 1
+  },
+  "metrics": {
+    "version": "canonical-state-polygons-v1",
+    "catalog_hash": "27972842551cbaec7a93a9f44859839ac72f26697bd20e76fcf62e00ef4a4ee4",
+    "rooms": {
+      "hotel705": {
+        "profile_hash": "a91db2b1824469dfd8cfc267a4c3c901838ebf9b0df64b74d5d7e82c04f52c58",
+        "denominator_m2": 2.0051940265127004,
+        "coverage": {
+          "STAYOVER": {
+            "low": [
+              0.05,
+              0.08
+            ],
+            "medium": [
+              0.09,
+              0.14
+            ],
+            "high": [
+              0.108,
+              0.171
+            ]
+          },
+          "CHECKOUT": {
+            "low": [
+              0.054,
+              0.087
+            ],
+            "medium": [
+              0.098,
+              0.15
+            ],
+            "high": [
+              0.139,
+              0.218
+            ]
+          }
+        }
+      },
+      "yazhi": {
+        "profile_hash": "54edf46e9943953cac6f9551eda0c4ea2625733826b9f6588e3315d6e52e1793",
+        "denominator_m2": 1.3511510513600504,
+        "coverage": {
+          "STAYOVER": {
+            "low": [
+              0.075,
+              0.118
+            ],
+            "medium": [
+              0.135,
+              0.207
+            ],
+            "high": [
+              0.188,
+              0.292
+            ]
+          },
+          "CHECKOUT": {
+            "low": [
+              0.08,
+              0.13
+            ],
+            "medium": [
+              0.162,
+              0.265
+            ],
+            "high": [
+              0.221,
+              0.358
+            ]
+          }
+        }
+      }
+    },
+    "calibration": {
+      "seeds": [
+        7001,
+        7002,
+        7003
+      ],
+      "source_sha256": "ab41e5a85e70643a2f3857b2db23bd937aefde5fe4c4ebffea4535639b4021bc",
+      "envelope_margin_fraction": 0.2,
+      "rounding": 0.001,
+      "final_seed_data_used": false,
+      "rationale": "20 percent calibration-only margin; original count ranges and all safety gates unchanged; fixed masks across levels."
+    }
+  },
+  "quality_rules_sha256": "e4652310f249dde747ab87634890eecbe6e3eacfd0c6343ddb1d18ea66230609",
+  "appearance_policy_sha256": "e8fc952f06d1c6038cc43ac93f53e434d7e636f087157cc600d9ac6e3c1f95bc"
+}

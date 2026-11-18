@@ -1,0 +1,10 @@
+{
+  "blend": "C:/hotel_room/_asset_library_blendkit/sources/REAL_BASE_ID/REAL_VERSION_ID/original.blend",
+  "source_sha256": "REPLACE_WITH_VERIFIED_SOURCE_SHA256",
+  "collection": "EXACT_DOWNLOADED_MODEL_COLLECTION",
+  "internal_conversion_authorized": false,
+  "dimension_bounds_m": {"min": [0.01, 0.01, 0.001], "max": [1.0, 1.0, 1.0]},
+  "state_id": "default",
+  "output": "C:/hotel_room/_asset_library_blendkit/artifacts/REAL_BASE_ID/a000",
+  "scope": "REAL_BLENDKIT_ASSET_PENDING_QUALIFICATION"
+}
